@@ -1,7 +1,7 @@
 # rapttor.legal
 
 [![Packagist version](https://img.shields.io/packagist/v/rapttor/legal)](https://packagist.org/packages/rapttor/legal)
-[![License](https://img.shields.io/badge/code-MIT%20%7C%20texts-CC%20BY%204.0-blue)](#licence-of-this-repository)
+[![Licence](https://img.shields.io/badge/licence-MIT%20(code)%20%2F%20CC%20BY%204.0%20(texts)-blue)](#licence-of-this-repository)
 
 ```bash
 composer require rapttor/legal      # the texts and the PHP library (Yii2 users: composer require rapttor/yii2-legal)
