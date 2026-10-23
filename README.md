@@ -1,5 +1,12 @@
 # rapttor.legal
 
+[![Packagist version](https://img.shields.io/packagist/v/rapttor/legal)](https://packagist.org/packages/rapttor/legal)
+[![License](https://img.shields.io/badge/code-MIT%20%7C%20texts-CC%20BY%204.0-blue)](#licence-of-this-repository)
+
+```bash
+composer require rapttor/legal      # the texts and the PHP library (Yii2 users: composer require rapttor/yii2-legal)
+```
+
 Central, versioned **legal page templates** (privacy, terms, acceptable use, cookies, DPA, impressum, copyright/notice-and-action, security disclosure, sub-processors) for all Rapttor sites and apps. Written once with placeholders; each site fills in its own company data. It is distributed as a **Composer package** (`rapttor/legal`; npm and PyPI from the same repo later) with the texts bundled, so sites need no runtime network access; a legal update is a release here plus `composer update` in each site, which is also your review gate. The [`rapttor/yii2-legal`](https://github.com/rapttor/yii2-legal) plugin is a thin wrapper around it.
 
 > **Not legal advice.** These are professionally structured starting templates aimed at 2026+ requirements, not a substitute for review by a lawyer qualified in your jurisdiction. Check items marked `verify` in `placeholders.json` and the "Review checklist" below before relying on them.
