@@ -1,0 +1,149 @@
+{
+ "_comment": "Statements the published documents make about what the product really does. The site owner confirms each relevant claim (Legal::confirmedClaims); an unconfirmed claim is reported by `legal/check`. 'when' is a feature flag key; empty = always relevant.",
+ "claims": [
+  {
+   "id": "cookie-settings-link",
+   "doc": "cookies",
+   "when": "",
+   "text": "A cookie-settings link is available in the footer of every page and lets visitors change or withdraw their choice at any time."
+  },
+  {
+   "id": "cookie-consent-before-tracking",
+   "doc": "cookies",
+   "when": "feature.analytics",
+   "text": "Non-essential (analytics) cookies are not set before consent, and refusing is as easy as accepting."
+  },
+  {
+   "id": "cookie-consent-before-ads",
+   "doc": "cookies",
+   "when": "feature.ads",
+   "text": "Advertising cookies and identifiers are not set before consent."
+  },
+  {
+   "id": "gpc-honoured",
+   "doc": "cookies",
+   "when": "",
+   "text": "Global Privacy Control and similar browser opt-out signals are treated as a refusal of non-essential tracking."
+  },
+  {
+   "id": "account-self-delete",
+   "doc": "privacy",
+   "when": "",
+   "text": "Users can delete their account and personal data themselves in the account settings."
+  },
+  {
+   "id": "app-account-delete",
+   "doc": "app_eula",
+   "when": "feature.mobile",
+   "text": "The mobile app has an in-app account deletion path (Settings, Account, Delete account)."
+  },
+  {
+   "id": "privacy-requests-handled",
+   "doc": "privacy",
+   "when": "",
+   "text": "Privacy requests sent to the privacy/contact mailbox are acknowledged within 72 hours and answered within one month."
+  },
+  {
+   "id": "mailboxes-monitored",
+   "doc": "impressum",
+   "when": "",
+   "text": "The contact, privacy and legal mailboxes shown in the documents exist and are monitored."
+  },
+  {
+   "id": "breach-process",
+   "doc": "privacy",
+   "when": "",
+   "text": "A procedure exists to notify the supervisory authority within 72 hours and affected users without undue delay after a personal-data breach."
+  },
+  {
+   "id": "encryption",
+   "doc": "privacy",
+   "when": "",
+   "text": "Data is encrypted in transit (TLS) and sensitive data at rest."
+  },
+  {
+   "id": "mfa",
+   "doc": "privacy",
+   "when": "",
+   "text": "Multi-factor authentication is offered to users where stated, and used for administrative access."
+  },
+  {
+   "id": "export-on-exit",
+   "doc": "terms",
+   "when": "",
+   "text": "Customers can export their content for 30 days after closing their account."
+  },
+  {
+   "id": "subscription-cancel",
+   "doc": "refunds",
+   "when": "feature.subscriptions",
+   "text": "Subscriptions can be cancelled in the account settings and users are told before renewal or a price change."
+  },
+  {
+   "id": "withdrawal-consent-checkout",
+   "doc": "refunds",
+   "when": "feature.consumers",
+   "text": "At checkout consumers are asked for express consent and acknowledgement before digital content or services start immediately."
+  },
+  {
+   "id": "refund-requests",
+   "doc": "refunds",
+   "when": "feature.payments",
+   "text": "Refund and withdrawal requests sent to the contact mailbox are answered within 5 business days."
+  },
+  {
+   "id": "moderation-appeals",
+   "doc": "acceptable_use",
+   "when": "",
+   "text": "Enforcement decisions state the reason and can be appealed by email within 6 months, with human review."
+  },
+  {
+   "id": "abuse-mailbox",
+   "doc": "copyright",
+   "when": "",
+   "text": "The legal/abuse mailbox receives copyright and illegal-content notices and they are reviewed promptly."
+  },
+  {
+   "id": "dpa-breach-48h",
+   "doc": "dpa",
+   "when": "feature.processor_role",
+   "text": "Business customers are notified of a personal-data breach within the configured number of hours."
+  },
+  {
+   "id": "dpa-toms",
+   "doc": "dpa",
+   "when": "feature.processor_role",
+   "text": "The technical and organisational measures in Annex II (access control, MFA for admin access, encrypted backups, logging, incident response) are really in place."
+  },
+  {
+   "id": "subprocessor-list",
+   "doc": "subprocessors",
+   "when": "",
+   "text": "The sub-processor list is accurate and customers are told before a change."
+  },
+  {
+   "id": "security-contact",
+   "doc": "security",
+   "when": "",
+   "text": "Vulnerability reports are acknowledged within 3 business days."
+  },
+  {
+   "id": "game-spending-controls",
+   "doc": "game_rules",
+   "when": "feature.game",
+   "text": "Purchase limits or parental controls exist, and the odds of random rewards are shown before purchase."
+  },
+  {
+   "id": "game-end-of-service",
+   "doc": "game_rules",
+   "when": "feature.game",
+   "text": "At least 60 days' notice is given before the game or paid service ends."
+  },
+  {
+   "id": "minors-guardian-consent",
+   "doc": "privacy",
+   "when": "feature.minors",
+   "text": "Guardian consent is collected for users below the age of majority, and guardians can review or delete the minor's data."
+  }
+ ]
+}

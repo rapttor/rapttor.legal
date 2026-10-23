@@ -1,0 +1,49 @@
+{
+ "_comment": "Latin to Cyrillic cases; every client port must match.",
+ "cases": [
+  {
+   "in": "Politika privatnosti",
+   "out": "Политика приватности"
+  },
+  {
+   "in": "ljubav, njiva i džep, Ljubljana Njegoš Džon",
+   "out": "љубав, њива и џеп, Љубљана Његош Џон"
+  },
+  {
+   "in": "konjugacija i injekcija; nadživeti, podžupanija",
+   "out": "конјугација и инјекција; надживети, поджупанија"
+  },
+  {
+   "in": "Kontaktirajte nas na [privacy@example.com](mailto:privacy@example.com).",
+   "out": "Контактирајте нас на [privacy@example.com](mailto:privacy@example.com)."
+  },
+  {
+   "in": "Pogledajte [Uslove]({{url.terms}}) i {{company.name}} u skladu sa GDPR i ZZPL.",
+   "out": "Погледајте [Услове]({{url.terms}}) и {{company.name}} у складу са GDPR и ZZPL."
+  },
+  {
+   "in": "## 3. Čuvanje podataka {#retention}",
+   "out": "## 3. Чување података {#retention}"
+  },
+  {
+   "in": "Koristimo Google, Apple i Stripe. Vidi https://example.com/privacy?x=1 danas.",
+   "out": "Користимо Google, Apple и Stripe. Види https://example.com/privacy?x=1 данас."
+  },
+  {
+   "in": "Upotreba `code` ostaje i ```\nnj lj\n``` isto.",
+   "out": "Употреба `code` остаје и ```\nnj lj\n``` исто."
+  },
+  {
+   "in": "ŠČĆŽĐ šćčžđ",
+   "out": "ШЧЋЖЂ шћчжђ"
+  },
+  {
+   "in": "<b>Važno</b>: sudovi u Beogradu.",
+   "out": "<b>Важно</b>: судови у Београду."
+  },
+  {
+   "in": "USLUGA SE PRUŽA „KAKVA JESTE“.",
+   "out": "УСЛУГА СЕ ПРУЖА „КАКВА ЈЕСТЕ“."
+  }
+ ]
+}

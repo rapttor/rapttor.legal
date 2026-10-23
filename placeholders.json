@@ -1,0 +1,250 @@
+{
+  "_comment": "Catalog of every placeholder the legal documents may use. 'default' of the form '@other.key' means 'same as other.key'. 'required' keys have no usable default: the host must configure them. Defaults marked verify:true are starting points, check them with counsel for your jurisdiction.",
+  "keys": {
+    "company.name": {
+      "required": true,
+      "label": "Legal entity name",
+      "example": "ACME d.o.o."
+    },
+    "company.reg_id": {
+      "default": "",
+      "label": "Company registration number",
+      "example": "12345678"
+    },
+    "company.tax_id": {
+      "default": "",
+      "label": "VAT / tax ID"
+    },
+    "company.representative": {
+      "default": "",
+      "label": "Legally authorised representative(s)"
+    },
+    "company.address": {
+      "required": true,
+      "label": "Full postal address on one line",
+      "example": "Main Street 1, 11000 Belgrade, Serbia"
+    },
+    "company.country": {
+      "required": true,
+      "label": "Country of establishment",
+      "example": "Serbia"
+    },
+    "company.email": {
+      "required": true,
+      "label": "General contact email"
+    },
+    "company.privacy_email": {
+      "default": "@company.email",
+      "label": "Privacy requests (defaults to company.email)"
+    },
+    "company.legal_email": {
+      "default": "@company.email",
+      "label": "Legal notices, abuse, copyright, DSA contact (defaults to company.email)"
+    },
+    "company.website": {
+      "required": true,
+      "label": "Main website URL"
+    },
+    "product.name": {
+      "default": "@company.name",
+      "label": "Brand / service name (defaults to the company name)"
+    },
+    "dpo.email": {
+      "default": "",
+      "label": "DPO contact; leave empty if none appointed"
+    },
+    "law.governing": {
+      "default": "",
+      "label": "Governing law (default comes from law.jurisdiction)"
+    },
+    "law.venue": {
+      "default": "",
+      "label": "Courts / venue (default comes from law.jurisdiction)"
+    },
+    "policy.min_age": {
+      "default": "18",
+      "label": "Minimum age to use the service (also the age below which we do not knowingly hold data)"
+    },
+    "policy.notice_days": {
+      "default": "30",
+      "label": "Advance notice for material changes and new sub-processors (days)"
+    },
+    "policy.refund_days": {
+      "default": "14",
+      "label": "Consumer withdrawal period (days)",
+      "verify": true
+    },
+    "policy.breach_hours": {
+      "default": "48",
+      "label": "Hours within which we notify customers of a personal-data breach (as processor)",
+      "verify": true
+    },
+    "policy.liability_cap_months": {
+      "default": "12",
+      "label": "Liability cap = fees paid in the last N months (business customers)",
+      "verify": true
+    },
+    "policy.claim_months": {
+      "default": "12",
+      "label": "Time limit to raise claims (months), where the law allows",
+      "verify": true
+    },
+    "policy.retention_account_days": {
+      "default": "30",
+      "label": "Days after account closure before deletion"
+    },
+    "policy.retention_billing_years": {
+      "default": "10",
+      "label": "Invoice and accounting record retention (years)",
+      "verify": true
+    },
+    "hosting.region": {
+      "default": "",
+      "label": "Where data is stored",
+      "example": "European Union"
+    },
+    "feature.consumers": {
+      "flag": true,
+      "label": "Service is offered to consumers (not only businesses)"
+    },
+    "feature.payments": {
+      "flag": true,
+      "label": "Paid features"
+    },
+    "feature.subscriptions": {
+      "flag": true,
+      "label": "Recurring subscriptions"
+    },
+    "feature.credits": {
+      "flag": true,
+      "label": "Prepaid credits / tokens / in-app currency"
+    },
+    "feature.ugc": {
+      "flag": true,
+      "label": "Users upload or publish content"
+    },
+    "feature.ai": {
+      "flag": true,
+      "label": "AI-assisted or AI-generated features"
+    },
+    "feature.api": {
+      "flag": true,
+      "label": "Public API / integrations"
+    },
+    "feature.analytics": {
+      "flag": true,
+      "label": "Analytics cookies / tools"
+    },
+    "feature.marketing": {
+      "flag": true,
+      "label": "Marketing emails / profiling"
+    },
+    "feature.ads": {
+      "flag": true,
+      "label": "Advertising or ad tracking"
+    },
+    "feature.location": {
+      "flag": true,
+      "label": "Precise location is collected"
+    },
+    "feature.processor_role": {
+      "flag": true,
+      "label": "You process personal data on behalf of business customers (DPA applies)"
+    },
+    "table.subprocessors": {
+      "block": true,
+      "label": "Markdown table of sub-processors (name, purpose, location)"
+    },
+    "table.cookies": {
+      "block": true,
+      "label": "Markdown table of cookies / storage items"
+    },
+    "company.imprint_extra": {
+      "default": "",
+      "label": "Free text added to the legal notice: register court/number, phone, legal form, chamber, regulated-trade info"
+    },
+    "eu_rep": {
+      "default": "",
+      "label": "EU representative (Art. 27 GDPR): name, address, email on one line; empty if not needed"
+    },
+    "uk_rep": {
+      "default": "",
+      "label": "UK representative: name, address, email on one line; empty if not needed"
+    },
+    "law.authority": {
+      "default": "",
+      "label": "Lead data-protection authority (default comes from law.jurisdiction)"
+    },
+    "consumer_dispute": {
+      "default": "",
+      "label": "Consumer dispute-resolution body you participate in, if any"
+    },
+    "feature.mobile": {
+      "flag": true,
+      "label": "Mobile / desktop apps distributed through app stores"
+    },
+    "feature.game": {
+      "flag": true,
+      "label": "Games or game-like experiences (virtual items, fair play, end of service)"
+    },
+    "feature.minors": {
+      "flag": true,
+      "label": "Users below the age of majority are allowed with parent/guardian consent (set policy.min_age to the minimum, e.g. 13)"
+    },
+    "license.id": {
+      "default": "",
+      "label": "Licence this project/content is released under (id from licenses/catalog.json, e.g. MIT, AGPL-3.0-only, LicenseRef-Proprietary); empty = no licence page. Pick one with tools/license.php"
+    },
+    "license.year": {
+      "default": "",
+      "label": "Copyright year or range for the notice (default: current year)"
+    },
+    "license.holder": {
+      "default": "@company.name",
+      "label": "Copyright holder named in the licence"
+    },
+    "license.notice": {
+      "block": true,
+      "label": "Extra parameters shown above the licence text, e.g. BUSL Licensor / Change Date / Change License / Additional Use Grant"
+    },
+    "license.name": {
+      "default": "",
+      "computed": true,
+      "label": "Licence name (filled in from the catalogue)"
+    },
+    "license.spdx": {
+      "default": "",
+      "computed": true,
+      "label": "SPDX identifier (filled in from the catalogue)"
+    },
+    "license.url": {
+      "default": "",
+      "computed": true,
+      "label": "Canonical URL (filled in from the catalogue)"
+    },
+    "license.summary": {
+      "default": "",
+      "computed": true,
+      "label": "One-line summary (filled in from the catalogue)"
+    },
+    "license.text": {
+      "default": "",
+      "computed": true,
+      "label": "Full licence text (filled in from the catalogue)"
+    },
+    "law.jurisdiction": {
+      "default": "rs",
+      "label": "Jurisdiction id for governing law, venue and authority (rs, hr, ba, me, gb, de); or set law.governing/venue/authority yourself",
+      "verify": true
+    }
+  },
+  "computed": {
+    "_comment": "Supplied by the plugin, not by site config.",
+    "doc.id": "document id, e.g. privacy",
+    "doc.title": "title from front matter",
+    "doc.version": "version from front matter",
+    "doc.updated": "updated date from front matter",
+    "doc.lang": "language code",
+    "url.<doc id>": "site URL where that document is published, e.g. url.privacy, url.terms, url.acceptable_use"
+  }
+}

@@ -1,0 +1,160 @@
+{
+ "_comment": "Advisor conformance cases: for each, the candidates must include/exclude these ids, 'top' must be first, 'none' means no candidates. Any language port of the advisor must satisfy them.",
+ "cases": [
+  {
+   "name": "closed-source commercial app",
+   "answers": {
+    "scope": "software",
+    "source": "closed"
+   },
+   "features": [
+    "payments"
+   ],
+   "top": "LicenseRef-Proprietary",
+   "include": [
+    "LicenseRef-Proprietary",
+    "LicenseRef-All-Rights-Reserved"
+   ],
+   "exclude": [
+    "MIT",
+    "GPL-3.0-only",
+    "FSL-1.1-MIT",
+    "CC-BY-4.0"
+   ]
+  },
+  {
+   "name": "open source, strong deterrent against SaaS clones",
+   "answers": {
+    "scope": "software",
+    "source": "open",
+    "competing": "yes"
+   },
+   "include": [
+    "AGPL-3.0-only",
+    "EUPL-1.2"
+   ],
+   "exclude": [
+    "MIT",
+    "Apache-2.0",
+    "GPL-3.0-only",
+    "BUSL-1.1"
+   ]
+  },
+  {
+   "name": "source-available, no competing service, becomes open later",
+   "answers": {
+    "scope": "software",
+    "source": "visible",
+    "competing": "yes",
+    "future": "yes"
+   },
+   "include": [
+    "FSL-1.1-MIT",
+    "FSL-1.1-ALv2",
+    "BUSL-1.1"
+   ],
+   "exclude": [
+    "LicenseRef-Source-Available",
+    "PolyForm-Noncommercial-1.0.0",
+    "MIT"
+   ]
+  },
+  {
+   "name": "most permissive with patent grant",
+   "answers": {
+    "scope": "software",
+    "source": "open",
+    "commercial": "freely",
+    "patent": "yes",
+    "attribution": "required"
+   },
+   "include": [
+    "Apache-2.0"
+   ],
+   "exclude": [
+    "MIT",
+    "GPL-2.0-only"
+   ],
+   "top": "Apache-2.0"
+  },
+  {
+   "name": "GPL-2.0-only dependency forbids Apache and GPLv3",
+   "answers": {
+    "scope": "software",
+    "source": "open",
+    "gpl": "gpl2"
+   },
+   "include": [
+    "MIT",
+    "MPL-2.0"
+   ],
+   "exclude": [
+    "Apache-2.0",
+    "GPL-3.0-only",
+    "AGPL-3.0-only"
+   ]
+  },
+  {
+   "name": "non-commercial open-ish software has no match among open-source licences",
+   "answers": {
+    "scope": "software",
+    "source": "open",
+    "commercial": "no"
+   },
+   "none": true
+  },
+  {
+   "name": "content, share-alike with credit",
+   "answers": {
+    "scope": "content",
+    "copyleft": "strong",
+    "attribution": "required",
+    "commercial": "freely"
+   },
+   "include": [
+    "CC-BY-SA-4.0"
+   ],
+   "exclude": [
+    "CC-BY-4.0",
+    "CC-BY-NC-SA-4.0",
+    "MIT"
+   ]
+  },
+  {
+   "name": "game assets: no AI training, no remix",
+   "answers": {
+    "scope": "assets",
+    "ai": "forbid",
+    "derivatives": "no"
+   },
+   "include": [
+    "LicenseRef-Assets",
+    "LicenseRef-All-Rights-Reserved"
+   ],
+   "exclude": [
+    "CC-BY-4.0",
+    "CC-BY-ND-4.0"
+   ]
+  },
+  {
+   "name": "standard texts only excludes our custom licences",
+   "answers": {
+    "scope": "software",
+    "source": "closed",
+    "standard": "only"
+   },
+   "none": true
+  },
+  {
+   "name": "scope filter: software choices never include content licences",
+   "answers": {
+    "scope": "software"
+   },
+   "exclude": [
+    "CC-BY-4.0",
+    "CC0-1.0",
+    "LicenseRef-Assets"
+   ]
+  }
+ ]
+}

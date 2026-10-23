@@ -1,0 +1,22 @@
+{{product.name}} Assets Licence (All Rights Reserved)
+
+Copyright (c) {{license.year}} {{license.holder}}. All rights reserved.
+
+This Licence covers the artwork, illustrations, characters, audio, music, voices, video, animations, 3D models, textures, fonts we own, user-interface designs, text and other creative content of {{product.name}} (the "Assets").
+
+1. PERMITTED
+You may view and use the Assets only as they appear in {{product.name}} as distributed by Licensor, and you may share screenshots, recordings and streams showing them, including on monetised channels, provided you comply with the published rules for the product and do not imply endorsement.
+
+2. NOT PERMITTED
+Without written permission you must not: extract, rip, copy or download the Assets from the files or servers; modify or remix them; redistribute, sell or sublicense them; use them in another product, website, template or dataset; use them to train, fine-tune or evaluate machine-learning models; use them as or for tokens, NFTs or merchandise; or use them in a way that is defamatory, hateful or misleading.
+
+3. FAN WORKS
+You may create non-commercial fan works that are clearly unofficial, credit {{product.name}}, and do not copy Assets wholesale. Licensor may ask you to remove any work that harms its rights or reputation.
+
+4. THIRD-PARTY ASSETS
+Assets owned by others are used under their licences and are not covered by this Licence.
+
+5. NO WARRANTY, GOVERNING LAW
+The Assets are provided "as is" to the maximum extent permitted by law. The laws of {{law.governing}} apply; the exclusive jurisdiction is {{law.venue}}, except where mandatory law gives you the right to sue in your own country.
+
+Requests for permission: {{company.legal_email}}

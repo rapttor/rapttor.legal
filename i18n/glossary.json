@@ -1,0 +1,481 @@
+{
+ "_comment": "Glossary for translating the legal documents. First entry per row is the English source. Starting point written by an AI assistant: have a native-speaking lawyer verify every entry before marking translations 'reviewed'. Style: sr = ekavian, Latin script, formal plural 'Vi'; hr/bs/cnr = ijekavian, formal plural 'vi'.",
+ "languages": [
+  "en",
+  "sr",
+  "hr",
+  "bs",
+  "cnr"
+ ],
+ "terms": [
+  {
+   "en": "controller (data)",
+   "sr": "rukovalac",
+   "hr": "voditelj obrade",
+   "bs": "kontrolor",
+   "cnr": "rukovalac"
+  },
+  {
+   "en": "processor (data)",
+   "sr": "obrađivač",
+   "hr": "izvršitelj obrade",
+   "bs": "obrađivač",
+   "cnr": "obrađivač"
+  },
+  {
+   "en": "sub-processor",
+   "sr": "podobrađivač",
+   "hr": "podizvršitelj obrade",
+   "bs": "podobrađivač",
+   "cnr": "podobrađivač"
+  },
+  {
+   "en": "personal data",
+   "sr": "podaci o ličnosti",
+   "hr": "osobni podaci",
+   "bs": "lični podaci",
+   "cnr": "lični podaci"
+  },
+  {
+   "en": "data subject",
+   "sr": "lice na koje se podaci odnose",
+   "hr": "ispitanik",
+   "bs": "nosilac podataka",
+   "cnr": "lice na koje se podaci odnose"
+  },
+  {
+   "en": "processing",
+   "sr": "obrada",
+   "hr": "obrada",
+   "bs": "obrada",
+   "cnr": "obrada"
+  },
+  {
+   "en": "supervisory authority",
+   "sr": "nadzorni organ",
+   "hr": "nadzorno tijelo",
+   "bs": "nadzorni organ",
+   "cnr": "nadzorni organ"
+  },
+  {
+   "en": "consent",
+   "sr": "pristanak",
+   "hr": "privola",
+   "bs": "saglasnost",
+   "cnr": "saglasnost"
+  },
+  {
+   "en": "legal basis",
+   "sr": "pravni osnov",
+   "hr": "pravna osnova",
+   "bs": "pravni osnov",
+   "cnr": "pravni osnov"
+  },
+  {
+   "en": "legitimate interest",
+   "sr": "legitimni interes",
+   "hr": "legitimni interes",
+   "bs": "legitimni interes",
+   "cnr": "legitimni interes"
+  },
+  {
+   "en": "personal data breach",
+   "sr": "povreda podataka o ličnosti",
+   "hr": "povreda osobnih podataka",
+   "bs": "povreda ličnih podataka",
+   "cnr": "povreda ličnih podataka"
+  },
+  {
+   "en": "data protection officer",
+   "sr": "lice za zaštitu podataka o ličnosti",
+   "hr": "službenik za zaštitu podataka",
+   "bs": "službenik za zaštitu ličnih podataka",
+   "cnr": "službenik za zaštitu ličnih podataka"
+  },
+  {
+   "en": "international transfer",
+   "sr": "međunarodni prenos podataka",
+   "hr": "međunarodni prijenos podataka",
+   "bs": "međunarodni prenos podataka",
+   "cnr": "međunarodni prenos podataka"
+  },
+  {
+   "en": "standard contractual clauses",
+   "sr": "standardne ugovorne klauzule",
+   "hr": "standardne ugovorne klauzule",
+   "bs": "standardne ugovorne klauzule",
+   "cnr": "standardne ugovorne klauzule"
+  },
+  {
+   "en": "retention",
+   "sr": "čuvanje",
+   "hr": "pohrana",
+   "bs": "čuvanje",
+   "cnr": "čuvanje"
+  },
+  {
+   "en": "right of access",
+   "sr": "pravo na pristup",
+   "hr": "pravo na pristup",
+   "bs": "pravo na pristup",
+   "cnr": "pravo na pristup"
+  },
+  {
+   "en": "right to erasure",
+   "sr": "pravo na brisanje",
+   "hr": "pravo na brisanje",
+   "bs": "pravo na brisanje",
+   "cnr": "pravo na brisanje"
+  },
+  {
+   "en": "portability",
+   "sr": "prenosivost podataka",
+   "hr": "prenosivost podataka",
+   "bs": "prenosivost podataka",
+   "cnr": "prenosivost podataka"
+  },
+  {
+   "en": "cookies",
+   "sr": "kolačići",
+   "hr": "kolačići",
+   "bs": "kolačići",
+   "cnr": "kolačići"
+  },
+  {
+   "en": "Terms of Service",
+   "sr": "Uslovi korišćenja",
+   "hr": "Uvjeti korištenja",
+   "bs": "Uslovi korištenja",
+   "cnr": "Uslovi korišćenja"
+  },
+  {
+   "en": "Privacy Policy",
+   "sr": "Politika privatnosti",
+   "hr": "Politika privatnosti",
+   "bs": "Politika privatnosti",
+   "cnr": "Politika privatnosti"
+  },
+  {
+   "en": "Cookie Policy",
+   "sr": "Politika kolačića",
+   "hr": "Politika kolačića",
+   "bs": "Politika kolačića",
+   "cnr": "Politika kolačića"
+  },
+  {
+   "en": "Acceptable Use Policy",
+   "sr": "Politika prihvatljivog korišćenja",
+   "hr": "Pravila prihvatljive uporabe",
+   "bs": "Politika prihvatljive upotrebe",
+   "cnr": "Politika prihvatljivog korišćenja"
+  },
+  {
+   "en": "Legal Notice (Impressum)",
+   "sr": "Pravne napomene (Impressum)",
+   "hr": "Pravna obavijest (Impressum)",
+   "bs": "Pravne napomene (Impressum)",
+   "cnr": "Pravne napomene (Impressum)"
+  },
+  {
+   "en": "Refunds & Cancellation Policy",
+   "sr": "Politika povraćaja sredstava i otkazivanja",
+   "hr": "Pravila povrata novca i otkaza",
+   "bs": "Politika povrata novca i otkazivanja",
+   "cnr": "Politika povraćaja novca i otkazivanja"
+  },
+  {
+   "en": "Data Processing Addendum",
+   "sr": "Aneks o obradi podataka",
+   "hr": "Dodatak o obradi podataka",
+   "bs": "Aneks o obradi podataka",
+   "cnr": "Aneks o obradi podataka"
+  },
+  {
+   "en": "Services",
+   "sr": "Usluge",
+   "hr": "Usluge",
+   "bs": "Usluge",
+   "cnr": "Usluge"
+  },
+  {
+   "en": "account",
+   "sr": "nalog",
+   "hr": "korisnički račun",
+   "bs": "nalog",
+   "cnr": "nalog"
+  },
+  {
+   "en": "user",
+   "sr": "korisnik",
+   "hr": "korisnik",
+   "bs": "korisnik",
+   "cnr": "korisnik"
+  },
+  {
+   "en": "consumer",
+   "sr": "potrošač",
+   "hr": "potrošač",
+   "bs": "potrošač",
+   "cnr": "potrošač"
+  },
+  {
+   "en": "business customer",
+   "sr": "poslovni korisnik",
+   "hr": "poslovni korisnik",
+   "bs": "poslovni korisnik",
+   "cnr": "poslovni korisnik"
+  },
+  {
+   "en": "subscription",
+   "sr": "pretplata",
+   "hr": "pretplata",
+   "bs": "pretplata",
+   "cnr": "pretplata"
+  },
+  {
+   "en": "refund",
+   "sr": "povraćaj sredstava",
+   "hr": "povrat novca",
+   "bs": "povrat novca",
+   "cnr": "povraćaj novca"
+  },
+  {
+   "en": "right of withdrawal",
+   "sr": "pravo na odustanak",
+   "hr": "pravo na odustanak",
+   "bs": "pravo na odustajanje",
+   "cnr": "pravo na odustanak"
+  },
+  {
+   "en": "invoice",
+   "sr": "faktura",
+   "hr": "račun",
+   "bs": "faktura",
+   "cnr": "faktura"
+  },
+  {
+   "en": "fees",
+   "sr": "naknade",
+   "hr": "naknade",
+   "bs": "naknade",
+   "cnr": "naknade"
+  },
+  {
+   "en": "taxes",
+   "sr": "porezi",
+   "hr": "porezi",
+   "bs": "porezi",
+   "cnr": "porezi"
+  },
+  {
+   "en": "VAT",
+   "sr": "PDV",
+   "hr": "PDV",
+   "bs": "PDV",
+   "cnr": "PDV"
+  },
+  {
+   "en": "liability",
+   "sr": "odgovornost",
+   "hr": "odgovornost",
+   "bs": "odgovornost",
+   "cnr": "odgovornost"
+  },
+  {
+   "en": "limitation of liability",
+   "sr": "ograničenje odgovornosti",
+   "hr": "ograničenje odgovornosti",
+   "bs": "ograničenje odgovornosti",
+   "cnr": "ograničenje odgovornosti"
+  },
+  {
+   "en": "warranty",
+   "sr": "garancija",
+   "hr": "jamstvo",
+   "bs": "garancija",
+   "cnr": "garancija"
+  },
+  {
+   "en": "disclaimer",
+   "sr": "odricanje od odgovornosti",
+   "hr": "odricanje od odgovornosti",
+   "bs": "odricanje od odgovornosti",
+   "cnr": "odricanje od odgovornosti"
+  },
+  {
+   "en": "indemnify",
+   "sr": "obeštetiti",
+   "hr": "obeštetiti",
+   "bs": "obeštetiti",
+   "cnr": "obeštetiti"
+  },
+  {
+   "en": "governing law",
+   "sr": "merodavno pravo",
+   "hr": "mjerodavno pravo",
+   "bs": "mjerodavno pravo",
+   "cnr": "mjerodavno pravo"
+  },
+  {
+   "en": "jurisdiction (courts)",
+   "sr": "nadležnost suda",
+   "hr": "nadležnost suda",
+   "bs": "nadležnost suda",
+   "cnr": "nadležnost suda"
+  },
+  {
+   "en": "force majeure",
+   "sr": "viša sila",
+   "hr": "viša sila",
+   "bs": "viša sila",
+   "cnr": "viša sila"
+  },
+  {
+   "en": "severability",
+   "sr": "delimična nevažnost",
+   "hr": "djelomična nevaljanost",
+   "bs": "djelimična nevažnost",
+   "cnr": "djelimična nevažnost"
+  },
+  {
+   "en": "entire agreement",
+   "sr": "celokupan sporazum",
+   "hr": "cjelokupni sporazum",
+   "bs": "cjelokupni sporazum",
+   "cnr": "cjelokupan sporazum"
+  },
+  {
+   "en": "notice (formal)",
+   "sr": "obaveštenje",
+   "hr": "obavijest",
+   "bs": "obavještenje",
+   "cnr": "obavještenje"
+  },
+  {
+   "en": "intellectual property",
+   "sr": "intelektualna svojina",
+   "hr": "intelektualno vlasništvo",
+   "bs": "intelektualno vlasništvo",
+   "cnr": "intelektualna svojina"
+  },
+  {
+   "en": "copyright",
+   "sr": "autorsko pravo",
+   "hr": "autorsko pravo",
+   "bs": "autorsko pravo",
+   "cnr": "autorsko pravo"
+  },
+  {
+   "en": "trademark",
+   "sr": "žig",
+   "hr": "žig",
+   "bs": "zaštitni znak",
+   "cnr": "žig"
+  },
+  {
+   "en": "licence",
+   "sr": "licenca",
+   "hr": "licenca",
+   "bs": "licenca",
+   "cnr": "licenca"
+  },
+  {
+   "en": "software",
+   "sr": "softver",
+   "hr": "softver",
+   "bs": "softver",
+   "cnr": "softver"
+  },
+  {
+   "en": "virtual items",
+   "sr": "virtuelni predmeti",
+   "hr": "virtualni predmeti",
+   "bs": "virtuelni predmeti",
+   "cnr": "virtuelni predmeti"
+  },
+  {
+   "en": "loot box / random reward",
+   "sr": "nasumična nagrada (loot box)",
+   "hr": "nasumična nagrada (loot box)",
+   "bs": "nasumična nagrada (loot box)",
+   "cnr": "nasumična nagrada (loot box)"
+  },
+  {
+   "en": "section (of a document)",
+   "sr": "odeljak",
+   "hr": "odjeljak",
+   "bs": "odjeljak",
+   "cnr": "odjeljak"
+  },
+  {
+   "en": "suspend",
+   "sr": "suspendovati",
+   "hr": "suspendirati",
+   "bs": "suspendovati",
+   "cnr": "suspendovati"
+  },
+  {
+   "en": "terminate",
+   "sr": "raskinuti / ukinuti",
+   "hr": "raskinuti / ukinuti",
+   "bs": "raskinuti / ukinuti",
+   "cnr": "raskinuti / ukinuti"
+  },
+  {
+   "en": "we",
+   "sr": "mi",
+   "hr": "mi",
+   "bs": "mi",
+   "cnr": "mi"
+  },
+  {
+   "en": "you (formal)",
+   "sr": "Vi / Vaš",
+   "hr": "vi / vaš",
+   "bs": "vi / vaš",
+   "cnr": "vi / vaš"
+  },
+  {
+   "en": "cheating (games)",
+   "sr": "varanje",
+   "hr": "varanje",
+   "bs": "varanje",
+   "cnr": "varanje"
+  },
+  {
+   "en": "end of service",
+   "sr": "prestanak pružanja usluge",
+   "hr": "prestanak pružanja usluge",
+   "bs": "prestanak pružanja usluge",
+   "cnr": "prestanak pružanja usluge"
+  },
+  {
+   "en": "competent authority",
+   "sr": "nadležni organ",
+   "hr": "nadležno tijelo",
+   "bs": "nadležni organ",
+   "cnr": "nadležni organ"
+  },
+  {
+   "en": "lawful request",
+   "sr": "zakonit zahtev",
+   "hr": "zakonit zahtjev",
+   "bs": "zakonit zahtjev",
+   "cnr": "zakonit zahtjev"
+  },
+  {
+   "en": "security measures",
+   "sr": "mere bezbednosti",
+   "hr": "sigurnosne mjere",
+   "bs": "sigurnosne mjere",
+   "cnr": "mjere bezbjednosti"
+  },
+  {
+   "en": "breach (of contract)",
+   "sr": "povreda ugovora",
+   "hr": "povreda ugovora",
+   "bs": "povreda ugovora",
+   "cnr": "povreda ugovora"
+  }
+ ]
+}

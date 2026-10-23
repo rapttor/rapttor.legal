@@ -1,0 +1,29 @@
+{{product.name}} Source-Available Licence (Internal Use, No Competing Use)
+
+Copyright (c) {{license.year}} {{license.holder}}. All rights reserved except as granted below.
+
+The source code is published so that you can read, audit, learn from, and run it for your own purposes. It is NOT open-source software.
+
+1. DEFINITIONS
+"Software" means the source code, documentation and other materials made available under this Licence. "Licensor" is {{license.holder}}. "You" is the person or organisation using the Software. "Competing Use" means offering to third parties, for a fee or free, any product or service whose value comes substantially from functionality of the Software, including hosted, managed or software-as-a-service offerings, and embedding the Software in such a product.
+
+2. GRANT
+Licensor grants you a non-exclusive, worldwide, royalty-free, non-transferable licence to: (a) view, read and study the Software; (b) compile, run and modify it for your own or your organisation's internal purposes, including internal production use; and (c) keep private copies and modifications inside your organisation.
+
+3. LIMITS
+You must not: (a) distribute, publish or sublicense the Software or modified versions (including public forks or mirrors), except contributions under section 5; (b) engage in Competing Use; (c) remove or change licence, copyright or attribution notices; (d) use Licensor's names, logos or trademarks, except to state truthfully where the Software comes from; (e) use the Software to train machine-learning models that are made available to others; (f) use the Software unlawfully.
+
+4. OTHER PERMISSIONS
+Any other use needs Licensor's written permission: {{company.legal_email}}.
+
+5. CONTRIBUTIONS
+If you submit a contribution to Licensor, you confirm you have the right to do so and grant Licensor a perpetual, irrevocable, worldwide, royalty-free, sublicensable licence to use, modify and distribute it under any terms, including by relicensing it.
+
+6. TERMINATION
+This Licence ends if you breach it. If the breach can be remedied and was not wilful, you have 30 days after notice to remedy it and the Licence continues if you do. On termination you must stop using the Software and delete copies.
+
+7. NO WARRANTY, LIMITED LIABILITY
+TO THE MAXIMUM EXTENT PERMITTED BY LAW THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, AND LICENSOR IS NOT LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM OR CONNECTED WITH THE SOFTWARE OR ITS USE. Nothing limits liability that cannot be limited by law.
+
+8. GOVERNING LAW
+The laws of {{law.governing}} apply. The exclusive jurisdiction is {{law.venue}}, except where mandatory law gives you the right to sue in your own country.

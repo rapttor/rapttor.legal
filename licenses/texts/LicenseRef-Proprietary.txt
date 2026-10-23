@@ -1,0 +1,52 @@
+{{product.name}} Proprietary Software Licence
+
+Copyright (c) {{license.year}} {{license.holder}}. All rights reserved.
+
+1. OWNERSHIP
+The software, in source and object form, its documentation, designs, data formats and all related intellectual property (the "Software") are owned by {{license.holder}} ("Licensor") or its licensors. This Licence gives you a right to use the Software; nothing is sold or assigned to you.
+
+2. GRANT
+Subject to this Licence and to payment of any agreed fees, Licensor grants you a non-exclusive, non-transferable, non-sublicensable, revocable licence to install and use the Software, in object-code form only, for your own internal purposes, within the number of users, devices or instances covered by your order (or one, if none is stated).
+
+3. RESTRICTIONS
+Unless Licensor agrees in writing or mandatory law gives you the right, you must not:
+(a) copy the Software, except one backup copy for archival purposes;
+(b) modify, adapt, translate or create derivative works of the Software;
+(c) reverse engineer, decompile, disassemble or otherwise try to obtain the source code, models or non-public interfaces of the Software, except to the extent this restriction is prohibited by applicable law;
+(d) distribute, sell, rent, lease, lend, sublicense, host for third parties, or make the Software available as a service;
+(e) remove or alter copyright, trademark or other proprietary notices;
+(f) circumvent licence keys, usage limits or technical protection measures;
+(g) use the Software to build a product or service that competes with it, or publish benchmark results without consent;
+(h) use the Software in breach of law or of the Acceptable Use rules Licensor publishes.
+
+4. THIRD-PARTY AND OPEN-SOURCE COMPONENTS
+Components supplied under their own licences (listed in the notices shipped with the Software) are governed by those licences, which prevail for those components.
+
+5. UPDATES AND SUPPORT
+Updates and support are provided only if and as agreed in your order or support terms.
+
+6. COMPLIANCE CHECK (BUSINESS USERS)
+If you are a business, on reasonable notice and not more than once a year you will confirm in writing that your use complies with this Licence, and, if your use exceeds your licence, you will pay the fees due for the excess.
+
+7. FEEDBACK
+If you give Licensor suggestions or feedback about the Software, you grant Licensor a perpetual, worldwide, royalty-free, irrevocable licence to use them without restriction or credit.
+
+8. TERMINATION
+This Licence ends automatically if you breach it. Licensor may also end it as agreed in your order. On termination you must stop using the Software and delete all copies. Sections 1, 3, 7, 9, 10, 12 and 13 survive.
+
+9. NO WARRANTY
+TO THE MAXIMUM EXTENT PERMITTED BY LAW THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. Rights you have as a consumer under mandatory law are not affected.
+
+10. LIMITATION OF LIABILITY
+To the maximum extent permitted by law, Licensor is not liable for indirect, incidental, special, consequential or punitive damages or loss of profit, revenue or data, and its total liability is limited to the fees you paid for the Software in the 12 months before the claim (or EUR 100 if none). Nothing limits liability that cannot be limited by law, including for intent, gross negligence, death or personal injury.
+
+11. EXPORT
+You must comply with export-control and sanctions laws and must not use the Software where prohibited.
+
+12. GOVERNING LAW
+This Licence is governed by the laws of {{law.governing}}. The exclusive jurisdiction is {{law.venue}}, except where mandatory law gives you the right to sue in your own country.
+
+13. GENERAL
+This Licence is the entire agreement about the Software. If a provision is unenforceable the rest remains in force. Licensor may assign this Licence; you may not. Not enforcing a right is not a waiver.
+
+Contact: {{company.legal_email}}

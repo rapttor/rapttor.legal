@@ -1,0 +1,215 @@
+{
+  "_comment": "Language-neutral conformance cases for the template grammar (SPEC.md). Every client (PHP, Node, Python...) must produce exactly 'expected' and report exactly 'missing'. 'config' is flat dotted values; 'doc'/'urls' feed doc.* and url.* keys.",
+  "catalog": {
+    "keys": {
+      "company.name": {
+        "required": true
+      },
+      "company.email": {
+        "required": true
+      },
+      "company.privacy_email": {
+        "default": "@company.email"
+      },
+      "company.legal_email": {
+        "default": "@company.privacy_email"
+      },
+      "product.name": {
+        "default": "@company.name"
+      },
+      "law.governing": {
+        "default": "the Republic of Serbia"
+      },
+      "feature.ai": {
+        "flag": true
+      },
+      "feature.ugc": {
+        "flag": true
+      },
+      "table.cookies": {
+        "block": true
+      },
+      "note": {
+        "default": ""
+      }
+    }
+  },
+  "cases": [
+    {
+      "name": "plain substitution",
+      "template": "Hi {{company.name}}!",
+      "config": {
+        "company.name": "Acme",
+        "company.email": "a@b.c"
+      },
+      "expected": "Hi Acme!\n"
+    },
+    {
+      "name": "default chain @ref",
+      "template": "{{company.legal_email}}",
+      "config": {
+        "company.name": "Acme",
+        "company.email": "a@b.c"
+      },
+      "expected": "a@b.c\n"
+    },
+    {
+      "name": "default overridden by config",
+      "template": "{{company.privacy_email}}|{{company.legal_email}}",
+      "config": {
+        "company.name": "A",
+        "company.email": "a@b.c",
+        "company.privacy_email": "p@b.c"
+      },
+      "expected": "p@b.c|p@b.c\n"
+    },
+    {
+      "name": "literal default",
+      "template": "{{law.governing}}",
+      "config": {
+        "company.name": "A",
+        "company.email": "e"
+      },
+      "expected": "the Republic of Serbia\n"
+    },
+    {
+      "name": "inline fallback used when empty",
+      "template": "[{{note|none}}]",
+      "config": {
+        "company.name": "A",
+        "company.email": "e"
+      },
+      "expected": "[none]\n"
+    },
+    {
+      "name": "inline fallback ignored when set",
+      "template": "[{{note|none}}]",
+      "config": {
+        "company.name": "A",
+        "company.email": "e",
+        "note": "x"
+      },
+      "expected": "[x]\n"
+    },
+    {
+      "name": "if true",
+      "template": "{{#if feature.ai}}AI{{/if}}",
+      "config": {
+        "feature.ai": "1"
+      },
+      "expected": "AI\n"
+    },
+    {
+      "name": "if false with else",
+      "template": "{{#if feature.ai}}AI{{else}}no AI{{/if}}",
+      "config": {},
+      "expected": "no AI\n"
+    },
+    {
+      "name": "flag value 0 is false",
+      "template": "{{#if feature.ai}}AI{{else}}no{{/if}}",
+      "config": {
+        "feature.ai": "0"
+      },
+      "expected": "no\n"
+    },
+    {
+      "name": "unknown flag is false",
+      "template": "{{#if feature.nope}}X{{else}}Y{{/if}}",
+      "config": {},
+      "expected": "Y\n"
+    },
+    {
+      "name": "unless",
+      "template": "{{#unless feature.ai}}off{{/unless}}|{{#unless feature.ugc}}off2{{/unless}}",
+      "config": {
+        "feature.ugc": "1"
+      },
+      "expected": "off|\n"
+    },
+    {
+      "name": "nested blocks",
+      "template": "{{#if feature.ai}}A{{#if feature.ugc}}U{{else}}u{{/if}}Z{{else}}n{{/if}}",
+      "config": {
+        "feature.ai": "1"
+      },
+      "expected": "AuZ\n"
+    },
+    {
+      "name": "nested inside false parent never shows else of child",
+      "template": "{{#if feature.ai}}{{#if feature.ugc}}U{{else}}u{{/if}}{{else}}n{{/if}}",
+      "config": {},
+      "expected": "n\n"
+    },
+    {
+      "name": "values inside false block are not reported missing",
+      "template": "{{#if feature.ai}}{{company.name}}{{/if}}ok",
+      "config": {},
+      "expected": "ok\n",
+      "missing": []
+    },
+    {
+      "name": "missing required renders marker and is reported",
+      "template": "{{company.name}} {{company.email}}",
+      "config": {
+        "company.email": "e"
+      },
+      "expected": "[company.name] e\n",
+      "missing": [
+        "company.name"
+      ]
+    },
+    {
+      "name": "block placeholder empty is allowed",
+      "template": "A{{table.cookies}}B",
+      "config": {},
+      "expected": "AB\n",
+      "missing": []
+    },
+    {
+      "name": "block placeholder multi-line",
+      "template": "{{table.cookies}}",
+      "config": {
+        "table.cookies": "| a |\n|---|"
+      },
+      "expected": "| a |\n|---|\n"
+    },
+    {
+      "name": "computed doc and url keys",
+      "template": "{{doc.title}} v{{doc.version}} {{url.privacy}}",
+      "config": {},
+      "doc": {
+        "title": "Terms",
+        "version": "1.2.3"
+      },
+      "urls": {
+        "privacy": "/p"
+      },
+      "expected": "Terms v1.2.3 /p\n"
+    },
+    {
+      "name": "blank lines collapse and trailing spaces trimmed",
+      "template": "a  \n\n\n\n{{#if feature.ai}}x{{/if}}\n\n\nb",
+      "config": {},
+      "expected": "a\n\nb\n"
+    },
+    {
+      "name": "whitespace inside tag allowed",
+      "template": "{{ company.name }}",
+      "config": {
+        "company.name": "Q",
+        "company.email": "e"
+      },
+      "expected": "Q\n"
+    },
+    {
+      "name": "values are not re-evaluated as templates",
+      "template": "{{company.name}}",
+      "config": {
+        "company.name": "{{feature.ai}}",
+        "company.email": "e"
+      },
+      "expected": "{{feature.ai}}\n"
+    }
+  ]
+}

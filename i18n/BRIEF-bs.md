@@ -1,0 +1,13 @@
+# Brief for drafting the Bosnian (bs) translation of one legal document
+
+Work in /Users/admin/Sites/rapttor/rapttor.4all/rapttor.legal . You are given ONE document id (for example `terms`).
+
+1. Read `i18n/TRANSLATING.md` (follow every rule) and `i18n/glossary.json` (use the `bs` column for every term it covers; the column differs from Serbian on purpose).
+2. Source of truth: `en/<doc>.md`. A Serbian draft `sr/<doc>.md` exists as a helper only: do NOT copy its Serbian vocabulary, ekavian forms or legal terms; write real Bosnian.
+3. Write `bs/<doc>.md` (create the directory if needed). Front matter: keep `doc`, `version`, `updated` and any `when` line exactly as in the English file; set `lang: bs`, `translation_of: <the version in the English file>`, `status: draft`; translate `title` and `summary`.
+4. Long documents: write in several chunks. The first chunk creates the file, each next chunk APPENDS with a bash heredoc (`cat >> bs/<doc>.md <<'EOF' ... EOF`), about 500-700 source words per chunk, never cutting inside a section, list or table. Skip nothing.
+5. Language: standard Bosnian, Latin script, IJEKAVIAN, formal plural lowercase "vi/vaš"; keep Bosnian features: the letter h where standard Bosnian has it (hiljada, historija, sedmica for week), "uslovi", "saglasnost", "lični podaci", "kontrolor", "obavještenje", "nalog/račun" as in the glossary bs column. Do not use Croatian purisms (tisuća, uvjeti, privola) or Serbian ekavian forms (vreme, mesto, lepo).
+6. Hard rules: faithful translation, no added/removed/merged/shortened clauses. Keep every `{{...}}` tag exactly (only the fallback text after `|` may be translated), every `{#anchor}`, heading level and number, link target `](...)`, URL, e-mail, table shape, Markdown formatting and `{{#if}}/{{else}}/{{/if}}/{{#unless}}/{{/unless}}` blocks. Placeholders cannot be declined: keep them in their original form (rule 4 of TRANSLATING.md; `{{law.governing}}` is genitive, `{{law.venue}}` and `{{law.authority}}` are nominative noun phrases). Cross-references "section N" become "odjeljak N". Keep brands, acronyms and statute names (Apple, Google, GDPR, DSA, DMCA, SPDX...) in their original form.
+7. For `license`: the fenced block with `{{license.text}}` stays exactly as it is; add a short phrase stating that the English licence text is authoritative.
+8. When done run `php tools/build.php --lint` and fix every error that mentions `bs/<doc>.md` until none remain (messages about other files are not yours).
+9. Final reply: at most 60 words: lint result for your file plus only genuine uncertainties. Touch no other file.

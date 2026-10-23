@@ -1,0 +1,15 @@
+# rapttor/legal
+
+> Versioned legal page templates (terms, privacy, cookies, acceptable use, imprint, refunds, DPA, game rules, app terms, copyright notices, security disclosure, sub-processors, licence page) with shared placeholders and feature flags, translations (Serbian Latin/Cyrillic, Croatian, Bosnian, Montenegrin drafts), a catalogue of 28 licences with a deterministic tag-based advisor, and a PHP reference implementation. Composer package; texts are bundled, no runtime network. Code MIT, texts CC BY 4.0.
+
+Changing the templates, translations or licences: read AGENTS.md first. Using the pages in an app: use a wrapper (yii2-legal) and read its AGENTS.md.
+
+- [AGENTS.md](AGENTS.md): structure, rules for templates, translations and licences, what to run after every change
+- [SPEC.md](SPEC.md): template grammar, languages, consumer contract, update policy
+- [README.md](README.md): documents, shared config, languages, licence catalogue, review checklist, what is not covered
+- [placeholders.json](placeholders.json): every placeholder (5 required: company.name, company.address, company.country, company.email, company.website)
+- [presets.json](presets.json): country presets and product profiles
+- [i18n/TRANSLATING.md](i18n/TRANSLATING.md) and [i18n/glossary.json](i18n/glossary.json): how to translate
+- [licenses/GUIDE.md](licenses/GUIDE.md): licences in plain words; [licenses/catalog.json](licenses/catalog.json) tags; [licenses/advisor.json](licenses/advisor.json) rules
+- [tools/init.php](tools/init.php) config builder, [tools/license.php](tools/license.php) licence advisor and LICENSE writer, [tools/build.php](tools/build.php) lint and manifest, [tools/render.php](tools/render.php) render for checking
+- [tests/fixtures/](tests/fixtures/): language-neutral conformance cases for ports

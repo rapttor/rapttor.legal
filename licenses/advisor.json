@@ -1,0 +1,543 @@
+{
+ "_comment": "Rules for the licence advisor (src/Advisor.php). Option rules: must (all tags required), must_any (list of OR-groups, each group needs one tag), must_not (tags forbidden), prefer (tag: weight, negative = avoid). Deterministic: no AI.",
+ "tags": {
+  "for:software": {
+   "group": "Subject",
+   "label": "Made for software code"
+  },
+  "for:content": {
+   "group": "Subject",
+   "label": "Made for text, documentation, images, data"
+  },
+  "for:assets": {
+   "group": "Subject",
+   "label": "Made for product art, audio, characters, game content"
+  },
+  "give:use": {
+   "group": "You give",
+   "label": "Others may use it"
+  },
+  "give:commercial": {
+   "group": "You give",
+   "label": "Others may use it commercially with no strings"
+  },
+  "give:commercial-limited": {
+   "group": "You give",
+   "label": "Others may use it commercially, with limits (no competing service, size caps, internal use)"
+  },
+  "give:modify": {
+   "group": "You give",
+   "label": "Others may modify it"
+  },
+  "give:redistribute": {
+   "group": "You give",
+   "label": "Others may redistribute it"
+  },
+  "give:host-as-service": {
+   "group": "You give",
+   "label": "Others may run it as a hosted service"
+  },
+  "give:patent-grant": {
+   "group": "You give",
+   "label": "Includes a patent licence from contributors/you"
+  },
+  "need:attribution": {
+   "group": "You demand",
+   "label": "Users must keep your copyright notice or credit you"
+  },
+  "need:copyleft-weak": {
+   "group": "You demand",
+   "label": "Changes to your files (or library) must be shared under the same licence"
+  },
+  "need:copyleft-strong": {
+   "group": "You demand",
+   "label": "Any distributed work that includes it must be shared under the same licence"
+  },
+  "need:copyleft-network": {
+   "group": "You demand",
+   "label": "Same as strong copyleft, and also when it is run as a network service"
+  },
+  "need:share-alike": {
+   "group": "You demand",
+   "label": "Adaptations of the content must be shared under the same licence"
+  },
+  "protect:source-closed": {
+   "group": "You protect",
+   "label": "Source code stays private"
+  },
+  "protect:no-competing-service": {
+   "group": "You protect",
+   "label": "Others cannot sell your software as a competing hosted service or product"
+  },
+  "protect:no-commercial-use": {
+   "group": "You protect",
+   "label": "No commercial use by others"
+  },
+  "protect:no-derivatives": {
+   "group": "You protect",
+   "label": "No modified versions by others"
+  },
+  "protect:no-redistribution": {
+   "group": "You protect",
+   "label": "No redistribution of your copy by others"
+  },
+  "protect:no-reverse-engineering": {
+   "group": "You protect",
+   "label": "No reverse engineering"
+  },
+  "protect:no-ai-training": {
+   "group": "You protect",
+   "label": "No use to train AI/ML models"
+  },
+  "future:open-source": {
+   "group": "Later",
+   "label": "Converts to an open-source licence after a fixed date"
+  },
+  "is:osi": {
+   "group": "Nature",
+   "label": "OSI-approved open source"
+  },
+  "is:source-available": {
+   "group": "Nature",
+   "label": "Source visible but not open source"
+  },
+  "is:public-domain": {
+   "group": "Nature",
+   "label": "Public-domain dedication (no conditions)"
+  },
+  "is:standard": {
+   "group": "Nature",
+   "label": "Well-known standard text"
+  },
+  "is:custom": {
+   "group": "Nature",
+   "label": "Custom text written by us"
+  },
+  "is:needs-counsel": {
+   "group": "Nature",
+   "label": "Custom or parameterised text: have a lawyer review it"
+  },
+  "needs:parameters": {
+   "group": "Nature",
+   "label": "Needs extra parameters filled in (grant, change date, licensor)"
+  },
+  "ease:short": {
+   "group": "Nature",
+   "label": "Short and easy to read"
+  },
+  "compat:gpl2": {
+   "group": "Compatibility",
+   "label": "Can be combined with GPL-2.0-only code"
+  },
+  "compat:gpl3": {
+   "group": "Compatibility",
+   "label": "Can be combined with GPL-3.0 code"
+  }
+ },
+ "questions": [
+  {
+   "id": "scope",
+   "label": "What are you licensing?",
+   "applies": [
+    "*"
+   ],
+   "options": [
+    {
+     "id": "software",
+     "label": "Software code (app, library, plugin)",
+     "must": [
+      "for:software"
+     ]
+    },
+    {
+     "id": "content",
+     "label": "Text, documentation, images, data you want to share",
+     "must": [
+      "for:content"
+     ]
+    },
+    {
+     "id": "assets",
+     "label": "Product art, audio, characters, game content",
+     "must": [
+      "for:assets"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "source",
+   "label": "What happens to the source code?",
+   "applies": [
+    "software"
+   ],
+   "options": [
+    {
+     "id": "open",
+     "label": "Publish it as open source (anyone may use and fork)",
+     "must": [
+      "is:osi"
+     ]
+    },
+    {
+     "id": "visible",
+     "label": "Publish it but keep control (source-available)",
+     "must": [
+      "is:source-available"
+     ]
+    },
+    {
+     "id": "closed",
+     "label": "Keep it private",
+     "must": [
+      "protect:source-closed"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "commercial",
+   "label": "May others use it commercially?",
+   "applies": [
+    "software",
+    "content",
+    "assets"
+   ],
+   "options": [
+    {
+     "id": "freely",
+     "label": "Yes, with no strings",
+     "must": [
+      "give:commercial"
+     ]
+    },
+    {
+     "id": "limited",
+     "label": "Yes, but with limits (for example not as a competing product)",
+     "must_any": [
+      [
+       "give:commercial",
+       "give:commercial-limited"
+      ]
+     ]
+    },
+    {
+     "id": "no",
+     "label": "No, non-commercial only",
+     "must": [
+      "protect:no-commercial-use"
+     ]
+    },
+    {
+     "id": "any",
+     "label": "I don't mind",
+     "prefer": {
+      "give:commercial": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "competing",
+   "label": "Do you want to stop others running your code as a competing paid or hosted service?",
+   "applies": [
+    "software"
+   ],
+   "options": [
+    {
+     "id": "yes",
+     "label": "Yes, that matters (accounts, payments, SaaS)",
+     "must_any": [
+      [
+       "protect:no-competing-service",
+       "need:copyleft-network"
+      ]
+     ]
+    },
+    {
+     "id": "no",
+     "label": "No, that is fine",
+     "prefer": {}
+    }
+   ]
+  },
+  {
+   "id": "copyleft",
+   "label": "Must others share their improvements?",
+   "applies": [
+    "software",
+    "content"
+   ],
+   "options": [
+    {
+     "id": "any",
+     "label": "No preference"
+    },
+    {
+     "id": "no",
+     "label": "No: they may keep changes private",
+     "must_not": [
+      "need:copyleft-weak",
+      "need:copyleft-strong",
+      "need:copyleft-network",
+      "need:share-alike"
+     ]
+    },
+    {
+     "id": "weak",
+     "label": "Yes for the files they change",
+     "must_any": [
+      [
+       "need:copyleft-weak"
+      ]
+     ]
+    },
+    {
+     "id": "strong",
+     "label": "Yes for the whole work they distribute",
+     "must_any": [
+      [
+       "need:copyleft-strong",
+       "need:share-alike"
+      ]
+     ]
+    },
+    {
+     "id": "network",
+     "label": "Yes, even when they only run it as a service",
+     "must": [
+      "need:copyleft-network"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "attribution",
+   "label": "Must users keep your copyright notice or credit you?",
+   "applies": [
+    "software",
+    "content",
+    "assets"
+   ],
+   "options": [
+    {
+     "id": "required",
+     "label": "Yes",
+     "must": [
+      "need:attribution"
+     ]
+    },
+    {
+     "id": "notneeded",
+     "label": "No need",
+     "prefer": {
+      "need:attribution": -2
+     }
+    },
+    {
+     "id": "any",
+     "label": "No preference"
+    }
+   ]
+  },
+  {
+   "id": "patent",
+   "label": "Do you need an explicit patent licence (protection for you and users)?",
+   "applies": [
+    "software"
+   ],
+   "options": [
+    {
+     "id": "yes",
+     "label": "Yes",
+     "must": [
+      "give:patent-grant"
+     ]
+    },
+    {
+     "id": "no",
+     "label": "No / don't know"
+    }
+   ]
+  },
+  {
+   "id": "gpl",
+   "label": "Does your software include or link code licensed under the GPL?",
+   "applies": [
+    "software"
+   ],
+   "options": [
+    {
+     "id": "no",
+     "label": "No"
+    },
+    {
+     "id": "gpl3",
+     "label": "Yes, GPL-3.0 (or later)",
+     "must": [
+      "compat:gpl3"
+     ]
+    },
+    {
+     "id": "gpl2",
+     "label": "Yes, GPL-2.0-only",
+     "must": [
+      "compat:gpl2"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ai",
+   "label": "Should AI/ML training on your work be prohibited?",
+   "applies": [
+    "software",
+    "content",
+    "assets"
+   ],
+   "options": [
+    {
+     "id": "forbid",
+     "label": "Yes, forbid it",
+     "must": [
+      "protect:no-ai-training"
+     ]
+    },
+    {
+     "id": "any",
+     "label": "No preference"
+    }
+   ]
+  },
+  {
+   "id": "derivatives",
+   "label": "May others publish modified versions or remixes?",
+   "applies": [
+    "content",
+    "assets"
+   ],
+   "options": [
+    {
+     "id": "yes",
+     "label": "Yes",
+     "prefer": {
+      "give:modify": 1
+     }
+    },
+    {
+     "id": "no",
+     "label": "No, unchanged copies only",
+     "must": [
+      "protect:no-derivatives"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "future",
+   "label": "Should it become open source after a few years?",
+   "applies": [
+    "software"
+   ],
+   "options": [
+    {
+     "id": "yes",
+     "label": "Yes (delayed open source)",
+     "must": [
+      "future:open-source"
+     ]
+    },
+    {
+     "id": "no",
+     "label": "No"
+    }
+   ]
+  },
+  {
+   "id": "standard",
+   "label": "Only well-known standard licence texts (no custom wording)?",
+   "applies": [
+    "software",
+    "content",
+    "assets"
+   ],
+   "options": [
+    {
+     "id": "only",
+     "label": "Yes, standard only",
+     "must_not": [
+      "is:custom"
+     ]
+    },
+    {
+     "id": "custom",
+     "label": "Custom text is fine (we get legal review)"
+    }
+   ]
+  },
+  {
+   "id": "ease",
+   "label": "Prefer a short, easy-to-read licence?",
+   "applies": [
+    "software",
+    "content",
+    "assets"
+   ],
+   "options": [
+    {
+     "id": "yes",
+     "label": "Yes",
+     "prefer": {
+      "ease:short": 2
+     }
+    },
+    {
+     "id": "no",
+     "label": "Not important"
+    }
+   ]
+  }
+ ],
+ "features": {
+  "_comment": "Soft preferences derived from the app's feature flags (same keys as placeholders.json). Applies to scope=software unless noted.",
+  "feature.payments": {
+   "software": {
+    "protect:no-competing-service": 2,
+    "protect:source-closed": 1
+   }
+  },
+  "feature.subscriptions": {
+   "software": {
+    "protect:no-competing-service": 1
+   }
+  },
+  "feature.api": {
+   "software": {
+    "protect:no-competing-service": 1
+   }
+  },
+  "feature.processor_role": {
+   "software": {
+    "protect:no-competing-service": 1,
+    "protect:source-closed": 1
+   }
+  },
+  "feature.ai": {
+   "software": {
+    "protect:no-ai-training": 1
+   },
+   "content": {
+    "protect:no-ai-training": 1
+   },
+   "assets": {
+    "protect:no-ai-training": 1
+   }
+  },
+  "feature.game": {
+   "assets": {
+    "protect:no-redistribution": 1,
+    "protect:no-ai-training": 1
+   }
+  }
+ }
+}

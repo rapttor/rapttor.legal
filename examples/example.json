@@ -1,0 +1,23 @@
+{
+    "company": {
+        "name": "ACME d.o.o.",
+        "address": "Main Street 1, 11000 Belgrade, Serbia",
+        "email": "hello@acme.example",
+        "website": "https://acme.example",
+        "reg_id": "12345678",
+        "country": "Serbia"
+    },
+    "feature": {
+        "consumers": true,
+        "payments": true,
+        "subscriptions": true,
+        "analytics": true,
+        "marketing": true
+    },
+    "law": {
+        "jurisdiction": "rs"
+    },
+    "product": {
+        "name": "Acme App"
+    }
+}

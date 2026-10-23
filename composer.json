@@ -1,0 +1,57 @@
+{
+    "name": "rapttor/legal",
+    "description": "Legal page templates (terms, privacy, cookies, acceptable use, imprint, refunds, DPA, game rules, app terms, licence) with shared placeholders, feature flags, translations (sr, hr, bs, cnr) and a deterministic licence advisor. Texts are bundled; no runtime network access.",
+    "type": "library",
+    "keywords": [
+        "legal",
+        "privacy-policy",
+        "terms-of-service",
+        "gdpr",
+        "cookies",
+        "imprint",
+        "licenses",
+        "licence-chooser",
+        "i18n",
+        "games",
+        "templates"
+    ],
+    "homepage": "https://github.com/rapttor/rapttor.legal",
+    "license": "(MIT AND CC-BY-4.0)",
+    "authors": [
+        {
+            "name": "Rapttor",
+            "homepage": "https://rapttor.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/rapttor/rapttor.legal/issues",
+        "source": "https://github.com/rapttor/rapttor.legal"
+    },
+    "require": {
+        "php": ">=8.2",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    },
+    "suggest": {
+        "rapttor/yii2-legal": "Yii2 integration: routes, sanitised HTML, language switcher, acceptance log, cookie consent"
+    },
+    "autoload": {
+        "psr-4": {
+            "rapttor\\legal\\": "src/"
+        }
+    },
+    "bin": [
+        "tools/init.php",
+        "tools/license.php"
+    ],
+    "scripts": {
+        "build": "php tools/build.php",
+        "test": [
+            "php tools/build.php --check",
+            "php tests/run.php"
+        ]
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

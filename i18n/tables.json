@@ -1,0 +1,17 @@
+{
+  "_comment": "Column headings for tables the library builds from structured site data (data.subprocessors, data.cookies).",
+  "subprocessors": {
+    "en": ["Name", "Purpose", "Location"],
+    "sr": ["Naziv", "Svrha", "Lokacija"],
+    "hr": ["Naziv", "Svrha", "Lokacija"],
+    "bs": ["Naziv", "Svrha", "Lokacija"],
+    "cnr": ["Naziv", "Svrha", "Lokacija"]
+  },
+  "cookies": {
+    "en": ["Name", "Provider", "Purpose", "Category", "Duration"],
+    "sr": ["Naziv", "Pružalac", "Svrha", "Kategorija", "Trajanje"],
+    "hr": ["Naziv", "Pružatelj", "Svrha", "Kategorija", "Trajanje"],
+    "bs": ["Naziv", "Pružalac", "Svrha", "Kategorija", "Trajanje"],
+    "cnr": ["Naziv", "Pružalac", "Svrha", "Kategorija", "Trajanje"]
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "_comment": "Used by tools/init.php and by the plugin's setup form. Values are starting points: verify with counsel.",
+  "countries": {
+    "rs": {
+      "label": "Serbia",
+      "country": "Serbia",
+      "jurisdiction": "rs"
+    },
+    "hr": {
+      "label": "Croatia",
+      "country": "Croatia",
+      "jurisdiction": "hr"
+    },
+    "ba": {
+      "label": "Bosnia and Herzegovina",
+      "country": "Bosnia and Herzegovina",
+      "jurisdiction": "ba"
+    },
+    "me": {
+      "label": "Montenegro",
+      "country": "Montenegro",
+      "jurisdiction": "me"
+    },
+    "gb": {
+      "label": "United Kingdom",
+      "country": "United Kingdom",
+      "jurisdiction": "gb"
+    },
+    "de": {
+      "label": "Germany",
+      "country": "Germany",
+      "jurisdiction": "de"
+    },
+    "eu": {
+      "label": "Other EU/EEA country",
+      "country": "",
+      "law.governing": "",
+      "law.venue": "",
+      "law.authority": "the supervisory authority of the Member State where we are established"
+    },
+    "other": {
+      "label": "Other (you will be asked)",
+      "country": "",
+      "law.governing": "",
+      "law.venue": "",
+      "law.authority": ""
+    }
+  },
+  "profiles": {
+    "website": {
+      "label": "Informational website, no accounts",
+      "flags": [
+        "consumers"
+      ]
+    },
+    "saas_b2b": {
+      "label": "SaaS / app for businesses (processes customer data)",
+      "flags": [
+        "payments",
+        "subscriptions",
+        "api",
+        "processor_role",
+        "analytics"
+      ]
+    },
+    "saas_b2c": {
+      "label": "App / subscription for consumers",
+      "flags": [
+        "consumers",
+        "payments",
+        "subscriptions",
+        "analytics",
+        "marketing"
+      ]
+    },
+    "community": {
+      "label": "Community / user-generated content",
+      "flags": [
+        "consumers",
+        "ugc",
+        "analytics",
+        "marketing"
+      ]
+    },
+    "shop": {
+      "label": "Shop / credits / in-app purchases",
+      "flags": [
+        "consumers",
+        "payments",
+        "credits",
+        "analytics",
+        "marketing"
+      ]
+    },
+    "mobile_app": {
+      "label": "Mobile app distributed through app stores",
+      "flags": [
+        "consumers",
+        "mobile",
+        "payments",
+        "subscriptions",
+        "analytics"
+      ]
+    },
+    "game": {
+      "label": "Game with virtual items (set policy.min_age; add the minors flag if teens may play)",
+      "flags": [
+        "consumers",
+        "game",
+        "mobile",
+        "payments",
+        "credits",
+        "ugc",
+        "analytics"
+      ]
+    }
+  },
+  "role_mailboxes": {
+    "privacy_email": "privacy@%s",
+    "legal_email": "legal@%s"
+  }
+}

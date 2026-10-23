@@ -1,0 +1,127 @@
+{
+ "_comment": "Governing law, venue and supervisory authority per jurisdiction and language. Written so they fit after 'pravom ...' (genitive governing), and as noun phrases for venue and authority. Used when the site sets law.jurisdiction and does not set law.governing/venue/authority itself. A missing language falls back to en.",
+ "jurisdictions": {
+  "rs": {
+   "en": {
+    "governing": "the Republic of Serbia",
+    "venue": "the competent courts of Belgrade, Serbia",
+    "authority": "the Commissioner for Information of Public Importance and Personal Data Protection (Poverenik)"
+   },
+   "sr": {
+    "governing": "Republike Srbije",
+    "venue": "nadležni sudovi u Beogradu, Republika Srbija",
+    "authority": "Poverenik za informacije od javnog značaja i zaštitu podataka o ličnosti (Poverenik)"
+   },
+   "hr": {
+    "governing": "Republike Srbije",
+    "venue": "nadležni sudovi u Beogradu, Republika Srbija",
+    "authority": "Poverenik za informacije od javnog značaja i zaštitu podataka o ličnosti (Poverenik)"
+   },
+   "bs": {
+    "governing": "Republike Srbije",
+    "venue": "nadležni sudovi u Beogradu, Republika Srbija",
+    "authority": "Poverenik za informacije od javnog značaja i zaštitu podataka o ličnosti (Poverenik)"
+   },
+   "cnr": {
+    "governing": "Republike Srbije",
+    "venue": "nadležni sudovi u Beogradu, Republika Srbija",
+    "authority": "Poverenik za informacije od javnog značaja i zaštitu podataka o ličnosti (Poverenik)"
+   }
+  },
+  "hr": {
+   "en": {
+    "governing": "the Republic of Croatia",
+    "venue": "the competent courts of Zagreb, Croatia",
+    "authority": "the Croatian Personal Data Protection Agency (AZOP)"
+   },
+   "sr": {
+    "governing": "Republike Hrvatske",
+    "venue": "nadležni sudovi u Zagrebu, Republika Hrvatska",
+    "authority": "Agencija za zaštitu osobnih podataka (AZOP)"
+   },
+   "hr": {
+    "governing": "Republike Hrvatske",
+    "venue": "nadležni sudovi u Zagrebu, Republika Hrvatska",
+    "authority": "Agencija za zaštitu osobnih podataka (AZOP)"
+   },
+   "bs": {
+    "governing": "Republike Hrvatske",
+    "venue": "nadležni sudovi u Zagrebu, Republika Hrvatska",
+    "authority": "Agencija za zaštitu osobnih podataka (AZOP)"
+   },
+   "cnr": {
+    "governing": "Republike Hrvatske",
+    "venue": "nadležni sudovi u Zagrebu, Republika Hrvatska",
+    "authority": "Agencija za zaštitu osobnih podataka (AZOP)"
+   }
+  },
+  "ba": {
+   "en": {
+    "governing": "Bosnia and Herzegovina",
+    "venue": "the competent courts of Sarajevo, Bosnia and Herzegovina",
+    "authority": "the Personal Data Protection Agency in Bosnia and Herzegovina"
+   },
+   "sr": {
+    "governing": "Bosne i Hercegovine",
+    "venue": "nadležni sudovi u Sarajevu, Bosna i Hercegovina",
+    "authority": "Agencija za zaštitu ličnih podataka u Bosni i Hercegovini"
+   },
+   "hr": {
+    "governing": "Bosne i Hercegovine",
+    "venue": "nadležni sudovi u Sarajevu, Bosna i Hercegovina",
+    "authority": "Agencija za zaštitu ličnih podataka u Bosni i Hercegovini"
+   },
+   "bs": {
+    "governing": "Bosne i Hercegovine",
+    "venue": "nadležni sudovi u Sarajevu, Bosna i Hercegovina",
+    "authority": "Agencija za zaštitu ličnih podataka u Bosni i Hercegovini"
+   },
+   "cnr": {
+    "governing": "Bosne i Hercegovine",
+    "venue": "nadležni sudovi u Sarajevu, Bosna i Hercegovina",
+    "authority": "Agencija za zaštitu ličnih podataka u Bosni i Hercegovini"
+   }
+  },
+  "me": {
+   "en": {
+    "governing": "Montenegro",
+    "venue": "the competent courts of Podgorica, Montenegro",
+    "authority": "the Agency for Personal Data Protection and Free Access to Information of Montenegro"
+   },
+   "sr": {
+    "governing": "Crne Gore",
+    "venue": "nadležni sudovi u Podgorici, Crna Gora",
+    "authority": "Agencija za zaštitu ličnih podataka i slobodan pristup informacijama"
+   },
+   "hr": {
+    "governing": "Crne Gore",
+    "venue": "nadležni sudovi u Podgorici, Crna Gora",
+    "authority": "Agencija za zaštitu ličnih podataka i slobodan pristup informacijama"
+   },
+   "bs": {
+    "governing": "Crne Gore",
+    "venue": "nadležni sudovi u Podgorici, Crna Gora",
+    "authority": "Agencija za zaštitu ličnih podataka i slobodan pristup informacijama"
+   },
+   "cnr": {
+    "governing": "Crne Gore",
+    "venue": "nadležni sudovi u Podgorici, Crna Gora",
+    "authority": "Agencija za zaštitu ličnih podataka i slobodan pristup informacijama"
+   }
+  },
+  "gb": {
+   "en": {
+    "governing": "England and Wales",
+    "venue": "the courts of England and Wales",
+    "authority": "the Information Commissioner's Office (ICO)"
+   }
+  },
+  "de": {
+   "en": {
+    "governing": "the Federal Republic of Germany",
+    "venue": "the courts at our registered seat",
+    "authority": "the data protection supervisory authority competent for our registered seat"
+   }
+  }
+ }
+}

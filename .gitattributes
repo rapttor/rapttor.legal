@@ -1,0 +1,9 @@
+* text=auto eol=lf
+/.github export-ignore
+/tests export-ignore
+/docs export-ignore
+/examples export-ignore
+/build export-ignore
+/build-all export-ignore
+/CONTRIBUTING.md export-ignore
+/SECURITY.md export-ignore
