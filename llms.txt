@@ -9,6 +9,7 @@ Changing the templates, translations or licences: read AGENTS.md first. Using th
 - [README.md](README.md): documents, shared config, languages, licence catalogue, review checklist, what is not covered
 - [en/app_checklist.md](en/app_checklist.md): security and compliance checklist for AI coding agents building apps with these legal pages (internal document)
 - [docs/COMPLIANCE-RESEARCH.md](docs/COMPLIANCE-RESEARCH.md): verdicts and sources for the rules in that checklist
+- Baseline consents (age and legal-age confirmation, upload responsibility) are ON by default; opt-in topics: gambling and app-specific consent items
 - [placeholders.json](placeholders.json): every placeholder (5 required: company.name, company.address, company.country, company.email, company.website)
 - [presets.json](presets.json): country presets and product profiles
 - [i18n/TRANSLATING.md](i18n/TRANSLATING.md) and [i18n/glossary.json](i18n/glossary.json): how to translate

@@ -179,7 +179,7 @@
    "id": "age-confirmation-recorded",
    "doc": "terms",
    "when": "feature.age_gate",
-   "text": "The age and legal-age confirmation is shown before age-sensitive features, is not pre-ticked, is recorded, and users who do not confirm are blocked."
+   "text": "The age and legal-age confirmation is shown to every account (including anonymous ones) before the app is used, is not pre-ticked, is recorded with its version, and users who do not confirm are blocked."
   },
   {
    "id": "email-stop-link",
@@ -216,6 +216,12 @@
    "doc": "copyright",
    "when": "company.dmca_agent",
    "text": "The DMCA designated agent shown is registered in the US Copyright Office directory and is renewed every three years."
+  },
+  {
+   "id": "gambling-lawful-and-verified",
+   "doc": "terms",
+   "when": "feature.gambling",
+   "text": "Gambling features are offered only where lawful and licensed, with real age and identity verification as the law requires; the confirmation tick box alone is not relied on."
   }
  ]
 }

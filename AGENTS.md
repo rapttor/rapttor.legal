@@ -31,6 +31,10 @@ Both must be clean. `php tools/build.php --lint` checks without writing the mani
 - A claim must describe something the host app can actually check or build. Never add a claim the plugin cannot help satisfy.
 - Research behind rules lives in `docs/COMPLIANCE-RESEARCH.md`: mark anything not verified against a primary source as **unverified**. Do not state a law as settled when the sources conflict.
 
+## Default-on flags
+
+`age_gate` and `uploads` carry `"default_on": true` in `placeholders.json`. Keep it that way: the point is that no app can forget to ask. Anything that reads features must go through `Library::withDefaults()` (the library entry points already do). Do not add `default_on` to a flag unless every app should have the clause; opt-in topics (for example `gambling`) stay off by default and are named in the checklist. When you add a default-on flag, update the checklist, `claims.json`, the translations and the tests (`tests/run.php`, "Default-on consents").
+
 ## Template rules
 
 - Grammar: `{{key}}`, `{{key|fallback}}`, `{{#if key}}..{{else}}..{{/if}}`, `{{#unless key}}..{{/unless}}`. No loops, no expressions. Every key must exist in `placeholders.json` (the build fails otherwise). Use `{{url.<doc>}}` for cross-links, never a literal path.

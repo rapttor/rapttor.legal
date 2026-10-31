@@ -66,7 +66,7 @@ Blocks nest. No expressions, no loops, no HTML escaping inside values: the consu
 
 ### Feature flags
 
-Keys prefixed `feature.` are booleans that switch whole clauses on and off, so a site gets only the clauses that fit what it actually does (for example `feature.ai`, `feature.ugc`, `feature.payments`, `feature.consumers`, `feature.processor_role`). Config booleans map to `1` / empty. **Unknown flags are false**, so adding a new flag in this repo never turns on text on an existing site.
+Keys prefixed `feature.` are booleans that switch whole clauses on and off. A flag marked `"default_on": true` in `placeholders.json` (`age_gate`, `uploads`) is on **unless the site sets it to `false` explicitly**: clients apply this with `Library::withDefaults()` before rendering and before reading features (a missing key means on, `false` means off), so a site gets only the clauses that fit what it actually does (for example `feature.ai`, `feature.ugc`, `feature.payments`, `feature.consumers`, `feature.processor_role`). Config booleans map to `1` / empty. **Unknown flags are false**, so adding a new flag in this repo never turns on text on an existing site.
 
 ### Block placeholders
 

@@ -47,6 +47,35 @@ final class Library
         return self::json("{$this->root}/presets.json");
     }
 
+    /**
+     * Apply the catalogue's default-on flags: a flag marked `default_on` is on unless the site sets it explicitly
+     * (`'feature' => ['age_gate' => false]` turns it off). Plugins call this on the config they use, so every part agrees.
+     *
+     * @param array<string,mixed> $config nested site config
+     * @return array<string,mixed>
+     */
+    public function withDefaults(array $config): array
+    {
+        foreach ($this->catalog['keys'] as $key => $def) {
+            if (empty($def['default_on'])) {
+                continue;
+            }
+            $path = explode('.', $key);
+            $node = &$config;
+            foreach (array_slice($path, 0, -1) as $part) {
+                if (!isset($node[$part]) || !is_array($node[$part])) {
+                    $node[$part] = [];
+                }
+                $node = &$node[$part];
+            }
+            if (!array_key_exists(end($path), $node)) {
+                $node[end($path)] = true;
+            }
+            unset($node);
+        }
+        return $config;
+    }
+
     public function advisor(): Advisor
     {
         return new Advisor($this->root);
@@ -190,7 +219,7 @@ final class Library
      */
     public function published(array $config, string $lang = 'en', bool $drafts = false): array
     {
-        $flat = Renderer::flatten($config);
+        $flat = Renderer::flatten($this->withDefaults($config));
         $default = (string)$this->manifest['default_lang'];
         $req = $this->normalizeLanguage($lang) ?? $default; // what the visitor asked for, even if we have nothing in it
         $want = $this->resolveLanguage($lang, $drafts);
@@ -248,7 +277,7 @@ final class Library
     /** Config keys still missing for the documents this configuration publishes. @return list<string> */
     public function missingRequired(array $config, string $lang = 'en', bool $drafts = false): array
     {
-        $flat = Renderer::flatten($config);
+        $flat = Renderer::flatten($this->withDefaults($config));
         $missing = [];
         foreach ($this->published($config, $lang, $drafts) as $d) {
             foreach ($d['requires'] as $k) {
@@ -270,6 +299,7 @@ final class Library
      */
     public function render(array $config, string $docId, callable $urlFor, string $lang = 'en', array &$missing = [], bool $drafts = false): string
     {
+        $config = $this->withDefaults($config);
         $published = $this->published($config, $lang, $drafts);
         $entry = null;
         foreach ($published as $d) {
@@ -334,6 +364,7 @@ final class Library
      */
     public function claims(array $config, array $confirmed = [], string $lang = 'en', bool $drafts = false): array
     {
+        $config = $this->withDefaults($config);
         $flat = Renderer::flatten($config);
         $ids = array_column($this->published($config, $lang, $drafts), 'id');
         $out = [];
@@ -379,6 +410,7 @@ final class Library
      */
     public function internal(array $config, string $docId, array &$missing = []): string
     {
+        $config = $this->withDefaults($config);
         foreach ($this->manifest['languages'][(string)$this->manifest['default_lang']] as $d) {
             if ($d['id'] === $docId && ($d['public'] ?? true) === false) {
                 $raw = (string)file_get_contents("{$this->root}/{$d['path']}");

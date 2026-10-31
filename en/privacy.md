@@ -1,7 +1,7 @@
 ---
 doc: privacy
 title: Privacy Policy
-version: 1.1.0
+version: 1.2.0
 updated: 2026-10-31
 lang: en
 summary: How {{product.name}} collects, uses, shares and protects personal data, and the rights you have.
@@ -70,6 +70,8 @@ We send emails that the Services need (sign-in links, receipts, security notices
 ### Age confirmation {#age}
 
 Before you use features involving {{policy.age_topics|age-sensitive content}}, we ask you to confirm that you are at least {{policy.age_gate}} years old and of legal age under the rules of your country. We do not ask for your date of birth and keep only your confirmation and when you gave it. If we learn that someone is below the age, we block the account and delete the data.
+{{/if}}{{#if feature.gambling}}
+For gambling features we may also ask for proof of your age and identity, and use a verification provider for that. We keep the result and the evidence that the law requires.
 {{/if}}
 
 ## 3. Why we use your data, and our legal bases {#purposes}

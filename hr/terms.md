@@ -1,10 +1,10 @@
 ---
 doc: terms
 title: Uvjeti korištenja
-version: 1.1.0
+version: 1.2.0
 updated: 2026-10-31
 lang: hr
-translation_of: 1.1.0
+translation_of: 1.2.0
 status: draft
 summary: Ugovor između vas i {{product.name}} o korištenju {{product.name}}.
 ---
@@ -34,6 +34,7 @@ Usluge smijete koristiti samo ako:
 3. niste ranije bili isključeni iz Usluga zbog kršenja naših pravila, osim ako smo se pisano suglasili da vas ponovno primimo; i
 4. Usluge koristite zakonito na mjestu na kojem se nalazite.
 {{#if feature.age_gate}}5. potvrdite, kada to od vas zatražimo, da imate najmanje **{{policy.age_gate}}** godina i da ste punoljetni prema pravilima vaše zemlje za korištenje značajki koje uključuju {{policy.age_topics|sadržaj primjeren dobi}}. Ne trebamo vaš datum rođenja: vaša potvrda se bilježi. Ako to nije istina, možemo blokirati račun i izbrisati njegove podatke.
+{{/if}}{{#if feature.gambling}}6. potvrdite, kada to od vas zatražimo, da imate najmanje **{{policy.gambling_age}}** godina, da je kockanje zakonito tamo gdje živite te da značajke za kockanje koristite samo za sebe. Možemo zahtijevati stvarnu provjeru dobi i identiteta te možemo odbiti ili prekinuti pristup značajkama za kockanje gdje god to zahtijevaju zakon ili naše licence.
 {{/if}}
 
 Možemo u bilo kojem trenutku tražiti dokaz o dobi, identitetu ili ovlasti te možemo odbiti ili zatvoriti račun koji ne prođe provjeru.

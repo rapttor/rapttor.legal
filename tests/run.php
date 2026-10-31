@@ -156,6 +156,35 @@ if (array_column(array_filter($cl, static fn($c) => $c['confirmed']), 'id') !== 
     echo "FAIL claims confirmed flag\n";
 }
 
+// Default-on consents: age confirmation and upload responsibility are on unless explicitly switched off
+$libD = new Library();
+$baseD = ['company' => ['name' => 'Acme', 'address' => 'x', 'country' => 'L', 'email' => 'a@b.co', 'website' => 'https://b.co']];
+$termsOf = static function (array $cfg) use ($libD): string {
+    $m = [];
+    return $libD->render($cfg, 'terms', static fn(string $id, string $l) => "/$l/$id", 'en', $m);
+};
+$claimIds = static fn(array $cfg): array => array_column($libD->claims($cfg), 'id');
+$defaults = $termsOf($baseD);
+$off = $termsOf($baseD + ['feature' => ['age_gate' => false, 'uploads' => false]]);
+$checks = [
+    'default terms ask for the legal age' => str_contains($defaults, 'of legal age under the rules of your country'),
+    'default terms cover uploads' => str_contains($defaults, 'Private by default'),
+    'explicit false switches the age clause off' => !str_contains($off, 'of legal age under the rules of your country'),
+    'explicit false switches the uploads clause off' => !str_contains($off, 'Private by default'),
+    'age claim is on by default' => in_array('age-confirmation-recorded', $claimIds($baseD), true),
+    'age claim disappears when off' => !in_array('age-confirmation-recorded', $claimIds($baseD + ['feature' => ['age_gate' => false]]), true),
+    'gambling is opt-in (absent by default)' => !str_contains($defaults, 'gambling is lawful where you live'),
+    'gambling clause appears when on' => str_contains($termsOf($baseD + ['feature' => ['gambling' => true], 'policy' => ['gambling_age' => '21']]), 'at least **21** years old, that gambling is lawful'),
+    'withDefaults keeps explicit false' => ($libD->withDefaults(['feature' => ['uploads' => false]])['feature']['uploads'] === false),
+    'withDefaults adds the defaults to an empty config' => ($libD->withDefaults([])['feature']['age_gate'] === true && $libD->withDefaults([])['feature']['uploads'] === true),
+];
+foreach ($checks as $name => $ok) {
+    if (!$ok) {
+        $fail++;
+        echo "FAIL default-on: $name\n";
+    }
+}
+
 // Whole-library check: every shipped profile x flag combination renders cleanly.
 $lib = new Library();
 $base = ['company' => ['name' => 'Acme', 'address' => '1 Main St, Town', 'country' => 'Land', 'email' => 'a@b.co', 'website' => 'https://b.co']];

@@ -223,6 +223,9 @@ if (isset($docs['en'])) {
 
 // Catalog sanity: '@ref' defaults point at real keys.
 foreach ($keys as $k => $def) {
+    if (!empty($def['default_on']) && empty($def['flag'])) {
+        $errors[] = "placeholders.json: $k has default_on but is not a flag";
+    }
     if (isset($def['default']) && is_string($def['default']) && str_starts_with($def['default'], '@')
         && !isset($keys[substr($def['default'], 1)])) {
         $errors[] = "placeholders.json: $k default points to unknown key {$def['default']}";

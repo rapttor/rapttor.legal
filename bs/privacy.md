@@ -1,10 +1,10 @@
 ---
 doc: privacy
 title: Politika privatnosti
-version: 1.1.0
+version: 1.2.0
 updated: 2026-10-31
 lang: bs
-translation_of: 1.1.0
+translation_of: 1.2.0
 status: draft
 summary: Kako {{product.name}} prikuplja, koristi, dijeli i štiti lične podatke te prava koja imate.
 ---
@@ -72,6 +72,8 @@ Neke funkcije učitavaju sadržaj sa servera drugih kompanija (na primjer fontov
 ### Potvrda uzrasta {#age}
 
 Prije nego što koristite funkcije koje uključuju {{policy.age_topics|sadržaj osjetljiv na uzrast}}, tražimo da potvrdite da imate najmanje {{policy.age_gate}} godina i da ste punoljetni prema pravilima vaše države. Ne tražimo vaš datum rođenja i čuvamo samo vašu potvrdu i kada ste je dali. Ako saznamo da je neko mlađi od tog uzrasta, blokiramo nalog i brišemo podatke.
+{{/if}}{{#if feature.gambling}}
+Za funkcije kockanja možemo tražiti i dokaz o vašoj starosti i identitetu te u tu svrhu koristiti pružaoca usluga za provjeru. Rezultat i dokaze koje zakon zahtijeva čuvamo.
 {{/if}}
 
 ## 3. Zašto koristimo vaše podatke i naši pravni osnovi {#purposes}

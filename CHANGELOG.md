@@ -2,7 +2,9 @@
 
 Versions follow SemVer (MAJOR: rights or obligations changed; MINOR: clauses or features added; PATCH: wording or fixes). A version number is not a legal review: the texts are templates until counsel has reviewed them. Document versions are in each file's front matter.
 
-## 2.0.1
+## 2.1.0
+- **Baseline consents on by default**: `feature.age_gate` and `feature.uploads` apply unless explicitly set to false (`Library::withDefaults()`, `default_on` in the catalogue). Opt-in: `feature.gambling` with `policy.gambling_age`.
+- Terms 1.2.0 (gambling age and lawfulness confirmation) and Privacy 1.2.0 (age and identity verification for gambling); translations of both refreshed (drafts); claim `gambling-lawful-and-verified`; age claim describes the default behaviour.
 - Checklist (internal document) 1.0.1: one consent mechanism (not a terms-only popup), consent data kept with the user profile (JSON), what to check when a screen is missing, and how providers such as Postar handle unsubscribe.
 
 ## 2.0.0

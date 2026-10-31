@@ -243,7 +243,8 @@
     },
     "feature.uploads": {
       "flag": true,
-      "label": "Users upload images or files (private by default)"
+      "default_on": true,
+      "label": "Users upload or enter their own files and data: they confirm they hold the rights and are accountable; private by default. ON by default; set it to false only if the app takes no user files or content"
     },
     "feature.email": {
       "flag": true,
@@ -255,7 +256,8 @@
     },
     "feature.age_gate": {
       "flag": true,
-      "label": "Users must confirm a minimum / legal age before using age-sensitive features (set policy.age_gate and policy.age_topics)"
+      "default_on": true,
+      "label": "Users confirm a minimum / legal age before using the service. ON by default; set it to false only with the owner's explicit approval. Set policy.age_gate (13, 16, 18 or 21) and policy.age_topics"
     },
     "feature.merchant_of_record": {
       "flag": true,
@@ -285,6 +287,15 @@
     "table.external": {
       "block": true,
       "label": "Markdown table of third-party resources that receive the visitor's IP address (built from data.external)"
+    },
+    "feature.gambling": {
+      "flag": true,
+      "label": "The app offers gambling or betting (opt-in): adds a separate legal-age and legality confirmation; set policy.gambling_age. A tick box is not real age verification: licences and verification are the operator's duty"
+    },
+    "policy.gambling_age": {
+      "default": "18",
+      "label": "Minimum age for gambling features (18 or 21 depending on the country)",
+      "verify": true
     }
   },
   "computed": {

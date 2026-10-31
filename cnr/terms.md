@@ -1,10 +1,10 @@
 ---
 doc: terms
 title: Uslovi korišćenja
-version: 1.1.0
+version: 1.2.0
 updated: 2026-10-31
 lang: cnr
-translation_of: 1.1.0
+translation_of: 1.2.0
 status: draft
 summary: Ugovor između vas i {{product.name}} o korišćenju {{product.name}}.
 ---
@@ -34,6 +34,7 @@ Usluge možete koristiti samo ako:
 3. ranije niste bili isključeni iz Usluga zbog kršenja naših pravila, osim ako smo se pismeno saglasili da vas ponovo primimo; i
 4. Usluge koristite zakonito u mjestu u kojem se nalazite.
 {{#if feature.age_gate}}5. potvrdite, kada to zatražimo, da imate najmanje **{{policy.age_gate}}** godina i da ste punoljetni prema pravilima vaše države za korišćenje funkcija koje uključuju {{policy.age_topics|sadržaj osjetljiv na uzrast}}. Ne tražimo vaš datum rođenja: vaša potvrda se evidentira. Ako ona nije tačna, možemo blokirati nalog i izbrisati njegove podatke.
+{{/if}}{{#if feature.gambling}}6. potvrdite, kada to zatražimo, da imate najmanje **{{policy.gambling_age}}** godina, da je kockanje zakonito tamo gdje živite i da funkcije za kockanje koristite samo za sebe. Možemo tražiti stvarnu provjeru godina i identiteta, a možemo odbiti ili ukinuti pristup funkcijama za kockanje tamo gdje to zahtijevaju zakon ili naše licence.
 {{/if}}
 
 Možemo u bilo kom trenutku tražiti dokaz o godinama, identitetu ili ovlašćenju, i možemo odbiti ili zatvoriti nalog koji ne prođe provjeru.
