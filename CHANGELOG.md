@@ -2,6 +2,9 @@
 
 Versions follow SemVer (MAJOR: rights or obligations changed; MINOR: clauses or features added; PATCH: wording or fixes). A version number is not a legal review: the texts are templates until counsel has reviewed them. Document versions are in each file's front matter.
 
+## 2.5.1
+- Checklist 1.3.0: short checkbox titles with the explanation in small print, and a language switcher of its own at the top of every consent form (also the new-account sign-in step), independent of the app's language.
+
 ## 2.5.0
 - **Eight new languages, all 13 public documents each, as machine drafts** (`status: draft`, hidden unless the host enables drafts, awaiting native-lawyer review): German (de), French (fr), Spanish (es), Brazilian Portuguese (pt-BR), Italian (it), Polish (pl), Dutch (nl), Turkish (tr). Drafted from the current English texts (terms 1.3.0, privacy 1.2.1, ...) with the extended glossary and `i18n/BRIEF-new.md`. They have no `jurisdictions.json` entry yet, so `law.governing`, `law.venue` and `law.authority` come from the host config or fall back to English; the texts are worded to read acceptably with that.
 
