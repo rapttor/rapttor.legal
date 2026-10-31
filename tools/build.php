@@ -213,6 +213,9 @@ foreach ($docs as $lang => $set) {
 if (isset($docs['en'])) {
     foreach ($docs as $lang => $set) {
         foreach (array_diff(array_keys($docs['en']), array_keys($set)) as $missing) {
+            if (($docs['en'][$missing]['fm']['public'] ?? 'true') === 'false') {
+                continue; // internal documents (developer instructions) are English only
+            }
             $warnings[] = "$lang/$missing.md: not translated yet (the plugin falls back)";
         }
     }

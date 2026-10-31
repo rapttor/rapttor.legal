@@ -71,7 +71,7 @@ final class Library
     }
 
     /**
-     * The legal release in force: the installed Composer version of rapttor/legal (for example "0.1.0"), or the date of the
+     * The legal release in force: the installed Composer version of rapttor/legal (for example "2.0.0"), or the date of the
      * newest text ("2026.10.23") when Composer metadata is unavailable. Store it as the "legal version" of the site.
      */
     public function release(): string

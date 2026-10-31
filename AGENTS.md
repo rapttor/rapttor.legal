@@ -59,5 +59,5 @@ Both must be clean. `php tools/build.php --lint` checks without writing the mani
 ## Implementation
 
 - PHP >= 8.2, `declare(strict_types=1)`, PSR-4 `rapttor\legal\`, no runtime dependencies. The grammar and the advisor must stay specifiable by `tests/fixtures/*.json` so other-language ports can pass them; if you change behaviour, change the fixtures and SPEC.md in the same commit.
-- Releases are git tags `vMAJOR.MINOR.PATCH` (SemVer; below 1.0 the texts are unreviewed). From 1.0 MAJOR = rights or obligations changed, MINOR = clauses added, PATCH = wording; each document also has its own semver in front matter. Wrappers require `^MAJOR.MINOR` and update with `composer update`. Update `CHANGELOG.md` for every release; see `docs/PUBLISHING.md`.
+- Releases are git tags `vMAJOR.MINOR.PATCH` (SemVer). MAJOR = rights or obligations changed, MINOR = clauses or features added, PATCH = wording or fixes; each document also has its own semver in front matter. **A version number is not a legal review**: never describe a release as reviewed or compliant. Wrappers require `^MAJOR.MINOR` and update with `composer update`. Update `CHANGELOG.md` for every release; see `docs/PUBLISHING.md`.
 - Licences of this repo: code MIT (`LICENSE`), texts and data CC BY 4.0 (`LICENSE-TEXT`); third-party texts in `licenses/texts/` keep their own terms.

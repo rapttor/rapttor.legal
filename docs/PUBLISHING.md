@@ -15,4 +15,4 @@ Every release:
 3. Commit, tag `vX.Y.Z` (SemVer), `git push origin main --tags`. Packagist updates itself.
 4. In `yii2-legal`, raise the `rapttor/legal` constraint only when it needs new library features or text.
 
-A text change that alters rights or obligations is a MAJOR release (MINOR while below 1.0); sites must notify their users before adopting it. Tags are hard to retract once Packagist has seen them: do not tag a release you have not tested.
+A text change that alters rights or obligations is a MAJOR release ; sites must notify their users before adopting it. Tags are hard to retract once Packagist has seen them: do not tag a release you have not tested.
