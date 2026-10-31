@@ -1,0 +1,251 @@
+{
+  "tag": "crypto",
+  "title": "Cryptocurrency exchange, trading and payments",
+  "checked": "2026-10-31",
+  "summary": "LOC 2021 counted 9 absolute and 42 implicit bans. Lists below combine that report's examples (read via secondary summaries only) with unverified general knowledge; the EU, UK, USA, Japan, Singapore and UAE are licence regimes. US states add own money-transmitter licences. Laws change fast: verify each.",
+  "countries": [
+    {
+      "code": "CN",
+      "name": "China",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Absolute ban on crypto trading, exchange services and mining (PBoC 2021 notice).",
+      "source": "https://blogs.loc.gov/law/2021/12/new-report-on-regulation-of-cryptocurrency-around-the-world-published/",
+      "confidence": "medium"
+    },
+    {
+      "code": "DZ",
+      "name": "Algeria",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Named by LOC as banning all crypto activity; 2018 finance law forbids purchase, sale, use and holding.",
+      "source": "https://blogs.loc.gov/law/2021/12/new-report-on-regulation-of-cryptocurrency-around-the-world-published/",
+      "confidence": "medium"
+    },
+    {
+      "code": "MA",
+      "name": "Morocco",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Named by LOC as banning crypto activity (Office des Changes). A draft law to regulate was reported; status unverified.",
+      "source": "https://blogs.loc.gov/law/2021/12/new-report-on-regulation-of-cryptocurrency-around-the-world-published/",
+      "confidence": "medium"
+    },
+    {
+      "code": "NP",
+      "name": "Nepal",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Named by LOC; Nepal Rastra Bank declared crypto illegal in 2017.",
+      "source": "https://blogs.loc.gov/law/2021/12/new-report-on-regulation-of-cryptocurrency-around-the-world-published/",
+      "confidence": "medium"
+    },
+    {
+      "code": "BO",
+      "name": "Bolivia",
+      "status": "restricted",
+      "scope": "both",
+      "note": "Named by LOC as banning in 2018 (BCB resolution); reported lifted/relaxed 2024. from general knowledge, unverified. Current status uncertain.",
+      "source": "https://blogs.loc.gov/law/2021/12/new-report-on-regulation-of-cryptocurrency-around-the-world-published/",
+      "confidence": "low"
+    },
+    {
+      "code": "PK",
+      "name": "Pakistan",
+      "status": "restricted",
+      "scope": "both",
+      "note": "LOC listed as ban; State Bank bars banks from crypto, but the government moved toward a regulator (PVARA) in 2025. Status in flux.",
+      "source": "https://blogs.loc.gov/law/2021/12/new-report-on-regulation-of-cryptocurrency-around-the-world-published/",
+      "confidence": "low"
+    },
+    {
+      "code": "VN",
+      "name": "Vietnam",
+      "status": "restricted",
+      "scope": "both",
+      "note": "LOC listed as ban on use as payment; holding/trading in legal grey zone, pilot licensing regime reported 2025. from general knowledge, unverified. ",
+      "source": "https://blogs.loc.gov/law/2021/12/new-report-on-regulation-of-cryptocurrency-around-the-world-published/",
+      "confidence": "low"
+    },
+    {
+      "code": "BD",
+      "name": "Bangladesh",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Bangladesh Bank warns crypto use is illegal under foreign exchange law. from general knowledge, unverified. ",
+      "source": "https://blogs.loc.gov/law/2021/12/new-report-on-regulation-of-cryptocurrency-around-the-world-published/",
+      "confidence": "low"
+    },
+    {
+      "code": "EG",
+      "name": "Egypt",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Central bank law 194/2020 forbids crypto trading/promotion without CBE licence; religious opinion also negative.",
+      "source": "https://blogs.loc.gov/law/2021/12/new-report-on-regulation-of-cryptocurrency-around-the-world-published/",
+      "confidence": "medium"
+    },
+    {
+      "code": "IQ",
+      "name": "Iraq",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Central Bank of Iraq ban on crypto trading and dealing (implicit ban per LOC).",
+      "source": "https://blogs.loc.gov/law/2021/12/new-report-on-regulation-of-cryptocurrency-around-the-world-published/",
+      "confidence": "medium"
+    },
+    {
+      "code": "QA",
+      "name": "Qatar",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Qatar Central Bank bars regulated firms from crypto; QFC tokenisation exceptions exist.",
+      "source": "https://blogs.loc.gov/law/2021/12/new-report-on-regulation-of-cryptocurrency-around-the-world-published/",
+      "confidence": "medium"
+    },
+    {
+      "code": "SA",
+      "name": "Saudi Arabia",
+      "status": "restricted",
+      "scope": "both",
+      "note": "No licensing; SAMA warns crypto is unregulated and banks may not deal in it. from general knowledge, unverified. ",
+      "source": "https://blogs.loc.gov/law/2021/12/new-report-on-regulation-of-cryptocurrency-around-the-world-published/",
+      "confidence": "low"
+    },
+    {
+      "code": "KW",
+      "name": "Kuwait",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Mining and crypto trading restrictions; banks barred from crypto. from general knowledge, unverified. ",
+      "source": "https://blogs.loc.gov/law/2021/12/new-report-on-regulation-of-cryptocurrency-around-the-world-published/",
+      "confidence": "low"
+    },
+    {
+      "code": "TN",
+      "name": "Tunisia",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Central bank/financial law bars crypto as payment; implicit ban per LOC.",
+      "source": "https://blogs.loc.gov/law/2021/12/new-report-on-regulation-of-cryptocurrency-around-the-world-published/",
+      "confidence": "medium"
+    },
+    {
+      "code": "TR",
+      "name": "Turkey",
+      "status": "licensed",
+      "scope": "both",
+      "note": "Crypto payments banned since 2021; trading allowed only via CMB-licensed platforms (Law 7518, 2024).",
+      "source": "https://blogs.loc.gov/law/2021/12/new-report-on-regulation-of-cryptocurrency-around-the-world-published/",
+      "confidence": "medium"
+    },
+    {
+      "code": "RU",
+      "name": "Russia",
+      "status": "licensed",
+      "scope": "both",
+      "note": "Crypto payments for goods/services banned; trading and exchange allowed under Digital Financial Assets law, mining regulated 2024; cross-border use via experimental regime. from general knowledge, unverified. ",
+      "source": "https://blogs.loc.gov/law/2021/12/new-report-on-regulation-of-cryptocurrency-around-the-world-published/",
+      "confidence": "low"
+    },
+    {
+      "code": "BY",
+      "name": "Belarus",
+      "status": "licensed",
+      "scope": "both",
+      "note": "Decree 8 (2018) legalises crypto activity via HTP residents; Decree 367 (2023) licenses exchanges. from general knowledge, unverified. ",
+      "source": "https://blogs.loc.gov/law/2021/12/new-report-on-regulation-of-cryptocurrency-around-the-world-published/",
+      "confidence": "low"
+    },
+    {
+      "code": "IN",
+      "name": "India",
+      "status": "restricted",
+      "scope": "both",
+      "note": "Not banned; 30% tax and 1% TDS, VASPs must register with FIU-IND under PMLA (2023). No licence regime.",
+      "source": "https://blogs.loc.gov/law/2021/12/new-report-on-regulation-of-cryptocurrency-around-the-world-published/",
+      "confidence": "low"
+    },
+    {
+      "code": "ID",
+      "name": "Indonesia",
+      "status": "licensed",
+      "scope": "both",
+      "note": "Crypto is a commodity, not payment; trading only via OJK/Bappebti registered exchanges. from general knowledge, unverified. ",
+      "source": "https://blogs.loc.gov/law/2021/12/new-report-on-regulation-of-cryptocurrency-around-the-world-published/",
+      "confidence": "low"
+    },
+    {
+      "code": "EU",
+      "name": "European Union",
+      "status": "licensed",
+      "scope": "both",
+      "note": "MiCA regulation (EU 2023/1114) requires CASP authorisation. NOTE: EU is not an ISO country; applies to each member state - see per-state expansion needed.",
+      "source": "https://eur-lex.europa.eu/eli/reg/2023/1114/oj",
+      "confidence": "medium"
+    },
+    {
+      "code": "GB",
+      "name": "United Kingdom",
+      "status": "licensed",
+      "scope": "both",
+      "note": "FCA registration under MLRs and financial promotions regime for cryptoassets.",
+      "source": "https://www.fca.org.uk/firms/cryptoassets",
+      "confidence": "medium"
+    },
+    {
+      "code": "JP",
+      "name": "Japan",
+      "status": "licensed",
+      "scope": "both",
+      "note": "Crypto asset exchange service providers must register with FSA under the Payment Services Act. from general knowledge, unverified. ",
+      "source": "https://www.fsa.go.jp/en/",
+      "confidence": "low"
+    },
+    {
+      "code": "SG",
+      "name": "Singapore",
+      "status": "licensed",
+      "scope": "both",
+      "note": "MAS licence required under Payment Services Act and FSMA for DTSP.",
+      "source": "https://www.mas.gov.sg/regulation/payments/digital-payment-token-services",
+      "confidence": "medium"
+    },
+    {
+      "code": "AE",
+      "name": "United Arab Emirates",
+      "status": "licensed",
+      "scope": "both",
+      "note": "VARA licence in Dubai, ADGM FSRA in Abu Dhabi, SCA federally.",
+      "source": "https://www.vara.ae/",
+      "confidence": "medium"
+    },
+    {
+      "code": "US",
+      "name": "United States",
+      "status": "licensed",
+      "scope": "both",
+      "note": "Lawful but regulated: FinCEN MSB registration, state money-transmitter or BitLicense, SEC/CFTC rules. from general knowledge, unverified. ",
+      "source": "https://www.fincen.gov/",
+      "confidence": "low"
+    },
+    {
+      "code": "KR",
+      "name": "South Korea",
+      "status": "licensed",
+      "scope": "both",
+      "note": "VASPs must register with FIU and use real-name bank accounts. from general knowledge, unverified. ",
+      "source": "https://www.fsc.go.kr/eng/",
+      "confidence": "low"
+    },
+    {
+      "code": "IR",
+      "name": "Iran",
+      "status": "restricted",
+      "scope": "both",
+      "note": "Mining licensed, trading restricted, payments for imports allowed only via approved channels. from general knowledge, unverified. ",
+      "source": "https://blogs.loc.gov/law/2021/12/new-report-on-regulation-of-cryptocurrency-around-the-world-published/",
+      "confidence": "low"
+    }
+  ]
+}

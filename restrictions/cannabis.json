@@ -1,0 +1,107 @@
+{
+  "tag": "cannabis",
+  "title": "Cannabis, CBD and other controlled substances: sale and promotion",
+  "checked": "2026-10-31",
+  "summary": "Cannabis and often CBD are prohibited in much of Asia and the Gulf and restricted elsewhere. Lawful or licensed markets include Canada, Uruguay, Germany (limited), Netherlands pilot, Malta and some US states, with local licences needed. CBD restrictions vary widely.",
+  "countries": [
+    {
+      "code": "SA",
+      "name": "Saudi Arabia",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Cannabis and CBD products criminalised, severe penalties. From general knowledge, unverified.",
+      "source": "https://en.wikipedia.org/wiki/Legality_of_cannabis",
+      "confidence": "low"
+    },
+    {
+      "code": "AE",
+      "name": "United Arab Emirates",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Cannabis and THC prohibited; CBD heavily restricted. From general knowledge, unverified.",
+      "source": "https://en.wikipedia.org/wiki/Legality_of_cannabis",
+      "confidence": "low"
+    },
+    {
+      "code": "SG",
+      "name": "Singapore",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Misuse of Drugs Act: cannabis and cannabinoids prohibited, including CBD. From general knowledge, unverified.",
+      "source": "https://en.wikipedia.org/wiki/Legality_of_cannabis",
+      "confidence": "low"
+    },
+    {
+      "code": "JP",
+      "name": "Japan",
+      "status": "restricted",
+      "scope": "both",
+      "note": "THC prohibited; CBD allowed only if THC-free from seeds/stems. From general knowledge, unverified.",
+      "source": "https://en.wikipedia.org/wiki/Legality_of_cannabis",
+      "confidence": "low"
+    },
+    {
+      "code": "ID",
+      "name": "Indonesia",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Cannabis Schedule I; death penalty possible. From general knowledge, unverified.",
+      "source": "https://en.wikipedia.org/wiki/Legality_of_cannabis",
+      "confidence": "low"
+    },
+    {
+      "code": "MY",
+      "name": "Malaysia",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Dangerous Drugs Act; medicinal cannabis limited. From general knowledge, unverified.",
+      "source": "https://en.wikipedia.org/wiki/Legality_of_cannabis",
+      "confidence": "low"
+    },
+    {
+      "code": "CN",
+      "name": "China",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Cannabis banned; industrial hemp only in some provinces. From general knowledge, unverified.",
+      "source": "https://en.wikipedia.org/wiki/Legality_of_cannabis",
+      "confidence": "low"
+    },
+    {
+      "code": "RU",
+      "name": "Russia",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Cannabis and CBD with THC prohibited. From general knowledge, unverified.",
+      "source": "https://en.wikipedia.org/wiki/Legality_of_cannabis",
+      "confidence": "low"
+    },
+    {
+      "code": "TH",
+      "name": "Thailand",
+      "status": "restricted",
+      "scope": "both",
+      "note": "Since June 2025, cannabis flower requires doctor prescription; recreational sale banned; <0.2% THC products allowed. Sources are mostly secondary.",
+      "source": "https://www.terms.law/Thai/cannabis/cannabis-2025-status.html",
+      "confidence": "medium"
+    },
+    {
+      "code": "TR",
+      "name": "Turkey",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Cannabis banned; licensed hemp for industry only. From general knowledge, unverified.",
+      "source": "https://en.wikipedia.org/wiki/Legality_of_cannabis",
+      "confidence": "low"
+    },
+    {
+      "code": "EG",
+      "name": "Egypt",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Cannabis prohibited. From general knowledge, unverified.",
+      "source": "https://en.wikipedia.org/wiki/Legality_of_cannabis",
+      "confidence": "low"
+    }
+  ]
+}

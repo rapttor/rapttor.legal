@@ -51,12 +51,13 @@ php tools/render.php examples/example.json en build --all-features
 
 ## Languages
 
-`i18n/languages.json` lists the languages (English, Serbian Latin and Cyrillic, Croatian, Bosnian, Montenegrin, German, French, Spanish, Brazilian Portuguese, Italian, Polish, Dutch, Turkish, Ukrainian, Russian, Arabic, Hindi, Japanese, Korean, Chinese) with their fallback chains. A language is *available* when `<tag>/` has documents. English is the source and always available.
+`i18n/languages.json` lists the languages (English, Balkan `sh`, German, French, Spanish, Brazilian Portuguese, Italian, Polish, Dutch, Turkish, Ukrainian, Russian, Arabic, Hindi, Japanese, Korean, Simplified Chinese) with their fallback chains. A language is *available* when `<tag>/` has documents. English is the source and always available.
 
 - **Translations are drafts until a native-speaking lawyer reviews them.** Each translation has `status: draft | community | reviewed`, `translation_of: <English version>` and, when reviewed, `reviewed_by`. Hosts hide drafts unless they opt in (`publishDrafts`).
 - **The build checks structure, not wording.** `php tools/build.php` fails when a translation changes, drops or invents a placeholder tag, anchor, link target, heading level or table row, and warns when a translation is stale (the English version moved on). `--lint` runs the checks without touching the manifest.
-- **Serbian Cyrillic (`sr-Cyrl`) is generated** from the Serbian Latin text by a fixed mapping (`src/Transliterator.php`); brands and acronyms in `i18n/keep-latin.txt` stay Latin. Fixtures: `tests/fixtures/transliteration.json`.
-- **Croatian, Bosnian, Montenegrin** are separate files, drafted from the Serbian text and the English with the glossary (`i18n/glossary.json`), because the vocabulary and the law differ. Language and jurisdiction are independent: `law.jurisdiction` (`rs`, `hr`, `ba`, `me`, `gb`, `de`) supplies governing law, venue and authority in the document's language (`i18n/jurisdictions.json`).
+- **One Balkan language, `sh`** (Latin script, ijekavian, vocabulary acceptable in Bosnia, Croatia, Montenegro and Serbia) serves the tags `sr`, `hr`, `bs`, `cnr` and `sr-Cyrl` as aliases; there are no separate national variants. `src/Transliterator.php` and its fixtures remain for hosts that want a Cyrillic rendering of Latin text.
+- **Language and jurisdiction are independent**: `law.jurisdiction` (`rs`, `hr`, `ba`, `me`, `gb`, `de`) supplies governing law, venue and authority in the document's language (`i18n/jurisdictions.json`; for `sh` the wording of the country's own language is used).
+- **Restrictions dataset** (`restrictions/*.json`, see `restrictions/SCHEMA.md`): per activity tag the countries that prohibit it, with source and confidence; `policy.activities` turns it into the visitor's "I am not located in..." checkbox.
 - **Per-document fallback.** A document missing in a language shows the next language in the chain, finally English, and says so.
 - **Translating:** see `i18n/TRANSLATING.md` (rules for humans and AI drafters). Open to community translations through pull requests.
 

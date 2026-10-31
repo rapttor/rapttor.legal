@@ -1,5 +1,5 @@
 {
- "_comment": "Language catalogue. A language is AVAILABLE when <tag>/ has documents (or it is virtual from an available language). 'fallback' is tried in order when a document is missing in the requested language. Drafts are not shown publicly by default.",
+ "_comment": "Language catalogue. A language is AVAILABLE when <tag>/ has documents (or it is virtual from an available language). 'fallback' is tried in order when a document is missing in the requested language. Drafts are not shown publicly by default. One Balkan language (sh: Latin script, ijekavian, vocabulary acceptable in Bosnia, Croatia, Montenegro and Serbia) replaces separate Serbian, Croatian, Bosnian, Montenegrin and Cyrillic variants; their tags are aliases.",
  "default": "en",
  "languages": {
   "en": {
@@ -7,67 +7,30 @@
    "dir": "ltr",
    "fallback": []
   },
-  "sr": {
-   "name": "Srpski (latinica)",
+  "sh": {
+   "name": "Balkan",
    "dir": "ltr",
    "fallback": [
     "en"
    ],
    "aliases": [
+    "sr",
     "sr-Latn",
+    "sr-Cyrl",
     "sr-RS",
     "sr-Latn-RS",
-    "sh"
-   ]
-  },
-  "sr-Cyrl": {
-   "name": "Српски (ћирилица)",
-   "dir": "ltr",
-   "fallback": [
-    "sr",
-    "en"
-   ],
-   "virtual": {
-    "from": "sr",
-    "script": "cyrillic"
-   },
-   "aliases": [
-    "sr-Cyrl-RS"
-   ]
-  },
-  "hr": {
-   "name": "Hrvatski",
-   "dir": "ltr",
-   "fallback": [
-    "en"
-   ],
-   "aliases": [
-    "hr-HR"
-   ]
-  },
-  "bs": {
-   "name": "Bosanski",
-   "dir": "ltr",
-   "fallback": [
-    "hr",
-    "sr",
-    "en"
-   ],
-   "aliases": [
-    "bs-BA"
-   ]
-  },
-  "cnr": {
-   "name": "Crnogorski",
-   "dir": "ltr",
-   "fallback": [
-    "sr",
-    "hr",
-    "en"
-   ],
-   "aliases": [
+    "sr-Cyrl-RS",
     "sr-ME",
-    "cnr-ME"
+    "hr",
+    "hr-HR",
+    "bs",
+    "bs-BA",
+    "cnr",
+    "cnr-ME",
+    "sh-RS",
+    "sh-HR",
+    "sh-BA",
+    "sh-ME"
    ]
   },
   "de": {

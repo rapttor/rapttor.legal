@@ -1,0 +1,350 @@
+{
+  "tag": "lgbtq",
+  "title": "LGBTQ+ content, communities and services (where promotion or information is restricted by law)",
+  "checked": "2026-10-31",
+  "summary": "Listed countries criminalise or restrict LGBTQ+ 'promotion', information or organisations, or block such content/apps, in addition to criminalising conduct in many cases. Some jurisdictions restrict only content directed at minors (Hungary, Singapore). Not individually listed: some US states restrict content for minors; local rules within countries (e.g. Indonesia's Aceh). Many laws are recent or pending (Ghana, Turkey, Kazakhstan, Senegal): verify status before relying on an entry.",
+  "countries": [
+    {
+      "code": "RU",
+      "name": "Russia",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "'LGBT propaganda' banned for all ages (Federal Law 478-FZ, Dec 2022); the Supreme Court designated the 'international LGBT movement' extremist (Nov 2023); fines and criminal liability for displaying symbols.",
+      "source": "https://www.hrw.org/news/2023/11/30/russia-supreme-court-bans-lgbt-movement-extremist",
+      "confidence": "medium"
+    },
+    {
+      "code": "UG",
+      "name": "Uganda",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Anti-Homosexuality Act 2023 (upheld by Constitutional Court April 2024) criminalises same-sex conduct and 'promotion' of homosexuality.",
+      "source": "https://www.hrw.org/news/2023/05/30/uganda-anti-homosexuality-act",
+      "confidence": "medium"
+    },
+    {
+      "code": "NG",
+      "name": "Nigeria",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Same-Sex Marriage (Prohibition) Act 2014 criminalises public display of same-sex relationships and registering gay clubs/organisations.",
+      "source": "https://www.hrw.org/news/2014/01/14/nigeria-anti-gay-law-threatens-rights",
+      "confidence": "medium"
+    },
+    {
+      "code": "GH",
+      "name": "Ghana",
+      "status": "restricted",
+      "scope": "both",
+      "note": "Bill to criminalise LGBTQ+ identity and promotion passed Parliament Feb 2024 but awaited presidential assent; 2025-26 reintroduction; same-sex conduct already criminal. Status unverified.",
+      "source": "https://www.hrw.org/news/2024/03/01/ghana-anti-lgbt-bill",
+      "confidence": "low"
+    },
+    {
+      "code": "KE",
+      "name": "Kenya",
+      "status": "restricted",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Same-sex conduct criminal (Penal Code s.162); Family Protection Bill proposals; courts allowed LGBT NGO registration (2023). Promotion not specifically criminalised.",
+      "source": "https://database.ilga.org/",
+      "confidence": "low"
+    },
+    {
+      "code": "SA",
+      "name": "Saudi Arabia",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Same-sex conduct criminal; content 'violating public morals' prohibited and blocked under Anti-Cyber Crime Law.",
+      "source": "https://database.ilga.org/",
+      "confidence": "low"
+    },
+    {
+      "code": "IR",
+      "name": "Iran",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Same-sex conduct punishable up to death; LGBTQ+ content filtered.",
+      "source": "https://database.ilga.org/",
+      "confidence": "low"
+    },
+    {
+      "code": "IQ",
+      "name": "Iraq",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Law No. 8 of 2024 amended the Anti-Prostitution Law to criminalise same-sex relations and 'promoting homosexuality'.",
+      "source": "https://www.hrw.org/news/2024/04/27/iraq-new-law-criminalizes-same-sex-relations",
+      "confidence": "medium"
+    },
+    {
+      "code": "AF",
+      "name": "Afghanistan",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Taliban treat same-sex conduct as criminal; LGBTQ+ content prohibited.",
+      "source": "https://database.ilga.org/",
+      "confidence": "low"
+    },
+    {
+      "code": "YE",
+      "name": "Yemen",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Same-sex conduct punishable by death; content prohibited.",
+      "source": "https://database.ilga.org/",
+      "confidence": "low"
+    },
+    {
+      "code": "QA",
+      "name": "Qatar",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Same-sex conduct criminal; LGBTQ+ content censored.",
+      "source": "https://database.ilga.org/",
+      "confidence": "low"
+    },
+    {
+      "code": "KW",
+      "name": "Kuwait",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Same-sex conduct and cross-dressing criminal; 'promotion' content blocked.",
+      "source": "https://database.ilga.org/",
+      "confidence": "low"
+    },
+    {
+      "code": "AE",
+      "name": "United Arab Emirates",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Same-sex conduct criminal; Cybercrime Law and Media Content standards prohibit LGBTQ+ content.",
+      "source": "https://database.ilga.org/",
+      "confidence": "low"
+    },
+    {
+      "code": "BN",
+      "name": "Brunei",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Sharia Penal Code Order 2013 criminalises same-sex conduct; moratorium on death penalty (2023).",
+      "source": "https://database.ilga.org/",
+      "confidence": "low"
+    },
+    {
+      "code": "MY",
+      "name": "Malaysia",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Penal Code s.377A-B and state Sharia laws; LGBT content censored by MCMC and film censors.",
+      "source": "https://database.ilga.org/",
+      "confidence": "low"
+    },
+    {
+      "code": "ID",
+      "name": "Indonesia",
+      "status": "restricted",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Aceh Sharia qanun criminalises same-sex conduct; national ITE Law/pornography law used against LGBT content; LGBT apps blocked. New Criminal Code in force 2026.",
+      "source": "https://database.ilga.org/",
+      "confidence": "low"
+    },
+    {
+      "code": "PK",
+      "name": "Pakistan",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Penal Code s.377; Grindr blocked; LGBT content blocked by PTA.",
+      "source": "https://database.ilga.org/",
+      "confidence": "low"
+    },
+    {
+      "code": "BD",
+      "name": "Bangladesh",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Penal Code s.377; LGBT content may be blocked under Cyber Security law.",
+      "source": "https://database.ilga.org/",
+      "confidence": "low"
+    },
+    {
+      "code": "EG",
+      "name": "Egypt",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "No explicit law, but 'debauchery' Law 10/1961 and Cybercrime Law 175/2018 used to prosecute; LGBT content blocked.",
+      "source": "https://www.hrw.org/news/2023/02/21/egypt-security-forces-abuse-lgbt-people",
+      "confidence": "medium"
+    },
+    {
+      "code": "TR",
+      "name": "Turkey",
+      "status": "restricted",
+      "scope": "both",
+      "note": "No criminal ban on being LGBT; Pride bans, site blocking and 2025 draft laws criminalising 'behaviour contrary to biological sex' and promotion; 'Year of the Family'. Status of 2025 proposals unverified.",
+      "source": "https://www.hrw.org/news/2025/10/21/turkey-draft-law-targets-lgbt-people",
+      "confidence": "low"
+    },
+    {
+      "code": "HU",
+      "name": "Hungary",
+      "status": "restricted",
+      "scope": "both",
+      "note": "Act LXXIX of 2021 ('child protection') prohibits making content on homosexuality/gender change available to minors; 2025 amendments restrict Pride assemblies; CJEU/Commission challenge pending.",
+      "source": "https://commission.europa.eu/",
+      "confidence": "medium"
+    },
+    {
+      "code": "GE",
+      "name": "Georgia",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Law on Protecting Family Values and Minors (adopted Sept 2024) bans 'LGBT propaganda' and restricts gender recognition, same-sex marriage and related content.",
+      "source": "https://novayagazeta.eu/en/articles/2024/09/17/georgias-parliament-votes-to-ban-so-called-lgbt-propaganda-en-news",
+      "confidence": "medium"
+    },
+    {
+      "code": "KZ",
+      "name": "Kazakhstan",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Law banning 'LGBT propaganda' to the public passed Parliament in Nov-Dec 2025 and reportedly signed; fines and short detention. Verify enactment and scope.",
+      "source": "https://www.nbcnews.com/world/asia/kazakhstans-parliament-passes-law-lgbt-propaganda-rcna243412",
+      "confidence": "medium"
+    },
+    {
+      "code": "KG",
+      "name": "Kyrgyzstan",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Law 'On Protecting Children from Harmful Information' (2023) bans promotion of 'non-traditional sexual relations'; proposed criminal penalties.",
+      "source": "https://www.hrc.org/press-releases/kyrgyzstan-passes-draft-anti-lgbt-propaganda-bill-thats-worse-than-russias",
+      "confidence": "low"
+    },
+    {
+      "code": "BY",
+      "name": "Belarus",
+      "status": "restricted",
+      "scope": "both",
+      "note": "from general knowledge, unverified. 2024 amendments to the Law on Mass Media/child-protection treat 'propaganda of non-traditional sexual relations' as pornography-like; criminal liability.",
+      "source": "https://database.ilga.org/",
+      "confidence": "low"
+    },
+    {
+      "code": "OM",
+      "name": "Oman",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Same-sex conduct criminal; content censored.",
+      "source": "https://database.ilga.org/",
+      "confidence": "low"
+    },
+    {
+      "code": "SD",
+      "name": "Sudan",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Same-sex conduct criminal.",
+      "source": "https://database.ilga.org/",
+      "confidence": "low"
+    },
+    {
+      "code": "LY",
+      "name": "Libya",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Same-sex conduct criminal; Libyan authorities have targeted LGBT content.",
+      "source": "https://database.ilga.org/",
+      "confidence": "low"
+    },
+    {
+      "code": "SN",
+      "name": "Senegal",
+      "status": "restricted",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Penal Code art. 319(3); 2026 proposals to toughen penalties. Verify.",
+      "source": "https://database.ilga.org/",
+      "confidence": "low"
+    },
+    {
+      "code": "MW",
+      "name": "Malawi",
+      "status": "restricted",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Same-sex conduct criminal; moratorium on enforcement.",
+      "source": "https://database.ilga.org/",
+      "confidence": "low"
+    },
+    {
+      "code": "TZ",
+      "name": "Tanzania",
+      "status": "restricted",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Same-sex conduct criminal; government has threatened to block LGBT content online.",
+      "source": "https://database.ilga.org/",
+      "confidence": "low"
+    },
+    {
+      "code": "BF",
+      "name": "Burkina Faso",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "from general knowledge, unverified. 2025 law criminalises homosexuality. From general knowledge; verify.",
+      "source": "https://database.ilga.org/",
+      "confidence": "low"
+    },
+    {
+      "code": "ML",
+      "name": "Mali",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Criminalised same-sex acts by new law 2024-25. From general knowledge; verify.",
+      "source": "https://database.ilga.org/",
+      "confidence": "low"
+    },
+    {
+      "code": "TM",
+      "name": "Turkmenistan",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Criminal Code art. 135 (male same-sex conduct).",
+      "source": "https://database.ilga.org/",
+      "confidence": "low"
+    },
+    {
+      "code": "UZ",
+      "name": "Uzbekistan",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Criminal Code art. 120 (male same-sex conduct); 'propaganda' content blocked.",
+      "source": "https://database.ilga.org/",
+      "confidence": "low"
+    },
+    {
+      "code": "SG",
+      "name": "Singapore",
+      "status": "restricted",
+      "scope": "both",
+      "note": "from general knowledge, unverified. IMDA codes restrict LGBT content for minors; s.377A repealed 2022 but marriage constitutionally protected.",
+      "source": "https://www.imda.gov.sg/",
+      "confidence": "low"
+    },
+    {
+      "code": "CN",
+      "name": "China",
+      "status": "restricted",
+      "scope": "both",
+      "note": "from general knowledge, unverified. No criminal law; LGBT content censored by CAC/NRTA; LGBT groups' social media accounts shut down.",
+      "source": "https://freedomhouse.org/country/china/freedom-net",
+      "confidence": "low"
+    },
+    {
+      "code": "SY",
+      "name": "Syria",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Penal Code art. 520 criminalises same-sex conduct.",
+      "source": "https://database.ilga.org/",
+      "confidence": "low"
+    }
+  ]
+}

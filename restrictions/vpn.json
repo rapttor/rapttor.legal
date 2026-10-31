@@ -1,0 +1,152 @@
+{
+  "tag": "vpn",
+  "title": "VPN, proxy and strong-encryption services",
+  "checked": "2026-10-31",
+  "summary": "Mostly secondary sources (VPN vendor blogs, which have commercial bias); verify against Freedom House, OONI and Access Now before relying. Classifications differ between sources.",
+  "countries": [
+    {
+      "code": "CN",
+      "name": "China",
+      "status": "licensed",
+      "scope": "both",
+      "note": "Only state-licensed VPNs lawful (MIIT 2017 notice); unlicensed VPN provision criminal.",
+      "source": "https://nordvpn.com/en/blog/are-vpns-legal/",
+      "confidence": "medium"
+    },
+    {
+      "code": "RU",
+      "name": "Russia",
+      "status": "licensed",
+      "scope": "both",
+      "note": "VPNs must connect to the Roskomnadzor blocklist (2017 law); non-compliant services blocked; promotion of VPNs banned 2024.",
+      "source": "https://nordvpn.com/en/blog/are-vpns-legal/",
+      "confidence": "medium"
+    },
+    {
+      "code": "BY",
+      "name": "Belarus",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "VPN/Tor use and provision restricted since 2015; enforcement heightened during unrest.",
+      "source": "https://nordvpn.com/en/blog/are-vpns-legal/",
+      "confidence": "medium"
+    },
+    {
+      "code": "TM",
+      "name": "Turkmenistan",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "VPNs banned since 2019, heavy blocking.",
+      "source": "https://nordvpn.com/en/blog/are-vpns-legal/",
+      "confidence": "medium"
+    },
+    {
+      "code": "OM",
+      "name": "Oman",
+      "status": "licensed",
+      "scope": "both",
+      "note": "Only government-approved VPNs allowed (since 2010).",
+      "source": "https://nordvpn.com/en/blog/are-vpns-legal/",
+      "confidence": "medium"
+    },
+    {
+      "code": "IR",
+      "name": "Iran",
+      "status": "licensed",
+      "scope": "both",
+      "note": "Only government-approved VPNs lawful; unauthorized use penalised.",
+      "source": "https://nordvpn.com/en/blog/are-vpns-legal/",
+      "confidence": "medium"
+    },
+    {
+      "code": "IQ",
+      "name": "Iraq",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Some sources list a ban; enforcement unclear.",
+      "source": "https://nordvpn.com/en/blog/are-vpns-legal/",
+      "confidence": "low"
+    },
+    {
+      "code": "KP",
+      "name": "North Korea",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Internet tightly controlled; VPNs effectively unavailable. from general knowledge, unverified. ",
+      "source": "https://nordvpn.com/en/blog/are-vpns-legal/",
+      "confidence": "low"
+    },
+    {
+      "code": "MM",
+      "name": "Myanmar",
+      "status": "restricted",
+      "scope": "both",
+      "note": "Cybersecurity law (2025) criminalises unlicensed VPN use. from general knowledge, unverified. ",
+      "source": "https://nordvpn.com/en/blog/are-vpns-legal/",
+      "confidence": "low"
+    },
+    {
+      "code": "AE",
+      "name": "United Arab Emirates",
+      "status": "restricted",
+      "scope": "both",
+      "note": "VPN use lawful only for lawful purposes; using to commit crime or bypass blocks is punishable (Federal Decree-Law 34/2021).",
+      "source": "https://nordvpn.com/en/blog/are-vpns-legal/",
+      "confidence": "medium"
+    },
+    {
+      "code": "EG",
+      "name": "Egypt",
+      "status": "restricted",
+      "scope": "both",
+      "note": "VPN apps widely blocked; legal status unclear. from general knowledge, unverified. ",
+      "source": "https://nordvpn.com/en/blog/are-vpns-legal/",
+      "confidence": "low"
+    },
+    {
+      "code": "UG",
+      "name": "Uganda",
+      "status": "restricted",
+      "scope": "both",
+      "note": "Social-media tax and blocking led to VPN restrictions; no formal ban. from general knowledge, unverified. ",
+      "source": "https://nordvpn.com/en/blog/are-vpns-legal/",
+      "confidence": "low"
+    },
+    {
+      "code": "PK",
+      "name": "Pakistan",
+      "status": "restricted",
+      "scope": "both",
+      "note": "PTA requires VPN registration; unregistered VPNs blocked (2024). from general knowledge, unverified. ",
+      "source": "https://nordvpn.com/en/blog/are-vpns-legal/",
+      "confidence": "low"
+    },
+    {
+      "code": "TR",
+      "name": "Turkey",
+      "status": "restricted",
+      "scope": "both",
+      "note": "No formal ban; VPN providers have been blocked. Some sources say no prohibition.",
+      "source": "https://nordvpn.com/en/blog/are-vpns-legal/",
+      "confidence": "low"
+    },
+    {
+      "code": "SA",
+      "name": "Saudi Arabia",
+      "status": "restricted",
+      "scope": "both",
+      "note": "VPN use allowed for businesses; use to access blocked content prohibited. from general knowledge, unverified. ",
+      "source": "https://nordvpn.com/en/blog/are-vpns-legal/",
+      "confidence": "low"
+    },
+    {
+      "code": "IN",
+      "name": "India",
+      "status": "licensed",
+      "scope": "both",
+      "note": "CERT-In directions (2022) require VPN providers to retain logs for 5 years and register user data.",
+      "source": "https://www.cert-in.org.in/",
+      "confidence": "low"
+    }
+  ]
+}

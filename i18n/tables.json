@@ -1,99 +1,45 @@
 {
-  "_comment": "Column headings for tables the library builds from structured site data (data.subprocessors, data.cookies).",
-  "subprocessors": {
-    "en": [
-      "Name",
-      "Purpose",
-      "Location"
-    ],
-    "sr": [
-      "Naziv",
-      "Svrha",
-      "Lokacija"
-    ],
-    "hr": [
-      "Naziv",
-      "Svrha",
-      "Lokacija"
-    ],
-    "bs": [
-      "Naziv",
-      "Svrha",
-      "Lokacija"
-    ],
-    "cnr": [
-      "Naziv",
-      "Svrha",
-      "Lokacija"
-    ]
-  },
-  "cookies": {
-    "en": [
-      "Name",
-      "Provider",
-      "Purpose",
-      "Category",
-      "Duration"
-    ],
-    "sr": [
-      "Naziv",
-      "Pružalac",
-      "Svrha",
-      "Kategorija",
-      "Trajanje"
-    ],
-    "hr": [
-      "Naziv",
-      "Pružatelj",
-      "Svrha",
-      "Kategorija",
-      "Trajanje"
-    ],
-    "bs": [
-      "Naziv",
-      "Pružalac",
-      "Svrha",
-      "Kategorija",
-      "Trajanje"
-    ],
-    "cnr": [
-      "Naziv",
-      "Pružalac",
-      "Svrha",
-      "Kategorija",
-      "Trajanje"
-    ]
-  },
-  "external": {
-    "en": [
-      "Service",
-      "Provider",
-      "Purpose",
-      "Country"
-    ],
-    "sr": [
-      "Usluga",
-      "Pružalac",
-      "Svrha",
-      "Zemlja"
-    ],
-    "hr": [
-      "Usluga",
-      "Pružatelj",
-      "Svrha",
-      "Zemlja"
-    ],
-    "bs": [
-      "Usluga",
-      "Pružalac",
-      "Svrha",
-      "Zemlja"
-    ],
-    "cnr": [
-      "Usluga",
-      "Pružalac",
-      "Svrha",
-      "Zemlja"
-    ]
-  }
+ "_comment": "Column headings for tables the library builds from structured site data (data.subprocessors, data.cookies).",
+ "subprocessors": {
+  "en": [
+   "Name",
+   "Purpose",
+   "Location"
+  ],
+  "sh": [
+   "Naziv",
+   "Svrha",
+   "Lokacija"
+  ]
+ },
+ "cookies": {
+  "en": [
+   "Name",
+   "Provider",
+   "Purpose",
+   "Category",
+   "Duration"
+  ],
+  "sh": [
+   "Naziv",
+   "Pružalac",
+   "Svrha",
+   "Kategorija",
+   "Trajanje"
+  ]
+ },
+ "external": {
+  "en": [
+   "Service",
+   "Provider",
+   "Purpose",
+   "Country"
+  ],
+  "sh": [
+   "Usluga",
+   "Pružalac",
+   "Svrha",
+   "Zemlja"
+  ]
+ }
 }

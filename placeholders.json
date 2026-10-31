@@ -272,6 +272,15 @@
       "default": "",
       "label": "What the age confirmation is for, as a short phrase, e.g. chat, user-generated content, gambling-style games"
     },
+    "policy.activities": {
+      "default": "",
+      "label": "What the app does that some countries prohibit, as comma-separated tags: gambling, alcohol, tobacco, cannabis, adult, dating, lgbtq, crypto, vpn, weapons, pharmacy, sanctions (see restrictions/). Their prohibiting countries are added to policy.excluded_regions automatically (feature.gambling adds gambling). Start list only: counsel confirms.",
+      "verify": true
+    },
+    "policy.restriction_status": {
+      "default": "prohibited",
+      "label": "Which statuses of the restrictions dataset to ask visitors about: prohibited (default), licensed, restricted (comma-separated)"
+    },
     "policy.excluded_regions": {
       "default": "",
       "label": "Countries or regions where the service must not be used (our terms may be unlawful or unenforceable there), as a comma-separated list. Visitors tick a box that they are not in or from them. Empty = no such box.",

@@ -1,0 +1,314 @@
+{
+  "tag": "alcohol",
+  "title": "Alcohol: sale, delivery and advertising",
+  "checked": "2026-10-31",
+  "summary": "Alcohol sale, delivery and advertising is banned or heavily limited across much of the Gulf, North Africa and South Asia, and monopolised or ad-banned in Nordic states. Lawful markets (EU, US, UK, etc.) require local age/licence compliance. Subnational: Indian dry states. Most entries come from general knowledge and must be verified by counsel.",
+  "countries": [
+    {
+      "code": "SA",
+      "name": "Saudi Arabia",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Sale, import and advertising of alcohol forbidden; narrow late-2025 access for wealthy non-Muslim residents reported, not open to the public. Conflicting reports.",
+      "source": "https://www.worldatlas.com/articles/14-countries-where-drinking-alcohol-is-illegal.html",
+      "confidence": "medium"
+    },
+    {
+      "code": "KW",
+      "name": "Kuwait",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Alcohol import, sale and possession banned since 1983. From general knowledge, unverified.",
+      "source": "https://www.worldatlas.com/articles/14-countries-where-drinking-alcohol-is-illegal.html",
+      "confidence": "medium"
+    },
+    {
+      "code": "LY",
+      "name": "Libya",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Alcohol banned since the 1970s. From general knowledge, unverified.",
+      "source": "https://www.worldatlas.com/articles/14-countries-where-drinking-alcohol-is-illegal.html",
+      "confidence": "medium"
+    },
+    {
+      "code": "IR",
+      "name": "Iran",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Banned for Muslims; minorities have limited communal exceptions; no lawful public online sale.",
+      "source": "https://www.worldatlas.com/articles/14-countries-where-drinking-alcohol-is-illegal.html",
+      "confidence": "medium"
+    },
+    {
+      "code": "AF",
+      "name": "Afghanistan",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Alcohol banned under Taliban rule.",
+      "source": "https://www.worldatlas.com/articles/14-countries-where-drinking-alcohol-is-illegal.html",
+      "confidence": "medium"
+    },
+    {
+      "code": "BN",
+      "name": "Brunei",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Ban applies to Muslims; non-Muslims may import limited quantities; no public sale or advertising. From general knowledge, unverified.",
+      "source": "https://www.worldatlas.com/articles/14-countries-where-drinking-alcohol-is-illegal.html",
+      "confidence": "medium"
+    },
+    {
+      "code": "SD",
+      "name": "Sudan",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Alcohol ban for Muslims since 1983 Sharia laws; 2020 reforms for non-Muslims, status unclear. From general knowledge, unverified.",
+      "source": "https://www.worldatlas.com/articles/14-countries-where-drinking-alcohol-is-illegal.html",
+      "confidence": "low"
+    },
+    {
+      "code": "SO",
+      "name": "Somalia",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Alcohol prohibited under Sharia-based law. From general knowledge, unverified.",
+      "source": "https://www.worldatlas.com/articles/14-countries-where-drinking-alcohol-is-illegal.html",
+      "confidence": "low"
+    },
+    {
+      "code": "YE",
+      "name": "Yemen",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Alcohol banned (limited in former Aden). From general knowledge, unverified.",
+      "source": "https://www.worldatlas.com/articles/14-countries-where-drinking-alcohol-is-illegal.html",
+      "confidence": "low"
+    },
+    {
+      "code": "MR",
+      "name": "Mauritania",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Alcohol prohibited for Muslims; very limited non-Muslim exceptions. From general knowledge, unverified.",
+      "source": "https://www.worldatlas.com/articles/14-countries-where-drinking-alcohol-is-illegal.html",
+      "confidence": "low"
+    },
+    {
+      "code": "PK",
+      "name": "Pakistan",
+      "status": "restricted",
+      "scope": "both",
+      "note": "Banned for Muslims; licensed sale to non-Muslims only; online sale and advertising unlawful. From general knowledge, unverified.",
+      "source": "https://www.worldatlas.com/articles/14-countries-where-drinking-alcohol-is-illegal.html",
+      "confidence": "low"
+    },
+    {
+      "code": "BD",
+      "name": "Bangladesh",
+      "status": "restricted",
+      "scope": "both",
+      "note": "Muslims barred; permits required for non-Muslims/foreigners; advertising banned. From general knowledge, unverified.",
+      "source": "https://www.worldatlas.com/articles/14-countries-where-drinking-alcohol-is-illegal.html",
+      "confidence": "low"
+    },
+    {
+      "code": "MV",
+      "name": "Maldives",
+      "status": "restricted",
+      "scope": "both",
+      "note": "Alcohol only in licensed tourist resorts; not for locals or online sale. From general knowledge, unverified.",
+      "source": "https://www.worldatlas.com/articles/14-countries-where-drinking-alcohol-is-illegal.html",
+      "confidence": "low"
+    },
+    {
+      "code": "QA",
+      "name": "Qatar",
+      "status": "licensed",
+      "scope": "both",
+      "note": "Sold only via the state-linked distributor to licensed hotels/permit holders; no public online sale or advertising. From general knowledge, unverified.",
+      "source": "https://www.worldatlas.com/articles/14-countries-where-drinking-alcohol-is-illegal.html",
+      "confidence": "low"
+    },
+    {
+      "code": "AE",
+      "name": "United Arab Emirates",
+      "status": "licensed",
+      "scope": "both",
+      "note": "Licensed venues/retailers only; advertising and unlicensed online sale prohibited; alcohol licence regime varies by emirate. From general knowledge, unverified.",
+      "source": "https://www.worldatlas.com/articles/14-countries-where-drinking-alcohol-is-illegal.html",
+      "confidence": "low"
+    },
+    {
+      "code": "OM",
+      "name": "Oman",
+      "status": "licensed",
+      "scope": "both",
+      "note": "Licensed venues and permit holders only; advertising restricted. From general knowledge, unverified.",
+      "source": "https://www.worldatlas.com/articles/14-countries-where-drinking-alcohol-is-illegal.html",
+      "confidence": "low"
+    },
+    {
+      "code": "BH",
+      "name": "Bahrain",
+      "status": "licensed",
+      "scope": "both",
+      "note": "Licensed sale to non-Muslims; public advertising and unlicensed online sale not permitted. From general knowledge, unverified.",
+      "source": "https://www.worldatlas.com/articles/14-countries-where-drinking-alcohol-is-illegal.html",
+      "confidence": "low"
+    },
+    {
+      "code": "DZ",
+      "name": "Algeria",
+      "status": "licensed",
+      "scope": "both",
+      "note": "Licensed sale only; advertising and online sale restricted. From general knowledge, unverified.",
+      "source": "https://www.worldatlas.com/articles/14-countries-where-drinking-alcohol-is-illegal.html",
+      "confidence": "low"
+    },
+    {
+      "code": "MA",
+      "name": "Morocco",
+      "status": "licensed",
+      "scope": "both",
+      "note": "Sale to Muslims prohibited; licensed outlets only; advertising banned. From general knowledge, unverified.",
+      "source": "https://www.worldatlas.com/articles/14-countries-where-drinking-alcohol-is-illegal.html",
+      "confidence": "low"
+    },
+    {
+      "code": "TN",
+      "name": "Tunisia",
+      "status": "licensed",
+      "scope": "both",
+      "note": "Licensed outlets only; advertising banned; limited sale to Muslims. From general knowledge, unverified.",
+      "source": "https://www.worldatlas.com/articles/14-countries-where-drinking-alcohol-is-illegal.html",
+      "confidence": "low"
+    },
+    {
+      "code": "EG",
+      "name": "Egypt",
+      "status": "licensed",
+      "scope": "both",
+      "note": "Licensed sale only; advertising restricted. From general knowledge, unverified.",
+      "source": "https://www.worldatlas.com/articles/14-countries-where-drinking-alcohol-is-illegal.html",
+      "confidence": "low"
+    },
+    {
+      "code": "ID",
+      "name": "Indonesia",
+      "status": "restricted",
+      "scope": "both",
+      "note": "Sale limited to licensed outlets and minimarket restrictions; advertising and online sale restricted; some regions ban alcohol. From general knowledge, unverified.",
+      "source": "https://www.worldatlas.com/articles/14-countries-where-drinking-alcohol-is-illegal.html",
+      "confidence": "low"
+    },
+    {
+      "code": "MY",
+      "name": "Malaysia",
+      "status": "restricted",
+      "scope": "both",
+      "note": "Not for Muslims; licensed non-Muslim sale; advertising restricted. From general knowledge, unverified.",
+      "source": "https://www.worldatlas.com/articles/14-countries-where-drinking-alcohol-is-illegal.html",
+      "confidence": "low"
+    },
+    {
+      "code": "TR",
+      "name": "Turkey",
+      "status": "restricted",
+      "scope": "both",
+      "note": "Strict advertising ban, online sale restrictions and licensing; sales hour limits. From general knowledge, unverified.",
+      "source": "https://www.worldatlas.com/articles/14-countries-where-drinking-alcohol-is-illegal.html",
+      "confidence": "low"
+    },
+    {
+      "code": "IN",
+      "name": "India",
+      "status": "restricted",
+      "scope": "both",
+      "note": "State-level: prohibition in Gujarat, Bihar, Nagaland, Mizoram, Lakshadweep; state licensing and surrogate-ad bans nationwide. Subnational detail in summary. From general knowledge, unverified.",
+      "source": "https://www.worldatlas.com/articles/14-countries-where-drinking-alcohol-is-illegal.html",
+      "confidence": "low"
+    },
+    {
+      "code": "RU",
+      "name": "Russia",
+      "status": "restricted",
+      "scope": "online",
+      "note": "Online/distance retail of alcohol prohibited (limited exceptions); advertising restricted. From general knowledge, unverified.",
+      "source": "https://www.worldatlas.com/articles/14-countries-where-drinking-alcohol-is-illegal.html",
+      "confidence": "low"
+    },
+    {
+      "code": "NO",
+      "name": "Norway",
+      "status": "licensed",
+      "scope": "both",
+      "note": "Vinmonopolet retail monopoly for >4.7% ABV; alcohol advertising banned. From general knowledge, unverified.",
+      "source": "https://www.worldatlas.com/articles/14-countries-where-drinking-alcohol-is-illegal.html",
+      "confidence": "low"
+    },
+    {
+      "code": "SE",
+      "name": "Sweden",
+      "status": "licensed",
+      "scope": "both",
+      "note": "Systembolaget retail monopoly; strict advertising rules. From general knowledge, unverified.",
+      "source": "https://www.worldatlas.com/articles/14-countries-where-drinking-alcohol-is-illegal.html",
+      "confidence": "low"
+    },
+    {
+      "code": "FI",
+      "name": "Finland",
+      "status": "licensed",
+      "scope": "both",
+      "note": "Alko monopoly for strong drinks; strict advertising rules. From general knowledge, unverified.",
+      "source": "https://www.worldatlas.com/articles/14-countries-where-drinking-alcohol-is-illegal.html",
+      "confidence": "low"
+    },
+    {
+      "code": "IS",
+      "name": "Iceland",
+      "status": "licensed",
+      "scope": "both",
+      "note": "ATVR monopoly; alcohol advertising banned. From general knowledge, unverified.",
+      "source": "https://www.worldatlas.com/articles/14-countries-where-drinking-alcohol-is-illegal.html",
+      "confidence": "low"
+    },
+    {
+      "code": "LT",
+      "name": "Lithuania",
+      "status": "restricted",
+      "scope": "both",
+      "note": "Advertising banned; sale hours and online sale restrictions. From general knowledge, unverified.",
+      "source": "https://www.worldatlas.com/articles/14-countries-where-drinking-alcohol-is-illegal.html",
+      "confidence": "low"
+    },
+    {
+      "code": "TH",
+      "name": "Thailand",
+      "status": "restricted",
+      "scope": "both",
+      "note": "Advertising banned (Alcohol Control Act); online sale limited. From general knowledge, unverified.",
+      "source": "https://www.worldatlas.com/articles/14-countries-where-drinking-alcohol-is-illegal.html",
+      "confidence": "low"
+    },
+    {
+      "code": "NP",
+      "name": "Nepal",
+      "status": "restricted",
+      "scope": "both",
+      "note": "Strict licensing and advertising ban. From general knowledge, unverified.",
+      "source": "https://www.worldatlas.com/articles/14-countries-where-drinking-alcohol-is-illegal.html",
+      "confidence": "low"
+    },
+    {
+      "code": "BT",
+      "name": "Bhutan",
+      "status": "restricted",
+      "scope": "both",
+      "note": "Licensed sale with advertising/online restrictions. From general knowledge, unverified.",
+      "source": "https://www.worldatlas.com/articles/14-countries-where-drinking-alcohol-is-illegal.html",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,485 @@
+{
+  "tag": "tobacco",
+  "title": "Tobacco, vaping and nicotine products: online sale and advertising",
+  "checked": "2026-10-31",
+  "summary": "About 47 jurisdictions ban e-cigarette sale (per Campaign for Tobacco-Free Kids, July 2025); Japan and Australia use medicinal/pharmacy models. Most countries ban tobacco advertising and some EU states ban online tobacco sale. Lawful markets: US (FDA authorised), Canada, EU with regulation.",
+  "countries": [
+    {
+      "code": "IN",
+      "name": "India",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Sale of e-cigarettes banned per Campaign for Tobacco-Free Kids 2026 global regulation sheet (data to 31 Jul 2025).",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "medium"
+    },
+    {
+      "code": "TH",
+      "name": "Thailand",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Sale of e-cigarettes banned per Campaign for Tobacco-Free Kids 2026 global regulation sheet (data to 31 Jul 2025).",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "medium"
+    },
+    {
+      "code": "SG",
+      "name": "Singapore",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Sale of e-cigarettes banned per Campaign for Tobacco-Free Kids 2026 global regulation sheet (data to 31 Jul 2025).",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "medium"
+    },
+    {
+      "code": "BR",
+      "name": "Brazil",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Sale of e-cigarettes banned per Campaign for Tobacco-Free Kids 2026 global regulation sheet (data to 31 Jul 2025).",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "medium"
+    },
+    {
+      "code": "MX",
+      "name": "Mexico",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Sale of e-cigarettes banned per Campaign for Tobacco-Free Kids 2026 global regulation sheet (data to 31 Jul 2025).",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "medium"
+    },
+    {
+      "code": "QA",
+      "name": "Qatar",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Sale of e-cigarettes banned per Campaign for Tobacco-Free Kids 2026 global regulation sheet (data to 31 Jul 2025).",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "medium"
+    },
+    {
+      "code": "TR",
+      "name": "Turkey",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Sale of e-cigarettes banned per Campaign for Tobacco-Free Kids 2026 global regulation sheet (data to 31 Jul 2025).",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "medium"
+    },
+    {
+      "code": "BN",
+      "name": "Brunei",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Sale of e-cigarettes banned per Campaign for Tobacco-Free Kids 2026 global regulation sheet (data to 31 Jul 2025).",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "medium"
+    },
+    {
+      "code": "TM",
+      "name": "Turkmenistan",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Sale of e-cigarettes banned per Campaign for Tobacco-Free Kids 2026 global regulation sheet (data to 31 Jul 2025).",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "medium"
+    },
+    {
+      "code": "KP",
+      "name": "North Korea",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Sale of e-cigarettes banned per Campaign for Tobacco-Free Kids 2026 global regulation sheet (data to 31 Jul 2025).",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "medium"
+    },
+    {
+      "code": "AR",
+      "name": "Argentina",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Sale of e-cigarettes banned per Campaign for Tobacco-Free Kids 2026 global regulation sheet (data to 31 Jul 2025).",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "medium"
+    },
+    {
+      "code": "AZ",
+      "name": "Azerbaijan",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Sale of e-cigarettes banned per Campaign for Tobacco-Free Kids 2026 global regulation sheet (data to 31 Jul 2025).",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "medium"
+    },
+    {
+      "code": "KH",
+      "name": "Cambodia",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Sale of e-cigarettes banned per Campaign for Tobacco-Free Kids 2026 global regulation sheet (data to 31 Jul 2025).",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "medium"
+    },
+    {
+      "code": "CU",
+      "name": "Cuba",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Sale of e-cigarettes banned per Campaign for Tobacco-Free Kids 2026 global regulation sheet (data to 31 Jul 2025).",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "medium"
+    },
+    {
+      "code": "ET",
+      "name": "Ethiopia",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Sale of e-cigarettes banned per Campaign for Tobacco-Free Kids 2026 global regulation sheet (data to 31 Jul 2025).",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "medium"
+    },
+    {
+      "code": "GM",
+      "name": "Gambia",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Sale of e-cigarettes banned per Campaign for Tobacco-Free Kids 2026 global regulation sheet (data to 31 Jul 2025).",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "medium"
+    },
+    {
+      "code": "GH",
+      "name": "Ghana",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Sale of e-cigarettes banned per Campaign for Tobacco-Free Kids 2026 global regulation sheet (data to 31 Jul 2025).",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "medium"
+    },
+    {
+      "code": "HK",
+      "name": "Hong Kong",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Sale of e-cigarettes banned per Campaign for Tobacco-Free Kids 2026 global regulation sheet (data to 31 Jul 2025).",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "medium"
+    },
+    {
+      "code": "IR",
+      "name": "Iran",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Sale of e-cigarettes banned per Campaign for Tobacco-Free Kids 2026 global regulation sheet (data to 31 Jul 2025).",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "medium"
+    },
+    {
+      "code": "KZ",
+      "name": "Kazakhstan",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Sale of e-cigarettes banned per Campaign for Tobacco-Free Kids 2026 global regulation sheet (data to 31 Jul 2025).",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "medium"
+    },
+    {
+      "code": "KG",
+      "name": "Kyrgyzstan",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Sale of e-cigarettes banned per Campaign for Tobacco-Free Kids 2026 global regulation sheet (data to 31 Jul 2025).",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "medium"
+    },
+    {
+      "code": "LA",
+      "name": "Laos",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Sale of e-cigarettes banned per Campaign for Tobacco-Free Kids 2026 global regulation sheet (data to 31 Jul 2025).",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "medium"
+    },
+    {
+      "code": "MO",
+      "name": "Macau",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Sale of e-cigarettes banned per Campaign for Tobacco-Free Kids 2026 global regulation sheet (data to 31 Jul 2025).",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "medium"
+    },
+    {
+      "code": "MV",
+      "name": "Maldives",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Sale of e-cigarettes banned per Campaign for Tobacco-Free Kids 2026 global regulation sheet (data to 31 Jul 2025).",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "medium"
+    },
+    {
+      "code": "MU",
+      "name": "Mauritius",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Sale of e-cigarettes banned per Campaign for Tobacco-Free Kids 2026 global regulation sheet (data to 31 Jul 2025).",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "medium"
+    },
+    {
+      "code": "MM",
+      "name": "Myanmar",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Sale of e-cigarettes banned per Campaign for Tobacco-Free Kids 2026 global regulation sheet (data to 31 Jul 2025).",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "medium"
+    },
+    {
+      "code": "NI",
+      "name": "Nicaragua",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Sale of e-cigarettes banned per Campaign for Tobacco-Free Kids 2026 global regulation sheet (data to 31 Jul 2025).",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "medium"
+    },
+    {
+      "code": "NO",
+      "name": "Norway",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Sale of e-cigarettes banned per Campaign for Tobacco-Free Kids 2026 global regulation sheet (data to 31 Jul 2025). Norway: nicotine vapes sale ban per source; check current law.",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "medium"
+    },
+    {
+      "code": "OM",
+      "name": "Oman",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Sale of e-cigarettes banned per Campaign for Tobacco-Free Kids 2026 global regulation sheet (data to 31 Jul 2025).",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "medium"
+    },
+    {
+      "code": "PS",
+      "name": "Palestine",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Sale of e-cigarettes banned per Campaign for Tobacco-Free Kids 2026 global regulation sheet (data to 31 Jul 2025).",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "medium"
+    },
+    {
+      "code": "PG",
+      "name": "Papua New Guinea",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Sale of e-cigarettes banned per Campaign for Tobacco-Free Kids 2026 global regulation sheet (data to 31 Jul 2025).",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "medium"
+    },
+    {
+      "code": "LK",
+      "name": "Sri Lanka",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Sale of e-cigarettes banned per Campaign for Tobacco-Free Kids 2026 global regulation sheet (data to 31 Jul 2025).",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "medium"
+    },
+    {
+      "code": "SR",
+      "name": "Suriname",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Sale of e-cigarettes banned per Campaign for Tobacco-Free Kids 2026 global regulation sheet (data to 31 Jul 2025).",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "medium"
+    },
+    {
+      "code": "SY",
+      "name": "Syria",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Sale of e-cigarettes banned per Campaign for Tobacco-Free Kids 2026 global regulation sheet (data to 31 Jul 2025).",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "medium"
+    },
+    {
+      "code": "TW",
+      "name": "Taiwan",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Sale of e-cigarettes banned per Campaign for Tobacco-Free Kids 2026 global regulation sheet (data to 31 Jul 2025).",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "medium"
+    },
+    {
+      "code": "TL",
+      "name": "Timor-Leste",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Sale of e-cigarettes banned per Campaign for Tobacco-Free Kids 2026 global regulation sheet (data to 31 Jul 2025).",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "medium"
+    },
+    {
+      "code": "UG",
+      "name": "Uganda",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Sale of e-cigarettes banned per Campaign for Tobacco-Free Kids 2026 global regulation sheet (data to 31 Jul 2025).",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "medium"
+    },
+    {
+      "code": "UY",
+      "name": "Uruguay",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Sale of e-cigarettes banned per Campaign for Tobacco-Free Kids 2026 global regulation sheet (data to 31 Jul 2025).",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "medium"
+    },
+    {
+      "code": "UZ",
+      "name": "Uzbekistan",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Sale of e-cigarettes banned per Campaign for Tobacco-Free Kids 2026 global regulation sheet (data to 31 Jul 2025).",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "medium"
+    },
+    {
+      "code": "VU",
+      "name": "Vanuatu",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Sale of e-cigarettes banned per Campaign for Tobacco-Free Kids 2026 global regulation sheet (data to 31 Jul 2025).",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "medium"
+    },
+    {
+      "code": "VE",
+      "name": "Venezuela",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Sale of e-cigarettes banned per Campaign for Tobacco-Free Kids 2026 global regulation sheet (data to 31 Jul 2025).",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "medium"
+    },
+    {
+      "code": "VN",
+      "name": "Vietnam",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Sale of e-cigarettes banned per Campaign for Tobacco-Free Kids 2026 global regulation sheet (data to 31 Jul 2025).",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "medium"
+    },
+    {
+      "code": "JP",
+      "name": "Japan",
+      "status": "restricted",
+      "scope": "both",
+      "note": "Nicotine e-liquids sold only under medicinal licence per source; heated tobacco legal.",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "medium"
+    },
+    {
+      "code": "AU",
+      "name": "Australia",
+      "status": "restricted",
+      "scope": "both",
+      "note": "Nicotine vapes pharmacist-only/prescription model; online sale and advertising by non-pharmacies unlawful.",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "medium"
+    },
+    {
+      "code": "SA",
+      "name": "Saudi Arabia",
+      "status": "restricted",
+      "scope": "both",
+      "note": "Vapes restricted/high controls; advertising banned. From general knowledge, unverified.",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "low"
+    },
+    {
+      "code": "AE",
+      "name": "United Arab Emirates",
+      "status": "restricted",
+      "scope": "both",
+      "note": "Vapes legal only with registration/licensing; tobacco advertising banned. From general knowledge, unverified.",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "low"
+    },
+    {
+      "code": "KW",
+      "name": "Kuwait",
+      "status": "restricted",
+      "scope": "both",
+      "note": "Vape import/sale restrictions; tobacco advertising banned. From general knowledge, unverified.",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "low"
+    },
+    {
+      "code": "BT",
+      "name": "Bhutan",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Tobacco sale ban under Tobacco Control Act (amended 2021); vapes covered. From general knowledge, unverified.",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "low"
+    },
+    {
+      "code": "GB",
+      "name": "United Kingdom",
+      "status": "restricted",
+      "scope": "both",
+      "note": "Tobacco and vape advertising/promotion banned; disposable vape ban from 2025. From general knowledge, unverified.",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "low"
+    },
+    {
+      "code": "FR",
+      "name": "France",
+      "status": "restricted",
+      "scope": "both",
+      "note": "Tobacco online sale banned; advertising banned (Loi Evin). From general knowledge, unverified.",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "low"
+    },
+    {
+      "code": "DE",
+      "name": "Germany",
+      "status": "restricted",
+      "scope": "online",
+      "note": "Online distance sale of tobacco allowed only with age verification; advertising largely banned. From general knowledge, unverified.",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "low"
+    },
+    {
+      "code": "NZ",
+      "name": "New Zealand",
+      "status": "restricted",
+      "scope": "both",
+      "note": "Tobacco advertising banned; vapes regulated with notification. From general knowledge, unverified.",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "low"
+    },
+    {
+      "code": "NL",
+      "name": "Netherlands",
+      "status": "restricted",
+      "scope": "online",
+      "note": "Online/distance tobacco sale banned from 2023. From general knowledge, unverified.",
+      "source": "https://cdn.tobaccofreekids.org/resourceFiles/Fact-Sheets/Global/E-Cigs_Global_Regulation_2026.pdf",
+      "confidence": "low"
+    }
+  ]
+}

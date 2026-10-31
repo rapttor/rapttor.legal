@@ -1,0 +1,116 @@
+{
+  "tag": "pharmacy",
+  "title": "Online sale of medicines and medical products",
+  "checked": "2026-10-31",
+  "summary": "EU permits online sale of non-prescription medicines with an EU common logo; prescription-drug online sale rules set per member state. Other entries are mostly from general knowledge.",
+  "countries": [
+    {
+      "code": "EU",
+      "name": "European Union",
+      "status": "licensed",
+      "scope": "online",
+      "note": "Falsified Medicines Directive 2011/62/EU: online sellers must be registered with national authority and show EU logo; Rx online sale per member state. EU is not an ISO country.",
+      "source": "https://europa.eu/youreurope/citizens/health/prescription-medicine-abroad/buying-medicines-online/index_ga.htm",
+      "confidence": "medium"
+    },
+    {
+      "code": "IT",
+      "name": "Italy",
+      "status": "restricted",
+      "scope": "online",
+      "note": "Online sale of prescription drugs prohibited (secondary summary read).",
+      "source": "https://europa.eu/youreurope/citizens/health/prescription-medicine-abroad/buying-medicines-online/index_ga.htm",
+      "confidence": "medium"
+    },
+    {
+      "code": "US",
+      "name": "United States",
+      "status": "licensed",
+      "scope": "online",
+      "note": "State pharmacy licensure, DEA rules, Ryan Haight Act for controlled substances. from general knowledge, unverified. ",
+      "source": "https://www.fda.gov/drugs/",
+      "confidence": "low"
+    },
+    {
+      "code": "CA",
+      "name": "Canada",
+      "status": "licensed",
+      "scope": "online",
+      "note": "Provincial pharmacy licences needed. from general knowledge, unverified. ",
+      "source": "https://www.canada.ca/en/health-canada.html",
+      "confidence": "low"
+    },
+    {
+      "code": "IN",
+      "name": "India",
+      "status": "licensed",
+      "scope": "online",
+      "note": "E-pharmacy rules never finalised; Delhi High Court order led regulator to ask states to stop online sale (2018-19, secondary source).",
+      "source": "https://www.onmanorama.com/news/business/2019/12/04/online-medicine-sales-stopped-drugs-regulator.amp.html",
+      "confidence": "low"
+    },
+    {
+      "code": "CN",
+      "name": "China",
+      "status": "licensed",
+      "scope": "online",
+      "note": "Internet drug information service and online pharmacy licence required. from general knowledge, unverified. ",
+      "source": "https://www.nmpa.gov.cn/",
+      "confidence": "low"
+    },
+    {
+      "code": "JP",
+      "name": "Japan",
+      "status": "licensed",
+      "scope": "online",
+      "note": "Pharmaceutical and Medical Device Act: online sale of Rx drugs limited, OTC allowed with registration. from general knowledge, unverified. ",
+      "source": "https://www.mhlw.go.jp/english/",
+      "confidence": "low"
+    },
+    {
+      "code": "AU",
+      "name": "Australia",
+      "status": "licensed",
+      "scope": "online",
+      "note": "TGA and state pharmacy licensing; Rx needs prescription. from general knowledge, unverified. ",
+      "source": "https://www.tga.gov.au/",
+      "confidence": "low"
+    },
+    {
+      "code": "BR",
+      "name": "Brazil",
+      "status": "licensed",
+      "scope": "online",
+      "note": "ANVISA RDC 44/2009 allows online sale only by licensed pharmacies. from general knowledge, unverified. ",
+      "source": "https://www.gov.br/anvisa/",
+      "confidence": "low"
+    },
+    {
+      "code": "RU",
+      "name": "Russia",
+      "status": "licensed",
+      "scope": "online",
+      "note": "Remote sale of Rx drugs allowed since 2021 only for licensed pharmacies on approved platforms. from general knowledge, unverified. ",
+      "source": "https://roszdravnadzor.gov.ru/",
+      "confidence": "low"
+    },
+    {
+      "code": "SA",
+      "name": "Saudi Arabia",
+      "status": "licensed",
+      "scope": "online",
+      "note": "SFDA licence required; online medicine sale only via licensed pharmacies. from general knowledge, unverified. ",
+      "source": "https://www.sfda.gov.sa/",
+      "confidence": "low"
+    },
+    {
+      "code": "AE",
+      "name": "United Arab Emirates",
+      "status": "licensed",
+      "scope": "online",
+      "note": "MOHAP/DHA licensing for e-pharmacies. from general knowledge, unverified. ",
+      "source": "https://mohap.gov.ae/",
+      "confidence": "low"
+    }
+  ]
+}

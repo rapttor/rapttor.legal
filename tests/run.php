@@ -33,7 +33,7 @@ foreach (json_decode((string)file_get_contents(__DIR__ . '/fixtures/transliterat
 // Language resolution and fallback
 $lib0 = new Library();
 $cfg0 = ['company' => ['name' => 'Acme', 'address' => 'x', 'country' => 'L', 'email' => 'a@b.co', 'website' => 'https://b.co']];
-foreach ([['sr_RS', 'sr', true], ['de-AT', 'de', true], ['xx', null, true]] as [$in, $tag, $_]) {
+foreach ([['sr_RS', 'sh', true], ['hr', 'sh', true], ['sr-Cyrl', 'sh', true], ['de-AT', 'de', true], ['xx', null, true]] as [$in, $tag, $_]) {
     if ($lib0->normalizeLanguage($in) !== $tag && !($tag === null && $lib0->normalizeLanguage($in) === null)) {
         $fail++;
         echo "FAIL normalizeLanguage($in)\n";
@@ -116,20 +116,50 @@ foreach ($langsAll as $lg) {
 }
 $nLang = count($langsAll);
 
-// The licence page shows the translated summary (and the Cyrillic form of it), the licence text stays English
+// The licence page shows the translated summary, the licence text stays English
 $libL = new Library();
 $cfgL = ['company' => ['name' => 'Acme', 'address' => 'x', 'country' => 'L', 'email' => 'a@b.co', 'website' => 'https://b.co'], 'license' => ['id' => 'MIT']];
-foreach (['sr', 'hr', 'bs', 'cnr', 'sr-Cyrl'] as $lg) {
+foreach (['sh'] as $lg) {
     $miss = [];
     $page = $libL->render($cfgL, 'license', static fn(string $id, string $l) => "/legal/$l/$id", $lg, $miss, true);
-    $expect = $libL->licenseOverlay($lg === 'sr-Cyrl' ? 'sr' : $lg)['MIT']['summary'] ?? '';
-    if ($lg === 'sr-Cyrl') {
-        $expect = (new rapttor\legal\Transliterator())->toCyrillic($expect);
-    }
+    $expect = $libL->licenseOverlay($lg)['MIT']['summary'] ?? '';
     if ($expect === '' || !str_contains($page, $expect) || !str_contains($page, 'Permission is hereby granted')) {
         $fail++;
         echo "FAIL licence page summary/text in $lg\n";
     }
+}
+
+// Restrictions dataset: every file follows restrictions/SCHEMA.md; activities feed policy.excluded_regions
+$libR = new Library();
+foreach ($libR->restrictionTags() as $tag) {
+    $d = $libR->restrictions($tag);
+    if (($d['tag'] ?? null) !== $tag || empty($d['title']) || empty($d['checked']) || empty($d['countries'])) {
+        $fail++;
+        echo "FAIL restrictions/$tag.json header\n";
+        continue;
+    }
+    foreach ($d['countries'] as $c) {
+        if (!preg_match('/^[A-Z]{2}$/', $c['code'] ?? '') || empty($c['name']) || !in_array($c['status'] ?? '', ['prohibited', 'licensed', 'restricted'], true)
+            || !in_array($c['scope'] ?? '', ['online', 'offline', 'both'], true) || !in_array($c['confidence'] ?? '', ['high', 'medium', 'low'], true)) {
+            $fail++;
+            echo "FAIL restrictions/$tag.json entry " . json_encode($c['code'] ?? '?') . "\n";
+        }
+    }
+}
+$g = $libR->restrictedCountries(['gambling']);
+if (!isset($g['SA']) || isset($g['GB'])) {
+    $fail++;
+    echo "FAIL restrictedCountries(gambling)\n";
+}
+$w = $libR->withDefaults(['feature' => ['gambling' => true], 'policy' => ['activities' => 'alcohol, nonsense', 'excluded_regions' => 'Atlantis']]);
+if (!str_starts_with($w['policy']['excluded_regions'], 'Atlantis, ') || !in_array('SA', $w['policy']['excluded_codes'], true)) {
+    $fail++;
+    echo "FAIL withDefaults merges activities into excluded_regions\n";
+}
+$none = $libR->withDefaults(['policy' => ['excluded_regions' => 'Atlantis']]);
+if ($none['policy']['excluded_regions'] !== 'Atlantis' || isset($none['policy']['excluded_codes'])) {
+    $fail++;
+    echo "FAIL no activities: owner list unchanged\n";
 }
 
 // Structured tables and claims
@@ -137,7 +167,7 @@ $libT = new Library();
 $cfgT = ['company' => ['name' => 'Acme', 'address' => 'x', 'country' => 'L', 'email' => 'a@b.co', 'website' => 'https://b.co'],
     'feature' => ['analytics' => true, 'mobile' => true],
     'data' => ['subprocessors' => [['name' => 'Host | Co', 'purpose' => "Hosting\nand backups", 'location' => 'EU']], 'cookies' => [['name' => 'sid', 'provider' => 'Acme', 'purpose' => 'Session', 'category' => 'Strictly necessary', 'duration' => 'Session']]]];
-foreach ([['subprocessors', 'sr', '| Naziv | Svrha | Lokacija |', 'Host \\| Co'], ['cookies', 'hr', '| Naziv | Pružatelj |', '| sid | Acme |'], ['subprocessors', 'en', '| Name | Purpose | Location |', 'Hosting and backups']] as [$doc, $lg, $head, $cell]) {
+foreach ([['subprocessors', 'sh', '| Naziv | Svrha | Lokacija |', 'Host \\| Co'], ['cookies', 'sh', '| Naziv | Pružalac |', '| sid | Acme |'], ['subprocessors', 'en', '| Name | Purpose | Location |', 'Hosting and backups']] as [$doc, $lg, $head, $cell]) {
     $m = [];
     $txt = $libT->render($cfgT, $doc, static fn(string $id, string $l) => "/$l/$id", $lg, $m, true);
     if (!str_contains($txt, $head) || !str_contains($txt, $cell) || $m) {

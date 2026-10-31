@@ -73,6 +73,87 @@ final class Library
             }
             unset($node);
         }
+        return $this->withRestrictions($config);
+    }
+
+    /**
+     * Activity tags the restrictions dataset knows (`restrictions/<tag>.json`).
+     *
+     * @return list<string>
+     */
+    public function restrictionTags(): array
+    {
+        $tags = [];
+        foreach (glob($this->root . '/restrictions/*.json') ?: [] as $f) {
+            $tags[] = basename($f, '.json');
+        }
+        sort($tags);
+        return $tags;
+    }
+
+    /** One restrictions file (tag, title, checked, summary, countries[]) or null for an unknown tag. @return array<string,mixed>|null */
+    public function restrictions(string $tag): ?array
+    {
+        if (!preg_match('/^[a-z][a-z0-9_-]*$/', $tag)) {
+            return null;
+        }
+        $file = $this->root . '/restrictions/' . $tag . '.json';
+        $data = is_file($file) ? json_decode((string)file_get_contents($file), true) : null;
+        return is_array($data) ? $data : null;
+    }
+
+    /**
+     * Countries where any of the activities is unlawful for an app that offers it without local permission: the union over
+     * the tags, keeping entries whose status is in $statuses. Codes are ISO 3166-1 alpha-2 (Kosovo XK); names are English.
+     *
+     * @param list<string> $tags
+     * @param list<string> $statuses `prohibited`, `licensed`, `restricted`
+     * @return array<string,string> code => name
+     */
+    public function restrictedCountries(array $tags, array $statuses = ['prohibited']): array
+    {
+        $out = [];
+        foreach ($tags as $tag) {
+            foreach ($this->restrictions(trim($tag))['countries'] ?? [] as $c) {
+                if (in_array($c['status'] ?? '', $statuses, true)) {
+                    $out[$c['code']] ??= (string)$c['name'];
+                }
+            }
+        }
+        asort($out);
+        return $out;
+    }
+
+    /**
+     * `policy.activities` (comma list or array, plus `gambling` when `feature.gambling` is on) adds the countries of those
+     * activities to `policy.excluded_regions` (names) and `policy.excluded_codes` (ISO codes). A list the owner wrote stays.
+     *
+     * @param array<string,mixed> $config
+     * @return array<string,mixed>
+     */
+    private function withRestrictions(array $config): array
+    {
+        $raw = $config['policy']['activities'] ?? [];
+        $tags = array_filter(array_map('trim', is_array($raw) ? $raw : explode(',', (string)$raw)));
+        if (!empty($config['feature']['gambling'])) {
+            $tags[] = 'gambling';
+        }
+        $tags = array_values(array_unique($tags));
+        if ($tags === []) {
+            return $config;
+        }
+        $statuses = $config['policy']['restriction_status'] ?? ['prohibited'];
+        $countries = $this->restrictedCountries($tags, is_array($statuses) ? $statuses : array_map('trim', explode(',', (string)$statuses)));
+        $owner = trim((string)($config['policy']['excluded_regions'] ?? ''));
+        $names = $owner === '' ? [] : array_map('trim', explode(',', $owner));
+        foreach ($countries as $name) {
+            if (!in_array($name, $names, true)) {
+                $names[] = $name;
+            }
+        }
+        $config['policy']['excluded_regions'] = implode(', ', $names);
+        $config['policy']['excluded_codes'] = array_keys($countries);
+        $config['policy']['excluded_map'] = $countries;
         return $config;
     }
 

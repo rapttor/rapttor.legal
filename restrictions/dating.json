@@ -1,0 +1,206 @@
+{
+  "tag": "dating",
+  "title": "Online dating and social-discovery services",
+  "checked": "2026-10-31",
+  "summary": "Dating apps are lawful in most countries, subject to consumer, data and online-safety laws (EU DSA, UK Online Safety Act, US state laws on dating-app safety). The list covers countries where dating apps are blocked, criminal-morality provisions make them risky for users and operators, or licensing is required. Several entries are from general knowledge and should be verified; blocks change frequently.",
+  "countries": [
+    {
+      "code": "PK",
+      "name": "Pakistan",
+      "status": "prohibited",
+      "scope": "online",
+      "note": "PTA blocked Tinder, Grindr, Tagged, Skout and SayHi in Sept 2020 for 'immoral content'; later reports of unblocking after compliance (Tinder/Grindr status uncertain); PECA 2016 applies.",
+      "source": "https://www.aljazeera.com/news/2020/9/2/pakistan-blocks-tinder-other-dating-apps-over-immoral-content",
+      "confidence": "medium"
+    },
+    {
+      "code": "IR",
+      "name": "Iran",
+      "status": "prohibited",
+      "scope": "online",
+      "note": "from general knowledge, unverified. Dating apps and unmarried mixed-gender dating services blocked/filtered; only state-approved matchmaking permitted.",
+      "source": "https://freedomhouse.org/country/iran/freedom-net",
+      "confidence": "low"
+    },
+    {
+      "code": "SA",
+      "name": "Saudi Arabia",
+      "status": "prohibited",
+      "scope": "online",
+      "note": "from general knowledge, unverified. Unrelated men/women dating contrary to law; dating apps such as Tinder blocked or restricted; matchmaking only for marriage.",
+      "source": "https://freedomhouse.org/country/saudi-arabia/freedom-net",
+      "confidence": "low"
+    },
+    {
+      "code": "EG",
+      "name": "Egypt",
+      "status": "restricted",
+      "scope": "online",
+      "note": "Dating apps used for prosecutions under 'family values' provisions of Cybercrime Law 175/2018; Grindr blocked; unlicensed apps risk blocking.",
+      "source": "https://www.hrw.org/news/2023/02/21/egypt-security-forces-abuse-lgbt-people",
+      "confidence": "medium"
+    },
+    {
+      "code": "TR",
+      "name": "Turkey",
+      "status": "restricted",
+      "scope": "online",
+      "note": "from general knowledge, unverified. Lawful, but BTK has blocked some apps and regulators can block under Law 5651; Turkey requires local representative for foreign platforms.",
+      "source": "https://freedomhouse.org/country/turkey/freedom-net",
+      "confidence": "low"
+    },
+    {
+      "code": "ID",
+      "name": "Indonesia",
+      "status": "restricted",
+      "scope": "online",
+      "note": "Private ESO registration required (Komdigi); unregistered apps blocked; LGBT-oriented apps (Grindr, Blued) blocked; ITE Law morality provisions.",
+      "source": "https://freedomhouse.org/country/indonesia/freedom-net",
+      "confidence": "medium"
+    },
+    {
+      "code": "AE",
+      "name": "United Arab Emirates",
+      "status": "restricted",
+      "scope": "online",
+      "note": "from general knowledge, unverified. Premarital relations restricted; dating app use is tolerated but some apps blocked by TDRA; Cybercrime Law morals provisions.",
+      "source": "https://u.ae/en/information-and-services/justice-safety-and-the-law/cyber-safety-and-digital-security",
+      "confidence": "low"
+    },
+    {
+      "code": "BD",
+      "name": "Bangladesh",
+      "status": "restricted",
+      "scope": "online",
+      "note": "from general knowledge, unverified. BTRC may block 'immoral' content; Grindr blocked; Digital/Cyber Security laws.",
+      "source": "https://btrc.gov.bd/",
+      "confidence": "low"
+    },
+    {
+      "code": "AF",
+      "name": "Afghanistan",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Taliban prohibit unmarried mixed-gender relations; dating apps blocked.",
+      "source": "https://www.hrw.org/world-report/2025/country-chapters/afghanistan",
+      "confidence": "low"
+    },
+    {
+      "code": "QA",
+      "name": "Qatar",
+      "status": "prohibited",
+      "scope": "online",
+      "note": "from general knowledge, unverified. Dating apps blocked or restricted; extramarital relations criminal.",
+      "source": "https://freedomhouse.org/country/qatar",
+      "confidence": "low"
+    },
+    {
+      "code": "KW",
+      "name": "Kuwait",
+      "status": "restricted",
+      "scope": "online",
+      "note": "from general knowledge, unverified. Some dating apps blocked by CITRA; morality provisions in law.",
+      "source": "https://www.citra.gov.kw/",
+      "confidence": "low"
+    },
+    {
+      "code": "OM",
+      "name": "Oman",
+      "status": "restricted",
+      "scope": "online",
+      "note": "from general knowledge, unverified. Dating apps blocked or restricted by TRA.",
+      "source": "https://www.tra.gov.om/",
+      "confidence": "low"
+    },
+    {
+      "code": "LY",
+      "name": "Libya",
+      "status": "prohibited",
+      "scope": "online",
+      "note": "from general knowledge, unverified. Extramarital relations criminal; dating apps filtered.",
+      "source": "https://freedomhouse.org/country/libya",
+      "confidence": "low"
+    },
+    {
+      "code": "SD",
+      "name": "Sudan",
+      "status": "prohibited",
+      "scope": "online",
+      "note": "from general knowledge, unverified. Public order/morality laws; dating apps filtered.",
+      "source": "https://freedomhouse.org/country/sudan/freedom-net",
+      "confidence": "low"
+    },
+    {
+      "code": "CN",
+      "name": "China",
+      "status": "licensed",
+      "scope": "online",
+      "note": "from general knowledge, unverified. Online dating needs ICP licence and content/real-name compliance; foreign apps not available without local licensed entity; Tinder not operating.",
+      "source": "https://www.cac.gov.cn/",
+      "confidence": "low"
+    },
+    {
+      "code": "IN",
+      "name": "India",
+      "status": "restricted",
+      "scope": "online",
+      "note": "Lawful and widely used; no ban. IT Rules 2021 apply (grievance officer, takedown); obscenity laws (IT Act s.67, BNS) apply.",
+      "source": "https://www.meity.gov.in/",
+      "confidence": "medium"
+    },
+    {
+      "code": "IQ",
+      "name": "Iraq",
+      "status": "restricted",
+      "scope": "online",
+      "note": "from general knowledge, unverified. Social/morality rules; Grindr and similar blocked; 'indecent content' campaigns by Ministry of Interior.",
+      "source": "https://freedomhouse.org/country/iraq/freedom-net",
+      "confidence": "low"
+    },
+    {
+      "code": "YE",
+      "name": "Yemen",
+      "status": "prohibited",
+      "scope": "online",
+      "note": "from general knowledge, unverified. Dating prohibited by morality norms/law; filtered.",
+      "source": "https://freedomhouse.org/country/yemen/freedom-net",
+      "confidence": "low"
+    },
+    {
+      "code": "BN",
+      "name": "Brunei",
+      "status": "restricted",
+      "scope": "online",
+      "note": "from general knowledge, unverified. Sharia Penal Code criminalises khalwat (close proximity) and zina; dating apps limited.",
+      "source": "https://www.state.gov/reports/2023-country-reports-on-human-rights-practices/brunei/",
+      "confidence": "low"
+    },
+    {
+      "code": "MY",
+      "name": "Malaysia",
+      "status": "restricted",
+      "scope": "online",
+      "note": "from general knowledge, unverified. MCMC platform licensing for social media; Sharia offences for Muslims (khalwat); LGBT apps blocked.",
+      "source": "https://www.mcmc.gov.my/",
+      "confidence": "low"
+    },
+    {
+      "code": "VN",
+      "name": "Vietnam",
+      "status": "restricted",
+      "scope": "online",
+      "note": "from general knowledge, unverified. Decree 147/2024 and cybersecurity rules require account authentication/local compliance; dating apps operate with obligations.",
+      "source": "https://freedomhouse.org/country/vietnam/freedom-net",
+      "confidence": "low"
+    },
+    {
+      "code": "RU",
+      "name": "Russia",
+      "status": "restricted",
+      "scope": "online",
+      "note": "from general knowledge, unverified. Foreign platforms must meet localisation and data-law requirements; LGBT-oriented apps banned (see lgbtq); mainstream dating apps largely withdrew.",
+      "source": "https://freedomhouse.org/country/russia/freedom-net",
+      "confidence": "low"
+    }
+  ]
+}

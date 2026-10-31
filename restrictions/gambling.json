@@ -1,0 +1,588 @@
+{
+  "tag": "gambling",
+  "title": "Gambling, betting and lotteries (online and offline)",
+  "checked": "2026-10-31",
+  "summary": "Most of the Muslim-majority world, mainland China, North Korea and Kosovo ban gambling outright; most other listed countries allow it only with a local licence or state monopoly. Many Western markets are licence-only for online gambling. US states (e.g. Utah and Hawaii ban all gambling; online casino legal only in a handful of states such as NJ, PA, MI, WV, CT) and Indian states (casinos only in Goa, Sikkim, Daman; many states ban lotteries/betting; several ban even offline games of skill) are not listed as countries. Only ~14 entries cite a read-through source and none is a primary law text; entries marked low are from general knowledge and must be verified. Albania and Kosovo changed recently: verify.",
+  "countries": [
+    {
+      "code": "SA",
+      "name": "Saudi Arabia",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "All gambling forbidden under Sharia-based law; from general knowledge, unverified (Wikipedia page used only as pointer).",
+      "source": "https://en.wikipedia.org/wiki/Gambling_in_Saudi_Arabia",
+      "confidence": "low"
+    },
+    {
+      "code": "KW",
+      "name": "Kuwait",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Gambling banned; online betting sites reported blocked (secondary overview).",
+      "source": "https://www.jpost.com/special-content/how-do-online-casino-regulations-look-like-in-arab-countries-719971",
+      "confidence": "medium"
+    },
+    {
+      "code": "QA",
+      "name": "Qatar",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Penal Code criminalises gambling participation and organisation (secondary overview).",
+      "source": "https://www.jpost.com/special-content/how-do-online-casino-regulations-look-like-in-arab-countries-719971",
+      "confidence": "medium"
+    },
+    {
+      "code": "BH",
+      "name": "Bahrain",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Gambling banned; law reportedly does not mention online betting explicitly but regulators block gambling sites.",
+      "source": "https://www.jpost.com/special-content/how-do-online-casino-regulations-look-like-in-arab-countries-719971",
+      "confidence": "medium"
+    },
+    {
+      "code": "OM",
+      "name": "Oman",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Gambling forbidden; from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "AE",
+      "name": "United Arab Emirates",
+      "status": "licensed",
+      "scope": "both",
+      "note": "Historically prohibited; federal GCGRA now licenses commercial gaming (Wynn Al Marjan, Ras Al Khaimah, opening ~2027) and reportedly some online/sports licences. No general lawful route for an unlicensed app; online scope unclear, check GCGRA register.",
+      "source": "https://www.gamblinginsider.com/news/27023/wynn-resorts-granted-uae-gaming-licence-for-al-marjan-island-development",
+      "confidence": "medium"
+    },
+    {
+      "code": "IR",
+      "name": "Iran",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Gambling prohibited, severe penalties; from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "IQ",
+      "name": "Iraq",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Gambling banned in practice (Sharia-influenced law; some casinos closed); from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "YE",
+      "name": "Yemen",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Gambling prohibited; from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "AF",
+      "name": "Afghanistan",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Gambling prohibited under Taliban rule; from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "PK",
+      "name": "Pakistan",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Gambling banned (Prevention of Gambling Act 1977, Sharia); from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "BN",
+      "name": "Brunei",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Gambling prohibited, Sharia Penal Code; from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "ID",
+      "name": "Indonesia",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "All gambling criminal (Criminal Code; ITE Law bans online gambling content); from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "MY",
+      "name": "Malaysia",
+      "status": "restricted",
+      "scope": "both",
+      "note": "Muslims banned from gambling; non-Muslims limited to licensed operators (Genting casino, 4D lotteries, racing). Online gambling unlicensed is illegal (Common Gaming Houses Act 1953); from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "BD",
+      "name": "Bangladesh",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Gambling prohibited (Public Gambling Act 1867); online sites blocked; from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "MV",
+      "name": "Maldives",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Gambling prohibited; from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "SD",
+      "name": "Sudan",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Gambling prohibited under Sharia-based law; from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "LY",
+      "name": "Libya",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Gambling prohibited; from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "DZ",
+      "name": "Algeria",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Gambling largely prohibited (state lottery/betting exceptions); from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "SO",
+      "name": "Somalia",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Gambling prohibited; from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "MR",
+      "name": "Mauritania",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Gambling prohibited; from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "TR",
+      "name": "Turkey",
+      "status": "licensed",
+      "scope": "both",
+      "note": "Only state-run Spor Toto/Iddaa and Milli Piyango lotteries lawful; casinos and offshore online gambling illegal and blocked; from general knowledge, unverified",
+      "source": "https://www.jpost.com/special-content/how-do-online-casino-regulations-look-like-in-arab-countries-719971",
+      "confidence": "low"
+    },
+    {
+      "code": "SY",
+      "name": "Syria",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Gambling banned; from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "JO",
+      "name": "Jordan",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Gambling banned (Penal Code), limited state exceptions; from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "LB",
+      "name": "Lebanon",
+      "status": "licensed",
+      "scope": "both",
+      "note": "Casino du Liban is the only licensed casino; other gambling illegal; from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "EG",
+      "name": "Egypt",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Strict prohibitions with punitive enforcement (secondary overview); some tourist-hotel casinos for foreigners reported.",
+      "source": "https://www.jpost.com/special-content/how-do-online-casino-regulations-look-like-in-arab-countries-719971",
+      "confidence": "medium"
+    },
+    {
+      "code": "MA",
+      "name": "Morocco",
+      "status": "licensed",
+      "scope": "both",
+      "note": "Lottery/sport betting state monopoly (La Marocaine des Jeux, SRBE); casinos tolerated for non-Muslims; no route to license private online betting (secondary overview).",
+      "source": "https://www.jpost.com/special-content/how-do-online-casino-regulations-look-like-in-arab-countries-719971",
+      "confidence": "medium"
+    },
+    {
+      "code": "TN",
+      "name": "Tunisia",
+      "status": "licensed",
+      "scope": "both",
+      "note": "State lottery/betting monopoly; casinos limited to foreigners; from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "CN",
+      "name": "China (mainland)",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "All gambling banned except state welfare/sports lotteries; from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "KP",
+      "name": "North Korea",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Gambling prohibited; from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "SG",
+      "name": "Singapore",
+      "status": "licensed",
+      "scope": "both",
+      "note": "Gambling Control Act and Remote Gambling Act: only licensed casinos and Singapore Pools/Turf Club; remote gambling prohibited; from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "HK",
+      "name": "Hong Kong",
+      "status": "licensed",
+      "scope": "both",
+      "note": "Only Hong Kong Jockey Club (racing, football, Mark Six) lawful; all other gambling including online illegal; from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "MO",
+      "name": "Macau",
+      "status": "licensed",
+      "scope": "both",
+      "note": "Casino concession regime; online casino gaming not licensed; from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "VN",
+      "name": "Vietnam",
+      "status": "restricted",
+      "scope": "both",
+      "note": "Gambling largely banned; casinos only for foreigners (and limited pilot for locals); online gambling illegal; from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "TH",
+      "name": "Thailand",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Gambling Act 1935 prohibits gambling except state lottery and horse racing; casino/online reform bills pending, not enacted as of sources read.",
+      "source": "https://www.tilleke.com/insights/thailands-gambling-law-reform-developments-to-watch",
+      "confidence": "medium"
+    },
+    {
+      "code": "MM",
+      "name": "Myanmar",
+      "status": "restricted",
+      "scope": "both",
+      "note": "Gambling Law 1899 bans gambling; casinos only in border zones for foreigners; online gambling unlawful; from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "KH",
+      "name": "Cambodia",
+      "status": "restricted",
+      "scope": "both",
+      "note": "Casinos for foreigners only, Cambodians barred; online gambling banned since 2019-2020 (enforcement irregular); from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "LA",
+      "name": "Laos",
+      "status": "restricted",
+      "scope": "both",
+      "note": "Casinos only in special economic zones, nationals barred; online unclear; from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "IN",
+      "name": "India",
+      "status": "restricted",
+      "scope": "both",
+      "note": "Promotion and Regulation of Online Gaming Act 2025 bans online real-money games (up to 2 years / INR 5m fine reported). Offline gambling is a state matter (Public Gambling Act 1867; only Goa, Sikkim, Daman allow casinos; state lotteries in some states; many states ban).",
+      "source": "https://www.mondaq.com/india/gaming/1676566/summary-promotion-and-regulation-of-online-gaming-act-2025",
+      "confidence": "medium"
+    },
+    {
+      "code": "LK",
+      "name": "Sri Lanka",
+      "status": "licensed",
+      "scope": "both",
+      "note": "Casinos licensed under Betting and Gaming Levy Act, locals barred; online gambling not licensed; from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "NP",
+      "name": "Nepal",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Casinos for foreigners were licensed but government ordered closure; online gambling banned; from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "AL",
+      "name": "Albania",
+      "status": "licensed",
+      "scope": "online",
+      "note": "Total gambling ban from 2019 was lifted by Law 18/2024 (in force 27 March 2024): sports betting lawful online only, with a licence; up to ~10 operators planned. As of Aug 2026 the licensing competition had not opened and no operator is licensed. Other online gambling (casino, poker) and land-based betting remain prohibited. Verify current state.",
+      "source": "https://ceelegalmatters.com/albania/24454-albania-set-to-revamp-gambling-regulations-online-sports-betting-and-strict-licensing-on-the-horizon",
+      "confidence": "medium"
+    },
+    {
+      "code": "XK",
+      "name": "Kosovo",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Law on the prohibition of games of chance (2018) bans all gambling for 10 years, the Kosovo lottery being the only exception; no repeal found in 2025-2026 sources, but the 10-year term may lapse ~2028; enforcement of online betting weak.",
+      "source": "https://emerging-europe.com/kosovo-bans-gambling-in-wake-of-casino-murders/",
+      "confidence": "medium"
+    },
+    {
+      "code": "MK",
+      "name": "North Macedonia",
+      "status": "licensed",
+      "scope": "both",
+      "note": "Market opened 2011 but state-controlled (National Video Lottery); licence required; tightening reforms proposed.",
+      "source": "https://igamingbusiness.com/legal-compliance/balkan-gaming-federation-launched-industry-body-western-balkans/",
+      "confidence": "medium"
+    },
+    {
+      "code": "BA",
+      "name": "Bosnia and Herzegovina",
+      "status": "licensed",
+      "scope": "both",
+      "note": "Fragmented by entity: in the Federation land-based licensees may run online games; online gambling prohibited in Brcko district; licence required.",
+      "source": "https://igamingbusiness.com/legal-compliance/balkan-gaming-federation-launched-industry-body-western-balkans/",
+      "confidence": "medium"
+    },
+    {
+      "code": "RS",
+      "name": "Serbia",
+      "status": "licensed",
+      "scope": "both",
+      "note": "Games of Chance Act: licence from Ministry of Finance, local presence required (older source); unlicensed online blocked. Verify current rules.",
+      "source": "https://igamingbusiness.com/legal-compliance/balkan-gaming-federation-launched-industry-body-western-balkans/",
+      "confidence": "medium"
+    },
+    {
+      "code": "ME",
+      "name": "Montenegro",
+      "status": "licensed",
+      "scope": "both",
+      "note": "Online gambling needs a licence, available only to holders of a land-based licence; supervised by Games of Chance Administration.",
+      "source": "https://practiceguides.chambers.com/practice-guides/gaming-law-2025/montenegro",
+      "confidence": "high"
+    },
+    {
+      "code": "HR",
+      "name": "Croatia",
+      "status": "licensed",
+      "scope": "both",
+      "note": "Online operators need Ministry of Finance licence and a land-based casino.",
+      "source": "https://igamingbusiness.com/legal-compliance/balkan-gaming-federation-launched-industry-body-western-balkans/",
+      "confidence": "medium"
+    },
+    {
+      "code": "RU",
+      "name": "Russia",
+      "status": "licensed",
+      "scope": "both",
+      "note": "Online casinos prohibited; online betting only by few licensed bookmakers; gambling zones only (Federal Law 244-FZ); offshore sites blocked.",
+      "source": "https://ggbnews.com/article/russia-battles-offshore-online-gambling-sites",
+      "confidence": "medium"
+    },
+    {
+      "code": "BY",
+      "name": "Belarus",
+      "status": "licensed",
+      "scope": "both",
+      "note": "Gambling licensed by state (Gambling Business Act); online limited to licensed operators; from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "UA",
+      "name": "Ukraine",
+      "status": "licensed",
+      "scope": "both",
+      "note": "Law on State Regulation of Gambling 2020: licensed by PlayCity regulator; unlicensed online gambling illegal; from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "KZ",
+      "name": "Kazakhstan",
+      "status": "licensed",
+      "scope": "both",
+      "note": "Online casinos prohibited; licensed sports-betting/totalizator operators may take bets online; casinos only in designated zones.",
+      "source": "https://practiceguides.chambers.com/practice-guides/gaming-law-2024/kazakhstan",
+      "confidence": "medium"
+    },
+    {
+      "code": "UZ",
+      "name": "Uzbekistan",
+      "status": "licensed",
+      "scope": "online",
+      "note": "Ban ended with a licensing framework effective Jan 2025; first online bookmaker/gaming licences reported 31 July 2026 (National Agency of Perspective Projects). Unlicensed operation unlawful.",
+      "source": "https://www.gamblinginsider.com/news/27767/uzbekistan-approves-licensing-framework-for-online-gambling-and-lotteries",
+      "confidence": "medium"
+    },
+    {
+      "code": "AZ",
+      "name": "Azerbaijan",
+      "status": "licensed",
+      "scope": "both",
+      "note": "Casinos banned 1998; only state lotteries and limited betting; online unlicensed illegal; from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "AM",
+      "name": "Armenia",
+      "status": "licensed",
+      "scope": "both",
+      "note": "Gambling law amendments created a regulator and an offshore online licence regime (5% of GGR, reported, status not verified); from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "GE",
+      "name": "Georgia",
+      "status": "licensed",
+      "scope": "both",
+      "note": "Licensed by Revenue Service; a licence category for foreign-only online operators reported as planned (June 2026), not confirmed in force.",
+      "confidence": "low"
+    },
+    {
+      "code": "GB",
+      "name": "United Kingdom",
+      "status": "licensed",
+      "scope": "online",
+      "note": "Online gambling lawful only with a national licence (or state monopoly); unlicensed offering unlawful. from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "DE",
+      "name": "Germany",
+      "status": "licensed",
+      "scope": "online",
+      "note": "Online gambling lawful only with a national licence (or state monopoly); unlicensed offering unlawful. from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "FR",
+      "name": "France",
+      "status": "licensed",
+      "scope": "online",
+      "note": "ANJ licence; online casino games not permitted (only betting, poker, horse racing); FDJ monopoly lotteries. from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "ES",
+      "name": "Spain",
+      "status": "licensed",
+      "scope": "online",
+      "note": "Online gambling lawful only with a national licence (or state monopoly); unlicensed offering unlawful. from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "IT",
+      "name": "Italy",
+      "status": "licensed",
+      "scope": "online",
+      "note": "Online gambling lawful only with a national licence (or state monopoly); unlicensed offering unlawful. from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "NL",
+      "name": "Netherlands",
+      "status": "licensed",
+      "scope": "online",
+      "note": "Online gambling lawful only with a national licence (or state monopoly); unlicensed offering unlawful. from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "PL",
+      "name": "Poland",
+      "status": "licensed",
+      "scope": "online",
+      "note": "State monopoly on casino/online casino (Totalizator Sportowy); licensed bookmakers only for betting. from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "SE",
+      "name": "Sweden",
+      "status": "licensed",
+      "scope": "online",
+      "note": "Online gambling lawful only with a national licence (or state monopoly); unlicensed offering unlawful. from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "DK",
+      "name": "Denmark",
+      "status": "licensed",
+      "scope": "online",
+      "note": "Online gambling lawful only with a national licence (or state monopoly); unlicensed offering unlawful. from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "NO",
+      "name": "Norway",
+      "status": "licensed",
+      "scope": "online",
+      "note": "State monopoly (Norsk Tipping, Norsk Rikstoto); foreign operators unlicensed. from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "PT",
+      "name": "Portugal",
+      "status": "licensed",
+      "scope": "online",
+      "note": "Online gambling lawful only with a national licence (or state monopoly); unlicensed offering unlawful. from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "AU",
+      "name": "Australia",
+      "status": "licensed",
+      "scope": "online",
+      "note": "Interactive Gambling Act bans online casino; online sports betting only with state/territory licence. from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "CA",
+      "name": "Canada",
+      "status": "licensed",
+      "scope": "online",
+      "note": "Provincial licensing/monopolies; Ontario open market (iGaming Ontario); rest provincial sites. from general knowledge, unverified",
+      "confidence": "low"
+    },
+    {
+      "code": "US",
+      "name": "United States",
+      "status": "licensed",
+      "scope": "online",
+      "note": "Federal law plus state licensing: online casino/sports betting lawful only in licensing states; many states prohibit. Sub-national, see summary. from general knowledge, unverified",
+      "confidence": "low"
+    }
+  ]
+}

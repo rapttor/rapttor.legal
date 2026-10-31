@@ -1,0 +1,116 @@
+{
+  "tag": "weapons",
+  "title": "Weapons, ammunition and knives: online sale and promotion",
+  "checked": "2026-10-31",
+  "summary": "Almost every country restricts firearms; this lists the clearest. Online sale across borders is nearly everywhere unlawful without licence. US is lawful but regulated federally and by state (some states ban categories). Most entries rely on general knowledge.",
+  "countries": [
+    {
+      "code": "GB",
+      "name": "United Kingdom",
+      "status": "restricted",
+      "scope": "online",
+      "note": "Firearms need certificate/RFD; knives: Offensive Weapons Act 2019 requires age verification on sale and delivery; further tightening via Crime and Policing Bill (status unverified).",
+      "source": "https://www.gov.uk/government/news/new-measures-to-restrict-access-to-corrosives-and-knives",
+      "confidence": "medium"
+    },
+    {
+      "code": "JP",
+      "name": "Japan",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Firearms and Swords Control Law bans possession of firearms and most blades; online sale of firearms effectively prohibited. from general knowledge, unverified. ",
+      "source": "https://www.npa.go.jp/english/",
+      "confidence": "low"
+    },
+    {
+      "code": "SG",
+      "name": "Singapore",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Arms and Explosives Act; civilian firearm sale prohibited, knife sales controlled. from general knowledge, unverified. ",
+      "source": "https://sso.agc.gov.sg/",
+      "confidence": "low"
+    },
+    {
+      "code": "CN",
+      "name": "China",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Law on Control of Guns bans private firearms; controlled knives regulated. from general knowledge, unverified. ",
+      "source": "https://www.npc.gov.cn/",
+      "confidence": "low"
+    },
+    {
+      "code": "AU",
+      "name": "Australia",
+      "status": "licensed",
+      "scope": "both",
+      "note": "National Firearms Agreement; online firearm sale needs licensed dealer and permit; online knives restricted in states. from general knowledge, unverified. ",
+      "source": "https://www.abf.gov.au/",
+      "confidence": "low"
+    },
+    {
+      "code": "CA",
+      "name": "Canada",
+      "status": "licensed",
+      "scope": "both",
+      "note": "Firearms Act: PAL and licensed business needed; mail-order sale restricted. from general knowledge, unverified. ",
+      "source": "https://laws-lois.justice.gc.ca/eng/acts/f-11.6/",
+      "confidence": "low"
+    },
+    {
+      "code": "DE",
+      "name": "Germany",
+      "status": "licensed",
+      "scope": "both",
+      "note": "Waffengesetz: licence required; online dealers need permit and transfer via licensed dealer. from general knowledge, unverified. ",
+      "source": "https://www.gesetze-im-internet.de/waffg_2002/",
+      "confidence": "low"
+    },
+    {
+      "code": "FR",
+      "name": "France",
+      "status": "licensed",
+      "scope": "both",
+      "note": "Code de la securite interieure; firearm sales regulated by category. from general knowledge, unverified. ",
+      "source": "https://www.legifrance.gouv.fr/",
+      "confidence": "low"
+    },
+    {
+      "code": "IN",
+      "name": "India",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Arms Act 1959: licence required; online sale not permitted. from general knowledge, unverified. ",
+      "source": "https://www.indiacode.nic.in/",
+      "confidence": "low"
+    },
+    {
+      "code": "SA",
+      "name": "Saudi Arabia",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Civilian arms sales are heavily restricted; promotion unlawful. from general knowledge, unverified. ",
+      "source": "https://laws.boe.gov.sa/",
+      "confidence": "low"
+    },
+    {
+      "code": "AE",
+      "name": "United Arab Emirates",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Federal Law 11/1976 on firearms; online sale unlawful. from general knowledge, unverified. ",
+      "source": "https://u.ae/",
+      "confidence": "low"
+    },
+    {
+      "code": "US",
+      "name": "United States",
+      "status": "restricted",
+      "scope": "online",
+      "note": "Lawful: FFL required, interstate sales ship to FFL; state bans on some items; platform policies. from general knowledge, unverified. ",
+      "source": "https://www.atf.gov/",
+      "confidence": "low"
+    }
+  ]
+}

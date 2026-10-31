@@ -11,3 +11,12 @@ Work in /Users/admin/Sites/rapttor/rapttor.4all/rapttor.legal . You are given a 
 7. For `license`: the fenced block with `{{license.text}}` stays exactly as it is; add a short phrase stating that the English licence text is authoritative.
 8. When done run `php tools/build.php --lint` and fix every error that mentions your files until none remain (messages about other files are not yours).
 9. Final reply: at most 60 words: lint result for your files plus only genuine uncertainties. Touch no other file.
+
+## Notes for uk, ru, ar, hi, ja, ko, zh-Hans
+
+- uk (Ukrainian) and ru (Russian): formal plural "ви / вы" (lowercase in running text); official GDPR vocabulary of the national translation; keep Latin acronyms.
+- ar (Modern Standard Arabic): right-to-left. Write the text in Arabic script; keep every `{{...}}` tag, `{#anchor}`, URL, e-mail and Latin acronym exactly as in English (they stay left-to-right inside the text, do not reorder them). Use Western digits as in the English source for numbers, versions and dates. Formal register (no dialect).
+- hi (Hindi): formal "आप"; Devanagari; keep English legal acronyms (GDPR, DPDP) in Latin.
+- ja (Japanese): formal polite register (です・ます調); keep acronyms and statute names in Latin; Japanese quotation marks 「」 where the English uses quotes.
+- ko (Korean): formal polite register (합니다체); keep acronyms in Latin.
+- zh-Hans (Simplified Chinese, mainland usage): formal register, "您" for "you", Chinese punctuation (，。；：), keep acronyms in Latin, keep a space between Latin words and Chinese only where the English source has one.

@@ -1,0 +1,377 @@
+{
+  "tag": "adult",
+  "title": "Adult and sexually explicit content: publication and access",
+  "checked": "2026-10-31",
+  "summary": "Pornography is prohibited or blocked outright in many Muslim-majority and authoritarian states and restricted by obscenity or censorship rules elsewhere. Separately, a growing number of jurisdictions (UK, France, Italy, Germany, Australia) require age verification. Not listed individually: about half of US states (e.g. Texas, Florida, Louisiana, Utah, Virginia, Arizona and many more) have age-verification laws for sites with substantial adult content (upheld in Free Speech Coalition v. Paxton, 2025); the EU DSA guidelines and other countries (e.g. Spain, Brazil, Canada proposals) are evolving. Most entries rest on general knowledge plus country reports; verify with counsel.",
+  "countries": [
+    {
+      "code": "SA",
+      "name": "Saudi Arabia",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Pornography and sexually explicit material are banned; websites blocked by CST under Anti-Cyber Crime Law (public morality).",
+      "source": "https://www.citc.gov.sa/",
+      "confidence": "low"
+    },
+    {
+      "code": "AE",
+      "name": "United Arab Emirates",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Obscene content prohibited under Cybercrime Law (Federal Decree-Law 34/2021) and Penal Code; sites blocked by TDRA.",
+      "source": "https://u.ae/en/information-and-services/justice-safety-and-the-law/cyber-safety-and-digital-security",
+      "confidence": "low"
+    },
+    {
+      "code": "IR",
+      "name": "Iran",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Production, distribution and access to pornography criminalised; extensive filtering.",
+      "source": "https://freedomhouse.org/country/iran/freedom-net",
+      "confidence": "low"
+    },
+    {
+      "code": "IQ",
+      "name": "Iraq",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Obscene material criminalised (Penal Code); porn sites blocked by authorities.",
+      "source": "https://freedomhouse.org/country/iraq/freedom-net",
+      "confidence": "low"
+    },
+    {
+      "code": "KW",
+      "name": "Kuwait",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Obscene content banned and blocked by CITRA; Cybercrime law 63/2015.",
+      "source": "https://www.citra.gov.kw/",
+      "confidence": "low"
+    },
+    {
+      "code": "QA",
+      "name": "Qatar",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Pornography banned and filtered; Cybercrime Law 14/2014 and Penal Code.",
+      "source": "https://freedomhouse.org/country/qatar",
+      "confidence": "low"
+    },
+    {
+      "code": "OM",
+      "name": "Oman",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Pornographic content prohibited and blocked by TRA; Cyber Crime Law.",
+      "source": "https://www.tra.gov.om/",
+      "confidence": "low"
+    },
+    {
+      "code": "YE",
+      "name": "Yemen",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Pornography prohibited and filtered.",
+      "source": "https://freedomhouse.org/country/yemen/freedom-net",
+      "confidence": "low"
+    },
+    {
+      "code": "AF",
+      "name": "Afghanistan",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Taliban authorities ban and block pornographic and 'immoral' content.",
+      "source": "https://www.hrw.org/world-report/2025/country-chapters/afghanistan",
+      "confidence": "low"
+    },
+    {
+      "code": "PK",
+      "name": "Pakistan",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "PECA 2016 s.37 and Penal Code criminalise obscene content; PTA blocks porn sites.",
+      "source": "https://pta.gov.pk/",
+      "confidence": "medium"
+    },
+    {
+      "code": "ID",
+      "name": "Indonesia",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Anti-Pornography Law 44/2008 and ITE Law; Kominfo/Komdigi blocks porn sites.",
+      "source": "https://freedomhouse.org/country/indonesia/freedom-net",
+      "confidence": "medium"
+    },
+    {
+      "code": "MY",
+      "name": "Malaysia",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Communications and Multimedia Act 1998 s.211/233 and Penal Code s.292; MCMC blocks porn sites.",
+      "source": "https://www.mcmc.gov.my/",
+      "confidence": "medium"
+    },
+    {
+      "code": "BD",
+      "name": "Bangladesh",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Pornography Control Act 2012 and Digital Security/Cyber Security laws; BTRC blocks sites.",
+      "source": "https://btrc.gov.bd/",
+      "confidence": "medium"
+    },
+    {
+      "code": "CN",
+      "name": "China",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Production and dissemination of obscene material criminal (Criminal Law arts. 363-367); Great Firewall blocks porn; Minor-protection rules apply.",
+      "source": "https://freedomhouse.org/country/china/freedom-net",
+      "confidence": "medium"
+    },
+    {
+      "code": "KP",
+      "name": "North Korea",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Pornography banned and severely punished; no open internet.",
+      "source": "https://freedomhouse.org/country/north-korea",
+      "confidence": "low"
+    },
+    {
+      "code": "RU",
+      "name": "Russia",
+      "status": "restricted",
+      "scope": "online",
+      "note": "from general knowledge, unverified. Distribution of pornography is an offence (Criminal Code art. 242); Roskomnadzor blocks sites; VPN-related and age-related rules tightening; enforcement partial.",
+      "source": "https://www.hrw.org/europe/central-asia/russia",
+      "confidence": "low"
+    },
+    {
+      "code": "TR",
+      "name": "Turkey",
+      "status": "restricted",
+      "scope": "online",
+      "note": "Law 5651 allows BTK to block obscene content; many porn sites blocked; production/distribution criminal (TCK art. 226).",
+      "source": "https://freedomhouse.org/country/turkey/freedom-net",
+      "confidence": "medium"
+    },
+    {
+      "code": "IN",
+      "name": "India",
+      "status": "restricted",
+      "scope": "online",
+      "note": "Publishing obscene material illegal (IT Act s.67, 67A; BNS); DoT/MeitY has ordered ISP blocks of porn sites; many sites accessible.",
+      "source": "https://www.meity.gov.in/",
+      "confidence": "medium"
+    },
+    {
+      "code": "EG",
+      "name": "Egypt",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Obscene content criminalised (Penal Code art. 178, Cybercrime Law 175/2018); sites blocked.",
+      "source": "https://freedomhouse.org/country/egypt/freedom-net",
+      "confidence": "medium"
+    },
+    {
+      "code": "JO",
+      "name": "Jordan",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Porn sites blocked by TRC; Cybercrime Law 17/2023 and Penal Code.",
+      "source": "https://freedomhouse.org/country/jordan/freedom-net",
+      "confidence": "low"
+    },
+    {
+      "code": "SD",
+      "name": "Sudan",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Pornography banned and filtered by NTC.",
+      "source": "https://freedomhouse.org/country/sudan/freedom-net",
+      "confidence": "low"
+    },
+    {
+      "code": "LY",
+      "name": "Libya",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Pornography prohibited and filtered.",
+      "source": "https://freedomhouse.org/country/libya",
+      "confidence": "low"
+    },
+    {
+      "code": "BN",
+      "name": "Brunei",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Pornography banned; Sharia Penal Code and Internet Code of Practice.",
+      "source": "https://www.state.gov/reports/2023-country-reports-on-human-rights-practices/brunei/",
+      "confidence": "low"
+    },
+    {
+      "code": "MV",
+      "name": "Maldives",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Pornography illegal and blocked.",
+      "source": "https://freedomhouse.org/country/maldives",
+      "confidence": "low"
+    },
+    {
+      "code": "VN",
+      "name": "Vietnam",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "Pornography banned (Penal Code, Decree 72/2013, Cybersecurity Law); sites blocked.",
+      "source": "https://freedomhouse.org/country/vietnam/freedom-net",
+      "confidence": "medium"
+    },
+    {
+      "code": "TH",
+      "name": "Thailand",
+      "status": "restricted",
+      "scope": "both",
+      "note": "Computer Crime Act and Penal Code s.287 prohibit obscene material; MDES blocks sites; limits on sale and distribution.",
+      "source": "https://freedomhouse.org/country/thailand/freedom-net",
+      "confidence": "medium"
+    },
+    {
+      "code": "SG",
+      "name": "Singapore",
+      "status": "restricted",
+      "scope": "both",
+      "note": "Online Safety (Relevant Measures) Act and IMDA Internet Code of Practice; Undesirable Publications Act; porn sites blocked, age assurance for app stores/R18.",
+      "source": "https://www.imda.gov.sg/",
+      "confidence": "medium"
+    },
+    {
+      "code": "KR",
+      "name": "South Korea",
+      "status": "restricted",
+      "scope": "both",
+      "note": "Criminal Act art. 243-244 bans distribution of obscene material; KCSC blocks foreign porn sites; adult identity verification required.",
+      "source": "https://www.kcsc.kr/",
+      "confidence": "medium"
+    },
+    {
+      "code": "JP",
+      "name": "Japan",
+      "status": "restricted",
+      "scope": "both",
+      "note": "Penal Code art. 175 criminalises distribution of uncensored obscene material; mosaic requirement; age checks recommended.",
+      "source": "https://www.japaneselawtranslation.go.jp/",
+      "confidence": "medium"
+    },
+    {
+      "code": "GB",
+      "name": "United Kingdom",
+      "status": "restricted",
+      "scope": "online",
+      "note": "Online Safety Act 2023: services with pornographic content must use highly effective age assurance (enforced since July 2025) or face Ofcom fines up to 10% turnover; also offence for extreme pornography.",
+      "source": "https://www.ofcom.org.uk/online-safety",
+      "confidence": "high"
+    },
+    {
+      "code": "FR",
+      "name": "France",
+      "status": "restricted",
+      "scope": "online",
+      "note": "SREN law 2024 and Arcom reference framework require age verification for porn sites; Arcom may block; Pornhub suspended service in France in 2025.",
+      "source": "https://heise.de/-10424596",
+      "confidence": "medium"
+    },
+    {
+      "code": "IT",
+      "name": "Italy",
+      "status": "restricted",
+      "scope": "online",
+      "note": "AGCOM rules require double-anonymity age verification for porn sites, in force from 2025; fines.",
+      "source": "https://cybernews.com/privacy/italy-age-verification-porn-sites-this-month/",
+      "confidence": "medium"
+    },
+    {
+      "code": "DE",
+      "name": "Germany",
+      "status": "restricted",
+      "scope": "online",
+      "note": "Interstate Treaty on Protection of Minors in the Media (JMStV): porn only behind closed user groups with age verification; KJM enforces, network blocking sought.",
+      "source": "https://www.kjm-online.de/",
+      "confidence": "medium"
+    },
+    {
+      "code": "AU",
+      "name": "Australia",
+      "status": "restricted",
+      "scope": "online",
+      "note": "Online Safety Act 2021 industry codes (Phase 2) require age assurance for pornography; social media minimum age law separate; check eSafety for dates.",
+      "source": "https://www.esafety.gov.au/industry/codes",
+      "confidence": "medium"
+    },
+    {
+      "code": "UZ",
+      "name": "Uzbekistan",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Production and distribution of pornography criminal (Criminal Code art. 130); sites blocked.",
+      "source": "https://freedomhouse.org/country/uzbekistan/freedom-net",
+      "confidence": "low"
+    },
+    {
+      "code": "BY",
+      "name": "Belarus",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Criminal Code art. 343 prohibits porn distribution; sites blocked.",
+      "source": "https://freedomhouse.org/country/belarus/freedom-net",
+      "confidence": "low"
+    },
+    {
+      "code": "SY",
+      "name": "Syria",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Pornography prohibited and filtered.",
+      "source": "https://freedomhouse.org/country/syria",
+      "confidence": "low"
+    },
+    {
+      "code": "TM",
+      "name": "Turkmenistan",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Pornography prohibited; heavy internet censorship.",
+      "source": "https://freedomhouse.org/country/turkmenistan",
+      "confidence": "low"
+    },
+    {
+      "code": "MM",
+      "name": "Myanmar",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Electronic Transactions Law and Telecommunications Law ban obscene content; blocked.",
+      "source": "https://freedomhouse.org/country/myanmar/freedom-net",
+      "confidence": "low"
+    },
+    {
+      "code": "ET",
+      "name": "Ethiopia",
+      "status": "restricted",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Criminal Code and Computer Crime proclamation penalise obscene publications.",
+      "source": "https://freedomhouse.org/country/ethiopia/freedom-net",
+      "confidence": "low"
+    },
+    {
+      "code": "BH",
+      "name": "Bahrain",
+      "status": "prohibited",
+      "scope": "both",
+      "note": "from general knowledge, unverified. Porn sites blocked by TRA; Penal Code on obscenity.",
+      "source": "https://freedomhouse.org/country/bahrain/freedom-net",
+      "confidence": "low"
+    }
+  ]
+}
