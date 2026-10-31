@@ -1149,11 +1149,11 @@
             {
                 "id": "app_checklist",
                 "title": "App security and compliance checklist for AI coding agents",
-                "version": "1.4.1",
+                "version": "1.4.2",
                 "updated": "2026-10-31",
                 "path": "en/app_checklist.md",
-                "sha256": "80791527bfdaf52d5a6ea07894787663042bbd2c237d2feed87dfbc070d137cb",
-                "bytes": 22335,
+                "sha256": "a59f24ef4cce5ee0c33763dd95a98bebe891960c7fa1e7d42fe8a15bf0d8b95f",
+                "bytes": 22694,
                 "requires": [
                     "company.name"
                 ],
