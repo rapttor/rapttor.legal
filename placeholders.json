@@ -236,6 +236,55 @@
       "default": "rs",
       "label": "Jurisdiction id for governing law, venue and authority (rs, hr, ba, me, gb, de); or set law.governing/venue/authority yourself",
       "verify": true
+    },
+    "feature.anonymous": {
+      "flag": true,
+      "label": "Anonymous accounts are created automatically and can later be connected to an email"
+    },
+    "feature.uploads": {
+      "flag": true,
+      "label": "Users upload images or files (private by default)"
+    },
+    "feature.email": {
+      "flag": true,
+      "label": "The service sends emails (transactional and/or optional)"
+    },
+    "feature.external": {
+      "flag": true,
+      "label": "Third-party resources are loaded from other servers (fonts, maps, video, captcha...): list them in data.external"
+    },
+    "feature.age_gate": {
+      "flag": true,
+      "label": "Users must confirm a minimum / legal age before using age-sensitive features (set policy.age_gate and policy.age_topics)"
+    },
+    "feature.merchant_of_record": {
+      "flag": true,
+      "label": "A payment provider is the merchant of record / reseller (Paddle, Lemon Squeezy...); set payments.provider"
+    },
+    "policy.age_gate": {
+      "default": "18",
+      "label": "Age the user confirms for age-sensitive features: 13, 16, 18 or 21",
+      "verify": true
+    },
+    "policy.age_topics": {
+      "default": "",
+      "label": "What the age confirmation is for, as a short phrase, e.g. chat, user-generated content, gambling-style games"
+    },
+    "payments.provider": {
+      "default": "",
+      "label": "Name of the payment provider / merchant of record, e.g. Paddle, Stripe"
+    },
+    "company.dmca_agent": {
+      "default": "",
+      "label": "DMCA designated agent as registered with the US Copyright Office: name or role, organisation, mailing address, phone, email (one block of text)"
+    },
+    "company.dmca_number": {
+      "default": "",
+      "label": "DMCA registration number from the directory, e.g. DMCA-1234567"
+    },
+    "table.external": {
+      "block": true,
+      "label": "Markdown table of third-party resources that receive the visitor's IP address (built from data.external)"
     }
   },
   "computed": {

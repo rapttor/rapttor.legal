@@ -19,6 +19,9 @@
 | todo (owner) | Lawyer review of the four `LicenseRef-*` custom licences and the licence tags | Opus / human counsel |
 | todo (owner) | Lawyer review of terms, privacy, dpa (Serbia + EU consumer law); resolve every `verify` default | Opus / human counsel |
 | done | Packaging: LICENSE (MIT) + LICENSE-TEXT (CC BY 4.0), composer metadata (`--strict` clean), SemVer tags, CHANGELOG, CONTRIBUTING, SECURITY, docs/PUBLISHING.md, CI (PHP 8.2-8.4), generic example config, claims list, structured tables | Sonnet |
+| done | v0.2.0 content: research of 12 claims + extra items (docs/COMPLIANCE-RESEARCH.md), checklist for AI coding agents (`en/app_checklist.md`, internal doc), texts 1.1.0 for terms/privacy/cookies/AUP/refunds/copyright (age gate, anonymous accounts, ownership of data and files, uploads, third-party resources, emails, renewal terms, withdrawal function, DMCA agent), 12 claims, stale translations hidden, translations of the 6 documents updated (Haiku drafts) | Opus-level research + design, Sonnet, Haiku |
+| todo (owner) | Register the DMCA designated agent for each entity whose apps store user content (dmca.copyright.gov, Login.gov, USD 6, renew every 3 years); then fill `company.dmca_agent` / `company.dmca_number` | human |
+| todo (owner) | Release v0.2.0 of rapttor/legal FIRST, then yii2-legal v0.2.0 (it requires ^0.2); see docs/PUBLISHING.md | human |
 | todo (owner) | Submit both repos on Packagist (rapttor.legal first) and enable the GitHub hook: see docs/PUBLISHING.md | human |
 | later | npm `@rapttor/legal` + PyPI ports passing `tests/fixtures/grammar.json`; Node CLI that writes static HTML for plain sites | Sonnet |
 | done (v0.1.0 in ../yii2-legal) | Build `rapttor/yii2-legal` on top of `rapttor/legal` (Library::published/render): config component, routes `/legal/<doc>`, setup form from catalog+presets, Markdown to sanitised HTML, version archive of renders, console `legal/check` | Sonnet (renderer + security review: Opus) |
@@ -27,3 +30,4 @@
 | later | Cross-reference syntax `{{ref:anchor}}` resolved to section numbers, with a lint (26 hard-coded "section N" references today) | Sonnet |
 | later | Admin screen in the Yii2 wrapper (edit config, preview, diff of archived renders); privacy-request form with timestamps | Sonnet |
 | later | npm / PyPI ports passing tests/fixtures | Sonnet |
+| later | Re-check the unverified items in docs/COMPLIANCE-RESEARCH.md against primary sources (Microsoft sender rules, CIPA case law, state age-verification status, Planet49, EAA, AI Act Art. 50) | human counsel |

@@ -1,8 +1,8 @@
 ---
 doc: refunds
 title: Refunds & Cancellation Policy
-version: 1.0.0
-updated: 2026-10-23
+version: 1.1.0
+updated: 2026-10-31
 lang: en
 when: feature.payments
 summary: How to cancel, when you can withdraw or get a refund, and what happens with purchases made through app stores.
@@ -17,12 +17,14 @@ This policy is part of the [Terms of Service]({{url.terms}}) and applies to purc
 ## Where you bought matters {#where}
 
 - **Bought from us directly** (our website or checkout): this policy applies.
+{{#if feature.merchant_of_record}}- **Bought through our payment provider{{#if payments.provider}} {{payments.provider}}{{/if}}** (merchant of record): the provider is the seller of the order, handles payment, taxes and receipts, and processes refunds under its checkout terms and this policy. Requests may be sent to us or to the provider.
+{{/if}}
 - **Bought through an app store or platform** (Apple App Store, Google Play, console or PC storefronts): the store is the seller of record and **handles refunds, cancellations and billing**. Request a refund from the store using its own process; we cannot refund those payments, but we will help confirm facts and may revoke the purchased item when the store refunds. Store rules and your local law decide your rights there.
 
 {{#if feature.subscriptions}}
 ## Cancelling a subscription {#cancel}
 
-You can cancel at any time in your account settings{{#if feature.mobile}} (or in the store's subscription settings if you subscribed there){{/if}} or by writing to [{{company.email}}](mailto:{{company.email}}). Cancellation stops future renewals; you keep access until the end of the period you have paid for. We do not pro-rate partial periods unless the law or this policy says otherwise. Cancelling is as easy as signing up, and we remind you before a renewal or a trial converting to a paid plan where the law requires.
+You can cancel at any time in your account settings{{#if feature.mobile}} (or in the store's subscription settings if you subscribed there){{/if}} or by writing to [{{company.email}}](mailto:{{company.email}}). Cancellation stops future renewals; you keep access until the end of the period you have paid for. We do not pro-rate partial periods unless the law or this policy says otherwise. Cancelling is as easy as signing up: a direct cancel button in your account, no calls or forms. We remind you before a renewal or a trial converting to a paid plan where the law requires; for plans of a year or longer we send a reminder 15 to 45 days before renewal and an annual reminder, with the price and how to cancel. The terms of renewal are always shown next to the payment button.
 {{/if}}
 
 ## Right of withdrawal for consumers (EU, UK and similar laws) {#withdrawal}
@@ -36,7 +38,9 @@ If you are a consumer in the EU, the UK or another country that gives a right of
 
 We ask for this consent at checkout. If you did not give it, the full withdrawal right applies.
 
-**How to withdraw.** Send a clear statement (for example by email to [{{company.email}}](mailto:{{company.email}})) of your decision to withdraw, with your name, the order or account details and the date of purchase. You may use the form below but need not. We will confirm receipt and refund you **within 14 days** of learning of your decision, using the same payment method.
+**Withdrawal function.** As the law requires from 19 June 2026, a "Withdraw from contract" function is available in your account and in the order confirmation: choose the contract, confirm, and you receive an acknowledgement on a durable medium (email) stating the date and time. You do not need to explain why.
+
+**Other ways to withdraw.** Send a clear statement (for example by email to [{{company.email}}](mailto:{{company.email}})) of your decision to withdraw, with your name, the order or account details and the date of purchase. You may use the form below but need not. We will confirm receipt and refund you **within 14 days** of learning of your decision, using the same payment method.
 
 > **Model withdrawal form** (complete and return only if you want to withdraw)
 > To {{company.name}}, {{company.address}}, [{{company.email}}](mailto:{{company.email}}):

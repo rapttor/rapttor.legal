@@ -1,8 +1,8 @@
 ---
 doc: copyright
 title: Copyright & Illegal Content Notices
-version: 1.0.0
-updated: 2026-10-23
+version: 1.1.0
+updated: 2026-10-31
 lang: en
 summary: How to report copyright infringement and other illegal content on {{product.name}}, and how we handle notices and counter-notices.
 ---
@@ -26,6 +26,12 @@ If you are a rights holder (or authorised to act for one) and believe content on
 
 Incomplete notices may not be actionable. Do not send notices for material you do not own or for uses you know are lawful (for example fair use / fair dealing / quotation, parody, or licensed use): **knowingly false or abusive notices may expose you to liability for damages and costs**, and we may ignore notices from senders who repeatedly abuse the process.
 
+{{#if company.dmca_agent}}### Designated agent (17 U.S.C. § 512(c)(2)) {#dmca-agent}
+
+{{company.name}}, {{company.address}}, has designated the following agent to receive notices of claimed infringement under the US Digital Millennium Copyright Act{{#if company.dmca_number}} (US Copyright Office directory, registration {{company.dmca_number}}){{/if}}:
+
+{{company.dmca_agent}}
+{{/if}}
 ## 2. Reporting other illegal content (notice and action) {#illegal-content}
 
 Anyone can report content they consider illegal at [{{company.legal_email}}](mailto:{{company.legal_email}}). To let us act quickly, include:

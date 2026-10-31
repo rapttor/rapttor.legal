@@ -144,6 +144,78 @@
    "doc": "privacy",
    "when": "feature.minors",
    "text": "Guardian consent is collected for users below the age of majority, and guardians can review or delete the minor's data."
+  },
+  {
+   "id": "no-session-replay",
+   "doc": "privacy",
+   "when": "",
+   "text": "No session-replay, screen-recording, keystroke-capture or fingerprinting tools are loaded anywhere (including error-monitoring add-ons that offer replay)."
+  },
+  {
+   "id": "row-level-access",
+   "doc": "terms",
+   "when": "",
+   "text": "Every read, write, download and export is checked on the server against the owner and the people the owner gave access to; users cannot reach other accounts' or organisations' data by changing an id or a link."
+  },
+  {
+   "id": "no-secrets-in-frontend",
+   "doc": "security",
+   "when": "",
+   "text": "No secret keys, tokens or service credentials are present in browser code, HTML, mobile apps or public repositories; only keys designed to be public are used on the client."
+  },
+  {
+   "id": "private-uploads",
+   "doc": "terms",
+   "when": "feature.uploads",
+   "text": "Uploaded files are private by default, served only after an access check, and never used in public templates, guidelines, marketing or training material unless the owner publishes them."
+  },
+  {
+   "id": "external-after-consent",
+   "doc": "privacy",
+   "when": "feature.external",
+   "text": "Resources that receive the visitor's IP address (fonts, maps, video, captcha...) are loaded only after the visitor agrees to each one, and the list in data.external is complete."
+  },
+  {
+   "id": "age-confirmation-recorded",
+   "doc": "terms",
+   "when": "feature.age_gate",
+   "text": "The age and legal-age confirmation is shown before age-sensitive features, is not pre-ticked, is recorded, and users who do not confirm are blocked."
+  },
+  {
+   "id": "email-stop-link",
+   "doc": "privacy",
+   "when": "feature.email",
+   "text": "Every email contains a link to stop emails; optional emails stop with one click and immediately; a request to block all email is confirmed by a link in a last email and then added to the sender's no-send list."
+  },
+  {
+   "id": "consent-records",
+   "doc": "privacy",
+   "when": "",
+   "text": "Consents and choices are recorded per account with the version, date and language, and users are asked again when a required consent changes."
+  },
+  {
+   "id": "renewal-terms-at-checkout",
+   "doc": "terms",
+   "when": "feature.subscriptions",
+   "text": "Next to the payment button: price, billing period, automatic renewal, what follows a trial, how to cancel and links to Terms, Refunds and Privacy; consent is an unchecked box or button; the record is kept at least three years."
+  },
+  {
+   "id": "renewal-reminders",
+   "doc": "refunds",
+   "when": "feature.subscriptions",
+   "text": "Yearly plans get a reminder 15 to 45 days before renewal and an annual reminder; users are told before a trial converts to a paid plan; cancelling works with a direct button online."
+  },
+  {
+   "id": "withdrawal-function",
+   "doc": "refunds",
+   "when": "feature.consumers",
+   "text": "Consumers can withdraw from a contract with a labelled function in the account and order confirmation, with confirmation and a durable-medium acknowledgement."
+  },
+  {
+   "id": "dmca-agent-registered",
+   "doc": "copyright",
+   "when": "company.dmca_agent",
+   "text": "The DMCA designated agent shown is registered in the US Copyright Office directory and is renewed every three years."
   }
  ]
 }

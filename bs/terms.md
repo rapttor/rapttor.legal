@@ -1,10 +1,10 @@
 ---
 doc: terms
 title: Uslovi korištenja
-version: 1.0.0
-updated: 2026-10-23
+version: 1.1.0
+updated: 2026-10-31
 lang: bs
-translation_of: 1.0.0
+translation_of: 1.1.0
 status: draft
 summary: Ugovor između vas i {{product.name}} o korištenju {{product.name}}.
 ---
@@ -33,6 +33,8 @@ Usluge možete koristiti samo ako:
 2. vam pružanje Usluga nije zabranjeno prema važećem pravu, uključujući zakone o sankcijama i kontroli izvoza (odjeljak 22);
 3. ranije niste bili uklonjeni iz Usluga zbog kršenja naših pravila, osim ako smo se pismeno saglasili da vam ponovo omogućimo pristup; i
 4. Usluge koristite zakonito na mjestu na kojem se nalazite.
+{{#if feature.age_gate}}5. potvrdite, kada to od vas zatražimo, da imate najmanje **{{policy.age_gate}}** godina i da ste punoljetni prema pravilima vaše države za korištenje funkcija koje uključuju {{policy.age_topics|sadržaj osjetljiv na uzrast}}. Ne trebamo vaš datum rođenja: vaša potvrda se evidentira. Ako to nije tačno, možemo blokirati nalog i izbrisati njegove podatke.
+{{/if}}
 
 Možemo u bilo kojem trenutku tražiti dokaz o godinama, identitetu ili ovlaštenju, a možemo odbiti ili zatvoriti nalog koji ne prođe tu provjeru.
 
@@ -43,6 +45,8 @@ Možemo u bilo kojem trenutku tražiti dokaz o godinama, identitetu ili ovlašte
 - Odgovorni ste za sve što se dešava putem vašeg naloga, uključujući radnje osoba kojima dozvolite pristup ili koje ne uspijete spriječiti da pristupe, sve dok nas ne obavijestite da je nalog ugrožen. Odmah nas obavijestite na [{{company.email}}](mailto:{{company.email}}) ako sumnjate na neovlašteni pristup.
 - Možemo zahtijevati jaču autentifikaciju, resetovati pristupne podatke ili zaključati nalog za koji opravdano smatramo da je ugrožen ili zloupotrijebljen.
 - Neaktivni besplatni nalozi mogu se zatvoriti nakon prethodnog obavještenja poslatog na e-mail adresu koja je u evidenciji; plaćeni nalozi se ne zatvaraju zbog neaktivnosti.
+{{#if feature.anonymous}}- **Anonimni nalozi.** Gdje to nudimo, Usluge za vas kreiraju anonimni nalog pri prvoj upotrebi. Nalog nema adresu e-pošte; ko koristi taj pregledač ili uređaj može koristiti nalog, a mi ga ne možemo vratiti ako izgubite pristup. Adresu e-pošte možete povezati u bilo kojem trenutku da biste nalog osigurali i povratili: potvrđujemo je linkom za prijavu poslatim na nju. Anonimni nalozi koji dugo ostanu neaktivni mogu se izbrisati nakon obavještenja u Uslugama, tamo gdje je to moguće.
+{{/if}}- **Nosilac naloga i pristup.** Lice koje potvrdi kontrolu nad adresom e-pošte linkom za prijavu koji mi pošaljemo i prihvati ove Uslove jeste nosilac naloga i smatra se licem koje je donijelo izbore u nalogu. Ako djelujete za neku organizaciju, potvrđujete da je možete obavezati. Vi odlučujete ko drugi u vašoj organizaciji dobija pristup (na primjer operateri s ograničenim ulogama); lica kojima dajete pristup mogu vidjeti ono što im stavite na raspolaganje, a vi ste odgovorni za taj izbor.
 
 ## 4. Licenca i ograničenja {#licence}
 
@@ -79,6 +83,13 @@ Vi ste odgovorni za svoje korištenje Usluga i za ponašanje svih osoba kojima d
 Vi zadržavate sva prava na sve što pošaljete Uslugama. Dajete nam ograničenu licencu potrebnu da to obrađujemo radi pružanja, obezbjeđenja i podrške Uslugama, i obavezujete se da imate pravo da to pošaljete. Odgovorni ste za čuvanje vlastitih kopija.
 {{/if}}
 
+### Vaši podaci i datoteke {#your-data}
+
+Između vas i nas, **vi posjedujete podatke i datoteke koje stavljate u Usluge, i vi ste sami odgovorni za njih**: za pravo da ih otpremite i koristite, za njihovu tačnost i zakonitost, te za izbore koje pravite o tome ko može da im pristupa. Čuvamo ih i obrađujemo prema vašim uputama kako bi Usluge radile. Ovo ne ograničava naše vlastite zakonske obaveze, na primjer da osiguramo Usluge i zaštitimo lične podatke, i ne utiče na prava koja zakon ne dozvoljava isključiti.
+{{#if feature.uploads}}
+- **Autorska i druga prava.** Potvrđujete da posjedujete ono što otpremate ili imate svako potrebno ovlaštenje (uključujući od osoba prikazanih na slikama), i prihvatate da **možete biti odgovorni za zahtjeve** o autorskom pravu, ličnosti, privatnosti ili drugim pravima koji iz toga proizađu. Možemo ukloniti sadržaj i sarađivati s nosiocima prava i organima kako je opisano u [Obavještenjima o autorskim pravima i nezakonitom sadržaju]({{url.copyright}}).
+- **Privatno podrazumijevano.** Ono što otpremite vidljivo je samo vama i licima kojima dajete pristup (na primjer članovima ili operaterima vaše organizacije). Ne koristimo vaše otpremljene datoteke ili drugi sadržaj za izradu javnog materijala kao što su šabloni, smjernice, primjeri, marketing ili podaci za treniranje, i ne stavljamo ih na raspolaganje licima koja nisu prijavljena, osim ako ih izričito ne objavite ili podijelite.
+{{/if}}
 ## 7. Ako Usluge koristite za druge osobe {#end-users}
 
 Ako Usluge koristite da biste nešto pružali svojim kupcima, korisnicima, zaposlenicima ili drugim trećim licima („**Krajnji korisnici**“), za njih ste isključivo odgovorni: morate imati zakonit osnov, obavještenja i saglasnosti potrebne za svaki lični podatak koji prikupljate ili obrađujete, dogovoriti vlastite uslove s njima, rješavati njihove zahtjeve i pritužbe, osigurati da poštuju [Politiku prihvatljive upotrebe]({{url.acceptable_use}}), i ne davati obaveze u naše ime. Odgovorni ste za radnje i propuste Krajnjih korisnika kao da su vaši. Mi nemamo obaveze prema Krajnjim korisnicima.
@@ -99,8 +110,10 @@ Usluge trenutno ne uključuju funkcije uz pomoć vještačke inteligencije. Ako 
 
 {{#if feature.payments}}
 - **Cijene i porezi.** Cijene se prikazuju pri kupovini i ne uključuju PDV, prodajni i slične poreze, osim ako nije drukčije navedeno; vi plaćate važeće poreze. Cijene za potrošače uključuju poreze propisane zakonom.
-- **Plaćanje.** Ovlašćujete nas i našeg procesora plaćanja da naplatimo sredstva s načina plaćanja koji ste nam dali, za sve iznose koji dospijevaju, uključujući obnove i naplate prema korištenju. Obećavate da ste ovlašteni koristiti taj način plaćanja i morate držati podatke ažurnim.
-{{#if feature.subscriptions}}- **Pretplate.** Osim ako nije drukčije navedeno pri plaćanju, pretplate se automatski obnavljaju za periode iste dužine dok se ne otkažu. Otkažite u bilo kojem trenutku u svom nalogu ili e-mailom prije datuma obnove; otkazivanje stupa na snagu na kraju plaćenog perioda i ne vršimo proporcionalni obračun. Unaprijed vas obavještavamo, kako zakon zahtijeva, prije nego što se probni period pretvori u plaćeni ili se promijeni cijena obnove.
+{{#if feature.merchant_of_record}}- **Merchant of record.** Narudžbe obrađuje naš pružalac plaćanja{{#if payments.provider}} {{payments.provider}}{{/if}}, koji djeluje kao preprodavac i merchant of record, naplaćuje plaćanje i poreze i izdaje račun. Njegovi uslovi kupovine primjenjuju se na kupovinu uz ove Uslove; plaćanja, naplata, porezi i povrati novca regulišu se njima i našom [Politikom povrata novca i otkazivanja]({{url.refunds}}).
+{{/if}}- **Plaćanje.** Ovlašćujete nas i našeg procesora plaćanja da naplatimo sredstva s načina plaćanja koji ste nam dali, za sve iznose koji dospijevaju, uključujući obnove i naplate prema korištenju. Obećavate da ste ovlašteni koristiti taj način plaćanja i morate držati podatke ažurnim.
+{{#if feature.subscriptions}}- **Prije plaćanja.** Pored dugmeta za plaćanje prikazujemo cijenu, period naplate, to da se pretplata automatski obnavlja, šta se dešava nakon eventualnog probnog perioda, kako se otkazuje, te linkove na ove Uslove, [Politiku povrata novca i otkazivanja]({{url.refunds}}) i [Politiku privatnosti]({{url.privacy}}). Naplaćujemo tek nakon što označite polje ili pritisnete dugme kojim potvrđujete da ste ih vidjeli. Čuvamo evidenciju o toj saglasnosti i šaljemo vam potvrdu koju možete sačuvati.
+- **Pretplate.** Osim ako nije drukčije navedeno pri plaćanju, pretplate se automatski obnavljaju za periode iste dužine dok se ne otkažu. Otkažite u bilo kojem trenutku u svom nalogu ili e-mailom prije datuma obnove; otkazivanje stupa na snagu na kraju plaćenog perioda i ne vršimo proporcionalni obračun. Unaprijed vas obavještavamo, kako zakon zahtijeva, prije nego što se probni period pretvori u plaćeni ili se promijeni cijena obnove.
 - **Probni periodi i promocije.** Jedna probna ili promotivna ponuda po osobi ili preduzeću. Ponudu možemo povući ili odbiti ako sumnjamo na zloupotrebu (više naloga, lažni identiteti, zaobilaženje ograničenja).
 {{/if}}{{#if feature.credits}}- **Krediti.** Unaprijed plaćeni krediti, tokeni ili valuta unutar aplikacije predstavljaju ograničenu licencu za korištenje Usluga, a ne novac; nemaju novčanu vrijednost, neprenosivi su, ne mogu se unovčiti ili trgovati njima, i mogu isteći kako je navedeno pri kupovini. Neiskorišteni krediti se gube kada se nalog zatvori zbog kršenja; u ostalim slučajevima povrati slijede pravila u nastavku i važeći zakon.{{#if feature.game}} Virtualni predmeti u igrama uređeni su [Pravilima igre i politikom o virtualnim predmetima]({{url.game_rules}}).{{/if}}
 {{/if}}- **Promjene cijena.** Cijene možemo mijenjati za buduće periode uz najmanje {{policy.notice_days}} dana prethodnog obavještenja. Ako se ne slažete, otkažite prije nego što promjena stupi na snagu.

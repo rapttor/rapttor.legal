@@ -1,11 +1,11 @@
 ---
 doc: refunds
 title: Politika povrata novca i otkazivanja
-version: 1.0.0
-updated: 2026-10-23
+version: 1.1.0
+updated: 2026-10-31
 lang: bs
 when: feature.payments
-translation_of: 1.0.0
+translation_of: 1.1.0
 status: draft
 summary: Kako otkazati, kada možete odustati ili dobiti povrat novca i šta se dešava s kupovinama napravljenim putem prodavnica aplikacija.
 ---
@@ -19,12 +19,14 @@ Ova politika je dio [Uslova korištenja]({{url.terms}}) i primjenjuje se na kupo
 ## Gdje ste kupili je važno {#where}
 
 - **Kupljeno direktno od nas** (naša web stranica ili kasa): primjenjuje se ova politika.
+{{#if feature.merchant_of_record}}- **Kupljeno preko našeg pružaoca platnih usluga{{#if payments.provider}} {{payments.provider}}{{/if}}** (pružalac kao prodavac narudžbe): pružalac je prodavac narudžbe, obrađuje plaćanje, poreze i račune i vraća novac prema svojim uslovima kupovine i ovoj politici. Zahtjeve možete poslati nama ili pružaocu.
+{{/if}}
 - **Kupljeno putem prodavnice aplikacija ili platforme** (Apple App Store, Google Play, prodavnice za konzole ili PC): prodavnica je prodavac i **rješava povrate novca, otkazivanja i naplatu**. Zatražite povrat od prodavnice putem njenog vlastitog postupka. Mi ne možemo vratiti novac za te uplate, ali ćemo pomoći u potvrdi činjenica i možemo opozvati kupljenu stavku kada prodavnica izvrši povrat. Pravila prodavnice i vaš lokalni zakon određuju vaša prava tamo.
 
 {{#if feature.subscriptions}}
 ## Otkazivanje pretplate {#cancel}
 
-Možete otkazati u bilo kojem trenutku u postavkama naloga{{#if feature.mobile}} (ili u postavkama pretplate prodavnice ako ste se pretplatili tamo){{/if}} ili pisanjem na [{{company.email}}](mailto:{{company.email}}). Otkazivanje zaustavlja buduća obnavljanja; pristup zadržavate do kraja perioda koji ste platili. Ne vršimo srazmjerni obračun za djelimične periode, osim ako zakon ili ova politika ne određuju drugačije. Otkazivanje je jednako jednostavno kao i prijava, a tamo gdje zakon to zahtijeva podsjećamo vas prije obnavljanja ili prije nego što se probni period pretvori u plaćeni plan.
+Možete otkazati u bilo kojem trenutku u postavkama naloga{{#if feature.mobile}} (ili u postavkama pretplate prodavnice ako ste se pretplatili tamo){{/if}} ili pisanjem na [{{company.email}}](mailto:{{company.email}}). Otkazivanje zaustavlja buduća obnavljanja; pristup zadržavate do kraja perioda koji ste platili. Ne vršimo srazmjerni obračun za djelimične periode, osim ako zakon ili ova politika ne određuju drugačije. Otkazivanje je jednako jednostavno kao i prijava: dugme za otkazivanje direktno u vašem nalogu, bez poziva i obrazaca. Podsjećamo vas prije obnavljanja ili prije nego što se probni period pretvori u plaćeni plan tamo gdje zakon to zahtijeva; za planove od godinu dana ili duže šaljemo podsjetnik 15 do 45 dana prije obnavljanja i godišnji podsjetnik, s cijenom i načinom otkazivanja. Uslovi obnavljanja uvijek se prikazuju pored dugmeta za plaćanje.
 {{/if}}
 
 ## Pravo na odustajanje za potrošače (EU, Ujedinjeno Kraljevstvo i slični zakoni) {#withdrawal}
@@ -38,7 +40,9 @@ Ako ste potrošač u EU, Ujedinjenom Kraljevstvu ili drugoj zemlji koja daje pra
 
 Tu saglasnost tražimo pri plaćanju. Ako je niste dali, primjenjuje se puno pravo na odustajanje.
 
-**Kako odustati.** Pošaljite jasnu izjavu (na primjer e-poštom na [{{company.email}}](mailto:{{company.email}})) o svojoj odluci da odustanete, sa svojim imenom, podacima o narudžbi ili nalogu i datumom kupovine. Možete koristiti obrazac ispod, ali to nije obavezno. Potvrdit ćemo prijem i vratiti vam novac **u roku od 14 dana** od saznanja za vašu odluku, koristeći isti način plaćanja.
+**Funkcija za odustajanje.** Od 19. juna 2026, kako zahtijeva zakon, u vašem nalogu i u potvrdi narudžbe dostupna je funkcija „Odustani od ugovora”: odaberite ugovor, potvrdite, i primit ćete potvrdu na trajnom nosaču (e-poštom) s datumom i vremenom. Ne morate navoditi razlog.
+
+**Drugi načini odustajanja.** Pošaljite jasnu izjavu (na primjer e-poštom na [{{company.email}}](mailto:{{company.email}})) o svojoj odluci da odustanete, sa svojim imenom, podacima o narudžbi ili nalogu i datumom kupovine. Možete koristiti obrazac ispod, ali to nije obavezno. Potvrdit ćemo prijem i vratiti vam novac **u roku od 14 dana** od saznanja za vašu odluku, koristeći isti način plaćanja.
 
 > **Model obrasca za odustajanje** (popunite i vratite samo ako želite odustati)
 > Za {{company.name}}, {{company.address}}, [{{company.email}}](mailto:{{company.email}}):

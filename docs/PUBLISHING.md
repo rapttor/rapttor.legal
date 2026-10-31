@@ -6,6 +6,8 @@ First time (both repositories are public):
 2. In Packagist, enable the GitHub integration (or the webhook from the package page) so new tags are picked up automatically.
 3. Optional: add the Packagist badge to the README once the package page exists.
 
+Release order: `rapttor/legal` first (tag and push), then `rapttor/yii2-legal` (its `require` raises the minimum `rapttor/legal`; its CI resolves that tag from GitHub).
+
 Every release:
 
 1. `php tools/build.php && php tests/run.php` (and `vendor/bin/phpunit -c phpunit.xml` in yii2-legal).

@@ -1,8 +1,8 @@
 ---
 doc: privacy
 title: Privacy Policy
-version: 1.0.0
-updated: 2026-10-23
+version: 1.1.0
+updated: 2026-10-31
 lang: en
 summary: How {{product.name}} collects, uses, shares and protects personal data, and the rights you have.
 ---
@@ -35,6 +35,9 @@ If you use the Services through an organisation (your employer, a business custo
 | **Account data** | name, email, password hash, profile details, language, preferences | You |
 | **Contact and support data** | messages, attachments, call notes, feedback, survey answers | You |
 | **Content you submit** | files, text, settings, anything you place in the Services | You |
+{{#if feature.anonymous}}| **Anonymous account data** | a random account identifier, the browser or device session that holds it, the content you create, and an email address if you later connect one | You, automatically |
+{{/if}}{{#if feature.uploads}}| **Files and images you upload** | the files themselves and the metadata inside them (for example camera details or location in photos) | You |
+{{/if}}| **Consent records** | what you agreed to (documents, age confirmation, optional choices), the version, language, date and how you agreed | You |
 | **Usage and device data** | IP address, browser and device type, operating system, language, pages and features used, timestamps, referrer, crash and error logs | Automatically |
 | **Cookies and similar technologies** | identifiers in cookies, local storage, SDKs (see [Cookie Policy]({{url.cookies}})) | Automatically |
 {{#if feature.payments}}| **Payment and transaction data** | plan, invoices, billing name and address, tax ID, payment status; card details are handled by our payment processor and not stored by us | You, payment processor |
@@ -49,6 +52,26 @@ We do not intentionally collect special-category data (health, biometrics, polit
 
 You are not obliged to give us personal data, but without some of it (for example an email address) we cannot provide an account.
 
+### Tracking we do not use {#no-tracking}
+
+We do **not** use session-replay or screen-recording tools, keystroke or mouse-movement capture, or browser fingerprinting. {{#if feature.analytics}}Analytics run only with your consent (see the [Cookie Policy]({{url.cookies}})).{{else}}We do not use analytics or advertising trackers.{{/if}}
+{{#if feature.external}}
+### Third-party resources and your IP address {#external}
+
+Some features load content from servers of other companies (for example fonts, maps, video or security checks). When your browser fetches such content, **your IP address and technical details are sent to that company**, which may be outside your country. We load these resources only after you agree to each one in the cookie settings, which you can change at any time; if you refuse, we use a fallback or the feature stays off.
+{{#if table.external}}
+{{table.external}}
+{{/if}}
+{{/if}}{{#if feature.email}}
+### Emails {#emails}
+
+We send emails that the Services need (sign-in links, receipts, security notices){{#if feature.marketing}} and, only where you agreed or the law allows, product news{{/if}}. Every email contains a link to stop receiving email from us. {{#if feature.marketing}}Optional emails stop with one click, immediately. {{/if}}Because blocking all email would also block sign-in links, a request to block **all** email from this service is confirmed with one last email containing a link that proves the address is yours. We then add the address to the no-send list at our email provider and keep it there so that we can honour your choice (legal obligation and our legitimate interest in respecting your request).
+{{/if}}{{#if feature.age_gate}}
+### Age confirmation {#age}
+
+Before you use features involving {{policy.age_topics|age-sensitive content}}, we ask you to confirm that you are at least {{policy.age_gate}} years old and of legal age under the rules of your country. We do not ask for your date of birth and keep only your confirmation and when you gave it. If we learn that someone is below the age, we block the account and delete the data.
+{{/if}}
+
 ## 3. Why we use your data, and our legal bases {#purposes}
 
 | Purpose | Legal basis (GDPR / UK GDPR) |
@@ -60,6 +83,8 @@ You are not obliged to give us personal data, but without some of it (for exampl
 {{#if feature.analytics}}| Usage analytics | Consent where required by law, otherwise legitimate interests |
 {{/if}}{{#if feature.marketing}}| Product news and marketing emails | Consent, or legitimate interests for existing customers where the law allows; you can opt out at any time |
 {{/if}}{{#if feature.ads}}| Advertising and measurement | Consent |
+{{/if}}| Recording your consents and honouring your email choices | Legal obligation; legitimate interests |
+{{#if feature.external}}| Loading third-party resources that receive your IP address | Consent (Art. 6(1)(a), and the ePrivacy rules for access to your device) |
 {{/if}}| Accounting, tax and other legal obligations | Legal obligation (Art. 6(1)(c)) |
 | Establishing, exercising or defending legal claims; responding to authorities | Legitimate interests; legal obligation |
 | Business transfers (merger, acquisition, asset sale) | Legitimate interests |
@@ -107,6 +132,7 @@ We operate from {{company.country}}{{#if hosting.region}} and store data mainly 
 | Records of consents, opt-outs and rights requests | As long as needed to demonstrate compliance |
 | Data needed for a legal claim or investigation | Until the matter is resolved and limitation periods have passed |
 | Abuse and ban records (identifier, reason, date) | Up to 5 years, to prevent repeat abuse |
+| Consent records and email no-send list | Consent records: for the life of the account plus the limitation period; no-send entries: until you ask us to remove them |
 
 When the purpose ends we delete or irreversibly anonymise the data.
 

@@ -1,8 +1,8 @@
 ---
 doc: acceptable_use
 title: Acceptable Use Policy
-version: 1.0.0
-updated: 2026-10-23
+version: 1.1.0
+updated: 2026-10-31
 lang: en
 summary: What you may not do with {{product.name}}, how we handle misuse, and how to report it.
 ---
@@ -24,7 +24,7 @@ You must not use the Services to:
 5. defraud, deceive or mislead people, including scams, phishing, pyramid or Ponzi schemes, fake reviews and testimonials, fake stores, impersonation, counterfeit goods, or fraudulent use of payment instruments;
 6. sell, offer or facilitate illegal goods or services, including illegal drugs, weapons and explosives, stolen data or credentials, forged documents, human trafficking, or unlicensed regulated services;
 7. operate unlicensed gambling, lotteries or sweepstakes, or any activity that requires a licence you do not hold;
-8. infringe or misappropriate anyone's copyright, trademark, trade secret, privacy, publicity or other rights, or distribute pirated or cracked software or media.
+8. {{#if feature.uploads}}upload images, files or data that you do not own or have no permission to use, or that show or identify other people without their consent, or {{/if}}infringe or misappropriate anyone's copyright, trademark, trade secret, privacy, publicity or other rights, or distribute pirated or cracked software or media.
 
 ## 2. Security and system abuse {#security}
 
@@ -37,7 +37,8 @@ You must not:
 5. intercept, sniff or tamper with traffic or protocols, or run unauthorised proxies, emulators or modified clients;
 6. overload or degrade the Services or other users' experience, including excessive automated requests, and any use that imposes a disproportionate load on our infrastructure (we may define "fair use" limits for any plan and enforce them);
 7. use the Services to send **spam**, bulk unsolicited messages, deceptive or unlawfully targeted marketing, or to harvest email addresses or personal data; messages sent through the Services must comply with anti-spam and e-privacy law (consent, identification, working opt-out);
-8. probe or exploit weaknesses in another user's apps or data you reach through the Services.
+8. probe or exploit weaknesses in another user's apps or data you reach through the Services;
+9. try to read, change or delete data that belongs to other accounts or organisations, including by guessing or altering identifiers, links or file addresses.
 
 ## 3. Platform integrity {#integrity}
 

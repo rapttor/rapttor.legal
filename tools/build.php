@@ -112,6 +112,9 @@ foreach ($docs as $lang => $set) {
         }
         $a = $shape($src['body']);
         $b = $shape($d['body']);
+        if (($d['fm']['translation_of'] ?? '') !== ($src['fm']['version'] ?? '')) {
+            $b = $a; // stale translation: known to be out of date, reported below; hosts never show it
+        }
         foreach ($a as $part => $va) {
             if ($va !== $b[$part]) {
                 $diff = is_array($va) ? array_merge(array_diff($va, $b[$part]), array_diff($b[$part], $va)) : ["$va vs $b[$part]"];
@@ -197,6 +200,7 @@ foreach ($docs as $lang => $set) {
             'uses' => $usedList,
             'flags' => $flagList,
             'when' => $d['fm']['when'] ?? '',
+            'public' => ($d['fm']['public'] ?? 'true') !== 'false',
             'status' => $d['fm']['status'] ?? 'reviewed',
             'translation_of' => $d['fm']['translation_of'] ?? '',
             'stale' => $lang !== 'en' && ($d['fm']['translation_of'] ?? '') !== ($docs['en'][$id]['fm']['version'] ?? ''),
@@ -340,7 +344,7 @@ foreach ($claimsData as $c) {
     }
 }
 $tablesData = json_decode((string)file_get_contents("$root/i18n/tables.json"), true, 512, JSON_THROW_ON_ERROR);
-foreach (['subprocessors' => 3, 'cookies' => 5] as $k => $n) {
+foreach (['subprocessors' => 3, 'cookies' => 5, 'external' => 4] as $k => $n) {
     foreach ($tablesData[$k] as $lg => $heads) {
         if (count($heads) !== $n || !isset($langCatalog[$lg])) {
             $errors[] = "i18n/tables.json: $k/$lg must have $n headings and a known language";

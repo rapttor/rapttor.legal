@@ -1,8 +1,8 @@
 ---
 doc: cookies
 title: Cookie Policy
-version: 1.0.0
-updated: 2026-10-23
+version: 1.1.0
+updated: 2026-10-31
 lang: en
 summary: Which cookies and similar technologies {{product.name}} uses, why, and how to control them.
 ---
@@ -40,7 +40,9 @@ The exact cookie names, providers and durations are listed in the cookie setting
 
 - **Consent banner / settings.** Where consent is required we ask before setting non-essential cookies, with a clear option to refuse as easy as to accept. You can change or withdraw your choice at any time through the cookie settings link in the footer. Withdrawal does not affect earlier processing.
 - **Browser controls.** Most browsers let you block or delete cookies; look under Settings → Privacy. Blocking strictly necessary cookies may break sign-in and other features.
-- **Signals.** We treat Global Privacy Control (GPC) and similar browser opt-out signals as a refusal of non-essential tracking and of sale/sharing of personal data.
+- **No session recording.** We do not use session-replay or screen-recording tools.
+{{#if feature.external}}- **Third-party resources.** Where a resource (for example fonts, maps or video) is loaded from another company's server, your IP address is sent to it. We ask for your consent for each resource separately in the cookie settings and load it only after you agree; you can change your choice at any time.
+{{/if}}- **Signals.** We treat Global Privacy Control (GPC) and similar browser opt-out signals as a refusal of non-essential tracking and of sale/sharing of personal data.
 {{#if feature.ads}}- **Advertising choices.** Opt out of interest-based advertising through your device settings (resetting or limiting your advertising identifier) and tools such as youronlinechoices.eu or optout.aboutads.info. You will still see ads, just less relevant ones.
 {{/if}}
 ## 5. How long they last {#duration}
@@ -50,6 +52,11 @@ Session cookies expire when you close the browser. Persistent cookies last for t
 ## 6. Third parties {#third-parties}
 
 Some cookies are set by third parties whose services we use (analytics, embedded media, payment, support chat). They act under their own policies and, where they are independent controllers, you should read those. We list them in the table above.
+{{#if table.external}}
+Resources that receive your IP address when they are loaded:
+
+{{table.external}}
+{{/if}}
 
 ## 7. Changes {#changes}
 

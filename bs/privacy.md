@@ -1,10 +1,10 @@
 ---
 doc: privacy
 title: Politika privatnosti
-version: 1.0.0
-updated: 2026-10-23
+version: 1.1.0
+updated: 2026-10-31
 lang: bs
-translation_of: 1.0.0
+translation_of: 1.1.0
 status: draft
 summary: Kako {{product.name}} prikuplja, koristi, dijeli i štiti lične podatke te prava koja imate.
 ---
@@ -37,6 +37,9 @@ Ako koristite Usluge preko organizacije (vašeg poslodavca, poslovnog korisnika)
 | **Podaci o nalogu** | ime, e-pošta, heš lozinke, detalji profila, jezik, postavke | Vi |
 | **Podaci za kontakt i podršku** | poruke, prilozi, bilješke o pozivima, povratne informacije, odgovori u anketama | Vi |
 | **Sadržaj koji dostavljate** | datoteke, tekst, postavke, sve što stavite u Usluge | Vi |
+{{#if feature.anonymous}}| **Podaci anonimnog naloga** | slučajni identifikator naloga, pregledač ili sesija uređaja koja ga čuva, sadržaj koji kreirate i adresa e-pošte ako je kasnije povežete | Vi, automatski |
+{{/if}}{{#if feature.uploads}}| **Datoteke i slike koje otpremate** | same datoteke i metapodaci unutar njih (na primjer podaci o kameri ili lokaciji na fotografijama) | Vi |
+{{/if}}| **Evidencija saglasnosti** | na šta ste pristali (dokumente, potvrdu uzrasta, opcionalne izbore), verzija, jezik, datum i način na koji ste pristali | Vi |
 | **Podaci o upotrebi i uređaju** | IP adresa, tip pregledača i uređaja, operativni sistem, jezik, stranice i funkcije koje koristite, vremenske oznake, izvor preusmjeravanja, zapisi o padovima i greškama | Automatski |
 | **Kolačići i slične tehnologije** | identifikatori u kolačićima, lokalnoj pohrani, SDK-ovima (vidi [Politiku kolačića]({{url.cookies}})) | Automatski |
 {{#if feature.payments}}| **Podaci o plaćanju i transakcijama** | plan, fakture, ime i adresa za naplatu, porezni ID, status plaćanja; podatke o kartici obrađuje naš procesor plaćanja i mi ih ne pohranjujemo | Vi, procesor plaćanja |
@@ -51,6 +54,26 @@ Namjerno ne prikupljamo posebne kategorije podataka (zdravlje, biometrijske poda
 
 Niste dužni dati nam lične podatke, ali bez nekih od njih (na primjer e-adrese) ne možemo omogućiti nalog.
 
+### Praćenje koje ne koristimo {#no-tracking}
+
+Mi **ne** koristimo alate za snimanje sesija ili ekrana, bilježenje pritiska tastera ili pokreta miša, niti otisak pregledača (browser fingerprinting). {{#if feature.analytics}}Analitika se pokreće samo uz vašu saglasnost (vidi [Politiku kolačića]({{url.cookies}})).{{else}}Ne koristimo analitiku niti reklamne pratioce.{{/if}}
+{{#if feature.external}}
+### Resursi trećih strana i vaša IP adresa {#external}
+
+Neke funkcije učitavaju sadržaj sa servera drugih kompanija (na primjer fontove, mape, video ili sigurnosne provjere). Kada vaš pregledač preuzme takav sadržaj, **vaša IP adresa i tehnički podaci šalju se toj kompaniji**, koja može biti van vaše zemlje. Te resurse učitavamo tek nakon što za svaki od njih pristanete u postavkama kolačića, koje možete mijenjati u bilo kojem trenutku; ako odbijete, koristimo rezervno rješenje ili funkcija ostaje isključena.
+{{#if table.external}}
+{{table.external}}
+{{/if}}
+{{/if}}{{#if feature.email}}
+### E-pošta {#emails}
+
+Šaljemo e-poruke koje Usluge zahtijevaju (linkove za prijavu, račune, sigurnosna obavještenja){{#if feature.marketing}} i, samo ako ste pristali ili zakon to dozvoljava, vijesti o proizvodu{{/if}}. Svaka e-poruka sadrži link za prestanak primanja e-pošte od nas. {{#if feature.marketing}}Opcione e-poruke prestaju jednim klikom, odmah. {{/if}}Pošto bi blokiranje cjelokupne e-pošte blokiralo i linkove za prijavu, zahtjev da se blokira **sva** e-pošta iz ove usluge potvrđuje se još jednom e-porukom s linkom koji dokazuje da je adresa vaša. Zatim adresu dodajemo na listu za neslanje kod našeg pružaoca usluga e-pošte i tamo je čuvamo kako bismo mogli poštovati vaš izbor (zakonska obaveza i naš legitimni interes da poštujemo vaš zahtjev).
+{{/if}}{{#if feature.age_gate}}
+### Potvrda uzrasta {#age}
+
+Prije nego što koristite funkcije koje uključuju {{policy.age_topics|sadržaj osjetljiv na uzrast}}, tražimo da potvrdite da imate najmanje {{policy.age_gate}} godina i da ste punoljetni prema pravilima vaše države. Ne tražimo vaš datum rođenja i čuvamo samo vašu potvrdu i kada ste je dali. Ako saznamo da je neko mlađi od tog uzrasta, blokiramo nalog i brišemo podatke.
+{{/if}}
+
 ## 3. Zašto koristimo vaše podatke i naši pravni osnovi {#purposes}
 
 | Svrha | Pravni osnov (GDPR / UK GDPR) |
@@ -62,6 +85,8 @@ Niste dužni dati nam lične podatke, ali bez nekih od njih (na primjer e-adrese
 {{#if feature.analytics}}| Analitika upotrebe | Saglasnost tamo gdje to zakon zahtijeva, inače legitimni interesi |
 {{/if}}{{#if feature.marketing}}| Vijesti o proizvodima i marketinške e-poruke | Saglasnost, ili legitimni interesi za postojeće korisnike tamo gdje zakon dozvoljava; možete se odjaviti u bilo kojem trenutku |
 {{/if}}{{#if feature.ads}}| Oglašavanje i mjerenje | Saglasnost |
+{{/if}}| Evidentiranje vaših saglasnosti i poštovanje izbora u vezi s e-poštom | Zakonska obaveza; legitimni interesi |
+{{#if feature.external}}| Učitavanje resursa trećih strana koji primaju vašu IP adresu | Saglasnost (čl. 6(1)(a) i ePrivacy pravila o pristupu vašem uređaju) |
 {{/if}}| Računovodstvo, porez i druge zakonske obaveze | Zakonska obaveza (čl. 6(1)(c)) |
 | Uspostavljanje, ostvarivanje ili odbrana pravnih zahtjeva; odgovaranje organima vlasti | Legitimni interesi; zakonska obaveza |
 | Poslovni transferi (spajanje, preuzimanje, prodaja imovine) | Legitimni interesi |
@@ -109,6 +134,7 @@ Djelujemo iz {{company.country}}{{#if hosting.region}} i podatke pohranjujemo ug
 | Evidencija o saglasnostima, odjavama i zahtjevima za ostvarivanje prava | Onoliko dugo koliko je potrebno da se dokaže usklađenost |
 | Podaci potrebni za pravni zahtjev ili istragu | Dok se predmet ne riješi i ne isteknu rokovi zastare |
 | Evidencija o zloupotrebama i zabranama (identifikator, razlog, datum) | Do 5 godina, radi sprječavanja ponovljene zloupotrebe |
+| Evidencija saglasnosti i lista za neslanje e-pošte | Evidencija saglasnosti: za život naloga plus rok zastare; unosi na listi za neslanje: dok ne zatražite njihovo uklanjanje |
 
 Kada svrha prestane, podatke brišemo ili ih nepovratno anonimizujemo.
 

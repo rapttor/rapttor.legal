@@ -1,8 +1,8 @@
 ---
 doc: terms
 title: Terms of Service
-version: 1.0.0
-updated: 2026-10-23
+version: 1.1.0
+updated: 2026-10-31
 lang: en
 summary: The agreement between you and {{product.name}} for using {{product.name}}.
 ---
@@ -31,6 +31,8 @@ You may use the Services only if you:
 2. are not barred from receiving the Services under applicable law, including sanctions and export-control laws (section 22);
 3. have not previously been removed from the Services for violating our rules, unless we agreed in writing to let you back; and
 4. use the Services lawfully in the place where you are.
+{{#if feature.age_gate}}5. confirm, when we ask, that you are at least **{{policy.age_gate}}** years old and of legal age under the rules of your country to use features involving {{policy.age_topics|age-sensitive content}}. We do not need your date of birth: your confirmation is recorded. If it is not true, we may block the account and delete its data.
+{{/if}}
 
 We may ask for proof of age, identity or authority at any time, and may refuse or close an account that fails the check.
 
@@ -41,6 +43,8 @@ We may ask for proof of age, identity or authority at any time, and may refuse o
 - You are responsible for everything that happens under your account, including by people you allow in or whom you fail to keep out, until you tell us it is compromised. Tell us immediately at [{{company.email}}](mailto:{{company.email}}) if you suspect unauthorised access.
 - We may require stronger authentication, reset credentials, or lock an account we reasonably believe is compromised or abused.
 - Inactive free accounts may be closed after prior notice to the email on file; paid accounts are not closed for inactivity.
+{{#if feature.anonymous}}- **Anonymous accounts.** Where we offer it, the Services create an anonymous account for you the first time you use them. It has no email address; whoever uses that browser or device can use the account, and we cannot recover it for you if you lose access. You can connect an email address at any time to secure and recover the account: we confirm the address with a sign-in link sent to it. Anonymous accounts that stay unused for a long time may be deleted after notice in the Services where that is possible.
+{{/if}}- **Account holder and access.** The person who confirms control of an email address with the sign-in link we send, and accepts these Terms, is the account holder and is treated as the person who made the choices in the account. If you act for an organisation, you confirm that you may bind it. You decide who else in your organisation gets access (for example operators with limited roles); people you give access can see what you make available to them, and you are responsible for that choice.
 
 ## 4. Licence and restrictions {#licence}
 
@@ -77,6 +81,14 @@ You are responsible for your use of the Services and for the conduct of everyone
 You keep all rights in anything you submit to the Services. You grant us the limited licence needed to process it to provide, secure and support the Services, and you promise you have the right to submit it. You are responsible for keeping your own copies.
 {{/if}}
 
+### Your data and files {#your-data}
+
+As between you and us, **you own the data and files you put into the Services, and you alone are responsible for them**: for having the right to upload and use them, for their accuracy and lawfulness, and for the choices you make about who can access them. We store and process them on your instructions so that the Services work. This does not limit our own legal duties, for example to secure the Services and to protect personal data, and it does not affect rights that cannot be excluded by law.
+{{#if feature.uploads}}
+- **Copyright and other rights.** You confirm that you own what you upload or have every permission needed (including from people shown in images), and you accept that **you can be held accountable for claims** about copyright, personality, privacy or other rights that arise from it. We may remove content and cooperate with rights holders and authorities as described in [Copyright & Illegal Content Notices]({{url.copyright}}).
+- **Private by default.** What you upload is visible only to you and to the people you give access to (for example members or operators of your organisation). We do not use your uploads or other content to create public material such as templates, guidelines, examples, marketing or training data, and we do not make them available to people who are not signed in, unless you explicitly publish or share them.
+{{/if}}
+
 ## 7. If you serve other people with the Services {#end-users}
 
 If you use the Services to provide something to your own customers, users, employees or other third parties ("**End Users**"), you are solely responsible for them: you must have the lawful basis, notices and consents required for any personal data you collect or process, agree your own terms with them, handle their requests and complaints, ensure their compliance with the [Acceptable Use Policy]({{url.acceptable_use}}), and not make commitments on our behalf. You are liable for End Users' acts and omissions as if they were yours. We have no obligations to End Users.
@@ -97,8 +109,10 @@ The Services do not currently include AI-assisted features. If we add them, we w
 
 {{#if feature.payments}}
 - **Prices and taxes.** Prices are shown at purchase and exclude VAT, sales and similar taxes unless stated; you pay applicable taxes. Prices for consumers include the taxes required by law.
-- **Payment.** You authorise us and our payment processor to charge the payment method you give us for all amounts due, including renewals and usage-based charges. You promise you are entitled to use that payment method, and must keep details current.
-{{#if feature.subscriptions}}- **Subscriptions.** Unless stated otherwise at checkout, subscriptions renew automatically for periods of the same length until cancelled. Cancel any time in your account or by email before the renewal date; cancellation takes effect at the end of the paid period and we do not pro-rate. We tell you in advance, as the law requires, before a trial converts or a renewal price changes.
+{{#if feature.merchant_of_record}}- **Merchant of record.** Orders are processed by our payment provider{{#if payments.provider}} {{payments.provider}}{{/if}}, which acts as reseller and merchant of record, collects payment and taxes and issues the receipt. Its checkout terms apply to the purchase in addition to these Terms; payments, billing, taxes and refunds are handled under them and under our [Refunds & Cancellation Policy]({{url.refunds}}).
+{{/if}}- **Payment.** You authorise us and our payment processor to charge the payment method you give us for all amounts due, including renewals and usage-based charges. You promise you are entitled to use that payment method, and must keep details current.
+{{#if feature.subscriptions}}- **Before you pay.** Next to the payment button we show the price, the billing period, that the subscription renews automatically, what happens after any trial, how to cancel, and links to these Terms, the [Refunds & Cancellation Policy]({{url.refunds}}) and the [Privacy Policy]({{url.privacy}}). You are charged only after you tick the box or press the button that confirms you have seen them. We keep a record of that consent and send you a confirmation you can keep.
+- **Subscriptions.** Unless stated otherwise at checkout, subscriptions renew automatically for periods of the same length until cancelled. Cancel any time in your account or by email before the renewal date; cancellation takes effect at the end of the paid period and we do not pro-rate. We tell you in advance, as the law requires, before a trial converts or a renewal price changes.
 - **Trials and promotions.** One trial or promotional offer per person or business. We may withdraw or refuse an offer where we suspect abuse (multiple accounts, fake identities, circumvented limits).
 {{/if}}{{#if feature.credits}}- **Credits.** Prepaid credits, tokens or in-app currency are a limited licence to use the Services, not money, have no cash value, are non-transferable, cannot be redeemed for money or traded, and may expire as stated at purchase. Unused credits are forfeited when an account is closed for breach; in other cases refunds follow the rules below and applicable law.{{#if feature.game}} Virtual items in games are governed by the [Game Rules & Virtual Items Policy]({{url.game_rules}}).{{/if}}
 {{/if}}- **Price changes.** We may change prices prospectively with at least {{policy.notice_days}} days' notice. If you do not agree, cancel before the change takes effect.

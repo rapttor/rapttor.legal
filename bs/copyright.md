@@ -1,10 +1,10 @@
 ---
 doc: copyright
 title: Obavještenja o autorskom pravu i nezakonitom sadržaju
-version: 1.0.0
-updated: 2026-10-23
+version: 1.1.0
+updated: 2026-10-31
 lang: bs
-translation_of: 1.0.0
+translation_of: 1.1.0
 status: draft
 summary: Kako prijaviti kršenje autorskih prava i drugi nezakonit sadržaj na {{product.name}} i kako postupamo sa obavještenjima i protivobavještenjima.
 ---
@@ -28,6 +28,12 @@ Ako ste nosilac prava (ili ovlašteni da djelujete u ime nosioca prava) i smatra
 
 Nepotpuna obavještenja možda neće biti moguće postupiti. Nemojte slati obavještenja za materijal koji ne posjedujete ili za upotrebe za koje znate da su zakonite (na primjer poštena upotreba / pošteno korištenje, citiranje, parodija ili upotreba na osnovu licence): **namjerno lažna ili zlonamjerna obavještenja mogu vas izložiti odgovornosti za štetu i troškove**, a obavještenja pošiljalaca koji ponavljano zloupotrebljavaju postupak možemo zanemariti.
 
+{{#if company.dmca_agent}}### Imenovani agent (17 U.S.C. § 512(c)(2)) {#dmca-agent}
+
+{{company.name}}, {{company.address}}, imenovalo je sljedećeg agenta za primanje obavještenja o navodnoj povredi prema američkom zakonu Digital Millennium Copyright Act{{#if company.dmca_number}} (direktorij US Copyright Office, registracija {{company.dmca_number}}){{/if}}:
+
+{{company.dmca_agent}}
+{{/if}}
 ## 2. Prijavljivanje ostalog nezakonitog sadržaja (obavještenje i postupanje) {#illegal-content}
 
 Svako može prijaviti sadržaj koji smatra nezakonitim na adresu [{{company.legal_email}}](mailto:{{company.legal_email}}). Da bismo mogli brzo postupiti, uključite:

@@ -197,8 +197,8 @@ final class Library
         $chain = array_values(array_unique([$want, ...($this->langs[$want]['fallback'] ?? []), $default]));
         $out = [];
         foreach ($this->manifest['languages'][$default] as $base) {
-            if ($base['when'] !== '' && ($flat[$base['when']] ?? '') === '') {
-                continue;
+            if (($base['public'] ?? true) === false || ($base['when'] !== '' && ($flat[$base['when']] ?? '') === '')) {
+                continue; // internal documents (developer instructions) and documents whose feature is off
             }
             foreach ($chain as $tag) {
                 $e = $this->entry($base['id'], $tag, $drafts);
@@ -232,8 +232,8 @@ final class Library
             if ($d['id'] !== $docId) {
                 continue;
             }
-            if (!$drafts && ($d['status'] ?? 'reviewed') === 'draft') {
-                return null;
+            if (!$drafts && (($d['status'] ?? 'reviewed') === 'draft' || !empty($d['stale']))) {
+                return null; // drafts, and translations older than the English text, are never shown to visitors
             }
             $d['lang'] = $tag;
             if ($virtual !== null) {
@@ -355,7 +355,7 @@ final class Library
     private function withTables(array $config, string $lang): array
     {
         $headings = self::json("{$this->root}/i18n/tables.json");
-        $cols = ['subprocessors' => ['name', 'purpose', 'location'], 'cookies' => ['name', 'provider', 'purpose', 'category', 'duration']];
+        $cols = ['subprocessors' => ['name', 'purpose', 'location'], 'cookies' => ['name', 'provider', 'purpose', 'category', 'duration'], 'external' => ['name', 'provider', 'purpose', 'country']];
         foreach ($cols as $key => $fields) {
             $rows = $config['data'][$key] ?? null;
             if (!is_array($rows) || $rows === [] || !empty($config['table'][$key])) {
@@ -370,6 +370,27 @@ final class Library
             $config['table'][$key] = rtrim($md);
         }
         return $config;
+    }
+
+    /**
+     * Render an internal (non-public) document, such as the developer checklist, for a site config. English only.
+     *
+     * @param array<string,mixed> $config nested site config
+     */
+    public function internal(array $config, string $docId, array &$missing = []): string
+    {
+        foreach ($this->manifest['languages'][(string)$this->manifest['default_lang']] as $d) {
+            if ($d['id'] === $docId && ($d['public'] ?? true) === false) {
+                $raw = (string)file_get_contents("{$this->root}/{$d['path']}");
+                preg_match('/\A---\n.*?\n---\n(.*)\z/s', $raw, $m);
+                $r = new Renderer($this->catalog, Renderer::flatten($this->withTables($config, 'en')), []);
+                $miss = [];
+                $text = $r->render($m[1], $r->resolve(['id' => $d['id'], 'title' => $d['title'], 'version' => $d['version'], 'updated' => $d['updated'], 'lang' => 'en']), $miss);
+                $missing = array_keys($miss);
+                return $text;
+            }
+        }
+        throw new \InvalidArgumentException("No internal document '$docId'");
     }
 
     /** Translated one-line summaries and trade-offs of licences for a language (id => [summary, tradeoffs]). @return array<string,array<string,string>> */

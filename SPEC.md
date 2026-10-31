@@ -36,6 +36,13 @@ when: feature.game     # optional: publish this document only when that key is n
 
 `<lang>/<doc>.md` for each language in `i18n/languages.json`. A translation has the same front matter as the English file plus `translation_of` (the English `version` it was made from), `status` (`draft`, `community`, `reviewed`) and, once reviewed, `reviewed_by`. It must contain exactly the same multiset of template tags (ignoring `|fallback` text), the same heading anchors and levels, the same link targets and the same number of table rows as the English file; `tools/build.php` enforces this. `sr-Cyrl` is virtual: clients transliterate `sr` with `Transliterator` (tests/fixtures/transliteration.json) and keep tags, anchors, link targets, code, URLs, e-mails and `i18n/keep-latin.txt` entries unchanged. Clients resolve a requested tag through `aliases` and the `fallback` chain, hide `draft` documents unless configured otherwise, and fall back per document. `law.governing`, `law.venue` and `law.authority` default from `i18n/jurisdictions.json` (`law.jurisdiction`, language, then English). The `urlFor` callback receives (document id, language).
 
+## Internal documents, stale translations
+
+- Front matter `public: false` marks an **internal** document (for example `app_checklist`, the checklist for AI coding agents). `Library::published()` never returns it; `Library::internal($config, $id)` renders it (English only) for developer tooling such as `yii legal/agents`.
+- A translation whose `translation_of` differs from the English `version` is **stale**. The build warns and skips its structure check; clients must not show a stale translation unless drafts are enabled.
+- Tables built from structured data: `data.subprocessors`, `data.cookies`, `data.external` (lists of rows) become `table.*` Markdown with headings from `i18n/tables.json`, unless the site supplies `table.*` itself.
+- `claims.json` lists statements the published documents make about the product; hosts report claims the owner has not confirmed.
+
 ## Placeholder grammar
 
 Processed **before** Markdown rendering, on the document body (and front matter `title`/`summary`).

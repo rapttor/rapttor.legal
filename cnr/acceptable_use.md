@@ -1,10 +1,10 @@
 ---
 doc: acceptable_use
 title: Politika prihvatljivog korišćenja
-version: 1.0.0
-updated: 2026-10-23
+version: 1.1.0
+updated: 2026-10-31
 lang: cnr
-translation_of: 1.0.0
+translation_of: 1.1.0
 status: draft
 summary: Šta ne smijete raditi sa {{product.name}}, kako postupamo sa zloupotrebama i kako ih prijaviti.
 ---
@@ -26,7 +26,7 @@ Ne smijete koristiti Usluge da:
 5. prevarate, obmanjujete ili dovodite u zabludu ljude, uključujući prevare, phishing, piramidalne i Ponzijeve šeme, lažne recenzije i preporuke, lažne prodavnice, lažno predstavljanje, krivotvorenu robu ili prevarnu upotrebu sredstava plaćanja;
 6. prodajete, nudite ili omogućavate nezakonitu robu ili usluge, uključujući nezakonite droge, oružje i eksplozive, ukradene podatke ili vjerodajnice, falsifikovana dokumenta, trgovinu ljudima ili regulisane usluge bez potrebne dozvole;
 7. upravljate nelicenciranim kockanjem, lutrijama ili nagradnim igrama, ili bilo kojom djelatnošću za koju je potrebna licenca koju nemate;
-8. kršite ili prisvajate tuđa autorska prava, žig, poslovnu tajnu, privatnost, prava na publicitet ili druga prava, ili distribuirate piratski ili krakovan softver i medije.
+8. {{#if feature.uploads}}otpremate slike, datoteke ili podatke koje ne posjedujete ili za čiju upotrebu nemate dozvolu, ili koji prikazuju ili identifikuju druge osobe bez njihove saglasnosti, ili {{/if}}kršite ili prisvajate tuđa autorska prava, žig, poslovnu tajnu, privatnost, prava na publicitet ili druga prava, ili distribuirate piratski ili krakovan softver i medije.
 
 ## 2. Bezbjednost i zloupotreba sistema {#security}
 
@@ -39,7 +39,8 @@ Ne smijete:
 5. presrijetate, prisluškujete ili mijenjate saobraćaj ili protokole, ili pokrećete neovlašćene proxy servere, emulatore ili izmijenjene klijente;
 6. preopterećujete ili narušavate Usluge ili iskustvo drugih korisnika, uključujući prekomjerne automatizovane zahtjeve, i svako korišćenje koje stvara nesrazmjerno opterećenje naše infrastrukture (možemo definisati ograničenja "poštene upotrebe" za bilo koji paket i primjenjivati ih);
 7. koristite Usluge za slanje **spama**, masovnih neželjenih poruka, obmanjujućeg ili nezakonito usmjerenog marketinga, ili za prikupljanje adresa e-pošte ili ličnih podataka; poruke poslate putem Usluga moraju biti u skladu sa zakonima o borbi protiv spama i e-privatnosti (saglasnost, identifikacija, funkcionalna mogućnost odjave);
-8. istražujete ili iskorištavate slabosti u tuđim aplikacijama ili podacima kojima pristupate putem Usluga.
+8. istražujete ili iskorištavate slabosti u tuđim aplikacijama ili podacima kojima pristupate putem Usluga;
+9. pokušavati da čitate, mijenjate ili brišete podatke koji pripadaju drugim nalozima ili organizacijama, uključujući pogađanjem ili mijenjanjem identifikatora, linkova ili adresa datoteka.
 
 ## 3. Integritet platforme {#integrity}
 

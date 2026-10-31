@@ -1,10 +1,10 @@
 ---
 doc: cookies
 title: Politika kolačića
-version: 1.0.0
-updated: 2026-10-23
+version: 1.1.0
+updated: 2026-10-31
 lang: bs
-translation_of: 1.0.0
+translation_of: 1.1.0
 summary: Koje kolačiće i slične tehnologije {{product.name}} koristi, zašto, i kako ih možete kontrolisati.
 status: draft
 ---
@@ -42,7 +42,9 @@ Tačni nazivi kolačića, pružaoci i trajanje navedeni su u dijaloškom okviru 
 
 - **Banner za saglasnost / postavke.** Tamo gdje je saglasnost potrebna, tražimo je prije postavljanja neesencijalnih kolačića, uz jasnu opciju odbijanja koja je jednako laka kao i prihvatanje. Svoj izbor možete promijeniti ili povući u bilo kom trenutku putem linka za postavke kolačića u podnožju. Povlačenje ne utiče na obradu koja je prethodno izvršena.
 - **Kontrole preglednika.** Većina preglednika vam omogućava da blokirate ili obrišete kolačiće; potražite to pod Postavke → Privatnost. Blokiranje strogo neophodnih kolačića može onemogućiti prijavu i druge funkcije.
-- **Signali.** Global Privacy Control (GPC) i slične signale za odjavu u pregledniku tretiramo kao odbijanje neesencijalnog praćenja i prodaje/dijeljenja ličnih podataka.
+- **Nema snimanja sesije.** Ne koristimo alate za reprodukciju sesije ili snimanje ekrana.
+{{#if feature.external}}- **Resursi trećih strana.** Tamo gdje se resurs (na primjer fontovi, karte ili video) učitava sa servera druge kompanije, vaša IP adresa se šalje tom serveru. Za svaki resurs posebno tražimo saglasnost u postavkama kolačića i učitavamo ga tek nakon što pristanete; svoj izbor možete promijeniti u bilo kom trenutku.
+{{/if}}- **Signali.** Global Privacy Control (GPC) i slične signale za odjavu u pregledniku tretiramo kao odbijanje neesencijalnog praćenja i prodaje/dijeljenja ličnih podataka.
 {{#if feature.ads}}- **Izbori za oglašavanje.** Možete se odjaviti od oglašavanja zasnovanog na interesovanjima kroz postavke vašeg uređaja (resetovanje ili ograničavanje vašeg identifikatora za oglašavanje) i alate poput youronlinechoices.eu ili optout.aboutads.info. I dalje ćete vidjeti oglase, ali manje relevantne.
 {{/if}}
 ## 5. Koliko dugo traju {#duration}
@@ -52,6 +54,11 @@ Sesijski kolačići isteknu kada zatvorite preglednik. Trajni kolačići traju z
 ## 6. Treće strane {#third-parties}
 
 Neke kolačiće postavljaju treće strane čije usluge koristimo (analitika, ugrađeni mediji, plaćanje, chat podrške). One djeluju prema vlastitim politikama i, ako su samostalni kontrolori, trebali biste pročitati njihove politike. Navodimo ih u tabeli iznad.
+{{#if table.external}}
+Resursi koji primaju vašu IP adresu kada se učitaju:
+
+{{table.external}}
+{{/if}}
 
 ## 7. Izmjene {#changes}
 

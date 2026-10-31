@@ -25,6 +25,12 @@ php tests/run.php       # grammar fixtures, advisor, transliteration, every lang
 ```
 Both must be clean. `php tools/build.php --lint` checks without writing the manifest. Commit `manifest.json` with the change.
 
+## Internal documents and claims
+
+- `en/app_checklist.md` (`public: false`) is the checklist AI coding agents read inside host apps. When you add a feature flag or a promise to a public text, add the matching rule to the checklist and the matching entry to `claims.json`, in the same change. Keep the checklist imperative, short, and conditional on `feature.*`.
+- A claim must describe something the host app can actually check or build. Never add a claim the plugin cannot help satisfy.
+- Research behind rules lives in `docs/COMPLIANCE-RESEARCH.md`: mark anything not verified against a primary source as **unverified**. Do not state a law as settled when the sources conflict.
+
 ## Template rules
 
 - Grammar: `{{key}}`, `{{key|fallback}}`, `{{#if key}}..{{else}}..{{/if}}`, `{{#unless key}}..{{/unless}}`. No loops, no expressions. Every key must exist in `placeholders.json` (the build fails otherwise). Use `{{url.<doc>}}` for cross-links, never a literal path.

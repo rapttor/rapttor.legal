@@ -26,6 +26,7 @@ Central, versioned **legal page templates** (privacy, terms, acceptable use, coo
 | `app_eula` | App Terms (End-User Licence) | Store-distributed apps (`feature.mobile`): Apple/Google required clauses, permissions, in-app account deletion |
 | `copyright` | Copyright & Illegal Content Notices | Sites with user content (DSA notice-and-action, DMCA-style process) |
 | `security` | Security & Vulnerability Disclosure | Every site; safe-harbour for researchers |
+| `app_checklist` | Checklist for AI coding agents (internal, never published) | Rendered into the app's AGENTS.md with `yii legal/agents` |
 | `license` | Licence page | Any project that sets `license.id`: shows the chosen licence with the full text, from the catalogue below |
 | `subprocessors` | Sub-processor List | With the DPA |
 
@@ -58,6 +59,12 @@ php tools/render.php examples/example.json en build --all-features
 - **Croatian, Bosnian, Montenegrin** are separate files, drafted from the Serbian text and the English with the glossary (`i18n/glossary.json`), because the vocabulary and the law differ. Language and jurisdiction are independent: `law.jurisdiction` (`rs`, `hr`, `ba`, `me`, `gb`, `de`) supplies governing law, venue and authority in the document's language (`i18n/jurisdictions.json`).
 - **Per-document fallback.** A document missing in a language shows the next language in the chain, finally English, and says so.
 - **Translating:** see `i18n/TRANSLATING.md` (rules for humans and AI drafters). Open to community translations through pull requests.
+
+## For apps built with AI coding agents
+
+AI-generated apps tend to break the promises their legal pages make: open tables, keys in the browser, public uploads, trackers, pre-ticked boxes. `en/app_checklist.md` is a feature-aware checklist written for coding agents (row-level access, secrets, uploads, sign-in and age confirmation, consents, tracking and third-party resources, email, payments and renewal terms, DMCA, web basics, release checks). It is not a public page: `php yii legal/agents` (in the Yii2 wrapper) writes the part that applies to your app into the app's `AGENTS.md` (and optionally `llms.txt`), so the agent reads it on every task. The research behind each rule, with sources and what could not be verified, is in [docs/COMPLIANCE-RESEARCH.md](docs/COMPLIANCE-RESEARCH.md).
+
+New feature flags that switch the matching clauses on: `anonymous`, `uploads`, `email`, `external` (third-party resources that receive the visitor's IP address, listed in `data.external`), `age_gate` (with `policy.age_gate`, `policy.age_topics`), `merchant_of_record` (with `payments.provider`). New keys for the US DMCA safe harbour: `company.dmca_agent`, `company.dmca_number`.
 
 ## Licence catalogue and advisor
 
