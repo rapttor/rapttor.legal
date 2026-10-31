@@ -1,7 +1,7 @@
 ---
 doc: app_checklist
 title: App security and compliance checklist for AI coding agents
-version: 1.0.0
+version: 1.0.1
 updated: 2026-10-31
 lang: en
 summary: Rules an AI coding agent must follow in every app that publishes its legal pages with rapttor/yii2-legal.
@@ -66,13 +66,17 @@ You are an AI coding agent working on **{{product.name}}** ({{company.name}}). T
 - Each consent has a key, a **version**, a text, and whether it is **required**. The answers are stored with the account (JSON or table): key, version, granted yes/no, time, language. Use the plugin's consent registry (`Yii::$app->legal->consents()`, the `ConsentGate` filter and the `/legal/consents` page) instead of writing your own.
 - When a document or consent changes in a way that matters (new version), ask again at the next sign-in. Required items block use until accepted; optional items are asked once per new version and may be declined. Show the screen even for optional items, but never make an optional consent a condition for the service.
 - Never hide, pre-tick, bundle or make it easier to accept than to refuse.
+- **One mechanism only.** A "we updated our terms" popup that lists only the documents is not enough: the same screen must also carry the age and legal-age confirmation{{#if feature.age_gate}} ({{policy.age_gate}}+){{/if}}, the upload responsibility and any optional choices. If the app shows a terms-only popup, replace it with the consents checklist (`ConsentGate`); do not build a second popup next to it.
+- **Where the answers live.** Keep them with the user's profile: a JSON column on the user record, for example `consents`, holding one entry per consent key with its version, whether it was granted, when, in which language and where (for example `"terms": {"v": "1.1", "granted": true, "at": 1761900000, "lang": "en", "source": "consents"}`, `"age": {"v": "18", "granted": true, ...}`), or the plugin's own table. Configure `consentStore` (`JsonAttributeConsentStore`) and add the column in a migration. Never store consents only in the browser (cookie, localStorage, session): they must survive logout, new devices and anonymous-to-email upgrades.
+- **If a screen is missing, check in this order:** the feature flag for it in the legal config (`age_gate`, `uploads`, `marketing`, `external`), that `ConsentGate` is attached, that the route is not in `exceptRoutes`, that the user is signed in (anonymous accounts are real users, so they pass the gate too), and that the installed `rapttor/yii2-legal` is version 2 or newer. `php yii legal/check` prints hints for most of these.
 
 {{#if feature.email}}
 ## 7. Emails
 
 - Verify that the sending domain has SPF, DKIM and DMARC. Keep the complaint rate low.
+- **Know how your email provider handles unsubscribe.** Some providers (Postar, for example) append their own unsubscribe link to every message, cannot be told not to, and block **all** mail from the project to that address when it is used, sign-in links included. With such a provider: do not add a second link (set `providerFooter` so the footer leaves ours out), send optional news from a different provider or project so "no more news" can never block sign-in mail, and when sending to a blocked address returns an error such as 422 `recipient_unsubscribed`, show the provider's resubscribe URL instead of retrying.
 - **Optional/marketing emails**: `List-Unsubscribe` and `List-Unsubscribe-Post: List-Unsubscribe=One-Click` headers, a visible link, and a single page that stops them **immediately** (US law forbids more than visiting one page; Gmail and Yahoo want it within 2 days). Use `Yii::$app->legal->email()->unsubscribeHeaders($to)`.
-- **Every email** (including sign-in links and receipts) has a footer link "stop email from {{product.name}}" to the page that blocks **all** email: the user enters the address, receives one last email with a magic link, and only that confirmation adds the address to the sender's no-send list (so nobody can lock another person out of their sign-in emails). Do not put a one-click unsubscribe into sign-in or security emails.
+- **Every email** (including sign-in links and receipts) has a footer link (your own, or the provider's when it adds one) "stop email from {{product.name}}" to the page that blocks **all** email: the user enters the address, receives one last email with a magic link, and only that confirmation adds the address to the sender's no-send list (so nobody can lock another person out of their sign-in emails). Do not put a one-click unsubscribe into sign-in or security emails.
 - Check `Yii::$app->legal->email()->isSuppressed($address, $kind)` before sending optional mail, and never send optional mail to someone who withdrew.
 {{/if}}
 

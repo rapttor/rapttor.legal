@@ -2,6 +2,9 @@
 
 Versions follow SemVer (MAJOR: rights or obligations changed; MINOR: clauses or features added; PATCH: wording or fixes). A version number is not a legal review: the texts are templates until counsel has reviewed them. Document versions are in each file's front matter.
 
+## 2.0.1
+- Checklist (internal document) 1.0.1: one consent mechanism (not a terms-only popup), consent data kept with the user profile (JSON), what to check when a screen is missing, and how providers such as Postar handle unsubscribe.
+
 ## 2.0.0
 - New internal document `app_checklist` (public: false) with `Library::internal()`: security and compliance checklist for AI coding agents, filtered by feature flags.
 - Texts 1.1.0 (terms, privacy, cookies, acceptable use, refunds, copyright): age and legal-age confirmation, anonymous accounts, account holder and access, ownership of and responsibility for data and files, uploads (copyright accountability, private by default), third-party resources and IP addresses (per-item consent), no session replay, emails and the two-level stop (one-click optional, confirmed block-all), merchant of record and renewal terms next to the pay button, EU withdrawal function (from 19 June 2026), consent records, DMCA designated agent.
