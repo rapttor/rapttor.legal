@@ -2,6 +2,9 @@
 
 Versions follow SemVer (MAJOR: rights or obligations changed; MINOR: clauses or features added; PATCH: wording or fixes). A version number is not a legal review: the texts are templates until counsel has reviewed them. Document versions are in each file's front matter.
 
+## 2.6.3
+- Docs: AGENTS.md, SPEC.md and llms.txt describe the Balkan language `sh`, the restrictions dataset and the wording rules.
+
 ## 2.6.2
 - Balkan (`sh`) wording rules from the owner (`i18n/BRIEF-sh.md`): fajl, dodajem, sistem; no Croatian-only or Serbian-only marker words. 17 replacements in the documents. Checklist 1.4.1 points to the rules.
 
