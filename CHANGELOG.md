@@ -2,6 +2,9 @@
 
 Versions follow SemVer (MAJOR: rights or obligations changed; MINOR: clauses or features added; PATCH: wording or fixes). A version number is not a legal review: the texts are templates until counsel has reviewed them. Document versions are in each file's front matter.
 
+## 2.6.1
+- Sanctions data: the Crimea and Donetsk/Luhansk embargoes are regions (`UA-43`, `UA-14`), no longer the whole of Ukraine; the schema allows ISO 3166-2 region codes.
+
 ## 2.6.0
 - **One Balkan language, `sh`** (Latin script, ijekavian, vocabulary acceptable in Bosnia, Croatia, Montenegro and Serbia) replaces separate Serbian, Serbian Cyrillic, Croatian, Bosnian and Montenegrin variants. The old tags (`sr`, `sr-Latn`, `sr-Cyrl`, `hr`, `bs`, `cnr` and their country forms) are aliases of `sh`. The texts are the former Bosnian drafts relabelled (draft, native review pending, to be neutralised); `jurisdictions.json`, table headings, licence summaries and the glossary were collapsed to `sh`. Display name "Balkan"; no national flag.
 - **Restrictions dataset** `restrictions/<tag>.json` for gambling, alcohol, tobacco, cannabis, adult, dating, lgbtq, crypto, vpn, weapons, pharmacy and sanctions: per country the status, scope, a short note, a source and a confidence level (most entries are medium or low confidence: a first research pass, to be verified by counsel). `Library::restrictionTags()`, `restrictions()`, `restrictedCountries()`; `policy.activities` (and `feature.gambling`) merge the prohibiting countries into `policy.excluded_regions` / `excluded_codes`; `policy.restriction_status`.

@@ -24,7 +24,7 @@ File `restrictions/<tag>.json`:
 }
 ```
 
-- `code`: ISO 3166-1 alpha-2 (Kosovo: `XK`). Subnational prohibitions (US states, Indian states) are NOT listed as countries: mention them in `summary`.
+- `code`: ISO 3166-1 alpha-2 (Kosovo: `XK`). A prohibition that covers only a region of a country uses the ISO 3166-2 code and a name that says so (`UA-43`, "Crimea (Ukraine)"): never list a whole country for a regional embargo. Subnational prohibitions inside lawful countries (US states, Indian states) are mentioned in `summary`, not listed.
 - `status`: `prohibited` (the activity is unlawful for everyone or for the app's kind of operator), `licensed` (lawful only with a local licence or state monopoly: an app without that licence is unlawful there), `restricted` (lawful with conditions, for example only for non-Muslims, only in tourist areas, only some products).
 - `scope`: `online`, `offline` or `both`.
 - `confidence`: `high` (primary source read), `medium` (reputable secondary source), `low` (uncertain, conflicting or old information: say so in the note).

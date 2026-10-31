@@ -139,7 +139,7 @@ foreach ($libR->restrictionTags() as $tag) {
         continue;
     }
     foreach ($d['countries'] as $c) {
-        if (!preg_match('/^[A-Z]{2}$/', $c['code'] ?? '') || empty($c['name']) || !in_array($c['status'] ?? '', ['prohibited', 'licensed', 'restricted'], true)
+        if (!preg_match('/^[A-Z]{2}(-[A-Z0-9]{1,3})?$/', $c['code'] ?? '') || empty($c['name']) || !in_array($c['status'] ?? '', ['prohibited', 'licensed', 'restricted'], true)
             || !in_array($c['scope'] ?? '', ['online', 'offline', 'both'], true) || !in_array($c['confidence'] ?? '', ['high', 'medium', 'low'], true)) {
             $fail++;
             echo "FAIL restrictions/$tag.json entry " . json_encode($c['code'] ?? '?') . "\n";

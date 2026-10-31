@@ -1,134 +1,134 @@
 {
-  "tag": "sanctions",
-  "title": "Comprehensive sanctions and embargoes (US, EU, UK, UN): countries and regions an online service should not serve",
-  "checked": "2026-10-31",
-  "summary": "Comprehensive embargoes (prohibited): Cuba, Iran, North Korea and the Crimea and so-called Donetsk/Luhansk regions of Ukraine (US OFAC); BIS Country Group E:1 lists Cuba, Iran, North Korea and Syria (last confirmed edition Nov 2024). Syria's US comprehensive program ended in 2025 (EO 14312, regulations removed Aug 2025) and the EU lifted its economic sanctions in May 2025, so it is listed as restricted, not prohibited. Others are sectoral or list-based and need screening of users and payments against the OFAC SDN, EU and UK lists; this is not an exhaustive list of every regime (targeted-only regimes such as Iraq, Lebanon, Mali, Somalia, Yemen, DRC, CAR, South Sudan, Nicaragua, Haiti, Guinea, Guinea-Bissau and Bosnia are omitted). Sanctions apply by operator nationality, currency, payment rails and hosting, not only by user location. Not legal advice; counsel must confirm.",
-  "countries": [
-    {
-      "code": "CU",
-      "name": "Cuba",
-      "status": "prohibited",
-      "scope": "both",
-      "note": "US comprehensive embargo (Cuban Assets Control Regulations, OFAC Cuba program, active; page updated Oct 2026) and BIS Country Group E:1. Binds US persons and US-origin services; the program is listed as active on OFAC, the 'comprehensive' label is from general knowledge.",
-      "source": "https://ofac.treasury.gov/sanctions-programs-and-country-information",
-      "confidence": "medium"
-    },
-    {
-      "code": "IR",
-      "name": "Iran",
-      "status": "prohibited",
-      "scope": "both",
-      "note": "US comprehensive embargo (Iranian Transactions and Sanctions Regulations, OFAC Iran program active, updated Oct 2026), BIS Country Group E:1; EU and UK also maintain extensive Iran regimes (EU sanctionsmap lists Iran and Iran nuclear). General licences exist for some personal communications software, check before relying.",
-      "source": "https://ofac.treasury.gov/sanctions-programs-and-country-information",
-      "confidence": "medium"
-    },
-    {
-      "code": "KP",
-      "name": "North Korea (DPRK)",
-      "status": "prohibited",
-      "scope": "both",
-      "note": "US comprehensive embargo (North Korea Sanctions Regulations, OFAC program active, updated Oct 2026), BIS Country Group E:1, EU DPRK regime and UN Security Council sanctions.",
-      "source": "https://ofac.treasury.gov/sanctions-programs-and-country-information",
-      "confidence": "medium"
-    },
-    {
-      "code": "UA",
-      "name": "Crimea region of Ukraine (occupied)",
-      "status": "prohibited",
-      "scope": "both",
-      "note": "US comprehensive regional embargo under EO 13685 (2014); OFAC page lists the EO under Ukraine-/Russia-related sanctions. Current-state check of 2026 amendments not completed beyond the program listing; EU and UK also prohibit most dealings with Crimea and Sevastopol.",
-      "source": "https://ofac.treasury.gov/sanctions-programs-and-country-information/ukraine-russia-related-sanctions",
-      "confidence": "medium"
-    },
-    {
-      "code": "UA",
-      "name": "so-called Donetsk People's Republic (DNR) and Luhansk People's Republic (LNR) regions of Ukraine",
-      "status": "prohibited",
-      "scope": "both",
-      "note": "US regional embargo under EO 14065 (Feb 2022) covering the so-called DNR and LNR regions (OFAC FAQ: does not block the entire Donetsk and Luhansk oblasts; other regions can be designated). EU and UK prohibit most dealings with non-government-controlled areas. Occupied Zaporizhzhia and Kherson are covered by EU/UK measures but not confirmed as US comprehensive regions here. Status after 2026 changes not verified from the primary text.",
-      "source": "https://ofac.treasury.gov/faqs/1006",
-      "confidence": "medium"
-    },
-    {
-      "code": "SY",
-      "name": "Syria",
-      "status": "restricted",
-      "scope": "both",
-      "note": "US comprehensive sanctions terminated in 2025 (EO 14312; Syrian Sanctions Regulations removed Aug 2025); replaced by the list-based PAARSS program (updated Sep 2026). EU lifted economic sanctions May 2025, keeping an arms embargo, security-based measures and listings of Assad-linked persons (renewed to 1 June 2027 in May 2026). Secondary reports say the US removed Syria from the State Sponsors of Terrorism list on 24 Aug 2026; not confirmed on a primary page. BIS Country Group E:1 included Syria in the last edition I could confirm (Nov 2024) and export controls on Syria may still be tighter than sanctions: verify current EAR status. Confidence low on the current export-control position.",
-      "source": "https://www.hunton.com/insights/legal/us-terminates-comprehensive-sanctions-on-syria-and-eases-trade-restrictions",
-      "confidence": "low"
-    },
-    {
-      "code": "RU",
-      "name": "Russia",
-      "status": "restricted",
-      "scope": "both",
-      "note": "Not a comprehensive embargo, but broad sectoral and financial sanctions (US EO 14024 and Russian Harmful Foreign Activities program, EU Russia regime, UK) plus export controls on software and IT services, bans on many services to Russian persons and heavy payment/SDN restrictions. Specific service prohibitions (e.g. IT consulting, software) differ by jurisdiction.",
-      "source": "https://ofac.treasury.gov/sanctions-programs-and-country-information",
-      "confidence": "medium"
-    },
-    {
-      "code": "BY",
-      "name": "Belarus",
-      "status": "restricted",
-      "scope": "both",
-      "note": "Sectoral sanctions and export controls: OFAC Belarus program (updated Oct 2026), EU Belarus regime (listed on the UK/EU maps) aligned with the Russia measures, including restrictions on dual-use goods and services.",
-      "source": "https://ofac.treasury.gov/sanctions-programs-and-country-information",
-      "confidence": "medium"
-    },
-    {
-      "code": "VE",
-      "name": "Venezuela",
-      "status": "restricted",
-      "scope": "both",
-      "note": "OFAC Venezuela-Related Sanctions (updated Oct 2026): government of Venezuela and PdVSA-related dealings blocked or restricted, many general licences; EU has a Venezuela regime (arms embargo, listings). Not an embargo on the whole country; screen counterparties.",
-      "source": "https://ofac.treasury.gov/sanctions-programs-and-country-information",
-      "confidence": "medium"
-    },
-    {
-      "code": "MM",
-      "name": "Myanmar (Burma)",
-      "status": "restricted",
-      "scope": "both",
-      "note": "Targeted/sectoral measures: OFAC Burma-Related Sanctions (updated Oct 2026), EU Myanmar regime, UK regime; many military-linked entities (e.g. state banks, MOGE) listed. Not a country-wide embargo.",
-      "source": "https://ofac.treasury.gov/sanctions-programs-and-country-information",
-      "confidence": "medium"
-    },
-    {
-      "code": "AF",
-      "name": "Afghanistan",
-      "status": "restricted",
-      "scope": "both",
-      "note": "Taliban-related: US Afghanistan-Related Sanctions (page updated Feb 2022), EU Afghanistan regime and UN 1988 Taliban list; asset freezes on listed Taliban persons, not a general embargo. From general knowledge, payments to Taliban-controlled bodies are high risk.",
-      "source": "https://ofac.treasury.gov/sanctions-programs-and-country-information",
-      "confidence": "medium"
-    },
-    {
-      "code": "LY",
-      "name": "Libya",
-      "status": "restricted",
-      "scope": "both",
-      "note": "UN-based and national Libya sanctions (OFAC Libya program updated Sep 2026; EU Libya regime): asset freezes, arms embargo and restrictions on National Oil Corporation-related and frozen Libyan assets. Targeted rather than comprehensive.",
-      "source": "https://ofac.treasury.gov/sanctions-programs-and-country-information",
-      "confidence": "medium"
-    },
-    {
-      "code": "SD",
-      "name": "Sudan",
-      "status": "restricted",
-      "scope": "both",
-      "note": "OFAC Sudan and Darfur Sanctions (updated Jun 2026) and EU Sudan regime: targeted listings and arms embargo; former US comprehensive embargo ended in 2017. Not verified in detail.",
-      "source": "https://ofac.treasury.gov/sanctions-programs-and-country-information",
-      "confidence": "low"
-    },
-    {
-      "code": "ZW",
-      "name": "Zimbabwe",
-      "status": "restricted",
-      "scope": "both",
-      "note": "EU Zimbabwe regime (listed on the EU sanctions map) is limited to an arms embargo and a few listings; the US program was transitioned in 2024 (from general knowledge, unverified). Low risk for ordinary online services.",
-      "source": "https://www.gov.uk/government/collections/uk-sanctions-regimes-under-the-sanctions-act",
-      "confidence": "low"
-    }
-  ]
+ "tag": "sanctions",
+ "title": "Comprehensive sanctions and embargoes (US, EU, UK, UN): countries and regions an online service should not serve",
+ "checked": "2026-10-31",
+ "summary": "Comprehensive embargoes (prohibited): Cuba, Iran, North Korea and the Crimea and so-called Donetsk/Luhansk regions of Ukraine (US OFAC); BIS Country Group E:1 lists Cuba, Iran, North Korea and Syria (last confirmed edition Nov 2024). Syria's US comprehensive program ended in 2025 (EO 14312, regulations removed Aug 2025) and the EU lifted its economic sanctions in May 2025, so it is listed as restricted, not prohibited. Others are sectoral or list-based and need screening of users and payments against the OFAC SDN, EU and UK lists; this is not an exhaustive list of every regime (targeted-only regimes such as Iraq, Lebanon, Mali, Somalia, Yemen, DRC, CAR, South Sudan, Nicaragua, Haiti, Guinea, Guinea-Bissau and Bosnia are omitted). Sanctions apply by operator nationality, currency, payment rails and hosting, not only by user location. Not legal advice; counsel must confirm.",
+ "countries": [
+  {
+   "code": "CU",
+   "name": "Cuba",
+   "status": "prohibited",
+   "scope": "both",
+   "note": "US comprehensive embargo (Cuban Assets Control Regulations, OFAC Cuba program, active; page updated Oct 2026) and BIS Country Group E:1. Binds US persons and US-origin services; the program is listed as active on OFAC, the 'comprehensive' label is from general knowledge.",
+   "source": "https://ofac.treasury.gov/sanctions-programs-and-country-information",
+   "confidence": "medium"
+  },
+  {
+   "code": "IR",
+   "name": "Iran",
+   "status": "prohibited",
+   "scope": "both",
+   "note": "US comprehensive embargo (Iranian Transactions and Sanctions Regulations, OFAC Iran program active, updated Oct 2026), BIS Country Group E:1; EU and UK also maintain extensive Iran regimes (EU sanctionsmap lists Iran and Iran nuclear). General licences exist for some personal communications software, check before relying.",
+   "source": "https://ofac.treasury.gov/sanctions-programs-and-country-information",
+   "confidence": "medium"
+  },
+  {
+   "code": "KP",
+   "name": "North Korea (DPRK)",
+   "status": "prohibited",
+   "scope": "both",
+   "note": "US comprehensive embargo (North Korea Sanctions Regulations, OFAC program active, updated Oct 2026), BIS Country Group E:1, EU DPRK regime and UN Security Council sanctions.",
+   "source": "https://ofac.treasury.gov/sanctions-programs-and-country-information",
+   "confidence": "medium"
+  },
+  {
+   "code": "UA-43",
+   "name": "Crimea (Ukraine)",
+   "status": "prohibited",
+   "scope": "both",
+   "note": "US comprehensive regional embargo under EO 13685 (2014); OFAC page lists the EO under Ukraine-/Russia-related sanctions. Current-state check of 2026 amendments not completed beyond the program listing; EU and UK also prohibit most dealings with Crimea and Sevastopol.",
+   "source": "https://ofac.treasury.gov/sanctions-programs-and-country-information/ukraine-russia-related-sanctions",
+   "confidence": "medium"
+  },
+  {
+   "code": "UA-14",
+   "name": "Donetsk and Luhansk regions (Ukraine)",
+   "status": "prohibited",
+   "scope": "both",
+   "note": "US regional embargo under EO 14065 (Feb 2022) covering the so-called DNR and LNR regions (OFAC FAQ: does not block the entire Donetsk and Luhansk oblasts; other regions can be designated). EU and UK prohibit most dealings with non-government-controlled areas. Occupied Zaporizhzhia and Kherson are covered by EU/UK measures but not confirmed as US comprehensive regions here. Status after 2026 changes not verified from the primary text.",
+   "source": "https://ofac.treasury.gov/faqs/1006",
+   "confidence": "medium"
+  },
+  {
+   "code": "SY",
+   "name": "Syria",
+   "status": "restricted",
+   "scope": "both",
+   "note": "US comprehensive sanctions terminated in 2025 (EO 14312; Syrian Sanctions Regulations removed Aug 2025); replaced by the list-based PAARSS program (updated Sep 2026). EU lifted economic sanctions May 2025, keeping an arms embargo, security-based measures and listings of Assad-linked persons (renewed to 1 June 2027 in May 2026). Secondary reports say the US removed Syria from the State Sponsors of Terrorism list on 24 Aug 2026; not confirmed on a primary page. BIS Country Group E:1 included Syria in the last edition I could confirm (Nov 2024) and export controls on Syria may still be tighter than sanctions: verify current EAR status. Confidence low on the current export-control position.",
+   "source": "https://www.hunton.com/insights/legal/us-terminates-comprehensive-sanctions-on-syria-and-eases-trade-restrictions",
+   "confidence": "low"
+  },
+  {
+   "code": "RU",
+   "name": "Russia",
+   "status": "restricted",
+   "scope": "both",
+   "note": "Not a comprehensive embargo, but broad sectoral and financial sanctions (US EO 14024 and Russian Harmful Foreign Activities program, EU Russia regime, UK) plus export controls on software and IT services, bans on many services to Russian persons and heavy payment/SDN restrictions. Specific service prohibitions (e.g. IT consulting, software) differ by jurisdiction.",
+   "source": "https://ofac.treasury.gov/sanctions-programs-and-country-information",
+   "confidence": "medium"
+  },
+  {
+   "code": "BY",
+   "name": "Belarus",
+   "status": "restricted",
+   "scope": "both",
+   "note": "Sectoral sanctions and export controls: OFAC Belarus program (updated Oct 2026), EU Belarus regime (listed on the UK/EU maps) aligned with the Russia measures, including restrictions on dual-use goods and services.",
+   "source": "https://ofac.treasury.gov/sanctions-programs-and-country-information",
+   "confidence": "medium"
+  },
+  {
+   "code": "VE",
+   "name": "Venezuela",
+   "status": "restricted",
+   "scope": "both",
+   "note": "OFAC Venezuela-Related Sanctions (updated Oct 2026): government of Venezuela and PdVSA-related dealings blocked or restricted, many general licences; EU has a Venezuela regime (arms embargo, listings). Not an embargo on the whole country; screen counterparties.",
+   "source": "https://ofac.treasury.gov/sanctions-programs-and-country-information",
+   "confidence": "medium"
+  },
+  {
+   "code": "MM",
+   "name": "Myanmar (Burma)",
+   "status": "restricted",
+   "scope": "both",
+   "note": "Targeted/sectoral measures: OFAC Burma-Related Sanctions (updated Oct 2026), EU Myanmar regime, UK regime; many military-linked entities (e.g. state banks, MOGE) listed. Not a country-wide embargo.",
+   "source": "https://ofac.treasury.gov/sanctions-programs-and-country-information",
+   "confidence": "medium"
+  },
+  {
+   "code": "AF",
+   "name": "Afghanistan",
+   "status": "restricted",
+   "scope": "both",
+   "note": "Taliban-related: US Afghanistan-Related Sanctions (page updated Feb 2022), EU Afghanistan regime and UN 1988 Taliban list; asset freezes on listed Taliban persons, not a general embargo. From general knowledge, payments to Taliban-controlled bodies are high risk.",
+   "source": "https://ofac.treasury.gov/sanctions-programs-and-country-information",
+   "confidence": "medium"
+  },
+  {
+   "code": "LY",
+   "name": "Libya",
+   "status": "restricted",
+   "scope": "both",
+   "note": "UN-based and national Libya sanctions (OFAC Libya program updated Sep 2026; EU Libya regime): asset freezes, arms embargo and restrictions on National Oil Corporation-related and frozen Libyan assets. Targeted rather than comprehensive.",
+   "source": "https://ofac.treasury.gov/sanctions-programs-and-country-information",
+   "confidence": "medium"
+  },
+  {
+   "code": "SD",
+   "name": "Sudan",
+   "status": "restricted",
+   "scope": "both",
+   "note": "OFAC Sudan and Darfur Sanctions (updated Jun 2026) and EU Sudan regime: targeted listings and arms embargo; former US comprehensive embargo ended in 2017. Not verified in detail.",
+   "source": "https://ofac.treasury.gov/sanctions-programs-and-country-information",
+   "confidence": "low"
+  },
+  {
+   "code": "ZW",
+   "name": "Zimbabwe",
+   "status": "restricted",
+   "scope": "both",
+   "note": "EU Zimbabwe regime (listed on the EU sanctions map) is limited to an arms embargo and a few listings; the US program was transitioned in 2024 (from general knowledge, unverified). Low risk for ordinary online services.",
+   "source": "https://www.gov.uk/government/collections/uk-sanctions-regimes-under-the-sanctions-act",
+   "confidence": "low"
+  }
+ ]
 }
