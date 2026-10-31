@@ -115,7 +115,7 @@ Ovaj DPA traje koliko dugo obrađujemo lične podatke kupca. Uređen je pravom k
 | **Trajanje** | Za vrijeme trajanja ugovora, uvećano za period iz odjeljka 8 |
 | **Priroda i svrha** | Hosting, skladištenje, prenos, pretraživanje, prikaz, rezervne kopije, podrška i druga obrada potrebna za pružanje Usluga prema uputstvima |
 | **Kategorije nosilaca podataka** | Krajnji korisnici kupca, kupci, zaposleni, izvođači, potencijalni kupci i druga lica čije podatke kupac podnosi |
-| **Kategorije ličnih podataka** | Identifikacioni i kontakt podaci, podaci o nalogu i korištenju, podneseni sadržaj i datoteke, tehnički identifikatori i svi drugi podaci koje kupac odluči podnijeti |
+| **Kategorije ličnih podataka** | Identifikacioni i kontakt podaci, podaci o nalogu i korištenju, podneseni sadržaj i fajlovi, tehnički identifikatori i svi drugi podaci koje kupac odluči podnijeti |
 | **Posebne kategorije** | Nisu predviđene. Ako ih kupac podnese, to čini na vlastitu odgovornost i mora primijeniti mjere iz Aneksa II |
 | **Učestalost** | Kontinuirano, za vrijeme korištenja |
 | **Čuvanje** | Kao u odjeljku 8 |

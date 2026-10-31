@@ -17,7 +17,7 @@ Ova politika objašnjava kako **{{company.name}}** koristi kolačiće i slične 
 
 ## 1. Šta su oni {#what}
 
-Kolačići su male datoteke koje web stranica pohranjuje na vaš uređaj. Među „slične tehnologije” spadaju lokalno i sesijsko skladište, identifikatori uređaja i SDK-ovi u mobilnim aplikacijama, pikseli i signali slični otisku prsta. Za sve njih koristimo riječ „kolačići”.
+Kolačići su mali fajlovi koje web stranica pohranjuje na vaš uređaj. Među „slične tehnologije” spadaju lokalno i sesijsko skladište, identifikatori uređaja i SDK-ovi u mobilnim aplikacijama, pikseli i signali slični otisku prsta. Za sve njih koristimo riječ „kolačići”.
 
 ## 2. Kategorije koje koristimo {#categories}
 

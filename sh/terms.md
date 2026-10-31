@@ -73,7 +73,7 @@ Vi ste odgovorni za svoje korištenje Usluga i za ponašanje svih osoba kojima d
 ## 6. Vaš sadržaj {#your-content}
 
 {{#if feature.ugc}}
-„**Vaš sadržaj**“ označava sve što otpremite, pošaljete, objavite, povežete ili generišete putem Usluga{{#if feature.ai}}, uključujući upite i, između vas i nas, rezultat koji dobijete{{/if}}.
+„**Vaš sadržaj**“ označava sve što dodate, pošaljete, objavite, povežete ili generišete putem Usluga{{#if feature.ai}}, uključujući upite i, između vas i nas, rezultat koji dobijete{{/if}}.
 
 - **Vlasništvo.** Vi zadržavate sva prava na Vaš sadržaj. Mi ne stičemo vlasništvo.
 - **Licenca nama.** Dajete nam širom svijeta važeću, neekskluzivnu licencu bez autorske naknade za hostovanje, čuvanje, reprodukovanje, obradu, prenos, prilagođavanje (za formatiranje, sličice, prijevode, provjere sigurnosti) i prikazivanje Vašeg sadržaja **samo u mjeri potrebnoj za rad, obezbjeđenje, podršku i poboljšanje Usluga i za sprovođenje ovih Uslova**, dok ga čuvate u Uslugama i za ograničene periode rezervnih kopija i pravnog zadržavanja nakon toga. Ako sadržaj učinite javnim, licenca se proteže i na prikazivanje publici koju izaberete. Ova licenca prestaje kada obrišete sadržaj ili nalog, uz navedene periode i uz kopije koje su drugi korisnici već zakonito primili.
@@ -85,12 +85,12 @@ Vi ste odgovorni za svoje korištenje Usluga i za ponašanje svih osoba kojima d
 Vi zadržavate sva prava na sve što pošaljete Uslugama. Dajete nam ograničenu licencu potrebnu da to obrađujemo radi pružanja, obezbjeđenja i podrške Uslugama, i obavezujete se da imate pravo da to pošaljete. Odgovorni ste za čuvanje vlastitih kopija.
 {{/if}}
 
-### Vaši podaci i datoteke {#your-data}
+### Vaši podaci i fajlovi {#your-data}
 
-Između vas i nas, **vi posjedujete podatke i datoteke koje stavljate u Usluge, i vi ste sami odgovorni za njih**: za pravo da ih otpremite i koristite, za njihovu tačnost i zakonitost, te za izbore koje pravite o tome ko može da im pristupa. Čuvamo ih i obrađujemo prema vašim uputama kako bi Usluge radile. Ovo ne ograničava naše vlastite zakonske obaveze, na primjer da osiguramo Usluge i zaštitimo lične podatke, i ne utiče na prava koja zakon ne dozvoljava isključiti.
+Između vas i nas, **vi posjedujete podatke i fajlove koje stavljate u Usluge, i vi ste sami odgovorni za njih**: za pravo da ih dodate i koristite, za njihovu tačnost i zakonitost, te za izbore koje pravite o tome ko može da im pristupa. Čuvamo ih i obrađujemo prema vašim uputama kako bi Usluge radile. Ovo ne ograničava naše vlastite zakonske obaveze, na primjer da osiguramo Usluge i zaštitimo lične podatke, i ne utiče na prava koja zakon ne dozvoljava isključiti.
 {{#if feature.uploads}}
-- **Autorska i druga prava.** Potvrđujete da posjedujete ono što otpremate ili imate svako potrebno ovlaštenje (uključujući od osoba prikazanih na slikama), i prihvatate da **možete biti odgovorni za zahtjeve** o autorskom pravu, ličnosti, privatnosti ili drugim pravima koji iz toga proizađu. Možemo ukloniti sadržaj i sarađivati s nosiocima prava i organima kako je opisano u [Obavještenjima o autorskim pravima i nezakonitom sadržaju]({{url.copyright}}).
-- **Privatno podrazumijevano.** Ono što otpremite vidljivo je samo vama i licima kojima dajete pristup (na primjer članovima ili operaterima vaše organizacije). Ne koristimo vaše otpremljene datoteke ili drugi sadržaj za izradu javnog materijala kao što su šabloni, smjernice, primjeri, marketing ili podaci za treniranje, i ne stavljamo ih na raspolaganje licima koja nisu prijavljena, osim ako ih izričito ne objavite ili podijelite.
+- **Autorska i druga prava.** Potvrđujete da posjedujete ono što dodajete ili imate svako potrebno ovlaštenje (uključujući od osoba prikazanih na slikama), i prihvatate da **možete biti odgovorni za zahtjeve** o autorskom pravu, ličnosti, privatnosti ili drugim pravima koji iz toga proizađu. Možemo ukloniti sadržaj i sarađivati s nosiocima prava i organima kako je opisano u [Obavještenjima o autorskim pravima i nezakonitom sadržaju]({{url.copyright}}).
+- **Privatno podrazumijevano.** Ono što dodate vidljivo je samo vama i licima kojima dajete pristup (na primjer članovima ili operaterima vaše organizacije). Ne koristimo vaše dodane fajlove ili drugi sadržaj za izradu javnog materijala kao što su šabloni, smjernice, primjeri, marketing ili podaci za treniranje, i ne stavljamo ih na raspolaganje licima koja nisu prijavljena, osim ako ih izričito ne objavite ili podijelite.
 {{/if}}
 ## 7. Ako Usluge koristite za druge osobe {#end-users}
 

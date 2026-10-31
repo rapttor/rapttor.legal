@@ -26,7 +26,7 @@ Ne smijete koristiti Usluge da:
 5. prevarate, obmanjujete ili dovodite u zabludu ljude, uključujući prevare, phishing, piramidalne sheme i Ponzi sheme, lažne recenzije i preporuke, lažne prodavnice, lažno predstavljanje, krivotvorenu robu ili prevarnu upotrebu platnih instrumenata;
 6. prodajete, nudite ili omogućavate nezakonitu robu ili usluge, uključujući nedozvoljene droge, oružje i eksplozive, ukradene podatke ili vjerodajnice, falsifikovana dokumenta, trgovinu ljudima ili regulisane usluge bez potrebne licence;
 7. vodite neovlašteno kockanje, lutrije ili nagradne igre, ili bilo koju djelatnost koja zahtijeva licencu koju nemate;
-8. {{#if feature.uploads}}otpremate slike, datoteke ili podatke koje ne posjedujete ili za čiju upotrebu nemate dozvolu, ili koji prikazuju ili identifikuju druge osobe bez njihove saglasnosti, ili {{/if}}kršite ili prisvajate tuđa autorska prava, zaštitne znakove, poslovne tajne, privatnost, pravo na publicitet ili druga prava, ili distribuirate piratski ili krekovan softver ili medijski sadržaj.
+8. {{#if feature.uploads}}dodajete slike, fajlove ili podatke koje ne posjedujete ili za čiju upotrebu nemate dozvolu, ili koji prikazuju ili identifikuju druge osobe bez njihove saglasnosti, ili {{/if}}kršite ili prisvajate tuđa autorska prava, zaštitne znakove, poslovne tajne, privatnost, pravo na publicitet ili druga prava, ili distribuirate piratski ili krekovan softver ili medijski sadržaj.
 
 ## 2. Sigurnost i zloupotreba sistema {#security}
 
@@ -40,7 +40,7 @@ Ne smijete:
 6. preopterećivati ili usporavati Usluge ili iskustvo drugih korisnika, uključujući prekomjerne automatizovane zahtjeve, i svaku upotrebu koja nesrazmjerno opterećuje našu infrastrukturu (možemo definisati ograničenja „poštene upotrebe“ za bilo koji plan i sprovoditi ih);
 7. koristiti Usluge za slanje **neželjene pošte (spam)**, masovnih neželjenih poruka, obmanjujućeg ili nezakonito usmjerenog marketinga, ili za prikupljanje e-mail adresa ili ličnih podataka; poruke poslane putem Usluga moraju biti u skladu sa zakonima o neželjenoj pošti i e-privatnosti (saglasnost, identifikacija, djelotvorna opcija odjave);
 8. istraživati ili iskorištavati slabosti u aplikacijama ili podacima drugog korisnika do kojih dolazite putem Usluga;
-9. pokušavati da čitate, mijenjate ili brišete podatke koji pripadaju drugim nalozima ili organizacijama, uključujući pogađanjem ili mijenjanjem identifikatora, veza ili adresa datoteka.
+9. pokušavati da čitate, mijenjate ili brišete podatke koji pripadaju drugim nalozima ili organizacijama, uključujući pogađanjem ili mijenjanjem identifikatora, veza ili adresa fajlova.
 
 ## 3. Integritet platforme {#integrity}
 

@@ -39,7 +39,7 @@ Možemo objavljivati ažuriranja, koja mogu biti obavezna da biste i dalje koris
 
 ## 4. Dozvole {#permissions}
 
-Aplikacija može tražiti dozvolu za korištenje funkcija uređaja, kao što su obavještenja, kamera, mikrofon, fotografije, datoteke, kontakti, Bluetooth ili lokacija. Svaka se koristi samo za funkciju za koju je zatražena i **opcionalna** je, osim ako funkcija ne može raditi bez nje. Dozvole možete promijeniti u bilo kojem trenutku u postavkama uređaja. Šta radimo s podacima objašnjeno je u [Politici privatnosti]({{url.privacy}}).
+Aplikacija može tražiti dozvolu za korištenje funkcija uređaja, kao što su obavještenja, kamera, mikrofon, fotografije, fajlovi, kontakti, Bluetooth ili lokacija. Svaka se koristi samo za funkciju za koju je zatražena i **opcionalna** je, osim ako funkcija ne može raditi bez nje. Dozvole možete promijeniti u bilo kojem trenutku u postavkama uređaja. Šta radimo s podacima objašnjeno je u [Politici privatnosti]({{url.privacy}}).
 
 ## 5. Vaš uređaj i nalog {#device}
 

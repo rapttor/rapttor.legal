@@ -1149,11 +1149,11 @@
             {
                 "id": "app_checklist",
                 "title": "App security and compliance checklist for AI coding agents",
-                "version": "1.4.0",
+                "version": "1.4.1",
                 "updated": "2026-10-31",
                 "path": "en/app_checklist.md",
-                "sha256": "d76e90717a25894f749a2875044b23becaf3894a31336abfd2f9fb2675dfbacf",
-                "bytes": 22147,
+                "sha256": "80791527bfdaf52d5a6ea07894787663042bbd2c237d2feed87dfbc070d137cb",
+                "bytes": 22335,
                 "requires": [
                     "company.name"
                 ],
@@ -7042,8 +7042,8 @@
                 "version": "1.1.0",
                 "updated": "2026-10-31",
                 "path": "sh/acceptable_use.md",
-                "sha256": "2404150f6c5500d00ff966070fa4ce240d7b0b934ef9bbcdf238c8760e1e112d",
-                "bytes": 14414,
+                "sha256": "5b36257fb63aa9a1e7b6450200743cb0281866da25278dc34f36cf728773948d",
+                "bytes": 14411,
                 "requires": [
                     "company.name"
                 ],
@@ -7078,8 +7078,8 @@
                 "version": "1.0.0",
                 "updated": "2026-10-23",
                 "path": "sh/app_eula.md",
-                "sha256": "7ab410c8a6f2dcb86b87dbbcdb9c660bc7e37e89e72ad8f72573064ff9b2c115",
-                "bytes": 6906,
+                "sha256": "b66be039c05e1e005c06d5a9230ee6b195710e962ec97c93c98c985787982438",
+                "bytes": 6905,
                 "requires": [
                     "company.address",
                     "company.email",
@@ -7113,8 +7113,8 @@
                 "version": "1.1.0",
                 "updated": "2026-10-31",
                 "path": "sh/cookies.md",
-                "sha256": "0f9241ae064db2c6310bd5747e3b939e3ff93e1051bfa60330d567aecb646801",
-                "bytes": 4840,
+                "sha256": "76f8c707638af543c021ea8990e779017a768b0243fc022bf5a79599e22b34c2",
+                "bytes": 4839,
                 "requires": [
                     "company.name"
                 ],
@@ -7181,8 +7181,8 @@
                 "version": "1.0.0",
                 "updated": "2026-10-23",
                 "path": "sh/dpa.md",
-                "sha256": "8c1b5dfa798d13786392354ee92d9b8db12a0cc9fe3573812c84abe41f1250ef",
-                "bytes": 14808,
+                "sha256": "61218a801e3591b082cfbb1398d4d5fef2758b5c91f6ba1dd11d83509606ff1a",
+                "bytes": 14807,
                 "requires": [
                     "company.address",
                     "company.country",
@@ -7334,8 +7334,8 @@
                 "version": "1.2.1",
                 "updated": "2026-10-31",
                 "path": "sh/privacy.md",
-                "sha256": "99924b9a694b17c1780579590a16fca81170e70db3aed67a5199d81136e5524d",
-                "bytes": 24467,
+                "sha256": "0981237dee7a36ac440e06bea118651ba8c1fb12f818a74e89f81bd3d687148d",
+                "bytes": 24463,
                 "requires": [
                     "company.address",
                     "company.country",
@@ -7504,8 +7504,8 @@
                 "version": "1.3.0",
                 "updated": "2026-10-31",
                 "path": "sh/terms.md",
-                "sha256": "7241829366fa7698b42c02036884b730c04484354779472c3e720a56938480a2",
-                "bytes": 37485,
+                "sha256": "110561f546a095cd7a869c323e16129045d2dcea4812131a557c3f62cab97df8",
+                "bytes": 37467,
                 "requires": [
                     "company.address",
                     "company.email",

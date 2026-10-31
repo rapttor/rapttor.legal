@@ -36,9 +36,9 @@ Ako koristite Usluge preko organizacije (vašeg poslodavca, poslovnog korisnika)
 |---|---|---|
 | **Podaci o nalogu** | ime, e-pošta, heš lozinke, detalji profila, jezik, postavke | Vi |
 | **Podaci za kontakt i podršku** | poruke, prilozi, bilješke o pozivima, povratne informacije, odgovori u anketama | Vi |
-| **Sadržaj koji dostavljate** | datoteke, tekst, postavke, sve što stavite u Usluge | Vi |
+| **Sadržaj koji dostavljate** | fajlovi, tekst, postavke, sve što stavite u Usluge | Vi |
 {{#if feature.anonymous}}| **Podaci anonimnog naloga** | slučajni identifikator naloga, pregledač ili sesija uređaja koja ga čuva, sadržaj koji kreirate i adresa e-pošte ako je kasnije povežete | Vi, automatski |
-{{/if}}{{#if feature.uploads}}| **Datoteke i slike koje otpremate** | same datoteke i metapodaci unutar njih (na primjer podaci o kameri ili lokaciji na fotografijama) | Vi |
+{{/if}}{{#if feature.uploads}}| **Fajlovi i slike koje dodajete** | sami fajlovi i metapodaci unutar njih (na primjer podaci o kameri ili lokaciji na fotografijama) | Vi |
 {{/if}}| **Evidencija saglasnosti** | na šta ste pristali (dokumente, potvrdu uzrasta, opcionalne izbore), verzija, jezik, datum i način na koji ste pristali | Vi |
 | **Podaci o upotrebi i uređaju** | IP adresa, tip pregledača i uređaja, operativni sistem, jezik, stranice i funkcije koje koristite, vremenske oznake, izvor preusmjeravanja, zapisi o padovima i greškama | Automatski |
 | **Kolačići i slične tehnologije** | identifikatori u kolačićima, lokalnoj pohrani, SDK-ovima (vidi [Politiku kolačića]({{url.cookies}})) | Automatski |
