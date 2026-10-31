@@ -2,6 +2,9 @@
 
 Versions follow SemVer (MAJOR: rights or obligations changed; MINOR: clauses or features added; PATCH: wording or fixes). A version number is not a legal review: the texts are templates until counsel has reviewed them. Document versions are in each file's front matter.
 
+## 2.3.0
+- Checklist 1.1.1: consents and their history live in the shared `rapttor_metadata` table (one row per user, key `legal`).
+
 ## 2.2.0
 - Checklist 1.1.0: "terms updated" popups must give every document and condition its own unticked checkbox (no bundled accept), and proof of each answer (version, timestamp, language, source, keyed hashes of IP and browser details, hash of wording and document text, history) is kept with the user profile. New claim `consent-per-document-and-proof`.
 
