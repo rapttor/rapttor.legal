@@ -2,6 +2,9 @@
 
 Versions follow SemVer (MAJOR: rights or obligations changed; MINOR: clauses or features added; PATCH: wording or fixes). A version number is not a legal review: the texts are templates until counsel has reviewed them. Document versions are in each file's front matter.
 
+## 2.2.0
+- Checklist 1.1.0: "terms updated" popups must give every document and condition its own unticked checkbox (no bundled accept), and proof of each answer (version, timestamp, language, source, keyed hashes of IP and browser details, hash of wording and document text, history) is kept with the user profile. New claim `consent-per-document-and-proof`.
+
 ## 2.1.0
 - **Baseline consents on by default**: `feature.age_gate` and `feature.uploads` apply unless explicitly set to false (`Library::withDefaults()`, `default_on` in the catalogue). Opt-in: `feature.gambling` with `policy.gambling_age`.
 - Terms 1.2.0 (gambling age and lawfulness confirmation) and Privacy 1.2.0 (age and identity verification for gambling); translations of both refreshed (drafts); claim `gambling-lawful-and-verified`; age claim describes the default behaviour.

@@ -222,6 +222,12 @@
    "doc": "terms",
    "when": "feature.gambling",
    "text": "Gambling features are offered only where lawful and licensed, with real age and identity verification as the law requires; the confirmation tick box alone is not relied on."
+  },
+  {
+   "id": "consent-per-document-and-proof",
+   "doc": "privacy",
+   "when": "",
+   "text": "When terms or consents change, each document and condition has its own unticked checkbox (nothing is bundled or pre-ticked), and for each answer we keep the version, time, language and hashed IP address and browser details with the user's account."
   }
  ]
 }
