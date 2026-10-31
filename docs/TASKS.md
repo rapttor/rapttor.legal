@@ -15,7 +15,7 @@
 | done | Croatian, Bosnian, Montenegrin drafts of all 13 documents by Haiku (`i18n/BRIEF-<lang>.md`), lint-clean; dialect scan: no ekavian leaks in hr/bs/cnr | Haiku |
 | done | Translated licence summaries/trade-offs `licenses/i18n/<lang>.json` (sr, hr, bs, cnr; 28 licences each) | Haiku |
 | todo (owner) | Native-speaking lawyer review of every draft (sr, hr, bs, cnr) and of `glossary.json`; set `status: reviewed` + `reviewed_by`; collect the uncertainty notes the drafters reported | human counsel |
-| todo | Draft the next languages in the priority order: de, fr, es, then pt-BR, it, pl, nl, tr (same brief, glossary extended first) | Haiku + native review |
+| done | de, fr, es, pt-BR, it, pl, nl, tr drafted by Haiku (13 documents each, lint-clean); native review and jurisdictions.json entries still to do | Haiku |
 | todo (owner) | Lawyer review of the four `LicenseRef-*` custom licences and the licence tags | Opus / human counsel |
 | todo (owner) | Lawyer review of terms, privacy, dpa (Serbia + EU consumer law); resolve every `verify` default | Opus / human counsel |
 | done | Packaging: LICENSE (MIT) + LICENSE-TEXT (CC BY 4.0), composer metadata (`--strict` clean), SemVer tags, CHANGELOG, CONTRIBUTING, SECURITY, docs/PUBLISHING.md, CI (PHP 8.2-8.4), generic example config, claims list, structured tables | Sonnet |
