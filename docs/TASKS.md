@@ -22,6 +22,10 @@
 | done | v2.0.0 content: research of 12 claims + extra items (docs/COMPLIANCE-RESEARCH.md), checklist for AI coding agents (`en/app_checklist.md`, internal doc), texts 1.1.0 for terms/privacy/cookies/AUP/refunds/copyright (age gate, anonymous accounts, ownership of data and files, uploads, third-party resources, emails, renewal terms, withdrawal function, DMCA agent), 12 claims, stale translations hidden, translations of the 6 documents updated (Haiku drafts) | Opus-level research + design, Sonnet, Haiku |
 | done | v2.1.0: baseline consents default-on (`default_on`, `withDefaults`), gambling opt-in consent + Terms/Privacy 1.2.0, translations refreshed, checklist 1.0.1 | Sonnet, Haiku |
 | done | v2.2.0: separate checkbox per document/condition in update popups; acceptance evidence (version, time, hashed IP and browser, wording and document hashes, history) kept with the user profile | Sonnet |
+| done | v2.6: one Balkan language `sh` (replaces sr, sr-Cyrl, hr, bs, cnr); uk, ru, ar, hi, ja, ko, zh-Hans drafted; restrictions dataset (12 tags) + `policy.activities`; yii2-legal 2.8 | Haiku, Sonnet |
+| todo | Second research pass on restrictions: most entries are low/medium confidence (general knowledge, few primary sources); verify per tag with primary sources, fill high-confidence | Sonnet + counsel |
+| todo | jurisdictions.json entries for de, fr, es, it, pl, nl, tr, pt-BR, etc. (governing law, venue, authority) | Sonnet + counsel |
+| todo | Native review of every draft; neutralise the `sh` wording (currently the Bosnian draft) | human |
 | todo (owner) | Register the DMCA designated agent for each entity whose apps store user content (dmca.copyright.gov, Login.gov, USD 6, renew every 3 years); then fill `company.dmca_agent` / `company.dmca_number` | human |
 | todo (owner) | Release v2.0.0 of rapttor/legal FIRST, then yii2-legal v2.0.0 (it requires ^2.0); see docs/PUBLISHING.md | human |
 | todo (owner) | Submit both repos on Packagist (rapttor.legal first) and enable the GitHub hook: see docs/PUBLISHING.md | human |
