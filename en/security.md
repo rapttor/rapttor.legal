@@ -1,7 +1,7 @@
 ---
 doc: security
 title: Security & Vulnerability Disclosure
-version: 1.0.0
+version: 1.0.1
 updated: 2026-10-23
 lang: en
 summary: How to report security vulnerabilities in {{product.name}} and the safe-harbour rules for good-faith research.
@@ -36,7 +36,7 @@ A clear description of the vulnerability, affected URL or component, reproductio
 
 ## 5. What happens next {#process}
 
-We acknowledge within **3 business days**, triage, keep you informed, fix according to severity, and, if you wish, credit you. We do not currently run a paid bounty programme and cannot promise rewards, though we may offer thanks or swag.
+We acknowledge reports, triage, keep you informed, fix according to severity, and, if you wish, credit you. We do not currently run a paid bounty programme and cannot promise rewards, though we may offer thanks or swag.
 
 ## 6. Users: protect your account {#users}
 

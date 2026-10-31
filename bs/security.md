@@ -1,10 +1,10 @@
 ---
 doc: security
 title: Sigurnost i objava ranjivosti
-version: 1.0.0
+version: 1.0.1
 updated: 2026-10-23
 lang: bs
-translation_of: 1.0.0
+translation_of: 1.0.1
 status: draft
 summary: Kako prijaviti sigurnosne ranjivosti u {{product.name}} i pravila o sigurnoj luci za istraživanja u dobroj vjeri.
 ---
@@ -38,7 +38,7 @@ Jasan opis ranjivosti, pogođeni URL ili komponentu, koraci za reprodukciju ili 
 
 ## 5. Šta slijedi {#process}
 
-Potvrdit ćemo prijem u roku od **3 radna dana**, izvršiti trijažu, držati vas obaviještenima, popraviti prema ozbiljnosti i, ako želite, navesti vas kao izvor otkrića. Trenutno ne vodimo program plaćanja nagrada za otkrivanje ranjivosti i ne možemo obećati nagrade, iako vam možemo ponuditi zahvalnost ili promotivne predmete.
+Potvrdit ćemo prijem prijava, izvršiti trijažu, držati vas obaviještenima, popraviti prema ozbiljnosti i, ako želite, navesti vas kao izvor otkrića. Trenutno ne vodimo program plaćanja nagrada za otkrivanje ranjivosti i ne možemo obećati nagrade, iako vam možemo ponuditi zahvalnost ili promotivne predmete.
 
 ## 6. Korisnici: zaštitite svoj nalog {#users}
 

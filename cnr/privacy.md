@@ -1,10 +1,10 @@
 ---
 doc: privacy
 title: Politika privatnosti
-version: 1.2.0
+version: 1.2.1
 updated: 2026-10-31
 lang: cnr
-translation_of: 1.2.0
+translation_of: 1.2.1
 status: draft
 summary: Kako {{product.name}} prikuplja, koristi, dijeli i štiti lične podatke, i koja prava imate.
 ---
@@ -206,7 +206,7 @@ Ako se nalazite u nekoj drugoj državi sa zakonom o zaštiti podataka, poštujem
 | **Japan, Južna Koreja, Singapur, Tajland, Malezija, Turska, UAE, Saudijska Arabija, Južna Afrika, Kenija, Nigerija i slični zakoni** | Primjenjujemo prava i zaštitne mjere koje ti zakoni zahtijevaju (pristup, ispravka, brisanje, prigovor, pritužba lokalnom organu, zaštitne mjere za prenose). Kontaktirajte nas da biste ih koristili. |
 | **Kina** | Usluge nisu namijenjene osobama na teritoriji Kine; nemojte ih koristiti za dostavljanje ličnih podataka osoba iz te zemlje. |
 
-**Kontakt za pritužbe i privatnost za sve regione:** [{{company.privacy_email}}](mailto:{{company.privacy_email}}), {{company.name}}, {{company.address}}. Potvrdu prijema zahtjeva šaljemo u roku od 72 sata, a rješavamo ih u roku koji dozvoljava važeći zakon.
+**Kontakt za pritužbe i privatnost za sve regione:** [{{company.privacy_email}}](mailto:{{company.privacy_email}}), {{company.name}}, {{company.address}}. Zahtjeve rješavamo u roku koji dozvoljava važeći zakon.
 
 ## 11. Izmjene ove politike {#changes}
 

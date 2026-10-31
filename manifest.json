@@ -3,7 +3,7 @@
     "release": "2026.10.31",
     "default_lang": "en",
     "placeholders": "placeholders.json",
-    "placeholders_sha256": "ad28b12053eaf7385ec74f7d1caa4cc6aa3624de001be54799dbca5d40bbe474",
+    "placeholders_sha256": "f642251946cd0594ce00f42fa851b87e14261c262acf72b73e865ba61e354ccd",
     "licenses": {
         "catalog_sha256": "07161fdd078e10340848c265e849ed11dcdaf6a98214946eb0d7a6981ebd3ff8",
         "advisor_sha256": "444ce9a777614c2afe56896cc04c91c6a0709d2ccc11d372189756388b6df93d",
@@ -335,11 +335,11 @@
             {
                 "id": "privacy",
                 "title": "Politika privatnosti",
-                "version": "1.2.0",
+                "version": "1.2.1",
                 "updated": "2026-10-31",
                 "path": "bs/privacy.md",
-                "sha256": "29315240956455381b3b627382351b2b3e6151046009d9f620088bee7e992f9f",
-                "bytes": 24503,
+                "sha256": "884e7ae523e725dd2dd14cd49a8e14a116f3fd267682ca8f4defe6e2c3f6adc9",
+                "bytes": 24467,
                 "requires": [
                     "company.address",
                     "company.country",
@@ -396,18 +396,18 @@
                 "when": "",
                 "public": true,
                 "status": "draft",
-                "translation_of": "1.2.0",
+                "translation_of": "1.2.1",
                 "stale": false,
                 "reviewed_by": ""
             },
             {
                 "id": "refunds",
                 "title": "Politika povrata novca i otkazivanja",
-                "version": "1.1.0",
+                "version": "1.1.1",
                 "updated": "2026-10-31",
                 "path": "bs/refunds.md",
-                "sha256": "e113273cb96d7b675285b19efb39c403e13364c416b501d306d9a782936a966a",
-                "bytes": 7633,
+                "sha256": "bbebd83f40e23141041e0772d0be9de240bab536ca1b8ecbfeab528cef58dfcd",
+                "bytes": 7630,
                 "requires": [
                     "company.address",
                     "company.email",
@@ -438,18 +438,18 @@
                 "when": "feature.payments",
                 "public": true,
                 "status": "draft",
-                "translation_of": "1.1.0",
+                "translation_of": "1.1.1",
                 "stale": false,
                 "reviewed_by": ""
             },
             {
                 "id": "security",
                 "title": "Sigurnost i objava ranjivosti",
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "updated": "2026-10-23",
                 "path": "bs/security.md",
-                "sha256": "33dedae5128209d71e45ec3a455770eddf87ea44ff6740e9076989bf017097cc",
-                "bytes": 3195,
+                "sha256": "e0010fcc52ebdd6bf4983563950d34c6df7f648484918b94dd9145ea53a571be",
+                "bytes": 3176,
                 "requires": [
                     "company.email",
                     "company.website"
@@ -466,7 +466,7 @@
                 "when": "",
                 "public": true,
                 "status": "draft",
-                "translation_of": "1.0.0",
+                "translation_of": "1.0.1",
                 "stale": false,
                 "reviewed_by": ""
             },
@@ -505,11 +505,11 @@
             {
                 "id": "terms",
                 "title": "Uslovi korištenja",
-                "version": "1.2.0",
+                "version": "1.3.0",
                 "updated": "2026-10-31",
                 "path": "bs/terms.md",
-                "sha256": "5ae67f5cfd4b84484b24c430e6b164ff200faa872e4207816e15962f1fbf55ae",
-                "bytes": 36820,
+                "sha256": "0101c3382bdaee78ea8b5509846d6f2614a30215ced0fecce6b3cac9b9916deb",
+                "bytes": 37485,
                 "requires": [
                     "company.address",
                     "company.email",
@@ -531,6 +531,7 @@
                     "policy.age_gate",
                     "policy.age_topics",
                     "policy.claim_months",
+                    "policy.excluded_regions",
                     "policy.gambling_age",
                     "policy.liability_cap_months",
                     "policy.min_age",
@@ -568,7 +569,7 @@
                 "when": "",
                 "public": true,
                 "status": "draft",
-                "translation_of": "1.2.0",
+                "translation_of": "1.3.0",
                 "stale": false,
                 "reviewed_by": ""
             }
@@ -869,11 +870,11 @@
             {
                 "id": "privacy",
                 "title": "Politika privatnosti",
-                "version": "1.2.0",
+                "version": "1.2.1",
                 "updated": "2026-10-31",
                 "path": "cnr/privacy.md",
-                "sha256": "e11a315b21f3ffd8553ffa2cb891dfe61e74f8310942374ffa07e73818902d15",
-                "bytes": 24775,
+                "sha256": "be51bc179123b614f19a549cf9bb4fb8b4f55668c30072dcc746dcdb0f3a915e",
+                "bytes": 24726,
                 "requires": [
                     "company.address",
                     "company.country",
@@ -930,18 +931,18 @@
                 "when": "",
                 "public": true,
                 "status": "draft",
-                "translation_of": "1.2.0",
+                "translation_of": "1.2.1",
                 "stale": false,
                 "reviewed_by": ""
             },
             {
                 "id": "refunds",
                 "title": "Politika povraćaja novca i otkazivanja",
-                "version": "1.1.0",
+                "version": "1.1.1",
                 "updated": "2026-10-31",
                 "path": "cnr/refunds.md",
-                "sha256": "b1f7fc175da1a5423055b407405db02382ec31c8acc32c87f4a399840afe6b03",
-                "bytes": 7672,
+                "sha256": "8235b8f8733896ee830bed77c0b1933f4209f9ea2525061f46211151353bd6a1",
+                "bytes": 7667,
                 "requires": [
                     "company.address",
                     "company.email",
@@ -972,18 +973,18 @@
                 "when": "feature.payments",
                 "public": true,
                 "status": "draft",
-                "translation_of": "1.1.0",
+                "translation_of": "1.1.1",
                 "stale": false,
                 "reviewed_by": ""
             },
             {
                 "id": "security",
                 "title": "Bezbjednost i prijavljivanje ranjivosti",
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "updated": "2026-10-23",
                 "path": "cnr/security.md",
-                "sha256": "068cfe01b514b7bafaccddd373bbfe406ea0cf90d6429380299ff953de01083a",
-                "bytes": 3282,
+                "sha256": "030542abba02043b77250ea6160f9705057d6bf9b6b0447b7e98599b1808e292",
+                "bytes": 3263,
                 "requires": [
                     "company.email",
                     "company.website"
@@ -1000,7 +1001,7 @@
                 "when": "",
                 "public": true,
                 "status": "draft",
-                "translation_of": "1.0.0",
+                "translation_of": "1.0.1",
                 "stale": false,
                 "reviewed_by": ""
             },
@@ -1039,11 +1040,11 @@
             {
                 "id": "terms",
                 "title": "Uslovi korišćenja",
-                "version": "1.2.0",
+                "version": "1.3.0",
                 "updated": "2026-10-31",
                 "path": "cnr/terms.md",
-                "sha256": "81822005c775cf3c70d026595adea4b0543f247df5d41a5b300a713deff9220c",
-                "bytes": 36753,
+                "sha256": "7eaa902792f2070de3c07594b219f2f37afa8620fa759a2b7805ea991ddab609",
+                "bytes": 37416,
                 "requires": [
                     "company.address",
                     "company.email",
@@ -1065,6 +1066,7 @@
                     "policy.age_gate",
                     "policy.age_topics",
                     "policy.claim_months",
+                    "policy.excluded_regions",
                     "policy.gambling_age",
                     "policy.liability_cap_months",
                     "policy.min_age",
@@ -1102,7 +1104,7 @@
                 "when": "",
                 "public": true,
                 "status": "draft",
-                "translation_of": "1.2.0",
+                "translation_of": "1.3.0",
                 "stale": false,
                 "reviewed_by": ""
             }
@@ -1147,11 +1149,11 @@
             {
                 "id": "app_checklist",
                 "title": "App security and compliance checklist for AI coding agents",
-                "version": "1.1.1",
+                "version": "1.2.0",
                 "updated": "2026-10-31",
                 "path": "en/app_checklist.md",
-                "sha256": "e89588a80fd19a3512cce7a17fd315233e7de54e319d5c7f4e1c8c3dcf7b62a8",
-                "bytes": 17567,
+                "sha256": "fa1e7372d10027dcf01378a1ab50dd4290a7a5c150daeb8ec7d59b08796f8b7c",
+                "bytes": 19895,
                 "requires": [
                     "company.name"
                 ],
@@ -1160,6 +1162,7 @@
                     "payments.provider",
                     "policy.age_gate",
                     "policy.age_topics",
+                    "policy.excluded_regions",
                     "policy.gambling_age",
                     "product.name"
                 ],
@@ -1443,11 +1446,11 @@
             {
                 "id": "privacy",
                 "title": "Privacy Policy",
-                "version": "1.2.0",
+                "version": "1.2.1",
                 "updated": "2026-10-31",
                 "path": "en/privacy.md",
-                "sha256": "d2665e3f1be5c8e1db22fe16d0e52b551fdb792ec0bf910ed52d1dd8a1b5dc11",
-                "bytes": 22222,
+                "sha256": "d46a664b6f24af9b0198000a481ffaec3e8423a11b15f44337f79e711f4660f4",
+                "bytes": 22184,
                 "requires": [
                     "company.address",
                     "company.country",
@@ -1511,11 +1514,11 @@
             {
                 "id": "refunds",
                 "title": "Refunds & Cancellation Policy",
-                "version": "1.1.0",
+                "version": "1.1.1",
                 "updated": "2026-10-31",
                 "path": "en/refunds.md",
-                "sha256": "8b9b8d686c1af8e9e8499c7d93b3c59f87a9faff9e1ef71b5e7f33180d018eab",
-                "bytes": 7007,
+                "sha256": "952f64b661f52e2cef1d44553224e3d383ddd590d4318a4e90750989940ed691",
+                "bytes": 7005,
                 "requires": [
                     "company.address",
                     "company.email",
@@ -1553,11 +1556,11 @@
             {
                 "id": "security",
                 "title": "Security & Vulnerability Disclosure",
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "updated": "2026-10-23",
                 "path": "en/security.md",
-                "sha256": "2da34b3c52cf86742589efcd22ca38163d18abd8e27808e15c761e5f2842e4d4",
-                "bytes": 2739,
+                "sha256": "795cbc62acb28f3a10b69cc40deae04bf825dc9974d70a560b99b1e76659ee28",
+                "bytes": 2720,
                 "requires": [
                     "company.email",
                     "company.website"
@@ -1613,11 +1616,11 @@
             {
                 "id": "terms",
                 "title": "Terms of Service",
-                "version": "1.2.0",
+                "version": "1.3.0",
                 "updated": "2026-10-31",
                 "path": "en/terms.md",
-                "sha256": "283ad0ecef84df4052fa5fa62dbc2fede67d8d85bb6a580c0e28a0910bf584ea",
-                "bytes": 33176,
+                "sha256": "79e369663b94e386c9b9e6ac9be87ee5a2295d19cb13e9f2a58e5b8e4c1eae5d",
+                "bytes": 33817,
                 "requires": [
                     "company.address",
                     "company.email",
@@ -1639,6 +1642,7 @@
                     "policy.age_gate",
                     "policy.age_topics",
                     "policy.claim_months",
+                    "policy.excluded_regions",
                     "policy.gambling_age",
                     "policy.liability_cap_months",
                     "policy.min_age",
@@ -1977,11 +1981,11 @@
             {
                 "id": "privacy",
                 "title": "Politika privatnosti",
-                "version": "1.2.0",
+                "version": "1.2.1",
                 "updated": "2026-10-31",
                 "path": "hr/privacy.md",
-                "sha256": "ae1345a29faa534ee1e6070d6f0de560412f0691e3e165c81f31174cb8aec38a",
-                "bytes": 24748,
+                "sha256": "0090aba394f4e2c4fe53c2d8260f0c546a86833c2f38a7f17fcb9e2786be21b5",
+                "bytes": 24712,
                 "requires": [
                     "company.address",
                     "company.country",
@@ -2038,18 +2042,18 @@
                 "when": "",
                 "public": true,
                 "status": "draft",
-                "translation_of": "1.2.0",
+                "translation_of": "1.2.1",
                 "stale": false,
                 "reviewed_by": ""
             },
             {
                 "id": "refunds",
                 "title": "Pravila povrata novca i otkaza",
-                "version": "1.1.0",
+                "version": "1.1.1",
                 "updated": "2026-10-31",
                 "path": "hr/refunds.md",
-                "sha256": "cc23bcc129665bf208eb5fdc50e08011071c2eda700d950f8c3a765113fb1430",
-                "bytes": 7599,
+                "sha256": "043bf68a4dda883d8ce4fe05d6e1628d49e65cb92ef3c7d880f528541a1bde56",
+                "bytes": 7591,
                 "requires": [
                     "company.address",
                     "company.email",
@@ -2080,18 +2084,18 @@
                 "when": "feature.payments",
                 "public": true,
                 "status": "draft",
-                "translation_of": "1.1.0",
+                "translation_of": "1.1.1",
                 "stale": false,
                 "reviewed_by": ""
             },
             {
                 "id": "security",
                 "title": "Sigurnost i prijava ranjivosti",
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "updated": "2026-10-23",
                 "path": "hr/security.md",
-                "sha256": "af5336218e2a44c3787b38173507ec23a37336e7bc9969559dfa8a5ff7619028",
-                "bytes": 3241,
+                "sha256": "147511f0fbf860df15b38d76e9245325e75cd45348f8fe917f19908abce16763",
+                "bytes": 3222,
                 "requires": [
                     "company.email",
                     "company.website"
@@ -2108,7 +2112,7 @@
                 "when": "",
                 "public": true,
                 "status": "draft",
-                "translation_of": "1.0.0",
+                "translation_of": "1.0.1",
                 "stale": false,
                 "reviewed_by": ""
             },
@@ -2147,11 +2151,11 @@
             {
                 "id": "terms",
                 "title": "Uvjeti korištenja",
-                "version": "1.2.0",
+                "version": "1.3.0",
                 "updated": "2026-10-31",
                 "path": "hr/terms.md",
-                "sha256": "c0de443579d5f1957d296478102d4f912d70092de50b072c7bca19ae2e985089",
-                "bytes": 36730,
+                "sha256": "3684348d121353c34dd095e30bcada09cac2a351dc4e98fb4129e235a27c34ef",
+                "bytes": 37400,
                 "requires": [
                     "company.address",
                     "company.email",
@@ -2173,6 +2177,7 @@
                     "policy.age_gate",
                     "policy.age_topics",
                     "policy.claim_months",
+                    "policy.excluded_regions",
                     "policy.gambling_age",
                     "policy.liability_cap_months",
                     "policy.min_age",
@@ -2210,7 +2215,7 @@
                 "when": "",
                 "public": true,
                 "status": "draft",
-                "translation_of": "1.2.0",
+                "translation_of": "1.3.0",
                 "stale": false,
                 "reviewed_by": ""
             }
@@ -2511,11 +2516,11 @@
             {
                 "id": "privacy",
                 "title": "Politika privatnosti",
-                "version": "1.2.0",
+                "version": "1.2.1",
                 "updated": "2026-10-31",
                 "path": "sr/privacy.md",
-                "sha256": "4bc4c4e9c0f2aec9b18fb8900fa38642273454561c3498c0d11aedcdb5557386",
-                "bytes": 24481,
+                "sha256": "307e86a3c7eacac24e42e2829371cda23cf2709add71f95959eb381859537e43",
+                "bytes": 24443,
                 "requires": [
                     "company.address",
                     "company.country",
@@ -2572,18 +2577,18 @@
                 "when": "",
                 "public": true,
                 "status": "draft",
-                "translation_of": "1.2.0",
+                "translation_of": "1.2.1",
                 "stale": false,
                 "reviewed_by": ""
             },
             {
                 "id": "refunds",
                 "title": "Politika povraćaja sredstava i otkazivanja",
-                "version": "1.1.0",
+                "version": "1.1.1",
                 "updated": "2026-10-31",
                 "path": "sr/refunds.md",
-                "sha256": "2a3bbb9e0fa719e2263f847675447d1fd7611c85edd530dbf6786b86970741f1",
-                "bytes": 7667,
+                "sha256": "c787d7d33db2094d132348e4bda3156b26f3d2668f8641aa1549d48712f3b169",
+                "bytes": 7662,
                 "requires": [
                     "company.address",
                     "company.email",
@@ -2614,18 +2619,18 @@
                 "when": "feature.payments",
                 "public": true,
                 "status": "draft",
-                "translation_of": "1.1.0",
+                "translation_of": "1.1.1",
                 "stale": false,
                 "reviewed_by": ""
             },
             {
                 "id": "security",
                 "title": "Bezbednost i prijavljivanje ranjivosti",
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "updated": "2026-10-23",
                 "path": "sr/security.md",
-                "sha256": "cd28427de7c9f837663873bed28e27363a426127ad366a4c135b2411283fbcf1",
-                "bytes": 3244,
+                "sha256": "7febc82c8a35348e1f2c29248276d089ade684f4548b2d322029240aeb76cf0f",
+                "bytes": 3225,
                 "requires": [
                     "company.email",
                     "company.website"
@@ -2642,7 +2647,7 @@
                 "when": "",
                 "public": true,
                 "status": "draft",
-                "translation_of": "1.0.0",
+                "translation_of": "1.0.1",
                 "stale": false,
                 "reviewed_by": ""
             },
@@ -2681,11 +2686,11 @@
             {
                 "id": "terms",
                 "title": "Uslovi korišćenja",
-                "version": "1.2.0",
+                "version": "1.3.0",
                 "updated": "2026-10-31",
                 "path": "sr/terms.md",
-                "sha256": "7dc9a84295963df6f1909fb601adac8341bb878c6a52259dd47993526214cab7",
-                "bytes": 36977,
+                "sha256": "282d342b68a61bd207f216feae66219ed6f715678705841408f1ffe0fc9ea848",
+                "bytes": 37634,
                 "requires": [
                     "company.address",
                     "company.email",
@@ -2707,6 +2712,7 @@
                     "policy.age_gate",
                     "policy.age_topics",
                     "policy.claim_months",
+                    "policy.excluded_regions",
                     "policy.gambling_age",
                     "policy.liability_cap_months",
                     "policy.min_age",
@@ -2744,7 +2750,7 @@
                 "when": "",
                 "public": true,
                 "status": "draft",
-                "translation_of": "1.2.0",
+                "translation_of": "1.3.0",
                 "stale": false,
                 "reviewed_by": ""
             }

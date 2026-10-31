@@ -1,10 +1,10 @@
 ---
 doc: terms
 title: Uslovi korišćenja
-version: 1.2.0
+version: 1.3.0
 updated: 2026-10-31
 lang: cnr
-translation_of: 1.2.0
+translation_of: 1.3.0
 status: draft
 summary: Ugovor između vas i {{product.name}} o korišćenju {{product.name}}.
 ---
@@ -35,6 +35,7 @@ Usluge možete koristiti samo ako:
 4. Usluge koristite zakonito u mjestu u kojem se nalazite.
 {{#if feature.age_gate}}5. potvrdite, kada to zatražimo, da imate najmanje **{{policy.age_gate}}** godina i da ste punoljetni prema pravilima vaše države za korišćenje funkcija koje uključuju {{policy.age_topics|sadržaj osjetljiv na uzrast}}. Ne tražimo vaš datum rođenja: vaša potvrda se evidentira. Ako ona nije tačna, možemo blokirati nalog i izbrisati njegove podatke.
 {{/if}}{{#if feature.gambling}}6. potvrdite, kada to zatražimo, da imate najmanje **{{policy.gambling_age}}** godina, da je kockanje zakonito tamo gdje živite i da funkcije za kockanje koristite samo za sebe. Možemo tražiti stvarnu provjeru godina i identiteta, a možemo odbiti ili ukinuti pristup funkcijama za kockanje tamo gdje to zahtijevaju zakon ili naše licence.
+{{/if}}{{#if policy.excluded_regions}}7. potvrdite, kada to zatražimo, da se ne nalazite u, i da niste rezident ili državljanin nijedne od ovih država ili regiona: **{{policy.excluded_regions}}**, gdje naše Usluge ili ovi Uslovi možda nisu zakoniti, možda nisu izvršivi ili se ne nude. Ne možemo vidjeti gdje se stvarno nalazite (na primjer, iza VPN-a), zato se oslanjamo na vašu potvrdu; ako ona nije tačna, Usluge koristite na sopstveni rizik, vi ste odgovorni za poštovanje lokalnog zakona, i možemo blokirati nalog i izbrisati njegove podatke. Ništa u ovoj tački ne ograničava prava koja se ne mogu odreći prema zakonu mjesta u kojem živite.
 {{/if}}
 
 Možemo u bilo kom trenutku tražiti dokaz o godinama, identitetu ili ovlašćenju, i možemo odbiti ili zatvoriti nalog koji ne prođe provjeru.

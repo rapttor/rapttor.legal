@@ -272,6 +272,11 @@
       "default": "",
       "label": "What the age confirmation is for, as a short phrase, e.g. chat, user-generated content, gambling-style games"
     },
+    "policy.excluded_regions": {
+      "default": "",
+      "label": "Countries or regions where the service must not be used (our terms may be unlawful or unenforceable there), as a comma-separated list. Visitors tick a box that they are not in or from them. Empty = no such box.",
+      "verify": true
+    },
     "payments.provider": {
       "default": "",
       "label": "Name of the payment provider / merchant of record, e.g. Paddle, Stripe"

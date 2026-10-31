@@ -1,7 +1,7 @@
 ---
 doc: refunds
 title: Refunds & Cancellation Policy
-version: 1.1.0
+version: 1.1.1
 updated: 2026-10-31
 lang: en
 when: feature.payments
@@ -80,4 +80,4 @@ Refunds include the tax that was charged. If you paid in another currency, the a
 
 ## How to ask {#contact}
 
-Write to [{{company.email}}](mailto:{{company.email}}) with your account email, order or receipt number and a short description. We reply within 5 business days. If we cannot resolve the matter you may contact your local consumer authority{{#if consumer_dispute}} or {{consumer_dispute}}{{/if}}.
+Write to [{{company.email}}](mailto:{{company.email}}) with your account email, order or receipt number and a short description. We will reply to your message. If we cannot resolve the matter you may contact your local consumer authority{{#if consumer_dispute}} or {{consumer_dispute}}{{/if}}.

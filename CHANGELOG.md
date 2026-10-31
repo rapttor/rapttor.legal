@@ -2,6 +2,12 @@
 
 Versions follow SemVer (MAJOR: rights or obligations changed; MINOR: clauses or features added; PATCH: wording or fixes). A version number is not a legal review: the texts are templates until counsel has reviewed them. Document versions are in each file's front matter.
 
+## 2.4.0
+- **Terms 1.3.0**: optional item 7 in Eligibility, "not located in or resident of these countries" (`policy.excluded_regions`, shown as a visitor's own checkbox because location cannot be verified). Placeholder `policy.excluded_regions`; claim `excluded-regions-confirmed`.
+- **No invented reply times**: removed the 72-hour acknowledgement (Privacy 1.2.1), the 3 business days (Security 1.0.1) and the 5 business days (Refunds 1.1.1); only deadlines a law sets remain (breach notification, DMCA counter-notice). Claims reworded.
+- Checklist 1.2.0: privacy and legal requests form that notifies the admins, no promised reply times, language switcher on consent screens, operator accounts vs tenant admins, excluded regions.
+- Translations of the four changed documents refreshed in sr, hr, bs and cnr (drafts). Glossary extended to de, fr, es, pt-BR, it, pl, nl and tr; `i18n/BRIEF-new.md` for drafting new languages.
+
 ## 2.3.0
 - Checklist 1.1.1: consents and their history live in the shared `rapttor_metadata` table (one row per user, key `legal`).
 

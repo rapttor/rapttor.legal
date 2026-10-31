@@ -1,10 +1,10 @@
 ---
 doc: terms
 title: Uvjeti korištenja
-version: 1.2.0
+version: 1.3.0
 updated: 2026-10-31
 lang: hr
-translation_of: 1.2.0
+translation_of: 1.3.0
 status: draft
 summary: Ugovor između vas i {{product.name}} o korištenju {{product.name}}.
 ---
@@ -35,6 +35,7 @@ Usluge smijete koristiti samo ako:
 4. Usluge koristite zakonito na mjestu na kojem se nalazite.
 {{#if feature.age_gate}}5. potvrdite, kada to od vas zatražimo, da imate najmanje **{{policy.age_gate}}** godina i da ste punoljetni prema pravilima vaše zemlje za korištenje značajki koje uključuju {{policy.age_topics|sadržaj primjeren dobi}}. Ne trebamo vaš datum rođenja: vaša potvrda se bilježi. Ako to nije istina, možemo blokirati račun i izbrisati njegove podatke.
 {{/if}}{{#if feature.gambling}}6. potvrdite, kada to od vas zatražimo, da imate najmanje **{{policy.gambling_age}}** godina, da je kockanje zakonito tamo gdje živite te da značajke za kockanje koristite samo za sebe. Možemo zahtijevati stvarnu provjeru dobi i identiteta te možemo odbiti ili prekinuti pristup značajkama za kockanje gdje god to zahtijevaju zakon ili naše licence.
+{{/if}}{{#if policy.excluded_regions}}7. potvrdite, kada to od vas zatražimo, da se ne nalazite u, niste rezident i niste državljanin nijedne od ovih država ili regija: **{{policy.excluded_regions}}**, gdje naše Usluge ili ovi Uvjeti možda nisu zakoniti, možda nisu provedivi ili se ne nude. Ne možemo vidjeti gdje se stvarno nalazite (primjerice iza VPN-a), pa se oslanjamo na vašu potvrdu; ako ona nije istinita, Usluge koristite na vlastitu odgovornost, vi ste odgovorni za poštivanje lokalnog prava i možemo blokirati račun i izbrisati njegove podatke. Ništa u ovoj stavci ne ograničava prava koja se prema pravu mjesta u kojem živite ne mogu odreći.
 {{/if}}
 
 Možemo u bilo kojem trenutku tražiti dokaz o dobi, identitetu ili ovlasti te možemo odbiti ili zatvoriti račun koji ne prođe provjeru.

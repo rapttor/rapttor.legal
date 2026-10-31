@@ -1,7 +1,7 @@
 ---
 doc: app_checklist
 title: App security and compliance checklist for AI coding agents
-version: 1.1.1
+version: 1.2.0
 updated: 2026-10-31
 lang: en
 summary: Rules an AI coding agent must follow in every app that publishes its legal pages with rapttor/yii2-legal.
@@ -70,7 +70,10 @@ You are an AI coding agent working on **{{product.name}}** ({{company.name}}). T
 - **Where the answers live.** Keep them with the user's profile: a JSON column on the user record, for example `consents`, holding one entry per consent key with its version, whether it was granted, when, in which language and where (for example `"terms": {"v": "1.1", "granted": true, "at": 1761900000, "lang": "en", "source": "consents"}`, `"age": {"v": "18", "granted": true, ...}`), or the plugin's own table. Configure `consentStore` (`JsonAttributeConsentStore`) and add the column in a migration. Never store consents only in the browser (cookie, localStorage, session): they must survive logout, new devices and anonymous-to-email upgrades.
 - **Every document and condition gets its own checkbox, also in "we updated our terms" popups.** List each changed document (Terms, Privacy, ...) and each new condition on its own line, with its name, link and version, an **unticked** box and its own refusal path. Never one "I accept everything" box, never a single button that accepts several documents at once, never pre-ticked or hidden boxes, never a layout that makes accepting easier than refusing. A bundled accept cannot be shown to cover a specific document later, and it lets someone claim they never saw one. Use `AcceptanceCheckbox` (one box per document) and the consents page (one box per item); do not write your own.
 - **Keep proof of each answer with the user profile.** For every consent and document, per user, store: the document or consent key, the **version** accepted, granted yes/no, the **timestamp**, the language shown, where it was given (sign-up, popup, checkout), a **keyed hash of the browser details** (User-Agent and Accept-Language), a keyed hash of the IP address, and a hash of the exact wording and of the document text that was shown. Hash with a secret key (HMAC), never store the raw values for this purpose. Keep earlier answers as history instead of overwriting them. The plugin does this in the shared `rapttor_metadata` table: one row per user (`key` legal, `remote_table` profile, `remote_id` the user id) whose `content` is the current state and `history` the earlier versions. `Yii::$app->legal->evidence()` produces these hashes; the consent store and the acceptance log call it for you. Keep the records at least as long as the user has an account and 3 years after (longer where the law of a subscription says so), and make them part of data export and deletion.
-- **If a screen is missing, check in this order:** the feature flag for it in the legal config (`age_gate`, `uploads`, `marketing`, `external`), that `ConsentGate` is attached, that the route is not in `exceptRoutes`, that the user is signed in (anonymous accounts are real users, so they pass the gate too), and that the installed `rapttor/yii2-legal` is version 2 or newer. `php yii legal/check` prints hints for most of these.
+- **Consent screens have a language switcher.** The consents page and the terms-updated page must let the user change language without leaving the form (`LanguageSwitcher::widget(['sameRoute' => true])`, already in the plugin's views). A custom screen must do the same.
+- **Operator accounts versus tenant admins.** Your own superadmin accounts (the people who run the platform) do not need to consent to their own terms: attach the gate with `exceptCan` set to the superadmin role. Every other account, including admins of a tenant or customer organisation who use the product for their own business, signs the same consents at login as everybody else.
+{{#if policy.excluded_regions}}- **Excluded regions.** The checkbox "I am not located in, and am not a resident or national of: {{policy.excluded_regions}}" is a consent like the others (`regions`). You cannot reliably detect where a visitor is (VPNs, travel), so do not claim to block these countries and do not build geo-blocking as a legal defence; keep the checkbox and its record. Changing the list asks everyone again.
+{{/if}}- **If a screen is missing, check in this order:** the feature flag for it in the legal config (`age_gate`, `uploads`, `marketing`, `external`), that `ConsentGate` is attached, that the route is not in `exceptRoutes`, that the user is signed in (anonymous accounts are real users, so they pass the gate too), and that the installed `rapttor/yii2-legal` is version 2 or newer. `php yii legal/check` prints hints for most of these.
 
 {{#if feature.email}}
 ## 7. Emails
@@ -97,6 +100,13 @@ You are an AI coding agent working on **{{product.name}}** ({{company.name}}). T
 - Keep the Copyright & Illegal Content Notices page reachable, act on notices promptly, remove repeat infringers.
 {{#if feature.ugc}}- A US company or any provider storing user content that wants US safe harbour registers a **DMCA designated agent** with the US Copyright Office (online directory, Login.gov sign-in, USD 6, renew every three years) and shows the agent on the Copyright page (`company.dmca_agent`, `company.dmca_number`). Ask the owner whether it is done.
 {{/if}}- For content that is shown to others: moderation tools, a report button, and a way to appeal.
+
+### Privacy and legal requests
+
+- Provide **one form** for privacy rights (access, export, correction, deletion, objection), copyright notices, abuse reports and other legal messages, and link it from the footer: `/legal/request` in the plugin. Do not hide the contact mailbox either.
+- **Notify the admins when one arrives.** Attach a handler to `Legal::EVENT_REQUEST` (chat message, ticket, email to a monitored shared mailbox, backoffice badge) and show `Yii::$app->legal->requests()->open()` in the backoffice, with the overdue ones first. A request nobody sees is the worst outcome: the law's deadline runs from the day it arrives.
+- **Never promise a reply time** on pages, in emails, in the form or in autoresponders, unless a law you are bound by requires a specific one (for example the one-month limit for data-subject requests under GDPR, or the 10 business days of the DMCA counter-notice process). The plugin keeps an internal due date (`requestDueDays`) so your admins know the legal limit; it is not shown to the requester.
+- Close each request with `requests()->close($id, 'done', 'note')` when handled, and keep the record. Deleting an account removes the person's data, not the log that a request was received and handled.
 
 ## 10. Web and server basics
 

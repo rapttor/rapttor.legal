@@ -1,10 +1,10 @@
 ---
 doc: refunds
 title: Pravila povrata novca i otkaza
-version: 1.1.0
+version: 1.1.1
 updated: 2026-10-31
 lang: hr
-translation_of: 1.1.0
+translation_of: 1.1.1
 status: draft
 when: feature.payments
 summary: Kako otkazati, kada možete odustati ili dobiti povrat novca i što se događa s kupnjama putem trgovina aplikacijama.
@@ -81,4 +81,4 @@ Povrati uključuju porez koji je naplaćen. Ako ste platili u drugoj valuti, izn
 
 ## Kako postaviti upit {#contact}
 
-Pišite na [{{company.email}}](mailto:{{company.email}}) s adresom e-pošte svog računa, brojem narudžbe ili računa i kratkim opisom. Odgovaramo u roku od 5 radnih dana. Ako ne možemo riješiti stvar, možete se obratiti svom lokalnom tijelu za zaštitu potrošača{{#if consumer_dispute}} ili {{consumer_dispute}}{{/if}}.
+Pišite na [{{company.email}}](mailto:{{company.email}}) s adresom e-pošte svog računa, brojem narudžbe ili računa i kratkim opisom. Odgovaramo na vašu poruku. Ako ne možemo riješiti stvar, možete se obratiti svom lokalnom tijelu za zaštitu potrošača{{#if consumer_dispute}} ili {{consumer_dispute}}{{/if}}.

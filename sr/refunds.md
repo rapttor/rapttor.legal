@@ -1,10 +1,10 @@
 ---
 doc: refunds
 title: Politika povraćaja sredstava i otkazivanja
-version: 1.1.0
+version: 1.1.1
 updated: 2026-10-31
 lang: sr
-translation_of: 1.1.0
+translation_of: 1.1.1
 status: draft
 when: feature.payments
 summary: Kako da otkažete, kada možete da odustanete ili dobijete povraćaj sredstava i šta se dešava sa kupovinama izvršenim putem prodavnica aplikacija.
@@ -82,4 +82,4 @@ Povraćaj uključuje porez koji je naplaćen. Ako ste platili u drugoj valuti, i
 
 ## Kako da tražite {#contact}
 
-Pišite na [{{company.email}}](mailto:{{company.email}}) sa adresom e-pošte Vašeg naloga, brojem porudžbine ili računa i kratkim opisom. Odgovaramo u roku od 5 radnih dana. Ako ne možemo da rešimo stvar, možete se obratiti lokalnom organu za zaštitu potrošača{{#if consumer_dispute}} ili {{consumer_dispute}}{{/if}}.
+Pišite na [{{company.email}}](mailto:{{company.email}}) sa adresom e-pošte Vašeg naloga, brojem porudžbine ili računa i kratkim opisom. Odgovorićemo na Vašu poruku. Ako ne možemo da rešimo stvar, možete se obratiti lokalnom organu za zaštitu potrošača{{#if consumer_dispute}} ili {{consumer_dispute}}{{/if}}.

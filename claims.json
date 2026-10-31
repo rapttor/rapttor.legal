@@ -41,7 +41,7 @@
    "id": "privacy-requests-handled",
    "doc": "privacy",
    "when": "",
-   "text": "Privacy requests sent to the privacy/contact mailbox are acknowledged within 72 hours and answered within one month."
+   "text": "Privacy requests (the /legal/request form and the privacy mailbox) are logged, the admins are notified when one arrives, and each is answered within the time the applicable law allows."
   },
   {
    "id": "mailboxes-monitored",
@@ -89,7 +89,7 @@
    "id": "refund-requests",
    "doc": "refunds",
    "when": "feature.payments",
-   "text": "Refund and withdrawal requests sent to the contact mailbox are answered within 5 business days."
+   "text": "Refund and withdrawal requests sent to the contact mailbox are read and answered."
   },
   {
    "id": "moderation-appeals",
@@ -125,7 +125,7 @@
    "id": "security-contact",
    "doc": "security",
    "when": "",
-   "text": "Vulnerability reports are acknowledged within 3 business days."
+   "text": "Vulnerability reports sent to the security contact are read and handled."
   },
   {
    "id": "game-spending-controls",
@@ -228,6 +228,12 @@
    "doc": "privacy",
    "when": "",
    "text": "When terms or consents change, each document and condition has its own unticked checkbox (nothing is bundled or pre-ticked), and for each answer we keep the version, time, language and hashed IP address and browser details with the user's account."
+  },
+  {
+   "id": "excluded-regions-confirmed",
+   "doc": "terms",
+   "when": "policy.excluded_regions",
+   "text": "Visitors confirm with their own checkbox that they are not in or from the listed countries or regions; the app does not claim to detect their real location."
   }
  ]
 }

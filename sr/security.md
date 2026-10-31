@@ -1,10 +1,10 @@
 ---
 doc: security
 title: Bezbednost i prijavljivanje ranjivosti
-version: 1.0.0
+version: 1.0.1
 updated: 2026-10-23
 lang: sr
-translation_of: 1.0.0
+translation_of: 1.0.1
 status: draft
 summary: Kako prijaviti bezbednosne ranjivosti u {{product.name}} i pravila pravne zaštite (safe harbour) za istraživanja sprovedena u dobroj veri.
 ---
@@ -38,7 +38,7 @@ Jasan opis ranjivosti, pogođeni URL ili komponentu, korake za reprodukciju ili 
 
 ## 5. Šta sledi {#process}
 
-Potvrđujemo prijem u roku od **3 radna dana**, procenjujemo prijavu, obaveštavamo Vas, popravljamo u skladu sa ozbiljnošću i, ako to želite, navodimo Vas kao prijavioca. Trenutno ne vodimo program plaćenih nagrada za otkrivanje grešaka i ne možemo obećati nagrade, mada Vam možemo ponuditi zahvalnicu ili sitne promotivne predmete (swag).
+Potvrđujemo prijem prijava, procenjujemo prijavu, obaveštavamo Vas, popravljamo u skladu sa ozbiljnošću i, ako to želite, navodimo Vas kao prijavioca. Trenutno ne vodimo program plaćenih nagrada za otkrivanje grešaka i ne možemo obećati nagrade, mada Vam možemo ponuditi zahvalnicu ili sitne promotivne predmete (swag).
 
 ## 6. Korisnici: zaštitite Vaš nalog {#users}
 

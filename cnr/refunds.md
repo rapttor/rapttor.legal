@@ -1,10 +1,10 @@
 ---
 doc: refunds
 title: Politika povraćaja novca i otkazivanja
-version: 1.1.0
+version: 1.1.1
 updated: 2026-10-31
 lang: cnr
-translation_of: 1.1.0
+translation_of: 1.1.1
 status: draft
 when: feature.payments
 summary: Kako otkazati, kada možete odustati ili dobiti povraćaj novca i šta se dešava sa kupovinama izvršenim preko prodavnica aplikacija.
@@ -82,4 +82,4 @@ Povraćaj novca obuhvata porez koji je naplaćen. Ako ste platili u drugoj valut
 
 ## Kako podnijeti zahtjev {#contact}
 
-Pišite na [{{company.email}}](mailto:{{company.email}}) sa e-mail adresom svog naloga, brojem narudžbe ili računa i kratkim opisom. Odgovaramo u roku od 5 radnih dana. Ako ne možemo riješiti stvar, možete se obratiti lokalnom organu za zaštitu potrošača{{#if consumer_dispute}} ili {{consumer_dispute}}{{/if}}.
+Pišite na [{{company.email}}](mailto:{{company.email}}) sa e-mail adresom svog naloga, brojem narudžbe ili računa i kratkim opisom. Odgovorićemo na vašu poruku. Ako ne možemo riješiti stvar, možete se obratiti lokalnom organu za zaštitu potrošača{{#if consumer_dispute}} ili {{consumer_dispute}}{{/if}}.

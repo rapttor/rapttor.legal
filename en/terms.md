@@ -1,7 +1,7 @@
 ---
 doc: terms
 title: Terms of Service
-version: 1.2.0
+version: 1.3.0
 updated: 2026-10-31
 lang: en
 summary: The agreement between you and {{product.name}} for using {{product.name}}.
@@ -33,6 +33,7 @@ You may use the Services only if you:
 4. use the Services lawfully in the place where you are.
 {{#if feature.age_gate}}5. confirm, when we ask, that you are at least **{{policy.age_gate}}** years old and of legal age under the rules of your country to use features involving {{policy.age_topics|age-sensitive content}}. We do not need your date of birth: your confirmation is recorded. If it is not true, we may block the account and delete its data.
 {{/if}}{{#if feature.gambling}}6. confirm, when we ask, that you are at least **{{policy.gambling_age}}** years old, that gambling is lawful where you live, and that you use gambling features only for yourself. We may require real age and identity verification, and may refuse or end access to gambling features wherever the law or our licences require.
+{{/if}}{{#if policy.excluded_regions}}7. confirm, when we ask, that you are not located in, and are not a resident or national of, any of these countries or regions: **{{policy.excluded_regions}}**, where our Services or these Terms may not be lawful, may not be enforceable, or are not offered. We cannot see where you really are (for example behind a VPN), so we rely on your confirmation; if it is not true, you use the Services at your own risk, you are responsible for complying with the local law, and we may block the account and delete its data. Nothing in this item limits rights that cannot be waived under the law where you live.
 {{/if}}
 
 We may ask for proof of age, identity or authority at any time, and may refuse or close an account that fails the check.

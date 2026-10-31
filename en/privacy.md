@@ -1,7 +1,7 @@
 ---
 doc: privacy
 title: Privacy Policy
-version: 1.2.0
+version: 1.2.1
 updated: 2026-10-31
 lang: en
 summary: How {{product.name}} collects, uses, shares and protects personal data, and the rights you have.
@@ -204,7 +204,7 @@ If you are elsewhere with a data-protection law we honour the equivalent rights 
 | **Japan, South Korea, Singapore, Thailand, Malaysia, Türkiye, UAE, Saudi Arabia, South Africa, Kenya, Nigeria and similar laws** | We apply the rights and safeguards those laws require (access, correction, deletion, objection, complaint to the local authority, safeguards for transfers). Contact us to use them. |
 | **China** | The Services are not directed at people in mainland China; do not use them to submit personal data of people there. |
 
-**Grievance / privacy contact for all regions:** [{{company.privacy_email}}](mailto:{{company.privacy_email}}), {{company.name}}, {{company.address}}. We acknowledge requests within 72 hours and resolve them within the time the applicable law allows.
+**Grievance / privacy contact for all regions:** [{{company.privacy_email}}](mailto:{{company.privacy_email}}), {{company.name}}, {{company.address}}. We handle requests within the time the applicable law allows.
 
 ## 11. Changes to this policy {#changes}
 
