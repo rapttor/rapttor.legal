@@ -1,6 +1,6 @@
 # rapttor/legal
 
-> Versioned legal page templates (terms, privacy, cookies, acceptable use, imprint, refunds, DPA, game rules, app terms, copyright notices, security disclosure, sub-processors, licence page) with shared placeholders and feature flags, translations (Serbian Latin/Cyrillic, Croatian, Bosnian, Montenegrin drafts), a catalogue of 28 licences with a deterministic tag-based advisor, and a PHP reference implementation. Composer package; texts are bundled, no runtime network. Code MIT, texts CC BY 4.0.
+> Versioned legal page templates in 17 languages (terms, privacy, cookies, acceptable use, imprint, refunds, DPA, game rules, app terms, copyright notices, security disclosure, sub-processors, licence page) with shared placeholders and feature flags, a tag-based licence advisor, a dataset of countries that prohibit activities (gambling, alcohol, adult, crypto, sanctions, ...), and a checklist for AI coding agents. Languages: English, one Balkan language (sh), German, French, Spanish, Brazilian Portuguese, Italian, Polish, Dutch, Turkish, Ukrainian, Russian, Arabic, Hindi, Japanese, Korean, Simplified Chinese (drafts until reviewed). Distributed as a Composer package; wrappers such as rapttor/yii2-legal render them.
 
 Changing the templates, translations or licences: read AGENTS.md first. Using the pages in an app: use a wrapper (yii2-legal) and read its AGENTS.md.
 

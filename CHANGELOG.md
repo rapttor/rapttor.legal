@@ -2,6 +2,9 @@
 
 Versions follow SemVer (MAJOR: rights or obligations changed; MINOR: clauses or features added; PATCH: wording or fixes). A version number is not a legal review: the texts are templates until counsel has reviewed them. Document versions are in each file's front matter.
 
+## 2.6.4
+- Package description and README intro say what the package is now: 17 languages, the restrictions dataset.
+
 ## 2.6.3
 - Docs: AGENTS.md, SPEC.md and llms.txt describe the Balkan language `sh`, the restrictions dataset and the wording rules.
 
