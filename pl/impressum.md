@@ -1,10 +1,10 @@
 ---
 doc: impressum
 title: Informacje prawne (Impressum)
-version: 1.0.0
+version: 1.0.1
 updated: 2026-10-23
 lang: pl
-translation_of: 1.0.0
+translation_of: 1.0.1
 status: draft
 summary: Identyfikacja dostawcy wymagana przez prawo o handlu elektronicznym i usługach drogą elektroniczną (dyrektywa UE o handlu elektronicznym, niemiecka DDG §5, austriacka ECG §5, serbska ustawa o handlu elektronicznym i podobne).
 ---
@@ -31,7 +31,7 @@ summary: Identyfikacja dostawcy wymagana przez prawo o handlu elektronicznym i u
 - Sprawy prawne oraz zgłoszenia treści nielegalnych lub nadużyć: [{{company.legal_email}}](mailto:{{company.legal_email}})
 - Prywatność: [{{company.privacy_email}}](mailto:{{company.privacy_email}})
 
-Można się z nami kontaktować w języku tej strony internetowej oraz drogą e-mailową; zazwyczaj odpowiadamy w ciągu kilku dni roboczych.
+Można się z nami kontaktować w języku tej strony internetowej oraz drogą e-mailową.
 
 ## Jedyny punkt kontaktowy (unijne rozporządzenie o usługach cyfrowych, DSA) {#dsa}
 

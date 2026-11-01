@@ -1,7 +1,7 @@
 ---
 doc: impressum
 title: Legal Notice (Impressum)
-version: 1.0.0
+version: 1.0.1
 updated: 2026-10-23
 lang: en
 summary: Provider identification required by e-commerce and telemedia law (EU E-Commerce Directive, Germany DDG §5, Austria ECG §5, Serbia Law on E-Commerce, and similar).
@@ -29,7 +29,7 @@ summary: Provider identification required by e-commerce and telemedia law (EU E-
 - Legal notices and reports of illegal content or abuse: [{{company.legal_email}}](mailto:{{company.legal_email}})
 - Privacy: [{{company.privacy_email}}](mailto:{{company.privacy_email}})
 
-You can contact us in the language of this website and by email; we reply normally within a few business days.
+You can contact us in the language of this website and by email.
 
 ## Single point of contact (EU Digital Services Act) {#dsa}
 

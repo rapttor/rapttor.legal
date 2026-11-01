@@ -1,6 +1,6 @@
 {
     "name": "rapttor/legal",
-    "description": "Versioned legal page templates (terms, privacy, cookies, acceptable use, imprint, refunds, DPA, game rules, app terms, licence) in 17 languages, with shared placeholders and feature flags, a deterministic licence advisor, and a dataset of the countries that prohibit activities such as gambling, alcohol or adult content. Texts are bundled; no runtime network access.",
+    "description": "Versioned legal page templates (terms, privacy, cookies, acceptable use, imprint, refunds, DPA, game rules, app terms, licence) in 22 languages, with shared placeholders and feature flags, a deterministic licence advisor, and a dataset of the countries that prohibit activities such as gambling, alcohol or adult content. Texts are bundled; no runtime network access.",
     "type": "library",
     "keywords": [
         "legal",

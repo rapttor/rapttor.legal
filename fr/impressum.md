@@ -1,10 +1,10 @@
 ---
 doc: impressum
 title: Mentions légales (Impressum)
-version: 1.0.0
+version: 1.0.1
 updated: 2026-10-23
 lang: fr
-translation_of: 1.0.0
+translation_of: 1.0.1
 status: draft
 summary: Identification du prestataire exigée par le droit du commerce électronique et des services en ligne (directive européenne sur le commerce électronique, DDG §5 en Allemagne, ECG §5 en Autriche, loi serbe sur le commerce électronique, et textes similaires).
 ---
@@ -31,7 +31,7 @@ summary: Identification du prestataire exigée par le droit du commerce électro
 - Mentions légales et signalements de contenus illicites ou d'abus : [{{company.legal_email}}](mailto:{{company.legal_email}})
 - Vie privée : [{{company.privacy_email}}](mailto:{{company.privacy_email}})
 
-Vous pouvez nous contacter dans la langue du présent site et par e-mail ; nous répondons en principe dans un délai de quelques jours ouvrés.
+Vous pouvez nous contacter dans la langue du présent site et par e-mail.
 
 ## Point de contact unique (règlement européen sur les services numériques) {#dsa}
 

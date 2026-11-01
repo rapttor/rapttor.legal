@@ -1,10 +1,10 @@
 ---
 doc: impressum
 title: Impressum
-version: 1.0.0
+version: 1.0.1
 updated: 2026-10-23
 lang: de
-translation_of: 1.0.0
+translation_of: 1.0.1
 status: draft
 summary: Anbieterkennzeichnung nach dem Recht des elektronischen Geschäftsverkehrs und der Telemedien (EU-E-Commerce-Richtlinie, Deutschland § 5 DDG, Österreich § 5 ECG, serbisches Gesetz über den elektronischen Handel und vergleichbare Vorschriften).
 ---
@@ -31,7 +31,7 @@ summary: Anbieterkennzeichnung nach dem Recht des elektronischen Geschäftsverke
 - Rechtliche Hinweise sowie Meldungen rechtswidriger Inhalte oder von Missbrauch: [{{company.legal_email}}](mailto:{{company.legal_email}})
 - Datenschutz: [{{company.privacy_email}}](mailto:{{company.privacy_email}})
 
-Sie können uns in der Sprache dieser Website und per E-Mail kontaktieren. Wir antworten in der Regel innerhalb weniger Werktage.
+Sie können uns in der Sprache dieser Website und per E-Mail kontaktieren.
 
 ## Zentrale Kontaktstelle (EU Digital Services Act) {#dsa}
 

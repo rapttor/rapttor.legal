@@ -1,10 +1,10 @@
 ---
 doc: impressum
 title: Aviso legal (Impressum)
-version: 1.0.0
+version: 1.0.1
 updated: 2026-10-23
 lang: es
-translation_of: 1.0.0
+translation_of: 1.0.1
 status: draft
 summary: Identificación del prestador exigida por la normativa de comercio electrónico y de servicios de la sociedad de la información (Directiva UE sobre comercio electrónico, DDG §5 de Alemania, ECG §5 de Austria, Serbia Law on E-Commerce, y normas similares).
 ---
@@ -31,7 +31,7 @@ summary: Identificación del prestador exigida por la normativa de comercio elec
 - Avisos legales y denuncias de contenido ilícito o de abuso: [{{company.legal_email}}](mailto:{{company.legal_email}})
 - Privacidad: [{{company.privacy_email}}](mailto:{{company.privacy_email}})
 
-Puede ponerse en contacto con nosotros en el idioma de este sitio web y por correo electrónico; normalmente respondemos en un plazo de unos pocos días laborables.
+Puede ponerse en contacto con nosotros en el idioma de este sitio web y por correo electrónico.
 
 ## Punto de contacto único (Reglamento de Servicios Digitales de la UE) {#dsa}
 

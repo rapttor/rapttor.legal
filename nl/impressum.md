@@ -1,10 +1,10 @@
 ---
 doc: impressum
 title: Colofon
-version: 1.0.0
+version: 1.0.1
 updated: 2026-10-23
 lang: nl
-translation_of: 1.0.0
+translation_of: 1.0.1
 status: draft
 summary: Identificatie van de aanbieder, vereist op grond van recht inzake elektronische handel en telemedia (EU-richtlijn inzake elektronische handel, Duitsland DDG §5, Oostenrijk ECG §5, Servië Law on E-Commerce, en vergelijkbare regelgeving).
 ---
@@ -31,7 +31,7 @@ summary: Identificatie van de aanbieder, vereist op grond van recht inzake elekt
 - Juridische kennisgevingen en meldingen van onrechtmatige content of misbruik: [{{company.legal_email}}](mailto:{{company.legal_email}})
 - Privacy: [{{company.privacy_email}}](mailto:{{company.privacy_email}})
 
-U kunt ons contacteren in de taal van deze website en per e-mail; wij reageren gewoonlijk binnen enkele werkdagen.
+U kunt ons contacteren in de taal van deze website en per e-mail.
 
 ## Eenpuntscontact (EU Digital Services Act) {#dsa}
 

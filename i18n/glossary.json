@@ -17,7 +17,12 @@
   "hi",
   "ja",
   "ko",
-  "zh-Hans"
+  "zh-Hans",
+  "sv",
+  "ro",
+  "id",
+  "vi",
+  "es-MX"
  ],
  "terms": [
   {
@@ -37,7 +42,12 @@
    "hi": "नियंत्रक",
    "ja": "管理者",
    "ko": "개인정보처리자",
-   "zh-Hans": "个人信息处理者"
+   "zh-Hans": "个人信息处理者",
+   "sv": "personuppgiftsansvarig",
+   "ro": "operator",
+   "id": "pengendali data pribadi",
+   "vi": "bên kiểm soát dữ liệu cá nhân",
+   "es-MX": "responsable"
   },
   {
    "en": "processor (data)",
@@ -56,7 +66,12 @@
    "hi": "प्रसंस्करणकर्ता",
    "ja": "処理者",
    "ko": "처리자",
-   "zh-Hans": "受托处理方"
+   "zh-Hans": "受托处理方",
+   "sv": "personuppgiftsbiträde",
+   "ro": "persoană împuternicită de operator",
+   "id": "prosesor data pribadi",
+   "vi": "bên xử lý dữ liệu cá nhân",
+   "es-MX": "encargado"
   },
   {
    "en": "sub-processor",
@@ -75,7 +90,12 @@
    "hi": "उप-प्रसंस्करणकर्ता",
    "ja": "復処理者",
    "ko": "재처리자",
-   "zh-Hans": "再受托方"
+   "zh-Hans": "再受托方",
+   "sv": "underbiträde",
+   "ro": "subprocesator",
+   "id": "sub-prosesor data pribadi",
+   "vi": "bên xử lý dữ liệu cá nhân phụ",
+   "es-MX": "subencargado"
   },
   {
    "en": "personal data",
@@ -94,7 +114,12 @@
    "hi": "व्यक्तिगत डेटा",
    "ja": "個人データ",
    "ko": "개인정보",
-   "zh-Hans": "个人信息"
+   "zh-Hans": "个人信息",
+   "sv": "personuppgifter",
+   "ro": "date cu caracter personal",
+   "id": "data pribadi",
+   "vi": "dữ liệu cá nhân",
+   "es-MX": "datos personales"
   },
   {
    "en": "data subject",
@@ -113,7 +138,12 @@
    "hi": "डेटा विषय",
    "ja": "データ主体",
    "ko": "정보주체",
-   "zh-Hans": "个人信息主体"
+   "zh-Hans": "个人信息主体",
+   "sv": "registrerad",
+   "ro": "persoană vizată",
+   "id": "subjek data pribadi",
+   "vi": "chủ thể dữ liệu",
+   "es-MX": "titular"
   },
   {
    "en": "processing",
@@ -132,7 +162,12 @@
    "hi": "प्रसंस्करण",
    "ja": "処理",
    "ko": "처리",
-   "zh-Hans": "处理"
+   "zh-Hans": "处理",
+   "sv": "behandling",
+   "ro": "prelucrare",
+   "id": "pemrosesan",
+   "vi": "xử lý",
+   "es-MX": "tratamiento"
   },
   {
    "en": "supervisory authority",
@@ -151,7 +186,12 @@
    "hi": "पर्यवेक्षी प्राधिकरण",
    "ja": "監督機関",
    "ko": "감독기구",
-   "zh-Hans": "监管机构"
+   "zh-Hans": "监管机构",
+   "sv": "tillsynsmyndighet",
+   "ro": "autoritate de supraveghere",
+   "id": "otoritas pengawas",
+   "vi": "cơ quan giám sát",
+   "es-MX": "autoridad de protección de datos"
   },
   {
    "en": "consent",
@@ -170,7 +210,12 @@
    "hi": "सहमति",
    "ja": "同意",
    "ko": "동의",
-   "zh-Hans": "同意"
+   "zh-Hans": "同意",
+   "sv": "samtycke",
+   "ro": "consimțământ",
+   "id": "persetujuan",
+   "vi": "sự đồng ý",
+   "es-MX": "consentimiento"
   },
   {
    "en": "legal basis",
@@ -189,7 +234,12 @@
    "hi": "कानूनी आधार",
    "ja": "法的根拠",
    "ko": "법적 근거",
-   "zh-Hans": "法律依据"
+   "zh-Hans": "法律依据",
+   "sv": "rättslig grund",
+   "ro": "temei juridic",
+   "id": "dasar hukum",
+   "vi": "cơ sở pháp lý",
+   "es-MX": "fundamento jurídico"
   },
   {
    "en": "legitimate interest",
@@ -208,7 +258,12 @@
    "hi": "वैध हित",
    "ja": "正当な利益",
    "ko": "정당한 이익",
-   "zh-Hans": "合法利益"
+   "zh-Hans": "合法利益",
+   "sv": "berättigat intresse",
+   "ro": "interes legitim",
+   "id": "kepentingan yang sah",
+   "vi": "lợi ích hợp pháp",
+   "es-MX": "interés legítimo"
   },
   {
    "en": "personal data breach",
@@ -227,7 +282,12 @@
    "hi": "व्यक्तिगत डेटा उल्लंघन",
    "ja": "個人データ侵害",
    "ko": "개인정보 침해",
-   "zh-Hans": "个人信息泄露"
+   "zh-Hans": "个人信息泄露",
+   "sv": "personuppgiftsincident",
+   "ro": "încălcarea securității datelor cu caracter personal",
+   "id": "pelanggaran data pribadi",
+   "vi": "vi phạm dữ liệu cá nhân",
+   "es-MX": "vulneración de seguridad de datos personales"
   },
   {
    "en": "data protection officer",
@@ -246,7 +306,12 @@
    "hi": "डेटा संरक्षण अधिकारी",
    "ja": "データ保護責任者",
    "ko": "개인정보 보호책임자",
-   "zh-Hans": "数据保护官"
+   "zh-Hans": "数据保护官",
+   "sv": "dataskyddsombud",
+   "ro": "responsabil cu protecția datelor",
+   "id": "pejabat pelindungan data pribadi",
+   "vi": "cán bộ bảo vệ dữ liệu",
+   "es-MX": "oficial de protección de datos personales"
   },
   {
    "en": "international transfer",
@@ -265,7 +330,12 @@
    "hi": "अंतरराष्ट्रीय स्थानांतरण",
    "ja": "国際移転",
    "ko": "국외 이전",
-   "zh-Hans": "跨境传输"
+   "zh-Hans": "跨境传输",
+   "sv": "överföring till tredjeland",
+   "ro": "transfer internațional",
+   "id": "transfer data pribadi lintas negara",
+   "vi": "chuyển dữ liệu ra nước ngoài",
+   "es-MX": "transferencia internacional"
   },
   {
    "en": "standard contractual clauses",
@@ -284,7 +354,12 @@
    "hi": "मानक संविदात्मक खंड",
    "ja": "標準契約条項",
    "ko": "표준계약조항",
-   "zh-Hans": "标准合同条款"
+   "zh-Hans": "标准合同条款",
+   "sv": "standardavtalsklausuler",
+   "ro": "clauze contractuale standard",
+   "id": "klausul kontrak baku",
+   "vi": "điều khoản hợp đồng tiêu chuẩn",
+   "es-MX": "cláusulas contractuales tipo"
   },
   {
    "en": "retention",
@@ -303,7 +378,12 @@
    "hi": "प्रतिधारण",
    "ja": "保存期間",
    "ko": "보유기간",
-   "zh-Hans": "保存期限"
+   "zh-Hans": "保存期限",
+   "sv": "lagringstid",
+   "ro": "perioadă de stocare",
+   "id": "retensi",
+   "vi": "thời hạn lưu giữ",
+   "es-MX": "conservación"
   },
   {
    "en": "right of access",
@@ -322,7 +402,12 @@
    "hi": "पहुँच का अधिकार",
    "ja": "アクセス権",
    "ko": "열람권",
-   "zh-Hans": "访问权"
+   "zh-Hans": "访问权",
+   "sv": "rätt till tillgång",
+   "ro": "dreptul de acces",
+   "id": "hak akses",
+   "vi": "quyền truy cập",
+   "es-MX": "derecho de acceso (ARCO)"
   },
   {
    "en": "right to erasure",
@@ -341,7 +426,12 @@
    "hi": "मिटाने का अधिकार",
    "ja": "消去権",
    "ko": "삭제권",
-   "zh-Hans": "删除权"
+   "zh-Hans": "删除权",
+   "sv": "rätt till radering",
+   "ro": "dreptul la ștergerea datelor",
+   "id": "hak untuk dihapus",
+   "vi": "quyền xóa dữ liệu",
+   "es-MX": "derecho de cancelación (ARCO)"
   },
   {
    "en": "portability",
@@ -360,7 +450,12 @@
    "hi": "डेटा पोर्टेबिलिटी",
    "ja": "データポータビリティ",
    "ko": "정보 이동권",
-   "zh-Hans": "数据可携带权"
+   "zh-Hans": "数据可携带权",
+   "sv": "dataportabilitet",
+   "ro": "portabilitatea datelor",
+   "id": "portabilitas data",
+   "vi": "quyền di chuyển dữ liệu",
+   "es-MX": "portabilidad"
   },
   {
    "en": "cookies",
@@ -379,7 +474,12 @@
    "hi": "कुकीज़",
    "ja": "Cookie",
    "ko": "쿠키",
-   "zh-Hans": "Cookie"
+   "zh-Hans": "Cookie",
+   "sv": "cookies",
+   "ro": "cookie-uri",
+   "id": "cookie",
+   "vi": "cookie",
+   "es-MX": "cookies"
   },
   {
    "en": "Terms of Service",
@@ -398,7 +498,12 @@
    "hi": "सेवा की शर्तें",
    "ja": "利用規約",
    "ko": "이용약관",
-   "zh-Hans": "服务条款"
+   "zh-Hans": "服务条款",
+   "sv": "användarvillkor",
+   "ro": "Termeni și condiții",
+   "id": "Ketentuan Layanan",
+   "vi": "Điều khoản dịch vụ",
+   "es-MX": "Términos de servicio"
   },
   {
    "en": "Privacy Policy",
@@ -417,7 +522,12 @@
    "hi": "गोपनीयता नीति",
    "ja": "プライバシーポリシー",
    "ko": "개인정보 처리방침",
-   "zh-Hans": "隐私政策"
+   "zh-Hans": "隐私政策",
+   "sv": "integritetspolicy",
+   "ro": "Politica de confidențialitate",
+   "id": "Kebijakan Privasi",
+   "vi": "Chính sách quyền riêng tư",
+   "es-MX": "Aviso de privacidad"
   },
   {
    "en": "Cookie Policy",
@@ -436,7 +546,12 @@
    "hi": "कुकी नीति",
    "ja": "Cookieポリシー",
    "ko": "쿠키 정책",
-   "zh-Hans": "Cookie政策"
+   "zh-Hans": "Cookie政策",
+   "sv": "cookiepolicy",
+   "ro": "Politica privind cookie-urile",
+   "id": "Kebijakan Cookie",
+   "vi": "Chính sách cookie",
+   "es-MX": "Política de cookies"
   },
   {
    "en": "Acceptable Use Policy",
@@ -455,7 +570,12 @@
    "hi": "स्वीकार्य उपयोग नीति",
    "ja": "利用ポリシー",
    "ko": "이용 정책",
-   "zh-Hans": "可接受使用政策"
+   "zh-Hans": "可接受使用政策",
+   "sv": "användningspolicy",
+   "ro": "Politica de utilizare acceptabilă",
+   "id": "Kebijakan Penggunaan yang Dapat Diterima",
+   "vi": "Chính sách sử dụng hợp lý",
+   "es-MX": "Política de uso aceptable"
   },
   {
    "en": "Legal Notice (Impressum)",
@@ -474,7 +594,12 @@
    "hi": "कानूनी सूचना",
    "ja": "法的表示",
    "ko": "법적 고지",
-   "zh-Hans": "法律声明"
+   "zh-Hans": "法律声明",
+   "sv": "juridisk information",
+   "ro": "Informații juridice",
+   "id": "Informasi Hukum",
+   "vi": "Thông tin pháp lý",
+   "es-MX": "Aviso legal"
   },
   {
    "en": "Refunds & Cancellation Policy",
@@ -493,7 +618,12 @@
    "hi": "रिफ़ंड और रद्दीकरण नीति",
    "ja": "返金およびキャンセルポリシー",
    "ko": "환불 및 취소 정책",
-   "zh-Hans": "退款和取消政策"
+   "zh-Hans": "退款和取消政策",
+   "sv": "villkor för återbetalning och avbokning",
+   "ro": "Politica de rambursare și anulare",
+   "id": "Kebijakan Pengembalian Dana dan Pembatalan",
+   "vi": "Chính sách hoàn tiền và hủy",
+   "es-MX": "Política de reembolsos y cancelaciones"
   },
   {
    "en": "Data Processing Addendum",
@@ -512,7 +642,12 @@
    "hi": "डेटा प्रसंस्करण परिशिष्ट",
    "ja": "データ処理追補契約",
    "ko": "개인정보 처리 위탁 계약",
-   "zh-Hans": "数据处理附录"
+   "zh-Hans": "数据处理附录",
+   "sv": "personuppgiftsbiträdesavtal",
+   "ro": "Anexa de prelucrare a datelor",
+   "id": "Addendum Pemrosesan Data",
+   "vi": "Phụ lục xử lý dữ liệu",
+   "es-MX": "Anexo de tratamiento de datos personales"
   },
   {
    "en": "Services",
@@ -531,7 +666,12 @@
    "hi": "सेवाएँ",
    "ja": "サービス",
    "ko": "서비스",
-   "zh-Hans": "服务"
+   "zh-Hans": "服务",
+   "sv": "tjänster",
+   "ro": "Servicii",
+   "id": "Layanan",
+   "vi": "Dịch vụ",
+   "es-MX": "Servicios"
   },
   {
    "en": "account",
@@ -550,7 +690,12 @@
    "hi": "खाता",
    "ja": "アカウント",
    "ko": "계정",
-   "zh-Hans": "账户"
+   "zh-Hans": "账户",
+   "sv": "konto",
+   "ro": "cont",
+   "id": "akun",
+   "vi": "tài khoản",
+   "es-MX": "cuenta"
   },
   {
    "en": "user",
@@ -569,7 +714,12 @@
    "hi": "उपयोगकर्ता",
    "ja": "ユーザー",
    "ko": "이용자",
-   "zh-Hans": "用户"
+   "zh-Hans": "用户",
+   "sv": "användare",
+   "ro": "utilizator",
+   "id": "pengguna",
+   "vi": "người dùng",
+   "es-MX": "usuario"
   },
   {
    "en": "consumer",
@@ -588,7 +738,12 @@
    "hi": "उपभोक्ता",
    "ja": "消費者",
    "ko": "소비자",
-   "zh-Hans": "消费者"
+   "zh-Hans": "消费者",
+   "sv": "konsument",
+   "ro": "consumator",
+   "id": "konsumen",
+   "vi": "người tiêu dùng",
+   "es-MX": "consumidor"
   },
   {
    "en": "business customer",
@@ -607,7 +762,12 @@
    "hi": "व्यावसायिक ग्राहक",
    "ja": "法人顧客",
    "ko": "사업자 고객",
-   "zh-Hans": "企业客户"
+   "zh-Hans": "企业客户",
+   "sv": "företagskund",
+   "ro": "client de afaceri",
+   "id": "pelanggan bisnis",
+   "vi": "khách hàng doanh nghiệp",
+   "es-MX": "cliente empresarial"
   },
   {
    "en": "subscription",
@@ -626,7 +786,12 @@
    "hi": "सदस्यता",
    "ja": "サブスクリプション",
    "ko": "구독",
-   "zh-Hans": "订阅"
+   "zh-Hans": "订阅",
+   "sv": "prenumeration",
+   "ro": "abonament",
+   "id": "langganan",
+   "vi": "gói đăng ký",
+   "es-MX": "suscripción"
   },
   {
    "en": "refund",
@@ -645,7 +810,12 @@
    "hi": "रिफ़ंड",
    "ja": "返金",
    "ko": "환불",
-   "zh-Hans": "退款"
+   "zh-Hans": "退款",
+   "sv": "återbetalning",
+   "ro": "rambursare",
+   "id": "pengembalian dana",
+   "vi": "hoàn tiền",
+   "es-MX": "reembolso"
   },
   {
    "en": "right of withdrawal",
@@ -664,7 +834,12 @@
    "hi": "प्रत्याहरण का अधिकार",
    "ja": "撤回権",
    "ko": "철회권",
-   "zh-Hans": "撤回权"
+   "zh-Hans": "撤回权",
+   "sv": "ångerrätt",
+   "ro": "dreptul de retragere",
+   "id": "hak untuk membatalkan",
+   "vi": "quyền rút lui",
+   "es-MX": "derecho de desistimiento"
   },
   {
    "en": "invoice",
@@ -683,7 +858,12 @@
    "hi": "चालान",
    "ja": "請求書",
    "ko": "청구서",
-   "zh-Hans": "发票"
+   "zh-Hans": "发票",
+   "sv": "faktura",
+   "ro": "factură",
+   "id": "faktur",
+   "vi": "hóa đơn",
+   "es-MX": "factura"
   },
   {
    "en": "fees",
@@ -702,7 +882,12 @@
    "hi": "शुल्क",
    "ja": "手数料",
    "ko": "수수료",
-   "zh-Hans": "费用"
+   "zh-Hans": "费用",
+   "sv": "avgifter",
+   "ro": "comisioane",
+   "id": "biaya",
+   "vi": "phí",
+   "es-MX": "tarifas"
   },
   {
    "en": "taxes",
@@ -721,7 +906,12 @@
    "hi": "कर",
    "ja": "税金",
    "ko": "세금",
-   "zh-Hans": "税费"
+   "zh-Hans": "税费",
+   "sv": "skatter",
+   "ro": "impozite",
+   "id": "pajak",
+   "vi": "thuế",
+   "es-MX": "impuestos"
   },
   {
    "en": "VAT",
@@ -740,7 +930,12 @@
    "hi": "वैट (VAT)",
    "ja": "付加価値税（VAT）",
    "ko": "부가가치세(VAT)",
-   "zh-Hans": "增值税"
+   "zh-Hans": "增值税",
+   "sv": "moms",
+   "ro": "TVA",
+   "id": "PPN",
+   "vi": "thuế GTGT",
+   "es-MX": "IVA"
   },
   {
    "en": "liability",
@@ -759,7 +954,12 @@
    "hi": "दायित्व",
    "ja": "責任",
    "ko": "책임",
-   "zh-Hans": "责任"
+   "zh-Hans": "责任",
+   "sv": "ansvar",
+   "ro": "răspundere",
+   "id": "tanggung jawab",
+   "vi": "trách nhiệm pháp lý",
+   "es-MX": "responsabilidad"
   },
   {
    "en": "limitation of liability",
@@ -778,7 +978,12 @@
    "hi": "दायित्व की सीमा",
    "ja": "責任の制限",
    "ko": "책임 제한",
-   "zh-Hans": "责任限制"
+   "zh-Hans": "责任限制",
+   "sv": "ansvarsbegränsning",
+   "ro": "limitarea răspunderii",
+   "id": "pembatasan tanggung jawab",
+   "vi": "giới hạn trách nhiệm",
+   "es-MX": "limitación de responsabilidad"
   },
   {
    "en": "warranty",
@@ -797,7 +1002,12 @@
    "hi": "वारंटी",
    "ja": "保証",
    "ko": "보증",
-   "zh-Hans": "保证"
+   "zh-Hans": "保证",
+   "sv": "garanti",
+   "ro": "garanție",
+   "id": "jaminan",
+   "vi": "bảo hành",
+   "es-MX": "garantía"
   },
   {
    "en": "disclaimer",
@@ -816,7 +1026,12 @@
    "hi": "अस्वीकरण",
    "ja": "免責事項",
    "ko": "면책 조항",
-   "zh-Hans": "免责声明"
+   "zh-Hans": "免责声明",
+   "sv": "ansvarsfriskrivning",
+   "ro": "declinarea responsabilității",
+   "id": "penafian",
+   "vi": "tuyên bố miễn trừ trách nhiệm",
+   "es-MX": "descargo de responsabilidad"
   },
   {
    "en": "indemnify",
@@ -835,7 +1050,12 @@
    "hi": "क्षतिपूर्ति करना",
    "ja": "補償する",
    "ko": "면책하다 / 보상하다",
-   "zh-Hans": "赔偿"
+   "zh-Hans": "赔偿",
+   "sv": "hålla skadeslös",
+   "ro": "despăgubi",
+   "id": "mengganti rugi",
+   "vi": "bồi thường",
+   "es-MX": "indemnizar"
   },
   {
    "en": "governing law",
@@ -854,7 +1074,12 @@
    "hi": "शासी कानून",
    "ja": "準拠法",
    "ko": "준거법",
-   "zh-Hans": "适用法律"
+   "zh-Hans": "适用法律",
+   "sv": "tillämplig lag",
+   "ro": "legea aplicabilă",
+   "id": "hukum yang berlaku",
+   "vi": "luật áp dụng",
+   "es-MX": "ley aplicable"
   },
   {
    "en": "jurisdiction (courts)",
@@ -873,7 +1098,12 @@
    "hi": "न्यायिक क्षेत्राधिकार",
    "ja": "管轄裁判所",
    "ko": "관할 법원",
-   "zh-Hans": "管辖法院"
+   "zh-Hans": "管辖法院",
+   "sv": "behörig domstol",
+   "ro": "jurisdicția instanțelor",
+   "id": "yurisdiksi (pengadilan)",
+   "vi": "thẩm quyền tòa án",
+   "es-MX": "jurisdicción (tribunales)"
   },
   {
    "en": "force majeure",
@@ -892,7 +1122,12 @@
    "hi": "अप्रत्याशित परिस्थिति (फ़ोर्स मेज्योर)",
    "ja": "不可抗力",
    "ko": "불가항력",
-   "zh-Hans": "不可抗力"
+   "zh-Hans": "不可抗力",
+   "sv": "force majeure",
+   "ro": "forță majoră",
+   "id": "keadaan kahar",
+   "vi": "bất khả kháng",
+   "es-MX": "fuerza mayor"
   },
   {
    "en": "severability",
@@ -911,7 +1146,12 @@
    "hi": "पृथक्करणीयता",
    "ja": "分離可能性条項",
    "ko": "분리 가능성 조항",
-   "zh-Hans": "可分割性条款"
+   "zh-Hans": "可分割性条款",
+   "sv": "delbarhet",
+   "ro": "divizibilitate",
+   "id": "keterpisahan",
+   "vi": "tính có thể tách rời",
+   "es-MX": "divisibilidad"
   },
   {
    "en": "entire agreement",
@@ -930,7 +1170,12 @@
    "hi": "सम्पूर्ण समझौता",
    "ja": "完全合意",
    "ko": "완전 합의",
-   "zh-Hans": "完整协议"
+   "zh-Hans": "完整协议",
+   "sv": "hela avtalet",
+   "ro": "întregul acord",
+   "id": "keseluruhan perjanjian",
+   "vi": "toàn bộ thỏa thuận",
+   "es-MX": "acuerdo íntegro"
   },
   {
    "en": "notice (formal)",
@@ -949,7 +1194,12 @@
    "hi": "सूचना",
    "ja": "通知",
    "ko": "통지",
-   "zh-Hans": "通知"
+   "zh-Hans": "通知",
+   "sv": "meddelande",
+   "ro": "notificare",
+   "id": "pemberitahuan",
+   "vi": "thông báo",
+   "es-MX": "aviso"
   },
   {
    "en": "intellectual property",
@@ -968,7 +1218,12 @@
    "hi": "बौद्धिक संपदा",
    "ja": "知的財産",
    "ko": "지식재산권",
-   "zh-Hans": "知识产权"
+   "zh-Hans": "知识产权",
+   "sv": "immateriella rättigheter",
+   "ro": "proprietate intelectuală",
+   "id": "kekayaan intelektual",
+   "vi": "sở hữu trí tuệ",
+   "es-MX": "propiedad intelectual"
   },
   {
    "en": "copyright",
@@ -987,7 +1242,12 @@
    "hi": "कॉपीराइट",
    "ja": "著作権",
    "ko": "저작권",
-   "zh-Hans": "版权"
+   "zh-Hans": "版权",
+   "sv": "upphovsrätt",
+   "ro": "drepturi de autor",
+   "id": "hak cipta",
+   "vi": "bản quyền",
+   "es-MX": "derechos de autor"
   },
   {
    "en": "trademark",
@@ -1006,7 +1266,12 @@
    "hi": "ट्रेडमार्क",
    "ja": "商標",
    "ko": "상표",
-   "zh-Hans": "商标"
+   "zh-Hans": "商标",
+   "sv": "varumärke",
+   "ro": "marcă comercială",
+   "id": "merek dagang",
+   "vi": "nhãn hiệu",
+   "es-MX": "marca registrada"
   },
   {
    "en": "licence",
@@ -1025,7 +1290,12 @@
    "hi": "लाइसेंस",
    "ja": "ライセンス",
    "ko": "라이선스",
-   "zh-Hans": "许可"
+   "zh-Hans": "许可",
+   "sv": "licens",
+   "ro": "licență",
+   "id": "lisensi",
+   "vi": "giấy phép",
+   "es-MX": "licencia"
   },
   {
    "en": "software",
@@ -1044,7 +1314,12 @@
    "hi": "सॉफ़्टवेयर",
    "ja": "ソフトウェア",
    "ko": "소프트웨어",
-   "zh-Hans": "软件"
+   "zh-Hans": "软件",
+   "sv": "programvara",
+   "ro": "software",
+   "id": "perangkat lunak",
+   "vi": "phần mềm",
+   "es-MX": "software"
   },
   {
    "en": "virtual items",
@@ -1063,7 +1338,12 @@
    "hi": "आभासी वस्तुएँ",
    "ja": "仮想アイテム",
    "ko": "가상 아이템",
-   "zh-Hans": "虚拟物品"
+   "zh-Hans": "虚拟物品",
+   "sv": "virtuella föremål",
+   "ro": "obiecte virtuale",
+   "id": "item virtual",
+   "vi": "vật phẩm ảo",
+   "es-MX": "artículos virtuales"
   },
   {
    "en": "loot box / random reward",
@@ -1082,7 +1362,12 @@
    "hi": "लूट बॉक्स / यादृच्छिक पुरस्कार",
    "ja": "ルートボックス / ランダム報酬",
    "ko": "루트박스 / 확률형 보상",
-   "zh-Hans": "抽奖宝箱 / 随机奖励"
+   "zh-Hans": "抽奖宝箱 / 随机奖励",
+   "sv": "lootbox / slumpmässig belöning",
+   "ro": "cutie cu premii (loot box) / recompensă aleatorie",
+   "id": "kotak hadiah (loot box) / hadiah acak",
+   "vi": "hộp quà ngẫu nhiên (loot box) / phần thưởng ngẫu nhiên",
+   "es-MX": "cajas de botín (loot box) / recompensa aleatoria"
   },
   {
    "en": "section (of a document)",
@@ -1101,7 +1386,12 @@
    "hi": "खंड",
    "ja": "セクション",
    "ko": "섹션",
-   "zh-Hans": "章节"
+   "zh-Hans": "章节",
+   "sv": "avsnitt",
+   "ro": "secțiune",
+   "id": "bagian",
+   "vi": "mục",
+   "es-MX": "sección"
   },
   {
    "en": "suspend",
@@ -1120,7 +1410,12 @@
    "hi": "निलंबित करना",
    "ja": "停止する",
    "ko": "정지하다",
-   "zh-Hans": "暂停"
+   "zh-Hans": "暂停",
+   "sv": "tillfälligt stänga av",
+   "ro": "suspenda",
+   "id": "menangguhkan",
+   "vi": "đình chỉ",
+   "es-MX": "suspender"
   },
   {
    "en": "terminate",
@@ -1139,7 +1434,12 @@
    "hi": "समाप्त करना",
    "ja": "解約する / 終了する",
    "ko": "해지하다 / 종료하다",
-   "zh-Hans": "终止"
+   "zh-Hans": "终止",
+   "sv": "säga upp",
+   "ro": "reziliere",
+   "id": "mengakhiri",
+   "vi": "chấm dứt",
+   "es-MX": "terminar"
   },
   {
    "en": "we",
@@ -1158,7 +1458,12 @@
    "hi": "हम",
    "ja": "当社",
    "ko": "당사",
-   "zh-Hans": "我们"
+   "zh-Hans": "我们",
+   "sv": "vi",
+   "ro": "noi",
+   "id": "kami",
+   "vi": "chúng tôi",
+   "es-MX": "nosotros"
   },
   {
    "en": "you (formal)",
@@ -1177,7 +1482,12 @@
    "hi": "आप",
    "ja": "お客様",
    "ko": "귀하",
-   "zh-Hans": "您"
+   "zh-Hans": "您",
+   "sv": "du",
+   "ro": "dumneavoastră",
+   "id": "Anda",
+   "vi": "quý khách",
+   "es-MX": "usted"
   },
   {
    "en": "cheating (games)",
@@ -1196,7 +1506,12 @@
    "hi": "धोखाधड़ी / चीटिंग",
    "ja": "チート行為",
    "ko": "부정행위",
-   "zh-Hans": "作弊"
+   "zh-Hans": "作弊",
+   "sv": "fusk",
+   "ro": "trișare",
+   "id": "kecurangan",
+   "vi": "gian lận",
+   "es-MX": "trampa"
   },
   {
    "en": "end of service",
@@ -1215,7 +1530,12 @@
    "hi": "सेवा की समाप्ति",
    "ja": "サービスの終了",
    "ko": "서비스 종료",
-   "zh-Hans": "服务终止"
+   "zh-Hans": "服务终止",
+   "sv": "avslutande av tjänsten",
+   "ro": "încetarea serviciului",
+   "id": "penghentian layanan",
+   "vi": "chấm dứt dịch vụ",
+   "es-MX": "terminación del servicio"
   },
   {
    "en": "competent authority",
@@ -1234,7 +1554,12 @@
    "hi": "सक्षम प्राधिकरण",
    "ja": "所管官庁",
    "ko": "관할 당국",
-   "zh-Hans": "主管机关"
+   "zh-Hans": "主管机关",
+   "sv": "behörig myndighet",
+   "ro": "autoritate competentă",
+   "id": "otoritas yang berwenang",
+   "vi": "cơ quan có thẩm quyền",
+   "es-MX": "autoridad competente"
   },
   {
    "en": "lawful request",
@@ -1253,7 +1578,12 @@
    "hi": "वैध अनुरोध",
    "ja": "適法な要請",
    "ko": "적법한 요청",
-   "zh-Hans": "合法请求"
+   "zh-Hans": "合法请求",
+   "sv": "laglig begäran",
+   "ro": "cerere legitimă",
+   "id": "permintaan yang sah",
+   "vi": "yêu cầu hợp pháp",
+   "es-MX": "solicitud legal"
   },
   {
    "en": "security measures",
@@ -1272,7 +1602,12 @@
    "hi": "सुरक्षा उपाय",
    "ja": "安全管理措置",
    "ko": "안전성 확보 조치",
-   "zh-Hans": "安全措施"
+   "zh-Hans": "安全措施",
+   "sv": "säkerhetsåtgärder",
+   "ro": "măsuri de securitate",
+   "id": "langkah-langkah keamanan",
+   "vi": "biện pháp bảo mật",
+   "es-MX": "medidas de seguridad"
   },
   {
    "en": "breach (of contract)",
@@ -1291,7 +1626,12 @@
    "hi": "उल्लंघन (अनुबंध का)",
    "ja": "契約違反",
    "ko": "계약 위반",
-   "zh-Hans": "违约"
+   "zh-Hans": "违约",
+   "sv": "avtalsbrott",
+   "ro": "încălcarea contractului",
+   "id": "pelanggaran (kontrak)",
+   "vi": "vi phạm (hợp đồng)",
+   "es-MX": "incumplimiento (de contrato)"
   }
  ]
 }

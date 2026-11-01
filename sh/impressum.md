@@ -1,10 +1,10 @@
 ---
 doc: impressum
 title: Pravne napomene (Impressum)
-version: 1.0.0
+version: 1.0.1
 updated: 2026-10-23
 lang: sh
-translation_of: 1.0.0
+translation_of: 1.0.1
 status: draft
 summary: Identifikacija pružatelja usluga koja se zahtijeva Zakonom o elektronskoj trgovini i telemedijima (EU Direktiva o elektronskoj trgovini, Njemačka DDG §5, Austrija ECG §5, Srbija Zakon o elektronskoj trgovini i slični propisi).
 ---
@@ -31,7 +31,7 @@ summary: Identifikacija pružatelja usluga koja se zahtijeva Zakonom o elektrons
 - Pravne napomene i prijave nezakonitog sadržaja ili zloupotrebe: [{{company.legal_email}}](mailto:{{company.legal_email}})
 - Privatnost: [{{company.privacy_email}}](mailto:{{company.privacy_email}})
 
-Možete nas kontaktirati na jeziku ove web stranice i putem e-pošte; odgovaramo uobičajeno u roku od nekoliko radnih dana.
+Možete nas kontaktirati na jeziku ove web stranice i putem e-pošte.
 
 ## Jedinstvena kontakt tačka (EU Digital Services Act) {#dsa}
 

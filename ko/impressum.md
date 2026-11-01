@@ -1,10 +1,10 @@
 ---
 doc: impressum
 title: 법적 고지 (Impressum)
-version: 1.0.0
+version: 1.0.1
 updated: 2026-10-23
 lang: ko
-translation_of: 1.0.0
+translation_of: 1.0.1
 status: draft
 summary: 전자상거래 및 원격 미디어 서비스 법률(EU 전자상거래 지침, 독일 DDG §5, 오스트리아 ECG §5, 세르비아 전자상거래법 및 이와 유사한 법률)에 따라 요구되는 사업자 식별 정보.
 ---
@@ -31,7 +31,7 @@ summary: 전자상거래 및 원격 미디어 서비스 법률(EU 전자상거�
 - 법적 고지 및 불법 콘텐츠 또는 악용 신고: [{{company.legal_email}}](mailto:{{company.legal_email}})
 - 개인정보: [{{company.privacy_email}}](mailto:{{company.privacy_email}})
 
-이 웹사이트의 언어 또는 이메일로 당사에 문의하실 수 있으며, 당사는 보통 영업일 기준 수 일 이내에 답변드립니다.
+이 웹사이트의 언어 또는 이메일로 당사에 문의하실 수 있습니다.
 
 ## 단일 연락 창구(EU 디지털서비스법(DSA)) {#dsa}
 

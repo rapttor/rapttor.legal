@@ -66,8 +66,18 @@
    ],
    "aliases": [
     "es-ES",
-    "es-MX",
     "es-AR"
+   ]
+  },
+  "es-MX": {
+   "name": "Español (México)",
+   "dir": "ltr",
+   "fallback": [
+    "es",
+    "en"
+   ],
+   "aliases": [
+    "es-419"
    ]
   },
   "pt-BR": {
@@ -119,6 +129,48 @@
    ],
    "aliases": [
     "tr-TR"
+   ]
+  },
+  "sv": {
+   "name": "Svenska",
+   "dir": "ltr",
+   "fallback": [
+    "en"
+   ],
+   "aliases": [
+    "sv-SE",
+    "sv-FI"
+   ]
+  },
+  "ro": {
+   "name": "Română",
+   "dir": "ltr",
+   "fallback": [
+    "en"
+   ],
+   "aliases": [
+    "ro-RO"
+   ]
+  },
+  "id": {
+   "name": "Bahasa Indonesia",
+   "dir": "ltr",
+   "fallback": [
+    "en"
+   ],
+   "aliases": [
+    "id-ID",
+    "in"
+   ]
+  },
+  "vi": {
+   "name": "Tiếng Việt",
+   "dir": "ltr",
+   "fallback": [
+    "en"
+   ],
+   "aliases": [
+    "vi-VN"
    ]
   },
   "uk": {

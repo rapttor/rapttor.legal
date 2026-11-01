@@ -1,10 +1,10 @@
 ---
 doc: impressum
 title: 法律声明（Impressum）
-version: 1.0.0
+version: 1.0.1
 updated: 2026-10-23
 lang: zh-Hans
-translation_of: 1.0.0
+translation_of: 1.0.1
 status: draft
 summary: 电子商务和远程信息服务法律要求的服务提供者身份信息（欧盟《电子商务指令》、德国 DDG §5、奥地利 ECG §5、塞尔维亚《电子商务法》及类似规定）。
 ---
@@ -31,7 +31,7 @@ summary: 电子商务和远程信息服务法律要求的服务提供者身份�
 - 法律通知以及举报非法内容或滥用行为：[{{company.legal_email}}](mailto:{{company.legal_email}})
 - 隐私事务：[{{company.privacy_email}}](mailto:{{company.privacy_email}})
 
-您可以使用本网站的语言并通过电子邮件与我们联系；我们通常会在数个工作日内答复。
+您可以使用本网站的语言并通过电子邮件与我们联系。
 
 ## 欧盟 Digital Services Act（DSA）下的单一联络点 {#dsa}
 

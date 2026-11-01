@@ -2,6 +2,10 @@
 
 Versions follow SemVer (MAJOR: rights or obligations changed; MINOR: clauses or features added; PATCH: wording or fixes). A version number is not a legal review: the texts are templates until counsel has reviewed them. Document versions are in each file's front matter.
 
+## 2.7.0
+- **Five more languages, all 13 documents each, as drafts**: Swedish (`sv`), Romanian (`ro`), Indonesian (`id`), Vietnamese (`vi`) and Mexican Spanish (`es-MX`, translated from English with Mexican vocabulary; its own language, falling back to `es` then English). 22 languages in all. Glossary and `i18n/BRIEF-new.md` extended. `es-MX` is no longer an alias of `es`. No jurisdiction entries yet for the new languages (`law.governing`, venue and authority come from the host config).
+- **Imprint 1.0.1**: removed "we reply normally within a few business days" (no promised reply times); all 21 translations updated.
+
 ## 2.6.5
 - Checklist 1.4.2: app-specific legal pages go into `Legal::$extraPages` (one list of legal pages).
 

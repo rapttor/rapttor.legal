@@ -1,10 +1,10 @@
 ---
 doc: impressum
 title: Note legali (Impressum)
-version: 1.0.0
+version: 1.0.1
 updated: 2026-10-23
 lang: it
-translation_of: 1.0.0
+translation_of: 1.0.1
 status: draft
 summary: Identificazione del fornitore richiesta dalla normativa sul commercio elettronico e sui servizi telematici (Direttiva UE sul commercio elettronico, Germania DDG §5, Austria ECG §5, legge serba sul commercio elettronico e normative simili).
 ---
@@ -31,7 +31,7 @@ summary: Identificazione del fornitore richiesta dalla normativa sul commercio e
 - Note legali e segnalazioni di contenuti illegali o abusi: [{{company.legal_email}}](mailto:{{company.legal_email}})
 - Privacy: [{{company.privacy_email}}](mailto:{{company.privacy_email}})
 
-Può contattarci nella lingua del presente sito e via e-mail; di norma rispondiamo entro pochi giorni lavorativi.
+Può contattarci nella lingua del presente sito e via e-mail.
 
 ## Punto di contatto unico (Digital Services Act, DSA) {#dsa}
 

@@ -20,3 +20,11 @@ Work in /Users/admin/Sites/rapttor/rapttor.4all/rapttor.legal . You are given a 
 - ja (Japanese): formal polite register (です・ます調); keep acronyms and statute names in Latin; Japanese quotation marks 「」 where the English uses quotes.
 - ko (Korean): formal polite register (합니다체); keep acronyms in Latin.
 - zh-Hans (Simplified Chinese, mainland usage): formal register, "您" for "you", Chinese punctuation (，。；：), keep acronyms in Latin, keep a space between Latin words and Chinese only where the English source has one.
+
+## Notes for sv, ro, id, vi, es-MX
+
+- sv (Swedish, Sweden): "du" is normal in Swedish legal and consumer texts; use the established terms of the Swedish GDPR translation (personuppgiftsansvarig, personuppgiftsbiträde, registrerad, tillsynsmyndighet, Integritetsskyddsmyndigheten); consumer terms follow Konsumentverket usage ("ångerrätt", "avtalsvillkor").
+- ro (Romanian): formal "dumneavoastră"; GDPR terms as in the official Romanian text (operator, persoană împuternicită de operator, persoană vizată, ANSPDCP); use proper diacritics (ș, ț, ă, â, î).
+- id (Indonesian): formal "Anda"; UU PDP (Law 27/2022) vocabulary (pengendali data pribadi, prosesor data pribadi, subjek data pribadi); standard Bahasa Indonesia, not slang.
+- vi (Vietnamese): formal "quý khách" or "bạn" as the glossary says; full diacritics; Law on Personal Data Protection vocabulary (bên kiểm soát dữ liệu cá nhân, bên xử lý dữ liệu cá nhân, chủ thể dữ liệu).
+- es-MX (Mexican Spanish): "usted"; Mexican legal vocabulary: LFPDPPP (responsable, encargado, titular, aviso de privacidad, derechos ARCO), PROFECO for consumers, "celular", "computadora", "en línea"; prices and law refer to Mexico only where the English uses placeholders. Do NOT copy the Spain Spanish files: translate from English.

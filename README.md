@@ -7,7 +7,7 @@
 composer require rapttor/legal      # the texts and the PHP library (Yii2 users: composer require rapttor/yii2-legal)
 ```
 
-Central, versioned, **multilingual legal page templates in 17 languages** (English, one Balkan language, German, French, Spanish, Portuguese, Italian, Polish, Dutch, Turkish, Ukrainian, Russian, Arabic, Hindi, Japanese, Korean, Chinese), with a deterministic licence advisor and a dataset of the countries that prohibit activities such as gambling, alcohol or adult content.
+Central, versioned, **multilingual legal page templates in 22 languages** (English, one Balkan language, German, French, Spanish (Spain and Mexico), Portuguese, Italian, Polish, Dutch, Turkish, Swedish, Romanian, Indonesian, Vietnamese, Ukrainian, Russian, Arabic, Hindi, Japanese, Korean, Chinese), with a deterministic licence advisor and a dataset of the countries that prohibit activities such as gambling, alcohol or adult content.
 
 Central, versioned **legal page templates** (privacy, terms, acceptable use, cookies, DPA, impressum, copyright/notice-and-action, security disclosure, sub-processors) for all Rapttor sites and apps. Written once with placeholders; each site fills in its own company data. It is distributed as a **Composer package** (`rapttor/legal`; npm and PyPI from the same repo later) with the texts bundled, so sites need no runtime network access; a legal update is a release here plus `composer update` in each site, which is also your review gate. The [`rapttor/yii2-legal`](https://github.com/rapttor/yii2-legal) plugin is a thin wrapper around it.
 
@@ -53,7 +53,7 @@ php tools/render.php examples/example.json en build --all-features
 
 ## Languages
 
-`i18n/languages.json` lists the languages (English, Balkan `sh`, German, French, Spanish, Brazilian Portuguese, Italian, Polish, Dutch, Turkish, Ukrainian, Russian, Arabic, Hindi, Japanese, Korean, Simplified Chinese) with their fallback chains. A language is *available* when `<tag>/` has documents. English is the source and always available.
+`i18n/languages.json` lists the languages (English, Balkan `sh`, German, French, Spanish (Spain and Mexico), Brazilian Portuguese, Italian, Polish, Dutch, Turkish, Swedish, Romanian, Indonesian, Vietnamese, Ukrainian, Russian, Arabic, Hindi, Japanese, Korean, Simplified Chinese) with their fallback chains. A language is *available* when `<tag>/` has documents. English is the source and always available.
 
 - **Translations are drafts until a native-speaking lawyer reviews them.** Each translation has `status: draft | community | reviewed`, `translation_of: <English version>` and, when reviewed, `reviewed_by`. Hosts hide drafts unless they opt in (`publishDrafts`).
 - **The build checks structure, not wording.** `php tools/build.php` fails when a translation changes, drops or invents a placeholder tag, anchor, link target, heading level or table row, and warns when a translation is stale (the English version moved on). `--lint` runs the checks without touching the manifest.

@@ -1,10 +1,10 @@
 ---
 doc: impressum
 title: Yasal Bildirim (Impressum)
-version: 1.0.0
+version: 1.0.1
 updated: 2026-10-23
 lang: tr
-translation_of: 1.0.0
+translation_of: 1.0.1
 status: draft
 summary: E-ticaret ve telemedya mevzuatının gerektirdiği hizmet sağlayıcı kimlik bilgileri (EU E-Commerce Directive, Germany DDG §5, Austria ECG §5, Serbia Law on E-Commerce ve benzerleri).
 ---
@@ -31,7 +31,7 @@ summary: E-ticaret ve telemedya mevzuatının gerektirdiği hizmet sağlayıcı 
 - Yasal bildirimler ile yasa dışı içerik veya kötüye kullanım bildirimleri: [{{company.legal_email}}](mailto:{{company.legal_email}})
 - Gizlilik: [{{company.privacy_email}}](mailto:{{company.privacy_email}})
 
-Bu web sitesinin dilinde ve e-posta yoluyla bizimle iletişime geçebilirsiniz; genellikle birkaç iş günü içinde yanıt veririz.
+Bu web sitesinin dilinde ve e-posta yoluyla bizimle iletişime geçebilirsiniz.
 
 ## Tek irtibat noktası (EU Digital Services Act) {#dsa}
 

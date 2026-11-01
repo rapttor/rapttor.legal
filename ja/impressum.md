@@ -1,10 +1,10 @@
 ---
 doc: impressum
 title: 法的表示
-version: 1.0.0
+version: 1.0.1
 updated: 2026-10-23
 lang: ja
-translation_of: 1.0.0
+translation_of: 1.0.1
 status: draft
 summary: 電子商取引およびテレメディアに関する法令（EU電子商取引指令、ドイツ DDG §5、オーストリア ECG §5、セルビア電子商取引に関する法律など）により必要とされる提供者情報です。
 ---
@@ -31,7 +31,7 @@ summary: 電子商取引およびテレメディアに関する法令（EU電子
 - 法的通知ならびに違法コンテンツまたは濫用の報告：[{{company.legal_email}}](mailto:{{company.legal_email}})
 - プライバシー：[{{company.privacy_email}}](mailto:{{company.privacy_email}})
 
-ウェブサイトの言語またはメールにより、当社にご連絡いただけます。通常、数営業日以内に返信します。
+ウェブサイトの言語またはメールにより、当社にご連絡いただけます。
 
 ## EU Digital Services Actに基づく単一の連絡先 {#dsa}
 
